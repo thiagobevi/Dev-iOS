@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "ebc3f5c05a7bf3f8d89e7030ab33cd5c"
+build_time: [1564146645, 945132000]
+inputs:
+  "/Users/ThiagoBevi/Dev_iOS/Alertas/Alertas/ViewController.swift": [1564146645, 0]
+  "/Users/ThiagoBevi/Dev_iOS/Alertas/Alertas/AppDelegate.swift": [1564145173, 0]
