@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "de40e41464b3a5091944a75099ea6c16"
+build_time: [1564144088, 343223000]
+inputs:
+  "/Users/ThiagoBevi/Dev_iOS/App_lista_estatica/App_lista_estatica/ViewController.swift": [1564144088, 0]
+  "/Users/ThiagoBevi/Dev_iOS/App_lista_estatica/App_lista_estatica/AppDelegate.swift": [1564079175, 0]
