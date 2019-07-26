@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "79543dafc97a7a90178c989cf5af89fa"
+build_time: [1564162132, 410854000]
+inputs:
+  "/Users/ThiagoBevi/Dev_iOS/Signos/Signos/ViewController.swift": !private [1564162132, 0]
+  "/Users/ThiagoBevi/Dev_iOS/Signos/Signos/AppDelegate.swift": [1564147278, 0]
