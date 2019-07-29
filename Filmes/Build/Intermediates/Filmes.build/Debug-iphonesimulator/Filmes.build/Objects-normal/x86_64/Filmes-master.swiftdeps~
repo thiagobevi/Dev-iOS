@@ -1,0 +1,8 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "c4e4ae8defa53e222fb1fcdcef66216e"
+build_time: [1564420793, 164673000]
+inputs:
+  "/Users/ThiagoBevi/Dev_iOS/Filmes/Filmes/ViewController.swift": [1564420793, 0]
+  "/Users/ThiagoBevi/Dev_iOS/Filmes/Filmes/Filme.swift": [1564407373, 0]
+  "/Users/ThiagoBevi/Dev_iOS/Filmes/Filmes/AppDelegate.swift": [1564168994, 0]
+  "/Users/ThiagoBevi/Dev_iOS/Filmes/Filmes/filmeCelula.swift": [1564417990, 0]
