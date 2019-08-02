@@ -197,10 +197,24 @@ SWIFT_CLASS("_TtC6Filmes11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UITableView;
-@class UITableViewCell;
+@class UIImageView;
+@class UILabel;
 @class NSBundle;
 @class NSCoder;
+
+SWIFT_CLASS("_TtC6Filmes26DetalhesFilmeVewController")
+@interface DetalhesFilmeVewController : UIViewController
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified FilmeImageView;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified tituloDetalhes;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified descricaoDetalhes;
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UITableView;
+@class UITableViewCell;
+@class UIStoryboardSegue;
 
 SWIFT_CLASS("_TtC6Filmes14ViewController")
 @interface ViewController : UITableViewController
@@ -209,13 +223,12 @@ SWIFT_CLASS("_TtC6Filmes14ViewController")
 - (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
 - (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UIImageView;
-@class UILabel;
 
 SWIFT_CLASS("_TtC6Filmes11filmeCelula")
 @interface filmeCelula : UITableViewCell

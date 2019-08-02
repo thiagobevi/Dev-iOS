@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB0F65CE22EF6B0F0087B1B7 /* DetalhesFilmeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0F65CD22EF6B0F0087B1B7 /* DetalhesFilmeViewController.swift */; };
 		DB43A7C722EB8AA200BF6003 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB43A7C622EB8AA200BF6003 /* AppDelegate.swift */; };
 		DB43A7C922EB8AA200BF6003 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB43A7C822EB8AA200BF6003 /* ViewController.swift */; };
 		DB43A7CC22EB8AA200BF6003 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB43A7CA22EB8AA200BF6003 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DB0F65CD22EF6B0F0087B1B7 /* DetalhesFilmeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalhesFilmeViewController.swift; sourceTree = "<group>"; };
 		DB43A7C322EB8AA200BF6003 /* Filmes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Filmes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB43A7C622EB8AA200BF6003 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB43A7C822EB8AA200BF6003 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				DB43A7C822EB8AA200BF6003 /* ViewController.swift */,
 				DB43A7F422EB8CD500BF6003 /* Filme.swift */,
 				DB43A7CA22EB8AA200BF6003 /* Main.storyboard */,
+				DB0F65CD22EF6B0F0087B1B7 /* DetalhesFilmeViewController.swift */,
 				DB43A7F622EF338D00BF6003 /* filmeCelula.swift */,
 				DB43A7CD22EB8AA300BF6003 /* Assets.xcassets */,
 				DB43A7CF22EB8AA300BF6003 /* LaunchScreen.storyboard */,
@@ -264,6 +267,7 @@
 			files = (
 				DB43A7C922EB8AA200BF6003 /* ViewController.swift in Sources */,
 				DB43A7F522EB8CD500BF6003 /* Filme.swift in Sources */,
+				DB0F65CE22EF6B0F0087B1B7 /* DetalhesFilmeViewController.swift in Sources */,
 				DB43A7C722EB8AA200BF6003 /* AppDelegate.swift in Sources */,
 				DB43A7F722EF338D00BF6003 /* filmeCelula.swift in Sources */,
 			);

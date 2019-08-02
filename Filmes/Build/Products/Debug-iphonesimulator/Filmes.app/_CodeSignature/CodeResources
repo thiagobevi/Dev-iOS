@@ -22,15 +22,23 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
-		HQZaqCJIbqsyLVtBLEqPPGxOVGE=
+		+0ANJlB34SsL3Ck/rMe+9+FQh/g=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UINavigationController-iYa-SX-Bxl.nib</key>
 		<data>
-		+8jpPkkkiQsXr5+hzkGN2+1p/c8=
+		3EZpvqvlRu6LDzgWOfDeFgJbyog=
+		</data>
+		<key>Base.lproj/Main.storyboardc/UIViewController-cuy-Qb-GHD.nib</key>
+		<data>
+		dxPC7YlZxyc6hQVFaTtsPqeg2vU=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Z3c-eN-wxy-view-zWQ-D0-6eB.nib</key>
 		<data>
-		b0b2Eo5P2TdlbxFKMyzIVNxtxAc=
+		NdbYvSdL/EyEJBEo3RvWmiCvAUk=
+		</data>
+		<key>Base.lproj/Main.storyboardc/cuy-Qb-GHD-view-Gv9-7d-eTj.nib</key>
+		<data>
+		1wBNsiYn6aNEUfsRXXL7EfgRSKE=
 		</data>
 		<key>Frameworks/libswiftCore.dylib</key>
 		<data>
@@ -127,21 +135,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eVti8b9qgfwmNWj3HoNSpeE6aC6rjLu+wJT5A3d3Q80=
+			KHX6/cx87WZABJbYhBHes87SwmmG4xCSef4Uol+R/iQ=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UINavigationController-iYa-SX-Bxl.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ewm/AN0fZi4TyI+sGWOe9d4ehxCKXRY6CH7/ZhGprDM=
+			55RDJxyQyJezCeG3Uimr1D9t/ymimbPYeJLzP4WvSwo=
+			</data>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/UIViewController-cuy-Qb-GHD.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			22FN/DRVT/PvpYzZrvDApshSUFk8kROtcznP2Zzx+AI=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Z3c-eN-wxy-view-zWQ-D0-6eB.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FQWCI/s5SWvercanUhwlUGwuIjUfXiaG3K+jsIDwvSs=
+			TCJRInFZpph9dyP2OFNCdeHNHSZAsExZsUyHXYnrugY=
+			</data>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/cuy-Qb-GHD-view-Gv9-7d-eTj.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			z8nk6xHNKjjswSpakMOeA8VvQ3R3lQoZRqQQBBw57OQ=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftCore.dylib</key>
