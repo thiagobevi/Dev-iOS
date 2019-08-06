@@ -7,3 +7,20 @@
 //
 
 import Foundation
+
+class CheckItemFile {
+    
+    var text = ""
+    var checked = true
+    
+    func toogleItem() {
+        checked = !checked
+    }
+    
+     func randomToDo() -> String {
+        var textToDo = ["aleatorio0", "aleatorio1", "aleatorio2", "aleatorio13", "aleatorio4"] 
+        let randomNumber = Int.random(in: 0 ... textToDo.count-1)
+        return textToDo[randomNumber]
+    }
+    
+}

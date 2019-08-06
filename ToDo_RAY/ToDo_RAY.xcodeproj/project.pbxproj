@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		DBB488C122F0B22E00E8939E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB488C022F0B22E00E8939E /* AppDelegate.swift */; };
-		DBB488C322F0B22E00E8939E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB488C222F0B22E00E8939E /* ViewController.swift */; };
+		DBB488C322F0B22E00E8939E /* ChecklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB488C222F0B22E00E8939E /* ChecklistViewController.swift */; };
 		DBB488C622F0B22E00E8939E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBB488C422F0B22E00E8939E /* Main.storyboard */; };
 		DBB488C822F0B23000E8939E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBB488C722F0B23000E8939E /* Assets.xcassets */; };
 		DBB488CB22F0B23000E8939E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBB488C922F0B23000E8939E /* LaunchScreen.storyboard */; };
 		DBB488D622F0B23000E8939E /* ToDo_RAYTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB488D522F0B23000E8939E /* ToDo_RAYTests.swift */; };
 		DBB488E122F0B23000E8939E /* ToDo_RAYUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB488E022F0B23000E8939E /* ToDo_RAYUITests.swift */; };
+		DBB488EF22F230BE00E8939E /* CheckItemFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB488EE22F230BE00E8939E /* CheckItemFile.swift */; };
+		DBB488F122F327FF00E8939E /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB488F022F327FF00E8939E /* TodoList.swift */; };
+		DBB488F722F4B95200E8939E /* AddTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB488F622F4B95200E8939E /* AddTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,7 @@
 /* Begin PBXFileReference section */
 		DBB488BD22F0B22E00E8939E /* ToDo_RAY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDo_RAY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBB488C022F0B22E00E8939E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DBB488C222F0B22E00E8939E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DBB488C222F0B22E00E8939E /* ChecklistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistViewController.swift; sourceTree = "<group>"; };
 		DBB488C522F0B22E00E8939E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DBB488C722F0B23000E8939E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBB488CA22F0B23000E8939E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,9 @@
 		DBB488DC22F0B23000E8939E /* ToDo_RAYUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDo_RAYUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBB488E022F0B23000E8939E /* ToDo_RAYUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo_RAYUITests.swift; sourceTree = "<group>"; };
 		DBB488E222F0B23000E8939E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBB488EE22F230BE00E8939E /* CheckItemFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckItemFile.swift; sourceTree = "<group>"; };
+		DBB488F022F327FF00E8939E /* TodoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoList.swift; sourceTree = "<group>"; };
+		DBB488F622F4B95200E8939E /* AddTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +104,14 @@
 			isa = PBXGroup;
 			children = (
 				DBB488C022F0B22E00E8939E /* AppDelegate.swift */,
-				DBB488C222F0B22E00E8939E /* ViewController.swift */,
+				DBB488C222F0B22E00E8939E /* ChecklistViewController.swift */,
+				DBB488F022F327FF00E8939E /* TodoList.swift */,
 				DBB488C422F0B22E00E8939E /* Main.storyboard */,
 				DBB488C722F0B23000E8939E /* Assets.xcassets */,
 				DBB488C922F0B23000E8939E /* LaunchScreen.storyboard */,
 				DBB488CC22F0B23000E8939E /* Info.plist */,
+				DBB488EE22F230BE00E8939E /* CheckItemFile.swift */,
+				DBB488F622F4B95200E8939E /* AddTableViewController.swift */,
 			);
 			path = ToDo_RAY;
 			sourceTree = "<group>";
@@ -256,8 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBB488C322F0B22E00E8939E /* ViewController.swift in Sources */,
+				DBB488C322F0B22E00E8939E /* ChecklistViewController.swift in Sources */,
 				DBB488C122F0B22E00E8939E /* AppDelegate.swift in Sources */,
+				DBB488EF22F230BE00E8939E /* CheckItemFile.swift in Sources */,
+				DBB488F122F327FF00E8939E /* TodoList.swift in Sources */,
+				DBB488F722F4B95200E8939E /* AddTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

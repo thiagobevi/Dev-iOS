@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "ead94d7dee0ca9ab51a2802b17f45e8d"
+build_time: [1565010469, 706313000]
+inputs:
+  "/Users/ThiagoBevi/Dev_iOS/ToDo_RAY/ToDo_RAY/ChecklistViewController.swift": [1564764985, 797835445]
+  "/Users/ThiagoBevi/Dev_iOS/ToDo_RAY/ToDo_RAY/AppDelegate.swift": [1564506798, 861202803]
+  "/Users/ThiagoBevi/Dev_iOS/ToDo_RAY/ToDo_RAY/CheckItemFile.swift": [1564691976, 142857312]
+  "/Users/ThiagoBevi/Dev_iOS/ToDo_RAY/ToDo_RAY/TodoList.swift": [1564693307, 718336025]
+  "/Users/ThiagoBevi/Dev_iOS/ToDo_RAY/ToDo_RAY/AddTableViewController.swift": [1565010469, 579503767]

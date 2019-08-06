@@ -7,3 +7,16 @@
 //
 
 import Foundation
+
+class TodoList {
+    
+    var toDos : [CheckItemFile] = []
+    
+    func newTodo() -> CheckItemFile {
+        let item  = CheckItemFile()
+        item.text = item.randomToDo()
+        toDos.append(item)
+        
+        return item
+    }
+}
