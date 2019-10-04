@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BitcoinTicker" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H4g-qN-MbT">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
+                                <subviews>
+                                    <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZGz-pe-AwG">
+                                        <rect key="frame" x="0.0" y="638" width="414" height="216"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="216" id="ejO-o3-Ore"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="dataSource" destination="H4g-qN-MbT" id="kTV-H9-QTX"/>
+                                            <outlet property="delegate" destination="H4g-qN-MbT" id="I8r-TK-YSv"/>
+                                        </connections>
+                                    </pickerView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c1V-SU-qjY">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="170"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="bitcoin" translatesAutoresizingMaskIntoConstraints="NO" id="txK-OS-RfU">
+                                                <rect key="frame" x="87" y="72" width="240" height="128"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="128" id="cFB-E9-ekw"/>
+                                                    <constraint firstAttribute="width" constant="240" id="lcv-mV-o6W"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="txK-OS-RfU" firstAttribute="centerX" secondItem="c1V-SU-qjY" secondAttribute="centerX" id="acj-f6-rj6"/>
+                                            <constraint firstItem="txK-OS-RfU" firstAttribute="centerY" secondItem="c1V-SU-qjY" secondAttribute="centerY" id="qzR-2Y-1l9"/>
+                                            <constraint firstAttribute="height" constant="170" id="wlw-GP-n0w"/>
+                                        </constraints>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Average Week Bitcoin" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ye-60-fek">
+                                        <rect key="frame" x="28" y="336" width="359" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <color key="textColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Average Month Bitcoin" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d3z-om-VQs">
+                                        <rect key="frame" x="28" y="389" width="359" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <color key="textColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Price" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jg7-Dt-rnc">
+                                        <rect key="frame" x="28" y="193" width="359" height="110"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="110" id="YfF-6e-Aok"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="54"/>
+                                        <color key="textColor" red="0.94509803921568625" green="0.65490196078431373" blue="0.20392156862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bfh-cU-n8B">
+                                        <rect key="frame" x="161" y="501" width="93" height="38"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <state key="normal" title="Mais Infos">
+                                            <color key="titleColor" red="0.8980392157" green="0.61316322050000005" blue="0.1540381968" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="moreInformationButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MYq-y4-9MI"/>
+                                            <segue destination="NE9-in-4SF" kind="modal" identifier="secondVC" id="AaI-MJ-NHJ"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.070588235294117646" green="0.52941176470588236" blue="0.59215686274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="c1V-SU-qjY" firstAttribute="top" secondItem="H4g-qN-MbT" secondAttribute="top" id="FRT-xJ-oZD"/>
+                                    <constraint firstItem="c1V-SU-qjY" firstAttribute="leading" secondItem="H4g-qN-MbT" secondAttribute="leading" id="Gjz-QA-PvA"/>
+                                    <constraint firstItem="Jg7-Dt-rnc" firstAttribute="top" secondItem="c1V-SU-qjY" secondAttribute="bottom" id="cpq-zw-rnu"/>
+                                    <constraint firstAttribute="bottom" secondItem="ZGz-pe-AwG" secondAttribute="bottom" constant="8" id="gQW-rN-B2C"/>
+                                    <constraint firstAttribute="trailing" secondItem="ZGz-pe-AwG" secondAttribute="trailing" id="han-oI-JPz"/>
+                                    <constraint firstItem="Jg7-Dt-rnc" firstAttribute="leading" secondItem="H4g-qN-MbT" secondAttribute="leading" constant="8" id="mgD-eu-Zzd"/>
+                                    <constraint firstItem="ZGz-pe-AwG" firstAttribute="leading" secondItem="H4g-qN-MbT" secondAttribute="leading" id="tNh-l6-Ov8"/>
+                                    <constraint firstAttribute="trailing" secondItem="Jg7-Dt-rnc" secondAttribute="trailing" constant="8" id="yiX-pV-MQZ"/>
+                                    <constraint firstAttribute="trailing" secondItem="c1V-SU-qjY" secondAttribute="trailing" id="zdA-T6-U42"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="H4g-qN-MbT" secondAttribute="bottom" id="2oO-RC-J2Q"/>
+                            <constraint firstItem="H4g-qN-MbT" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Nj4-It-w9G"/>
+                            <constraint firstAttribute="trailing" secondItem="H4g-qN-MbT" secondAttribute="trailing" id="rKb-sH-QOv"/>
+                            <constraint firstItem="H4g-qN-MbT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="s6n-dl-ToY"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="averageMonthBitcoinLabel" destination="d3z-om-VQs" id="8i0-2g-wjY"/>
+                        <outlet property="averageWeekBitcoinLabel" destination="3ye-60-fek" id="guh-h9-ZNW"/>
+                        <outlet property="bitcoinPriceLabel" destination="Jg7-Dt-rnc" id="LGh-mP-7xe"/>
+                        <outlet property="currencyPicker" destination="ZGz-pe-AwG" id="MaK-nO-flZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="234.78260869565219" y="245.08928571428569"/>
+        </scene>
+        <!--More Info View Controller-->
+        <scene sceneID="wJZ-37-S9x">
+            <objects>
+                <viewController id="NE9-in-4SF" customClass="MoreInfoViewController" customModule="BitcoinTicker" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="NaV-HA-386"/>
+                        <viewControllerLayoutGuide type="bottom" id="2N0-Uk-t4W"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="udC-UY-wHs">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1uL-kx-jtG">
+                                <rect key="frame" x="20" y="658" width="374" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="okButton:" destination="NE9-in-4SF" eventType="touchUpInside" id="nb6-vo-Jzo"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BTC_CODE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="soZ-Y6-HDf">
+                                <rect key="frame" x="20" y="144" width="374" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="High" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h8m-pC-IXP">
+                                <rect key="frame" x="20" y="252" width="374" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Low" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ke-2h-cjo">
+                                <rect key="frame" x="20" y="353" width="374" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <connections>
+                        <outlet property="btcCodeLabel" destination="soZ-Y6-HDf" id="lJU-ua-jR0"/>
+                        <outlet property="highLabel" destination="h8m-pC-IXP" id="bPy-YK-ojX"/>
+                        <outlet property="lowLabel" destination="7ke-2h-cjo" id="kdG-Yh-SIB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7TZ-PQ-t2L" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1011.5942028985507" y="244.41964285714283"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bitcoin" width="335" height="335"/>
+    </resources>
+</document>

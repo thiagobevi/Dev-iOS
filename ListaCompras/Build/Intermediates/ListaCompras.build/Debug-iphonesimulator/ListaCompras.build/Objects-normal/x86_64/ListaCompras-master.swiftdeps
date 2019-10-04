@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "8629462cd47908fe3e9045b12a089a06"
+build_time: [1565362160, 840065000]
+inputs:
+  "/Users/ThiagoBevi/Dev_iOS/ListaCompras/ListaCompras/ TelaInicialController.swift": [1565125627, 80543541]
+  "/Users/ThiagoBevi/Dev_iOS/ListaCompras/ListaCompras/ItemLisaCompras.swift": [1565362160, 770611711]
+  "/Users/ThiagoBevi/Dev_iOS/ListaCompras/ListaCompras/NovaListaViewController.swift": [1565362160, 780225403]
+  "/Users/ThiagoBevi/Dev_iOS/ListaCompras/ListaCompras/AppDelegate.swift": [1565118942, 777264252]
