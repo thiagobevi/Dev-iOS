@@ -1,0 +1,285 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+provides-nominal:
+- "18DelegateEProtocols14ViewControllerC"
+provides-member:
+- ["18DelegateEProtocols14ViewControllerC", ""]
+provides-dynamic-lookup:
+- "labelRetornoTexto"
+- "prepare"
+- "proximaTela"
+- "viewDidLoad"
+depends-top-level:
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- !private "SecondViewController"
+- "String"
+- "UILabel"
+- "UIStoryboardSegue"
+- "UIViewController"
+- "ViewController"
+- "retornarTextoDelegate"
+depends-member:
+- !private ["So15CALayerDelegateP", "text"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "destination"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "labelRetornoTexto"]
+- ["s7CVarArgP", "retornarTextoFunc"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "destination"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "labelRetornoTexto"]
+- ["s28CustomDebugStringConvertibleP", "retornarTextoFunc"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s17CustomReflectableP", "text"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "destination"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "labelRetornoTexto"]
+- ["s23CustomStringConvertibleP", "retornarTextoFunc"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["Se", "text"]
+- !private ["SE", "text"]
+- ["SQ", ""]
+- !private ["SQ", "delegate"]
+- !private ["SQ", "destination"]
+- !private ["SQ", "init"]
+- !private ["SQ", "labelRetornoTexto"]
+- ["SQ", "retornarTextoFunc"]
+- !private ["SQ", "text"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["s23ExpressibleByNilLiteralP", "text"]
+- ["SH", ""]
+- !private ["SH", "delegate"]
+- !private ["SH", "destination"]
+- !private ["SH", "init"]
+- !private ["SH", "labelRetornoTexto"]
+- ["SH", "retornarTextoFunc"]
+- !private ["SH", "text"]
+- !private ["SH", "viewDidLoad"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "delegate"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "labelRetornoTexto"]
+- ["So8NSCodingP", "retornarTextoFunc"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "delegate"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "labelRetornoTexto"]
+- ["So26NSExtensionRequestHandlingP", "retornarTextoFunc"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So8NSObjectC", "SecondViewController"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UILabel"]
+- ["So8NSObjectC", "UIStoryboardSegue"]
+- !private ["So8NSObjectC", "delegate"]
+- !private ["So8NSObjectC", "destination"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "labelRetornoTexto"]
+- ["So8NSObjectC", "prepare"]
+- ["So8NSObjectC", "proximaTela"]
+- ["So8NSObjectC", "retornarTextoFunc"]
+- !private ["So8NSObjectC", "text"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "delegate"]
+- !private ["So8NSObjectP", "destination"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "labelRetornoTexto"]
+- ["So8NSObjectP", "retornarTextoFunc"]
+- !private ["So8NSObjectP", "text"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["Sq", "text"]
+- !private ["18DelegateEProtocols20SecondViewControllerC", "delegate"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So12UIAppearanceP", "text"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "delegate"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "labelRetornoTexto"]
+- ["So21UIAppearanceContainerP", "retornarTextoFunc"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "delegate"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "labelRetornoTexto"]
+- ["So18UIContentContainerP", "retornarTextoFunc"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So13UIDynamicItemP", "text"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "delegate"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "labelRetornoTexto"]
+- ["So18UIFocusEnvironmentP", "retornarTextoFunc"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So20UIFocusItemContainerP", "text"]
+- !private ["So7UILabelC", "text"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "delegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "labelRetornoTexto"]
+- ["So30UIPasteConfigurationSupportingP", "retornarTextoFunc"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So11UIResponderC", "SecondViewController"]
+- ["So11UIResponderC", "String"]
+- ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", "UIStoryboardSegue"]
+- !private ["So11UIResponderC", "delegate"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "labelRetornoTexto"]
+- ["So11UIResponderC", "prepare"]
+- ["So11UIResponderC", "proximaTela"]
+- ["So11UIResponderC", "retornarTextoFunc"]
+- !private ["So11UIResponderC", "text"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "delegate"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "labelRetornoTexto"]
+- ["So30UIResponderStandardEditActionsP", "retornarTextoFunc"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "delegate"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "labelRetornoTexto"]
+- ["So16UIStateRestoringP", "retornarTextoFunc"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So17UIStoryboardSegueC", "destination"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "delegate"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "labelRetornoTexto"]
+- ["So18UITraitEnvironmentP", "retornarTextoFunc"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "delegate"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "labelRetornoTexto"]
+- ["So23UIUserActivityRestoringP", "retornarTextoFunc"]
+- !private ["So23UIUserActivityRestoringP", "text"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So6UIViewC", "text"]
+- !private ["So16UIViewControllerC", "SecondViewController"]
+- ["So16UIViewControllerC", "String"]
+- ["So16UIViewControllerC", "UILabel"]
+- ["So16UIViewControllerC", "UIStoryboardSegue"]
+- ["So16UIViewControllerC", ""]
+- !private ["So16UIViewControllerC", "delegate"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "labelRetornoTexto"]
+- ["So16UIViewControllerC", "prepare"]
+- ["So16UIViewControllerC", "proximaTela"]
+- ["So16UIViewControllerC", "retornarTextoFunc"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["18DelegateEProtocols14ViewControllerC", "SecondViewController"]
+- ["18DelegateEProtocols14ViewControllerC", "String"]
+- ["18DelegateEProtocols14ViewControllerC", "UILabel"]
+- ["18DelegateEProtocols14ViewControllerC", "UIStoryboardSegue"]
+- ["18DelegateEProtocols14ViewControllerC", "deinit"]
+- ["18DelegateEProtocols14ViewControllerC", "init"]
+- ["18DelegateEProtocols14ViewControllerC", "labelRetornoTexto"]
+- ["18DelegateEProtocols14ViewControllerC", "prepare"]
+- ["18DelegateEProtocols14ViewControllerC", "proximaTela"]
+- ["18DelegateEProtocols14ViewControllerC", "retornarTextoFunc"]
+- ["18DelegateEProtocols14ViewControllerC", "viewDidLoad"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "destination"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "labelRetornoTexto"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "retornarTextoFunc"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "text"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "text"]
+- ["18DelegateEProtocols013retornarTextoA0P", ""]
+- !private ["18DelegateEProtocols013retornarTextoA0P", "labelRetornoTexto"]
+- ["18DelegateEProtocols013retornarTextoA0P", "retornarTextoFunc"]
+depends-nominal:
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sq"
+- !private "18DelegateEProtocols20SecondViewControllerC"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So7UILabelC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- !private "So17UIStoryboardSegueC"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- "18DelegateEProtocols14ViewControllerC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+- "18DelegateEProtocols013retornarTextoA0P"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "b76add88667e89fa7d5c0064b645e0cb"

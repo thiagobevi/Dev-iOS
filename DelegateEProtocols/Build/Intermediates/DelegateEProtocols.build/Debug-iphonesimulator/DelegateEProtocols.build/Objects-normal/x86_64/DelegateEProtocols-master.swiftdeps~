@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "e968134ba35d58225cc4c6f3c38f7a6f"
+build_time: [1569001552, 633883000]
+inputs:
+  "/Users/ThiagoBevi/Dev_iOS/DelegateEProtocols/DelegateEProtocols/SecondViewController.swift": [1569001552, 581773672]
+  "/Users/ThiagoBevi/Dev_iOS/DelegateEProtocols/DelegateEProtocols/ViewController.swift": [1569001552, 560679581]
+  "/Users/ThiagoBevi/Dev_iOS/DelegateEProtocols/DelegateEProtocols/AppDelegate.swift": [1568982245, 399898628]

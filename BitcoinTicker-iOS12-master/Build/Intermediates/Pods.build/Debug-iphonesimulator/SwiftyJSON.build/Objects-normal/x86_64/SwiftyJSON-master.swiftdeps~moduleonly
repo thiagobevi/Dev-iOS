@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "224955f1c95ce2094bd844bac94bc79b"
+build_time: [1570213464, 94086000]
+inputs:
+  "/Users/ThiagoBevi/Desktop/BitcoinTicker-iOS12-master/Pods/SwiftyJSON/Source/SwiftyJSON/SwiftyJSON.swift": [1569955229, 526569782]
