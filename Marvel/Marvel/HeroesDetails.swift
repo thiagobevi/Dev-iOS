@@ -18,4 +18,16 @@ class HeroesDetails: UIViewController {
         dismiss(animated: true, completion: nil)
     }
     
+    var idChar: String!
+    var nameChar: String!
+    var descriptionChar: String!
+    
+    override func viewDidLoad() {
+        idResultLabel.text = idChar
+        nameResultLabel.text = nameChar
+        descriptionResultLabel.text = descriptionChar
+    }
+
+    
+    
 }
