@@ -72,7 +72,7 @@ class ViewController: UIViewController {
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "secondVC" {
-            let destinationVC = segue.destination as? HeroesDetails
+            let destinationVC = segue.destination as? HeroesDetails2
             destinationVC?.idChar = self.heroCharacter.id
             destinationVC?.nameChar = self.heroCharacter.name
             destinationVC?.descriptionChar = self.heroCharacter.description

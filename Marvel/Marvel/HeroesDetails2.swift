@@ -1,0 +1,34 @@
+//
+//  HeroesDetails2.swift
+//  Marvel
+//
+//  Created by Thiago Bevilacqua on 10/24/19.
+//  Copyright © 2019 Thiago Bevilacqua. All rights reserved.
+//
+import UIKit
+
+class HeroesDetails2: UIViewController {
+    
+    @IBOutlet weak var idResultLabel: UILabel!
+    @IBOutlet weak var nameResultLabel: UILabel!
+ 
+    @IBOutlet weak var descriptionResultLabel: UILabel!
+    
+    @IBAction func cancelButton(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+        
+    }
+    
+    var idChar: String!
+    var nameChar: String!
+    var descriptionChar: String!
+    
+    override func viewDidLoad() {
+        idResultLabel.text = idChar
+        nameResultLabel.text = nameChar
+        descriptionResultLabel.text = descriptionChar
+    }
+    
+    
+    
+}

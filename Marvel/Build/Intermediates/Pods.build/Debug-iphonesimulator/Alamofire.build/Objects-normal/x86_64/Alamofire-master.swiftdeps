@@ -1,0 +1,21 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "843586823cc75bd5166acf3962f6cb9e"
+build_time: [1571941161, 158600000]
+inputs:
+  "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Alamofire/Source/AFError.swift": [1571941155, 626338847]
+  "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Alamofire/Source/Alamofire.swift": [1571941155, 628204134]
+  "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift": [1571941155, 624566467]
+  "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Alamofire/Source/MultipartFormData.swift": [1571941155, 622313381]
+  "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [1571941155, 623143276]
+  "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Alamofire/Source/Notifications.swift": [1571941155, 627273357]
+  "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Alamofire/Source/ParameterEncoding.swift": [1571941155, 625743203]
+  "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Alamofire/Source/Request.swift": [1571941155, 628901033]
+  "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Alamofire/Source/Response.swift": [1571941155, 627838620]
+  "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Alamofire/Source/ResponseSerialization.swift": [1571941155, 630216088]
+  "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Alamofire/Source/Result.swift": [1571941155, 625268408]
+  "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Alamofire/Source/ServerTrustPolicy.swift": [1571941155, 630508154]
+  "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Alamofire/Source/SessionDelegate.swift": [1571941155, 636379356]
+  "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Alamofire/Source/SessionManager.swift": [1571941155, 629736364]
+  "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Alamofire/Source/TaskDelegate.swift": [1571941155, 621149817]
+  "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Alamofire/Source/Timeline.swift": [1571941155, 623924366]
+  "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Alamofire/Source/Validation.swift": [1571941155, 626768749]
