@@ -39,7 +39,7 @@
                     </view>
                     <connections>
                         <outlet property="searchTextField" destination="l10-gs-wLE" id="sni-Rb-ZU9"/>
-                        <segue destination="hKd-6m-nRD" kind="show" identifier="secondVC" id="jiV-Nn-YVg"/>
+                        <segue destination="bNB-1f-qjK" kind="show" identifier="secondVC" id="j5M-R1-aKq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -136,4 +136,7 @@
             <point key="canvasLocation" x="934.78260869565224" y="137.94642857142856"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="j5M-R1-aKq"/>
+    </inferredMetricsTieBreakers>
 </document>
