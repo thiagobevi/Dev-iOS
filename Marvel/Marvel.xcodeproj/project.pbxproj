@@ -8,9 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		3CC20585A477949673F7528E /* Pods_Marvel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D98B26C1C94B304CEAAC938D /* Pods_Marvel.framework */; };
+		DB358EBF236A09B300F78265 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB358EBE236A09B300F78265 /* Image.swift */; };
 		DB3C163B2362236B007E31F2 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3C163A2362236B007E31F2 /* Character.swift */; };
 		DB3C163E23622CB5007E31F2 /* HeroesDetails2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3C163D23622CB5007E31F2 /* HeroesDetails2.swift */; };
-		DBEBE56123623F120086F161 /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEBE56023623F120086F161 /* Favorites.swift */; };
+		DB85D80C2363A0F400F7C457 /* FavoritesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB85D80B2363A0F400F7C457 /* FavoritesTableViewController.swift */; };
 		DBF53A882350E1EE00295AE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF53A872350E1EE00295AE4 /* AppDelegate.swift */; };
 		DBF53A8A2350E1EE00295AE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF53A892350E1EE00295AE4 /* ViewController.swift */; };
 		DBF53A8D2350E1EE00295AE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBF53A8B2350E1EE00295AE4 /* Main.storyboard */; };
@@ -22,9 +23,10 @@
 		194DF0C06A4859963D0B1BB0 /* Pods-Marvel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marvel.debug.xcconfig"; path = "Target Support Files/Pods-Marvel/Pods-Marvel.debug.xcconfig"; sourceTree = "<group>"; };
 		71C5842B0F649D11B60D551D /* Pods-Marvel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marvel.release.xcconfig"; path = "Target Support Files/Pods-Marvel/Pods-Marvel.release.xcconfig"; sourceTree = "<group>"; };
 		D98B26C1C94B304CEAAC938D /* Pods_Marvel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Marvel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB358EBE236A09B300F78265 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		DB3C163A2362236B007E31F2 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		DB3C163D23622CB5007E31F2 /* HeroesDetails2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesDetails2.swift; sourceTree = "<group>"; };
-		DBEBE56023623F120086F161 /* Favorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
+		DB85D80B2363A0F400F7C457 /* FavoritesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesTableViewController.swift; sourceTree = "<group>"; };
 		DBF53A842350E1EE00295AE4 /* Marvel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marvel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBF53A872350E1EE00295AE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBF53A892350E1EE00295AE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,7 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				DB3C163A2362236B007E31F2 /* Character.swift */,
-				DBEBE56023623F120086F161 /* Favorites.swift */,
+				DB358EBE236A09B300F78265 /* Image.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -91,6 +93,7 @@
 				DBF53A8E2350E1F000295AE4 /* Assets.xcassets */,
 				DBF53A902350E1F000295AE4 /* LaunchScreen.storyboard */,
 				DB3C163D23622CB5007E31F2 /* HeroesDetails2.swift */,
+				DB85D80B2363A0F400F7C457 /* FavoritesTableViewController.swift */,
 				DBF53A932350E1F000295AE4 /* Info.plist */,
 				DB3C163C23622386007E31F2 /* Models */,
 			);
@@ -221,9 +224,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB3C163B2362236B007E31F2 /* Character.swift in Sources */,
+				DB358EBF236A09B300F78265 /* Image.swift in Sources */,
 				DB3C163E23622CB5007E31F2 /* HeroesDetails2.swift in Sources */,
 				DBF53A8A2350E1EE00295AE4 /* ViewController.swift in Sources */,
-				DBEBE56123623F120086F161 /* Favorites.swift in Sources */,
+				DB85D80C2363A0F400F7C457 /* FavoritesTableViewController.swift in Sources */,
 				DBF53A882350E1EE00295AE4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
