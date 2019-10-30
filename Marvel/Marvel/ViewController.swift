@@ -9,13 +9,15 @@
 import SwiftyJSON
 import Alamofire
 import UIKit
+import RealmSwift
 
 class ViewController: UIViewController {
 
     //Constants
     let MARVEL_URL = "https://gateway.marvel.com/v1/public/characters?apikey=2167a92e8dbf3b977126ee8ee3f8f785&hash=490023e02a77e615cf806c552c5b6412&ts=1"
     
-    var heroCharacter = Character(id: "", name: "", description: "")
+    var heroCharacter = Character()
+        
     
     // MARK: Outlets
     @IBOutlet weak var searchTextField: UITextField!
@@ -24,15 +26,12 @@ class ViewController: UIViewController {
      let heroURL = MARVEL_URL + "&name=" + searchTextField.text!
          getMarvelHeroesData(url: heroURL, parameters: [ : ])
         
-        
-        
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
     }
 
-   
     // MARK: Networking
     func getMarvelHeroesData(url: String, parameters: [String : String]) {
         let request = Alamofire.request(url, method: .get, parameters: parameters)
@@ -52,10 +51,7 @@ class ViewController: UIViewController {
         }
         
     }
-    
-    
     // Parsing
-
     func updateMarvelData(json : JSON)  {
         let resultMarvel = json["data"]["results"].arrayValue
         for a in resultMarvel {
@@ -63,23 +59,22 @@ class ViewController: UIViewController {
             let name = a["name"].stringValue
             let description = a["description"].stringValue
 
-            self.heroCharacter = Character(id: id, name: name, description: description)
+            heroCharacter.id = id
+            heroCharacter.name = name
+            heroCharacter.descriptions = description
+            
             print(heroCharacter)
         }
-
     }
-
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "secondVC" {
             let destinationVC = segue.destination as? HeroesDetails2
             destinationVC?.idChar = self.heroCharacter.id
             destinationVC?.nameChar = self.heroCharacter.name
-            destinationVC?.descriptionChar = self.heroCharacter.description
-            
+            destinationVC?.descriptionChar = self.heroCharacter.descriptions
         }
     }
-   
  
 }
 

@@ -7,16 +7,19 @@
 //
 
 import Foundation
+import RealmSwift
 
-struct Character {
+class Character: Object {
     
-    let id : String
-    let name : String
-    let description : String
+    @objc dynamic var id = ""
+    @objc dynamic var name = ""
+    @objc dynamic var descriptions = ""
+    @objc dynamic var favorite = false
+
     
-    init(id: String, name: String, description: String) {
-        self.id = id
-        self.name = name
-        self.description = description
+    
+    override static func primaryKey() -> String? {
+        return "id"
+    
     }
 }

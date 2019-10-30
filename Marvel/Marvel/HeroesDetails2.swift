@@ -6,8 +6,16 @@
 //  Copyright © 2019 Thiago Bevilacqua. All rights reserved.
 //
 import UIKit
+import RealmSwift
 
 class HeroesDetails2: UIViewController {
+    
+    let realm = try! Realm()
+    let newHeroe = Character()
+    var idChar: String!
+    var nameChar: String!
+    var descriptionChar: String!
+    var loadedHeroe = Character()
     
     @IBOutlet weak var idResultLabel: UILabel!
     @IBOutlet weak var nameResultLabel: UILabel!
@@ -15,20 +23,39 @@ class HeroesDetails2: UIViewController {
     @IBOutlet weak var descriptionResultLabel: UILabel!
     
     @IBAction func cancelButton(_ sender: Any) {
-        dismiss(animated: true, completion: nil)
-        
+      navigationController?.popViewController(animated: true)
+        print("cancel")
     }
     
-    var idChar: String!
-    var nameChar: String!
-    var descriptionChar: String!
-    
+    @IBAction func addFavorites(_ sender: Any) {
+        
+        do  {
+            try self.realm.write {
+                
+                newHeroe.id = idResultLabel.text!
+                newHeroe.name = nameResultLabel.text!
+                newHeroe.descriptions = descriptionResultLabel.text!
+                newHeroe.favorite = true
+                
+                realm.add(newHeroe, update: .modified)
+            }
+        } catch {
+            print("Error saving new favorite")
+        }
+    }
+
     override func viewDidLoad() {
         idResultLabel.text = idChar
         nameResultLabel.text = nameChar
         descriptionResultLabel.text = descriptionChar
     }
     
-    
+    func loadHeroesDetails() {
+        idChar = loadedHeroe.id
+        nameChar = loadedHeroe.name
+        descriptionChar = loadedHeroe.descriptions
+        self.navigationItem.rightBarButtonItem = nil
+        
+    }
     
 }

@@ -10,6 +10,7 @@
 		3CC20585A477949673F7528E /* Pods_Marvel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D98B26C1C94B304CEAAC938D /* Pods_Marvel.framework */; };
 		DB3C163B2362236B007E31F2 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3C163A2362236B007E31F2 /* Character.swift */; };
 		DB3C163E23622CB5007E31F2 /* HeroesDetails2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3C163D23622CB5007E31F2 /* HeroesDetails2.swift */; };
+		DBEBE56123623F120086F161 /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEBE56023623F120086F161 /* Favorites.swift */; };
 		DBF53A882350E1EE00295AE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF53A872350E1EE00295AE4 /* AppDelegate.swift */; };
 		DBF53A8A2350E1EE00295AE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF53A892350E1EE00295AE4 /* ViewController.swift */; };
 		DBF53A8D2350E1EE00295AE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBF53A8B2350E1EE00295AE4 /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 		D98B26C1C94B304CEAAC938D /* Pods_Marvel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Marvel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB3C163A2362236B007E31F2 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		DB3C163D23622CB5007E31F2 /* HeroesDetails2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesDetails2.swift; sourceTree = "<group>"; };
+		DBEBE56023623F120086F161 /* Favorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
 		DBF53A842350E1EE00295AE4 /* Marvel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marvel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBF53A872350E1EE00295AE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBF53A892350E1EE00295AE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				DB3C163A2362236B007E31F2 /* Character.swift */,
+				DBEBE56023623F120086F161 /* Favorites.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 				DB3C163B2362236B007E31F2 /* Character.swift in Sources */,
 				DB3C163E23622CB5007E31F2 /* HeroesDetails2.swift in Sources */,
 				DBF53A8A2350E1EE00295AE4 /* ViewController.swift in Sources */,
+				DBEBE56123623F120086F161 /* Favorites.swift in Sources */,
 				DBF53A882350E1EE00295AE4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

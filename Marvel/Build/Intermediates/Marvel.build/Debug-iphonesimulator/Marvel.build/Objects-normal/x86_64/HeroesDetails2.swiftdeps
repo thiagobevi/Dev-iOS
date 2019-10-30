@@ -6,6 +6,7 @@ provides-nominal:
 provides-member:
 - ["6Marvel14HeroesDetails2C", ""]
 provides-dynamic-lookup:
+- "addFavorites"
 - "cancelButton"
 - "descriptionResultLabel"
 - "idResultLabel"
@@ -14,12 +15,20 @@ provides-dynamic-lookup:
 depends-top-level:
 - "AssignmentPrecedence"
 - !private "BooleanLiteralType"
+- !private "Favorites"
 - "HeroesDetails2"
+- "Realm"
 - "String"
+- !private "StringLiteralType"
 - "UILabel"
 - "UIViewController"
+- !private "print"
 depends-member:
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "init"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "name"]
 - !private ["So15CALayerDelegateP", "text"]
+- !private ["s7CVarArgP", "Favorites"]
+- ["s7CVarArgP", "Realm"]
 - ["s7CVarArgP", ""]
 - !private ["s7CVarArgP", "descriptionChar"]
 - !private ["s7CVarArgP", "descriptionResultLabel"]
@@ -27,9 +36,14 @@ depends-member:
 - !private ["s7CVarArgP", "idChar"]
 - !private ["s7CVarArgP", "idResultLabel"]
 - !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "name"]
 - !private ["s7CVarArgP", "nameChar"]
 - !private ["s7CVarArgP", "nameResultLabel"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "realm"]
 - !private ["s7CVarArgP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "Favorites"]
+- ["s28CustomDebugStringConvertibleP", "Realm"]
 - ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s28CustomDebugStringConvertibleP", "descriptionChar"]
 - !private ["s28CustomDebugStringConvertibleP", "descriptionResultLabel"]
@@ -37,10 +51,16 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "idChar"]
 - !private ["s28CustomDebugStringConvertibleP", "idResultLabel"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "name"]
 - !private ["s28CustomDebugStringConvertibleP", "nameChar"]
 - !private ["s28CustomDebugStringConvertibleP", "nameResultLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "realm"]
 - !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["10RealmSwift26CustomObjectiveCBridgeableP", "text"]
 - !private ["s17CustomReflectableP", "text"]
+- !private ["s23CustomStringConvertibleP", "Favorites"]
+- ["s23CustomStringConvertibleP", "Realm"]
 - ["s23CustomStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "descriptionChar"]
 - !private ["s23CustomStringConvertibleP", "descriptionResultLabel"]
@@ -48,22 +68,35 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "idChar"]
 - !private ["s23CustomStringConvertibleP", "idResultLabel"]
 - !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "name"]
 - !private ["s23CustomStringConvertibleP", "nameChar"]
 - !private ["s23CustomStringConvertibleP", "nameResultLabel"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "realm"]
 - !private ["s23CustomStringConvertibleP", "text"]
 - !private ["Se", "text"]
 - !private ["SE", "text"]
+- !private ["SQ", "Favorites"]
+- ["SQ", "Realm"]
 - ["SQ", ""]
 - !private ["SQ", "descriptionChar"]
 - !private ["SQ", "descriptionResultLabel"]
 - !private ["SQ", "dismiss"]
 - !private ["SQ", "idChar"]
 - !private ["SQ", "idResultLabel"]
-- !private ["SQ", "init"]
+- ["SQ", "init"]
+- !private ["SQ", "name"]
 - !private ["SQ", "nameChar"]
 - !private ["SQ", "nameResultLabel"]
+- !private ["SQ", "print"]
+- !private ["SQ", "realm"]
 - !private ["SQ", "text"]
+- !private ["SQ", "write"]
 - !private ["s23ExpressibleByNilLiteralP", "text"]
+- !private ["6Marvel9FavoritesC", "init"]
+- !private ["6Marvel9FavoritesC", "name"]
+- !private ["SH", "Favorites"]
+- ["SH", "Realm"]
 - ["SH", ""]
 - !private ["SH", "descriptionChar"]
 - !private ["SH", "descriptionResultLabel"]
@@ -71,11 +104,17 @@ depends-member:
 - !private ["SH", "idChar"]
 - !private ["SH", "idResultLabel"]
 - !private ["SH", "init"]
+- !private ["SH", "name"]
 - !private ["SH", "nameChar"]
 - !private ["SH", "nameResultLabel"]
+- !private ["SH", "print"]
+- !private ["SH", "realm"]
 - !private ["SH", "text"]
+- !private ["6Marvel14HeroesDetails2C", "Favorites"]
+- ["6Marvel14HeroesDetails2C", "Realm"]
 - ["6Marvel14HeroesDetails2C", "String"]
 - ["6Marvel14HeroesDetails2C", "UILabel"]
+- ["6Marvel14HeroesDetails2C", "addFavorites"]
 - ["6Marvel14HeroesDetails2C", "cancelButton"]
 - ["6Marvel14HeroesDetails2C", "deinit"]
 - ["6Marvel14HeroesDetails2C", "descriptionChar"]
@@ -86,7 +125,11 @@ depends-member:
 - ["6Marvel14HeroesDetails2C", "init"]
 - ["6Marvel14HeroesDetails2C", "nameChar"]
 - ["6Marvel14HeroesDetails2C", "nameResultLabel"]
+- !private ["6Marvel14HeroesDetails2C", "print"]
+- ["6Marvel14HeroesDetails2C", "realm"]
 - ["6Marvel14HeroesDetails2C", "viewDidLoad"]
+- !private ["So8NSCodingP", "Favorites"]
+- ["So8NSCodingP", "Realm"]
 - ["So8NSCodingP", ""]
 - !private ["So8NSCodingP", "descriptionChar"]
 - !private ["So8NSCodingP", "descriptionResultLabel"]
@@ -96,7 +139,11 @@ depends-member:
 - !private ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "nameChar"]
 - !private ["So8NSCodingP", "nameResultLabel"]
+- !private ["So8NSCodingP", "print"]
+- !private ["So8NSCodingP", "realm"]
 - !private ["So8NSCodingP", "text"]
+- !private ["So26NSExtensionRequestHandlingP", "Favorites"]
+- ["So26NSExtensionRequestHandlingP", "Realm"]
 - ["So26NSExtensionRequestHandlingP", ""]
 - !private ["So26NSExtensionRequestHandlingP", "descriptionChar"]
 - !private ["So26NSExtensionRequestHandlingP", "descriptionResultLabel"]
@@ -106,8 +153,13 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "init"]
 - !private ["So26NSExtensionRequestHandlingP", "nameChar"]
 - !private ["So26NSExtensionRequestHandlingP", "nameResultLabel"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
+- !private ["So26NSExtensionRequestHandlingP", "realm"]
+- !private ["So8NSObjectC", "Favorites"]
+- ["So8NSObjectC", "Realm"]
 - ["So8NSObjectC", "String"]
 - ["So8NSObjectC", "UILabel"]
+- ["So8NSObjectC", "addFavorites"]
 - ["So8NSObjectC", "cancelButton"]
 - ["So8NSObjectC", "descriptionChar"]
 - ["So8NSObjectC", "descriptionResultLabel"]
@@ -115,10 +167,15 @@ depends-member:
 - ["So8NSObjectC", "idChar"]
 - ["So8NSObjectC", "idResultLabel"]
 - ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "name"]
 - ["So8NSObjectC", "nameChar"]
 - ["So8NSObjectC", "nameResultLabel"]
+- !private ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "realm"]
 - !private ["So8NSObjectC", "text"]
 - ["So8NSObjectC", "viewDidLoad"]
+- !private ["So8NSObjectP", "Favorites"]
+- ["So8NSObjectP", "Realm"]
 - ["So8NSObjectP", ""]
 - !private ["So8NSObjectP", "descriptionChar"]
 - !private ["So8NSObjectP", "descriptionResultLabel"]
@@ -126,12 +183,29 @@ depends-member:
 - !private ["So8NSObjectP", "idChar"]
 - !private ["So8NSObjectP", "idResultLabel"]
 - !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "name"]
 - !private ["So8NSObjectP", "nameChar"]
 - !private ["So8NSObjectP", "nameResultLabel"]
+- !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "realm"]
 - !private ["So8NSObjectP", "text"]
+- !private ["10RealmSwift6ObjectC", "init"]
+- !private ["10RealmSwift6ObjectC", "name"]
 - !private ["Sq", "text"]
+- !private ["10RealmSwift16OptionalProtocolP", "text"]
+- !private ["So13RLMObjectBaseC", "init"]
+- !private ["So13RLMObjectBaseC", "name"]
+- ["10RealmSwift0A0C", "init"]
+- !private ["10RealmSwift0A0C", "write"]
+- !private ["10RealmSwift0A15CollectionValueP", "init"]
+- !private ["10RealmSwift0A15CollectionValueP", "name"]
+- !private ["10RealmSwift0A15CollectionValueP", "text"]
+- !private ["10RealmSwift14ThreadConfinedP", "init"]
+- !private ["10RealmSwift14ThreadConfinedP", "name"]
 - !private ["So29UIAccessibilityIdentificationP", "text"]
 - !private ["So12UIAppearanceP", "text"]
+- !private ["So21UIAppearanceContainerP", "Favorites"]
+- ["So21UIAppearanceContainerP", "Realm"]
 - ["So21UIAppearanceContainerP", ""]
 - !private ["So21UIAppearanceContainerP", "descriptionChar"]
 - !private ["So21UIAppearanceContainerP", "descriptionResultLabel"]
@@ -141,7 +215,11 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "init"]
 - !private ["So21UIAppearanceContainerP", "nameChar"]
 - !private ["So21UIAppearanceContainerP", "nameResultLabel"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- !private ["So21UIAppearanceContainerP", "realm"]
 - !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So18UIContentContainerP", "Favorites"]
+- ["So18UIContentContainerP", "Realm"]
 - ["So18UIContentContainerP", ""]
 - !private ["So18UIContentContainerP", "descriptionChar"]
 - !private ["So18UIContentContainerP", "descriptionResultLabel"]
@@ -151,9 +229,13 @@ depends-member:
 - !private ["So18UIContentContainerP", "init"]
 - !private ["So18UIContentContainerP", "nameChar"]
 - !private ["So18UIContentContainerP", "nameResultLabel"]
+- !private ["So18UIContentContainerP", "print"]
+- !private ["So18UIContentContainerP", "realm"]
 - !private ["So30UIContentSizeCategoryAdjustingP", "text"]
 - !private ["So17UICoordinateSpaceP", "text"]
 - !private ["So13UIDynamicItemP", "text"]
+- !private ["So18UIFocusEnvironmentP", "Favorites"]
+- ["So18UIFocusEnvironmentP", "Realm"]
 - ["So18UIFocusEnvironmentP", ""]
 - !private ["So18UIFocusEnvironmentP", "descriptionChar"]
 - !private ["So18UIFocusEnvironmentP", "descriptionResultLabel"]
@@ -163,10 +245,14 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "init"]
 - !private ["So18UIFocusEnvironmentP", "nameChar"]
 - !private ["So18UIFocusEnvironmentP", "nameResultLabel"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- !private ["So18UIFocusEnvironmentP", "realm"]
 - !private ["So18UIFocusEnvironmentP", "text"]
 - !private ["So11UIFocusItemP", "text"]
 - !private ["So20UIFocusItemContainerP", "text"]
 - !private ["So7UILabelC", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "Favorites"]
+- ["So30UIPasteConfigurationSupportingP", "Realm"]
 - ["So30UIPasteConfigurationSupportingP", ""]
 - !private ["So30UIPasteConfigurationSupportingP", "descriptionChar"]
 - !private ["So30UIPasteConfigurationSupportingP", "descriptionResultLabel"]
@@ -176,9 +262,14 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
 - !private ["So30UIPasteConfigurationSupportingP", "nameChar"]
 - !private ["So30UIPasteConfigurationSupportingP", "nameResultLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "realm"]
 - !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So11UIResponderC", "Favorites"]
+- ["So11UIResponderC", "Realm"]
 - ["So11UIResponderC", "String"]
 - ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", "addFavorites"]
 - ["So11UIResponderC", "cancelButton"]
 - ["So11UIResponderC", "descriptionChar"]
 - ["So11UIResponderC", "descriptionResultLabel"]
@@ -188,8 +279,12 @@ depends-member:
 - ["So11UIResponderC", "init"]
 - ["So11UIResponderC", "nameChar"]
 - ["So11UIResponderC", "nameResultLabel"]
+- !private ["So11UIResponderC", "print"]
+- ["So11UIResponderC", "realm"]
 - !private ["So11UIResponderC", "text"]
 - ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "Favorites"]
+- ["So30UIResponderStandardEditActionsP", "Realm"]
 - ["So30UIResponderStandardEditActionsP", ""]
 - !private ["So30UIResponderStandardEditActionsP", "descriptionChar"]
 - !private ["So30UIResponderStandardEditActionsP", "descriptionResultLabel"]
@@ -199,7 +294,11 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "init"]
 - !private ["So30UIResponderStandardEditActionsP", "nameChar"]
 - !private ["So30UIResponderStandardEditActionsP", "nameResultLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "realm"]
 - !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So16UIStateRestoringP", "Favorites"]
+- ["So16UIStateRestoringP", "Realm"]
 - ["So16UIStateRestoringP", ""]
 - !private ["So16UIStateRestoringP", "descriptionChar"]
 - !private ["So16UIStateRestoringP", "descriptionResultLabel"]
@@ -209,6 +308,10 @@ depends-member:
 - !private ["So16UIStateRestoringP", "init"]
 - !private ["So16UIStateRestoringP", "nameChar"]
 - !private ["So16UIStateRestoringP", "nameResultLabel"]
+- !private ["So16UIStateRestoringP", "print"]
+- !private ["So16UIStateRestoringP", "realm"]
+- !private ["So18UITraitEnvironmentP", "Favorites"]
+- ["So18UITraitEnvironmentP", "Realm"]
 - ["So18UITraitEnvironmentP", ""]
 - !private ["So18UITraitEnvironmentP", "descriptionChar"]
 - !private ["So18UITraitEnvironmentP", "descriptionResultLabel"]
@@ -218,7 +321,11 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "init"]
 - !private ["So18UITraitEnvironmentP", "nameChar"]
 - !private ["So18UITraitEnvironmentP", "nameResultLabel"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- !private ["So18UITraitEnvironmentP", "realm"]
 - !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So23UIUserActivityRestoringP", "Favorites"]
+- ["So23UIUserActivityRestoringP", "Realm"]
 - ["So23UIUserActivityRestoringP", ""]
 - !private ["So23UIUserActivityRestoringP", "descriptionChar"]
 - !private ["So23UIUserActivityRestoringP", "descriptionResultLabel"]
@@ -228,11 +335,16 @@ depends-member:
 - !private ["So23UIUserActivityRestoringP", "init"]
 - !private ["So23UIUserActivityRestoringP", "nameChar"]
 - !private ["So23UIUserActivityRestoringP", "nameResultLabel"]
+- !private ["So23UIUserActivityRestoringP", "print"]
+- !private ["So23UIUserActivityRestoringP", "realm"]
 - !private ["So23UIUserActivityRestoringP", "text"]
 - !private ["So6UIViewC", "text"]
+- !private ["So16UIViewControllerC", "Favorites"]
+- ["So16UIViewControllerC", "Realm"]
 - ["So16UIViewControllerC", "String"]
 - ["So16UIViewControllerC", "UILabel"]
 - ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "addFavorites"]
 - ["So16UIViewControllerC", "cancelButton"]
 - ["So16UIViewControllerC", "descriptionChar"]
 - ["So16UIViewControllerC", "descriptionResultLabel"]
@@ -242,7 +354,11 @@ depends-member:
 - ["So16UIViewControllerC", "init"]
 - ["So16UIViewControllerC", "nameChar"]
 - ["So16UIViewControllerC", "nameResultLabel"]
+- !private ["So16UIViewControllerC", "print"]
+- ["So16UIViewControllerC", "realm"]
 - ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Favorites"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Realm"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "descriptionChar"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "descriptionResultLabel"]
@@ -250,28 +366,40 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "idChar"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "idResultLabel"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "name"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "nameChar"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "nameResultLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "realm"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
 - !private ["s21_ObjectiveCBridgeableP", "text"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "text"]
 depends-nominal:
+- !private "10RealmSwift28AssistedObjectiveCBridgeableP"
 - !private "So15CALayerDelegateP"
 - "s7CVarArgP"
 - "s28CustomDebugStringConvertibleP"
+- !private "10RealmSwift26CustomObjectiveCBridgeableP"
 - !private "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
 - !private "Se"
 - !private "SE"
 - "SQ"
 - !private "s23ExpressibleByNilLiteralP"
+- !private "6Marvel9FavoritesC"
 - "SH"
 - "6Marvel14HeroesDetails2C"
 - "So8NSCodingP"
 - "So26NSExtensionRequestHandlingP"
 - "So8NSObjectC"
 - "So8NSObjectP"
+- !private "10RealmSwift6ObjectC"
 - !private "Sq"
+- !private "10RealmSwift16OptionalProtocolP"
+- !private "So13RLMObjectBaseC"
+- "10RealmSwift0A0C"
+- !private "10RealmSwift0A15CollectionValueP"
+- !private "10RealmSwift14ThreadConfinedP"
 - !private "So29UIAccessibilityIdentificationP"
 - !private "So12UIAppearanceP"
 - "So21UIAppearanceContainerP"
@@ -298,6 +426,7 @@ depends-dynamic-lookup:
 depends-external:
 - "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
 - "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/RealmSwift.swiftmodule/x86_64.swiftmodule"
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
@@ -312,10 +441,58 @@ depends-external:
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
 - "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-umbrella.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSchema.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm+Sync.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration+Sync.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/NSError+RLMSync.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMThreadSafeReference.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMOptionalBase.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMListBase.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectBase_Private.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncUtil_Private.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncConfiguration_Private.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMCollection_Private.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUtil.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/Realm.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncSession.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermission.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMMigration.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncConfiguration.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMCollection.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncSubscription.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncManager.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUser.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncCredentials.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMResults.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMConstants.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObject.h"
 - "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
 - "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMArray.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMProperty.h"
 - "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
 - "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Modules/module.modulemap"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/module.modulemap"
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
@@ -328,4 +505,4 @@ depends-external:
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "6050ab1c8ba26ab188d84cea6251a346"
+interface-hash: "fd6737172e3b66f002540ab8d8b41e54"
