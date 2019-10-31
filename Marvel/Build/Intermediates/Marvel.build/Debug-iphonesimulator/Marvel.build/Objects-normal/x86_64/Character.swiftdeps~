@@ -6,10 +6,12 @@ provides-nominal:
 provides-member:
 - ["6Marvel9CharacterC", ""]
 provides-dynamic-lookup:
-- "desc"
+- "descriptions"
+- "favorite"
 - "id"
 - "name"
 depends-top-level:
+- "BooleanLiteralType"
 - "Character"
 - "Object"
 - "StringLiteralType"
@@ -19,7 +21,8 @@ depends-member:
 - ["s7CVarArgP", ""]
 - !private ["s7CVarArgP", "init"]
 - ["6Marvel9CharacterC", "deinit"]
-- ["6Marvel9CharacterC", "desc"]
+- ["6Marvel9CharacterC", "descriptions"]
+- ["6Marvel9CharacterC", "favorite"]
 - ["6Marvel9CharacterC", "id"]
 - ["6Marvel9CharacterC", "init"]
 - ["6Marvel9CharacterC", "name"]
@@ -31,18 +34,21 @@ depends-member:
 - !private ["SQ", "init"]
 - ["SH", ""]
 - !private ["SH", "init"]
-- ["So8NSObjectC", "desc"]
+- ["So8NSObjectC", "descriptions"]
+- ["So8NSObjectC", "favorite"]
 - ["So8NSObjectC", "id"]
 - ["So8NSObjectC", "init"]
 - ["So8NSObjectC", "name"]
 - ["So8NSObjectP", ""]
 - !private ["So8NSObjectP", "init"]
 - ["10RealmSwift6ObjectC", ""]
-- ["10RealmSwift6ObjectC", "desc"]
+- ["10RealmSwift6ObjectC", "descriptions"]
+- ["10RealmSwift6ObjectC", "favorite"]
 - ["10RealmSwift6ObjectC", "id"]
 - ["10RealmSwift6ObjectC", "init"]
 - ["10RealmSwift6ObjectC", "name"]
-- ["So13RLMObjectBaseC", "desc"]
+- ["So13RLMObjectBaseC", "descriptions"]
+- ["So13RLMObjectBaseC", "favorite"]
 - ["So13RLMObjectBaseC", "id"]
 - ["So13RLMObjectBaseC", "init"]
 - ["So13RLMObjectBaseC", "name"]
@@ -150,4 +156,4 @@ depends-external:
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "b18bdfadcf46c6786ba0c8c6fb650b40"
+interface-hash: "d733fe5ef0c56ed9b2a652e4661218f0"

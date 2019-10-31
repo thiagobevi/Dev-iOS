@@ -1,6 +1,6 @@
 version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
 options: "f5efdd5274d9d0a5b709dbc6f43eb1bf"
-build_time: [1571941499, 72973000]
+build_time: [1572035539, 674391000]
 inputs:
   "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/RealmSwift/RealmSwift/Aliases.swift": [1571941156, 255238939]
   "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/RealmSwift/RealmSwift/Error.swift": [1571941156, 256422410]

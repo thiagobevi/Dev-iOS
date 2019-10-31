@@ -22,7 +22,7 @@
 		</data>
 		<key>Modules/RealmSwift.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		3AG5lCblDDLZJ//3YXhTnz+9Cxo=
+		22iKeVF4uBtmVPQEURghtI10xto=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -68,11 +68,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3AG5lCblDDLZJ//3YXhTnz+9Cxo=
+			22iKeVF4uBtmVPQEURghtI10xto=
 			</data>
 			<key>hash2</key>
 			<data>
-			B9w0ngVCs5GvEbNrnUBBZd3yqLR2XkQ4byiDgjuNXm8=
+			ADrR/pLywK+tyd3NhQIt6oUuQhh97JwPynMVw6dzM6c=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

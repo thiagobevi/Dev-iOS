@@ -19,7 +19,6 @@ depends-top-level:
 - "Character"
 - !private "HeroesDetails2"
 - "JSON"
-- "Realm"
 - "String"
 - "StringLiteralType"
 - "UIStoryboardSegue"
@@ -40,7 +39,6 @@ depends-member:
 - ["s7CVarArgP", "Character"]
 - !private ["s7CVarArgP", "JSON"]
 - !private ["s7CVarArgP", "MARVEL_URL"]
-- ["s7CVarArgP", "Realm"]
 - ["s7CVarArgP", ""]
 - !private ["s7CVarArgP", "descriptionChar"]
 - !private ["s7CVarArgP", "descriptions"]
@@ -78,7 +76,6 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "Character"]
 - !private ["s28CustomDebugStringConvertibleP", "JSON"]
 - !private ["s28CustomDebugStringConvertibleP", "MARVEL_URL"]
-- ["s28CustomDebugStringConvertibleP", "Realm"]
 - ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s28CustomDebugStringConvertibleP", "arrayValue"]
 - !private ["s28CustomDebugStringConvertibleP", "descriptionChar"]
@@ -110,7 +107,6 @@ depends-member:
 - ["s23CustomStringConvertibleP", "Character"]
 - !private ["s23CustomStringConvertibleP", "JSON"]
 - !private ["s23CustomStringConvertibleP", "MARVEL_URL"]
-- ["s23CustomStringConvertibleP", "Realm"]
 - ["s23CustomStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "arrayValue"]
 - !private ["s23CustomStringConvertibleP", "descriptionChar"]
@@ -155,7 +151,6 @@ depends-member:
 - ["SQ", "Character"]
 - !private ["SQ", "JSON"]
 - !private ["SQ", "MARVEL_URL"]
-- ["SQ", "Realm"]
 - ["SQ", ""]
 - !private ["SQ", "arrayValue"]
 - !private ["SQ", "descriptionChar"]
@@ -216,7 +211,6 @@ depends-member:
 - ["SH", "Character"]
 - !private ["SH", "JSON"]
 - !private ["SH", "MARVEL_URL"]
-- ["SH", "Realm"]
 - ["SH", ""]
 - !private ["SH", "descriptionChar"]
 - !private ["SH", "descriptions"]
@@ -253,7 +247,6 @@ depends-member:
 - ["So8NSCodingP", "Character"]
 - !private ["So8NSCodingP", "JSON"]
 - !private ["So8NSCodingP", "MARVEL_URL"]
-- ["So8NSCodingP", "Realm"]
 - ["So8NSCodingP", ""]
 - !private ["So8NSCodingP", "descriptionChar"]
 - !private ["So8NSCodingP", "getMarvelHeroesData"]
@@ -271,7 +264,6 @@ depends-member:
 - ["So26NSExtensionRequestHandlingP", "Character"]
 - !private ["So26NSExtensionRequestHandlingP", "JSON"]
 - !private ["So26NSExtensionRequestHandlingP", "MARVEL_URL"]
-- ["So26NSExtensionRequestHandlingP", "Realm"]
 - ["So26NSExtensionRequestHandlingP", ""]
 - !private ["So26NSExtensionRequestHandlingP", "descriptionChar"]
 - !private ["So26NSExtensionRequestHandlingP", "getMarvelHeroesData"]
@@ -289,7 +281,6 @@ depends-member:
 - !private ["So8NSObjectC", "HeroesDetails2"]
 - ["So8NSObjectC", "JSON"]
 - ["So8NSObjectC", "MARVEL_URL"]
-- ["So8NSObjectC", "Realm"]
 - ["So8NSObjectC", "String"]
 - ["So8NSObjectC", "UIStoryboardSegue"]
 - ["So8NSObjectC", "UITextField"]
@@ -307,7 +298,6 @@ depends-member:
 - !private ["So8NSObjectC", "performSegue"]
 - ["So8NSObjectC", "prepare"]
 - !private ["So8NSObjectC", "print"]
-- ["So8NSObjectC", "realm"]
 - ["So8NSObjectC", "searchHeroesButton"]
 - ["So8NSObjectC", "searchTextField"]
 - !private ["So8NSObjectC", "text"]
@@ -317,7 +307,6 @@ depends-member:
 - ["So8NSObjectP", "Character"]
 - !private ["So8NSObjectP", "JSON"]
 - !private ["So8NSObjectP", "MARVEL_URL"]
-- ["So8NSObjectP", "Realm"]
 - ["So8NSObjectP", ""]
 - !private ["So8NSObjectP", "descriptionChar"]
 - !private ["So8NSObjectP", "descriptions"]
@@ -357,7 +346,6 @@ depends-member:
 - !private ["SY", "init"]
 - !private ["SY", "stringValue"]
 - !private ["SY", "subscript"]
-- ["10RealmSwift0A0C", "init"]
 - !private ["10RealmSwift0A15CollectionValueP", "descriptions"]
 - !private ["10RealmSwift0A15CollectionValueP", "id"]
 - ["10RealmSwift0A15CollectionValueP", "init"]
@@ -384,7 +372,6 @@ depends-member:
 - ["So21UIAppearanceContainerP", "Character"]
 - !private ["So21UIAppearanceContainerP", "JSON"]
 - !private ["So21UIAppearanceContainerP", "MARVEL_URL"]
-- ["So21UIAppearanceContainerP", "Realm"]
 - ["So21UIAppearanceContainerP", ""]
 - !private ["So21UIAppearanceContainerP", "descriptionChar"]
 - !private ["So21UIAppearanceContainerP", "getMarvelHeroesData"]
@@ -402,7 +389,6 @@ depends-member:
 - ["So18UIContentContainerP", "Character"]
 - !private ["So18UIContentContainerP", "JSON"]
 - !private ["So18UIContentContainerP", "MARVEL_URL"]
-- ["So18UIContentContainerP", "Realm"]
 - ["So18UIContentContainerP", ""]
 - !private ["So18UIContentContainerP", "descriptionChar"]
 - !private ["So18UIContentContainerP", "getMarvelHeroesData"]
@@ -423,7 +409,6 @@ depends-member:
 - ["So18UIFocusEnvironmentP", "Character"]
 - !private ["So18UIFocusEnvironmentP", "JSON"]
 - !private ["So18UIFocusEnvironmentP", "MARVEL_URL"]
-- ["So18UIFocusEnvironmentP", "Realm"]
 - ["So18UIFocusEnvironmentP", ""]
 - !private ["So18UIFocusEnvironmentP", "descriptionChar"]
 - !private ["So18UIFocusEnvironmentP", "getMarvelHeroesData"]
@@ -444,7 +429,6 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "Character"]
 - !private ["So30UIPasteConfigurationSupportingP", "JSON"]
 - !private ["So30UIPasteConfigurationSupportingP", "MARVEL_URL"]
-- ["So30UIPasteConfigurationSupportingP", "Realm"]
 - ["So30UIPasteConfigurationSupportingP", ""]
 - !private ["So30UIPasteConfigurationSupportingP", "descriptionChar"]
 - !private ["So30UIPasteConfigurationSupportingP", "getMarvelHeroesData"]
@@ -463,7 +447,6 @@ depends-member:
 - !private ["So11UIResponderC", "HeroesDetails2"]
 - ["So11UIResponderC", "JSON"]
 - ["So11UIResponderC", "MARVEL_URL"]
-- ["So11UIResponderC", "Realm"]
 - ["So11UIResponderC", "String"]
 - ["So11UIResponderC", "UIStoryboardSegue"]
 - ["So11UIResponderC", "UITextField"]
@@ -476,7 +459,6 @@ depends-member:
 - !private ["So11UIResponderC", "performSegue"]
 - ["So11UIResponderC", "prepare"]
 - !private ["So11UIResponderC", "print"]
-- ["So11UIResponderC", "realm"]
 - ["So11UIResponderC", "searchHeroesButton"]
 - ["So11UIResponderC", "searchTextField"]
 - !private ["So11UIResponderC", "text"]
@@ -486,7 +468,6 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "Character"]
 - !private ["So30UIResponderStandardEditActionsP", "JSON"]
 - !private ["So30UIResponderStandardEditActionsP", "MARVEL_URL"]
-- ["So30UIResponderStandardEditActionsP", "Realm"]
 - ["So30UIResponderStandardEditActionsP", ""]
 - !private ["So30UIResponderStandardEditActionsP", "descriptionChar"]
 - !private ["So30UIResponderStandardEditActionsP", "getMarvelHeroesData"]
@@ -504,7 +485,6 @@ depends-member:
 - ["So16UIStateRestoringP", "Character"]
 - !private ["So16UIStateRestoringP", "JSON"]
 - !private ["So16UIStateRestoringP", "MARVEL_URL"]
-- ["So16UIStateRestoringP", "Realm"]
 - ["So16UIStateRestoringP", ""]
 - !private ["So16UIStateRestoringP", "descriptionChar"]
 - !private ["So16UIStateRestoringP", "getMarvelHeroesData"]
@@ -529,7 +509,6 @@ depends-member:
 - ["So18UITraitEnvironmentP", "Character"]
 - !private ["So18UITraitEnvironmentP", "JSON"]
 - !private ["So18UITraitEnvironmentP", "MARVEL_URL"]
-- ["So18UITraitEnvironmentP", "Realm"]
 - ["So18UITraitEnvironmentP", ""]
 - !private ["So18UITraitEnvironmentP", "descriptionChar"]
 - !private ["So18UITraitEnvironmentP", "getMarvelHeroesData"]
@@ -547,7 +526,6 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "Character"]
 - !private ["So23UIUserActivityRestoringP", "JSON"]
 - !private ["So23UIUserActivityRestoringP", "MARVEL_URL"]
-- ["So23UIUserActivityRestoringP", "Realm"]
 - ["So23UIUserActivityRestoringP", ""]
 - !private ["So23UIUserActivityRestoringP", "descriptionChar"]
 - !private ["So23UIUserActivityRestoringP", "getMarvelHeroesData"]
@@ -567,7 +545,6 @@ depends-member:
 - !private ["So16UIViewControllerC", "HeroesDetails2"]
 - ["So16UIViewControllerC", "JSON"]
 - ["So16UIViewControllerC", "MARVEL_URL"]
-- ["So16UIViewControllerC", "Realm"]
 - ["So16UIViewControllerC", "String"]
 - ["So16UIViewControllerC", "UIStoryboardSegue"]
 - ["So16UIViewControllerC", "UITextField"]
@@ -581,7 +558,6 @@ depends-member:
 - !private ["So16UIViewControllerC", "performSegue"]
 - ["So16UIViewControllerC", "prepare"]
 - !private ["So16UIViewControllerC", "print"]
-- ["So16UIViewControllerC", "realm"]
 - ["So16UIViewControllerC", "searchHeroesButton"]
 - ["So16UIViewControllerC", "searchTextField"]
 - ["So16UIViewControllerC", "updateMarvelData"]
@@ -591,7 +567,6 @@ depends-member:
 - !private ["6Marvel14ViewControllerC", "HeroesDetails2"]
 - ["6Marvel14ViewControllerC", "JSON"]
 - ["6Marvel14ViewControllerC", "MARVEL_URL"]
-- ["6Marvel14ViewControllerC", "Realm"]
 - ["6Marvel14ViewControllerC", "String"]
 - ["6Marvel14ViewControllerC", "UIStoryboardSegue"]
 - ["6Marvel14ViewControllerC", "UITextField"]
@@ -602,7 +577,6 @@ depends-member:
 - !private ["6Marvel14ViewControllerC", "performSegue"]
 - ["6Marvel14ViewControllerC", "prepare"]
 - !private ["6Marvel14ViewControllerC", "print"]
-- ["6Marvel14ViewControllerC", "realm"]
 - ["6Marvel14ViewControllerC", "searchHeroesButton"]
 - ["6Marvel14ViewControllerC", "searchTextField"]
 - ["6Marvel14ViewControllerC", "updateMarvelData"]
@@ -611,7 +585,6 @@ depends-member:
 - ["10Foundation27_KeyValueCodingAndObservingP", "Character"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "JSON"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "MARVEL_URL"]
-- ["10Foundation27_KeyValueCodingAndObservingP", "Realm"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "descriptionChar"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "descriptions"]
@@ -677,7 +650,6 @@ depends-nominal:
 - !private "Sk"
 - !private "Sm"
 - !private "SY"
-- "10RealmSwift0A0C"
 - "10RealmSwift0A15CollectionValueP"
 - !private "9Alamofire7RequestC"
 - !private "9Alamofire8ResponseP"
@@ -799,4 +771,4 @@ depends-external:
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "dc26d92712a4738ea0cd87a80e27b0b2"
+interface-hash: "ba21ca5619c7a5e48f370303a39d74b7"
