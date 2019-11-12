@@ -1,0 +1,546 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ResultViewController"
+provides-nominal:
+- "14CalculadoraIMC20ResultViewControllerC"
+provides-member:
+- ["14CalculadoraIMC20ResultViewControllerC", ""]
+provides-dynamic-lookup:
+- "faixaIMCLabel"
+- "recomendacaoLabel"
+- "resultadoLabel"
+- "salvarIMCButton"
+- "viewDidLoad"
+depends-top-level:
+- !private "..."
+- "AssignmentPrecedence"
+- "BooleanLiteralType"
+- "Float"
+- "FloatLiteralType"
+- "IMCModel"
+- "IntegerLiteralType"
+- "Realm"
+- "ResultViewController"
+- !private "String"
+- !private "StringLiteralType"
+- "UILabel"
+- "UIViewController"
+- !private "print"
+- !private "~="
+depends-member:
+- ["10RealmSwift28AssistedObjectiveCBridgeableP", "init"]
+- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "totalIMC"]
+- !private ["SK", "init"]
+- !private ["So15CALayerDelegateP", "text"]
+- ["s7CVarArgP", "IMCModel"]
+- ["s7CVarArgP", "Realm"]
+- !private ["s7CVarArgP", "String"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "dismiss"]
+- !private ["s7CVarArgP", "faixaIMCLabel"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "newIMC"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "realm"]
+- !private ["s7CVarArgP", "recomendacaoLabel"]
+- !private ["s7CVarArgP", "resultadoIMC"]
+- !private ["s7CVarArgP", "resultadoLabel"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "totalIMC"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
+- ["s28CustomDebugStringConvertibleP", "IMCModel"]
+- ["s28CustomDebugStringConvertibleP", "Realm"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "dismiss"]
+- !private ["s28CustomDebugStringConvertibleP", "faixaIMCLabel"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "newIMC"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "realm"]
+- !private ["s28CustomDebugStringConvertibleP", "recomendacaoLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "resultadoIMC"]
+- !private ["s28CustomDebugStringConvertibleP", "resultadoLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "totalIMC"]
+- !private ["10RealmSwift26CustomObjectiveCBridgeableP", "text"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "text"]
+- ["s23CustomStringConvertibleP", "IMCModel"]
+- ["s23CustomStringConvertibleP", "Realm"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "dismiss"]
+- !private ["s23CustomStringConvertibleP", "faixaIMCLabel"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "newIMC"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "realm"]
+- !private ["s23CustomStringConvertibleP", "recomendacaoLabel"]
+- !private ["s23CustomStringConvertibleP", "resultadoIMC"]
+- !private ["s23CustomStringConvertibleP", "resultadoLabel"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "totalIMC"]
+- !private ["Se", "init"]
+- !private ["Se", "text"]
+- !private ["SE", "init"]
+- !private ["SE", "text"]
+- ["SQ", "IMCModel"]
+- ["SQ", "Realm"]
+- !private ["SQ", "String"]
+- ["SQ", ""]
+- !private ["SQ", "add"]
+- !private ["SQ", "dismiss"]
+- !private ["SQ", "faixaIMCLabel"]
+- ["SQ", "init"]
+- !private ["SQ", "newIMC"]
+- !private ["SQ", "print"]
+- !private ["SQ", "realm"]
+- !private ["SQ", "recomendacaoLabel"]
+- !private ["SQ", "resultadoIMC"]
+- !private ["SQ", "resultadoLabel"]
+- !private ["SQ", "text"]
+- !private ["SQ", "totalIMC"]
+- !private ["SQ", "write"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "text"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["SH", "IMCModel"]
+- ["SH", "Realm"]
+- !private ["SH", "String"]
+- ["SH", ""]
+- !private ["SH", "dismiss"]
+- !private ["SH", "faixaIMCLabel"]
+- ["SH", "init"]
+- !private ["SH", "newIMC"]
+- !private ["SH", "print"]
+- !private ["SH", "realm"]
+- !private ["SH", "recomendacaoLabel"]
+- !private ["SH", "resultadoIMC"]
+- !private ["SH", "resultadoLabel"]
+- !private ["SH", "text"]
+- !private ["SH", "totalIMC"]
+- ["14CalculadoraIMC8IMCModelC", "init"]
+- !private ["14CalculadoraIMC8IMCModelC", "totalIMC"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- ["So8NSCodingP", "IMCModel"]
+- ["So8NSCodingP", "Realm"]
+- !private ["So8NSCodingP", "String"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "dismiss"]
+- !private ["So8NSCodingP", "faixaIMCLabel"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "newIMC"]
+- !private ["So8NSCodingP", "print"]
+- !private ["So8NSCodingP", "realm"]
+- !private ["So8NSCodingP", "recomendacaoLabel"]
+- !private ["So8NSCodingP", "resultadoIMC"]
+- !private ["So8NSCodingP", "resultadoLabel"]
+- !private ["So8NSCodingP", "text"]
+- ["So26NSExtensionRequestHandlingP", "IMCModel"]
+- ["So26NSExtensionRequestHandlingP", "Realm"]
+- !private ["So26NSExtensionRequestHandlingP", "String"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "dismiss"]
+- !private ["So26NSExtensionRequestHandlingP", "faixaIMCLabel"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "newIMC"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
+- !private ["So26NSExtensionRequestHandlingP", "realm"]
+- !private ["So26NSExtensionRequestHandlingP", "recomendacaoLabel"]
+- !private ["So26NSExtensionRequestHandlingP", "resultadoIMC"]
+- !private ["So26NSExtensionRequestHandlingP", "resultadoLabel"]
+- ["So8NSObjectC", "Float"]
+- ["So8NSObjectC", "IMCModel"]
+- ["So8NSObjectC", "Realm"]
+- !private ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UILabel"]
+- !private ["So8NSObjectC", "dismiss"]
+- ["So8NSObjectC", "faixaIMCLabel"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "newIMC"]
+- !private ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "realm"]
+- ["So8NSObjectC", "recomendacaoLabel"]
+- ["So8NSObjectC", "resultadoIMC"]
+- ["So8NSObjectC", "resultadoLabel"]
+- ["So8NSObjectC", "salvarIMCButton"]
+- !private ["So8NSObjectC", "text"]
+- !private ["So8NSObjectC", "totalIMC"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectP", "IMCModel"]
+- ["So8NSObjectP", "Realm"]
+- !private ["So8NSObjectP", "String"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "dismiss"]
+- !private ["So8NSObjectP", "faixaIMCLabel"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "newIMC"]
+- !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "realm"]
+- !private ["So8NSObjectP", "recomendacaoLabel"]
+- !private ["So8NSObjectP", "resultadoIMC"]
+- !private ["So8NSObjectP", "resultadoLabel"]
+- !private ["So8NSObjectP", "text"]
+- !private ["So8NSObjectP", "totalIMC"]
+- ["10RealmSwift6ObjectC", "init"]
+- !private ["10RealmSwift6ObjectC", "totalIMC"]
+- !private ["Sq", "text"]
+- !private ["10RealmSwift16OptionalProtocolP", "text"]
+- ["So13RLMObjectBaseC", "init"]
+- !private ["So13RLMObjectBaseC", "totalIMC"]
+- !private ["Sm", "init"]
+- !private ["10RealmSwift0A0C", "add"]
+- ["10RealmSwift0A0C", "init"]
+- !private ["10RealmSwift0A0C", "write"]
+- ["10RealmSwift0A15CollectionValueP", "init"]
+- !private ["10RealmSwift0A15CollectionValueP", "text"]
+- !private ["10RealmSwift0A15CollectionValueP", "totalIMC"]
+- ["14CalculadoraIMC20ResultViewControllerC", "Float"]
+- ["14CalculadoraIMC20ResultViewControllerC", "IMCModel"]
+- ["14CalculadoraIMC20ResultViewControllerC", "Realm"]
+- !private ["14CalculadoraIMC20ResultViewControllerC", "String"]
+- ["14CalculadoraIMC20ResultViewControllerC", "UILabel"]
+- ["14CalculadoraIMC20ResultViewControllerC", "deinit"]
+- !private ["14CalculadoraIMC20ResultViewControllerC", "dismiss"]
+- ["14CalculadoraIMC20ResultViewControllerC", "faixaIMCLabel"]
+- ["14CalculadoraIMC20ResultViewControllerC", "init"]
+- ["14CalculadoraIMC20ResultViewControllerC", "newIMC"]
+- !private ["14CalculadoraIMC20ResultViewControllerC", "print"]
+- ["14CalculadoraIMC20ResultViewControllerC", "realm"]
+- ["14CalculadoraIMC20ResultViewControllerC", "recomendacaoLabel"]
+- ["14CalculadoraIMC20ResultViewControllerC", "resultadoIMC"]
+- ["14CalculadoraIMC20ResultViewControllerC", "resultadoLabel"]
+- ["14CalculadoraIMC20ResultViewControllerC", "salvarIMCButton"]
+- ["14CalculadoraIMC20ResultViewControllerC", "viewDidLoad"]
+- !private ["ST", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- ["10RealmSwift14ThreadConfinedP", "init"]
+- !private ["10RealmSwift14ThreadConfinedP", "totalIMC"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So12UIAppearanceP", "text"]
+- ["So21UIAppearanceContainerP", "IMCModel"]
+- ["So21UIAppearanceContainerP", "Realm"]
+- !private ["So21UIAppearanceContainerP", "String"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "dismiss"]
+- !private ["So21UIAppearanceContainerP", "faixaIMCLabel"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "newIMC"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- !private ["So21UIAppearanceContainerP", "realm"]
+- !private ["So21UIAppearanceContainerP", "recomendacaoLabel"]
+- !private ["So21UIAppearanceContainerP", "resultadoIMC"]
+- !private ["So21UIAppearanceContainerP", "resultadoLabel"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- ["So18UIContentContainerP", "IMCModel"]
+- ["So18UIContentContainerP", "Realm"]
+- !private ["So18UIContentContainerP", "String"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "dismiss"]
+- !private ["So18UIContentContainerP", "faixaIMCLabel"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "newIMC"]
+- !private ["So18UIContentContainerP", "print"]
+- !private ["So18UIContentContainerP", "realm"]
+- !private ["So18UIContentContainerP", "recomendacaoLabel"]
+- !private ["So18UIContentContainerP", "resultadoIMC"]
+- !private ["So18UIContentContainerP", "resultadoLabel"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So13UIDynamicItemP", "text"]
+- ["So18UIFocusEnvironmentP", "IMCModel"]
+- ["So18UIFocusEnvironmentP", "Realm"]
+- !private ["So18UIFocusEnvironmentP", "String"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "dismiss"]
+- !private ["So18UIFocusEnvironmentP", "faixaIMCLabel"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "newIMC"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- !private ["So18UIFocusEnvironmentP", "realm"]
+- !private ["So18UIFocusEnvironmentP", "recomendacaoLabel"]
+- !private ["So18UIFocusEnvironmentP", "resultadoIMC"]
+- !private ["So18UIFocusEnvironmentP", "resultadoLabel"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So20UIFocusItemContainerP", "text"]
+- !private ["So7UILabelC", "text"]
+- ["So30UIPasteConfigurationSupportingP", "IMCModel"]
+- ["So30UIPasteConfigurationSupportingP", "Realm"]
+- !private ["So30UIPasteConfigurationSupportingP", "String"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "dismiss"]
+- !private ["So30UIPasteConfigurationSupportingP", "faixaIMCLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "newIMC"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "realm"]
+- !private ["So30UIPasteConfigurationSupportingP", "recomendacaoLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "resultadoIMC"]
+- !private ["So30UIPasteConfigurationSupportingP", "resultadoLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- ["So11UIResponderC", "Float"]
+- ["So11UIResponderC", "IMCModel"]
+- ["So11UIResponderC", "Realm"]
+- !private ["So11UIResponderC", "String"]
+- ["So11UIResponderC", "UILabel"]
+- !private ["So11UIResponderC", "dismiss"]
+- ["So11UIResponderC", "faixaIMCLabel"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "newIMC"]
+- !private ["So11UIResponderC", "print"]
+- ["So11UIResponderC", "realm"]
+- ["So11UIResponderC", "recomendacaoLabel"]
+- ["So11UIResponderC", "resultadoIMC"]
+- ["So11UIResponderC", "resultadoLabel"]
+- ["So11UIResponderC", "salvarIMCButton"]
+- !private ["So11UIResponderC", "text"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", "IMCModel"]
+- ["So30UIResponderStandardEditActionsP", "Realm"]
+- !private ["So30UIResponderStandardEditActionsP", "String"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "dismiss"]
+- !private ["So30UIResponderStandardEditActionsP", "faixaIMCLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "newIMC"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "realm"]
+- !private ["So30UIResponderStandardEditActionsP", "recomendacaoLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "resultadoIMC"]
+- !private ["So30UIResponderStandardEditActionsP", "resultadoLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- ["So16UIStateRestoringP", "IMCModel"]
+- ["So16UIStateRestoringP", "Realm"]
+- !private ["So16UIStateRestoringP", "String"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "dismiss"]
+- !private ["So16UIStateRestoringP", "faixaIMCLabel"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "newIMC"]
+- !private ["So16UIStateRestoringP", "print"]
+- !private ["So16UIStateRestoringP", "realm"]
+- !private ["So16UIStateRestoringP", "recomendacaoLabel"]
+- !private ["So16UIStateRestoringP", "resultadoIMC"]
+- !private ["So16UIStateRestoringP", "resultadoLabel"]
+- ["So18UITraitEnvironmentP", "IMCModel"]
+- ["So18UITraitEnvironmentP", "Realm"]
+- !private ["So18UITraitEnvironmentP", "String"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "dismiss"]
+- !private ["So18UITraitEnvironmentP", "faixaIMCLabel"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "newIMC"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- !private ["So18UITraitEnvironmentP", "realm"]
+- !private ["So18UITraitEnvironmentP", "recomendacaoLabel"]
+- !private ["So18UITraitEnvironmentP", "resultadoIMC"]
+- !private ["So18UITraitEnvironmentP", "resultadoLabel"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- ["So23UIUserActivityRestoringP", "IMCModel"]
+- ["So23UIUserActivityRestoringP", "Realm"]
+- !private ["So23UIUserActivityRestoringP", "String"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "dismiss"]
+- !private ["So23UIUserActivityRestoringP", "faixaIMCLabel"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "newIMC"]
+- !private ["So23UIUserActivityRestoringP", "print"]
+- !private ["So23UIUserActivityRestoringP", "realm"]
+- !private ["So23UIUserActivityRestoringP", "recomendacaoLabel"]
+- !private ["So23UIUserActivityRestoringP", "resultadoIMC"]
+- !private ["So23UIUserActivityRestoringP", "resultadoLabel"]
+- !private ["So23UIUserActivityRestoringP", "text"]
+- !private ["So6UIViewC", "text"]
+- ["So16UIViewControllerC", "Float"]
+- ["So16UIViewControllerC", "IMCModel"]
+- ["So16UIViewControllerC", "Realm"]
+- !private ["So16UIViewControllerC", "String"]
+- ["So16UIViewControllerC", "UILabel"]
+- ["So16UIViewControllerC", ""]
+- !private ["So16UIViewControllerC", "dismiss"]
+- ["So16UIViewControllerC", "faixaIMCLabel"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "newIMC"]
+- !private ["So16UIViewControllerC", "print"]
+- ["So16UIViewControllerC", "realm"]
+- ["So16UIViewControllerC", "recomendacaoLabel"]
+- ["So16UIViewControllerC", "resultadoIMC"]
+- ["So16UIViewControllerC", "resultadoLabel"]
+- ["So16UIViewControllerC", "salvarIMCButton"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "IMCModel"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Realm"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dismiss"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "faixaIMCLabel"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "newIMC"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "realm"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "recomendacaoLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resultadoIMC"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resultadoLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "totalIMC"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "text"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "text"]
+depends-nominal:
+- "10RealmSwift28AssistedObjectiveCBridgeableP"
+- !private "SK"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "10RealmSwift26CustomObjectiveCBridgeableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- "14CalculadoraIMC8IMCModelC"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "10RealmSwift6ObjectC"
+- !private "Sq"
+- !private "10RealmSwift16OptionalProtocolP"
+- "So13RLMObjectBaseC"
+- !private "Sm"
+- "10RealmSwift0A0C"
+- "10RealmSwift0A15CollectionValueP"
+- "14CalculadoraIMC20ResultViewControllerC"
+- !private "ST"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "10RealmSwift14ThreadConfinedP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So7UILabelC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/ThiagoBevi/Dev-iOS/CalculadoraIMC/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/RealmSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/ThiagoBevi/Dev-iOS/CalculadoraIMC/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-umbrella.h"
+- "/Users/ThiagoBevi/Dev-iOS/CalculadoraIMC/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSchema.h"
+- "/Users/ThiagoBevi/Dev-iOS/CalculadoraIMC/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/ThiagoBevi/Dev-iOS/CalculadoraIMC/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/ThiagoBevi/Dev-iOS/CalculadoraIMC/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/ThiagoBevi/Dev-iOS/CalculadoraIMC/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm+Sync.h"
+- "/Users/ThiagoBevi/Dev-iOS/CalculadoraIMC/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration+Sync.h"
+- "/Users/ThiagoBevi/Dev-iOS/CalculadoraIMC/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/NSError+RLMSync.h"
+- "/Users/ThiagoBevi/Dev-iOS/CalculadoraIMC/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMThreadSafeReference.h"
+- "/Users/ThiagoBevi/Dev-iOS/CalculadoraIMC/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/ThiagoBevi/Dev-iOS/CalculadoraIMC/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMOptionalBase.h"
+- "/Users/ThiagoBevi/Dev-iOS/CalculadoraIMC/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/ThiagoBevi/Dev-iOS/CalculadoraIMC/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMListBase.h"
+- "/Users/ThiagoBevi/Dev-iOS/CalculadoraIMC/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/ThiagoBevi/Dev-iOS/CalculadoraIMC/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/ThiagoBevi/Dev-iOS/CalculadoraIMC/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectBase_Private.h"
+- "/Users/ThiagoBevi/Dev-iOS/CalculadoraIMC/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncUtil_Private.h"
+- "/Users/ThiagoBevi/Dev-iOS/CalculadoraIMC/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/ThiagoBevi/Dev-iOS/CalculadoraIMC/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncConfiguration_Private.h"
+- "/Users/ThiagoBevi/Dev-iOS/CalculadoraIMC/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/ThiagoBevi/Dev-iOS/CalculadoraIMC/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMCollection_Private.h"
+- "/Users/ThiagoBevi/Dev-iOS/CalculadoraIMC/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/ThiagoBevi/Dev-iOS/CalculadoraIMC/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/ThiagoBevi/Dev-iOS/CalculadoraIMC/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/ThiagoBevi/Dev-iOS/CalculadoraIMC/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/ThiagoBevi/Dev-iOS/CalculadoraIMC/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUtil.h"
+- "/Users/ThiagoBevi/Dev-iOS/CalculadoraIMC/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/Realm.h"
+- "/Users/ThiagoBevi/Dev-iOS/CalculadoraIMC/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm.h"
+- "/Users/ThiagoBevi/Dev-iOS/CalculadoraIMC/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/ThiagoBevi/Dev-iOS/CalculadoraIMC/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncSession.h"
+- "/Users/ThiagoBevi/Dev-iOS/CalculadoraIMC/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermission.h"
+- "/Users/ThiagoBevi/Dev-iOS/CalculadoraIMC/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMMigration.h"
+- "/Users/ThiagoBevi/Dev-iOS/CalculadoraIMC/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncConfiguration.h"
+- "/Users/ThiagoBevi/Dev-iOS/CalculadoraIMC/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/ThiagoBevi/Dev-iOS/CalculadoraIMC/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMCollection.h"
+- "/Users/ThiagoBevi/Dev-iOS/CalculadoraIMC/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncSubscription.h"
+- "/Users/ThiagoBevi/Dev-iOS/CalculadoraIMC/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncManager.h"
+- "/Users/ThiagoBevi/Dev-iOS/CalculadoraIMC/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUser.h"
+- "/Users/ThiagoBevi/Dev-iOS/CalculadoraIMC/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/ThiagoBevi/Dev-iOS/CalculadoraIMC/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncCredentials.h"
+- "/Users/ThiagoBevi/Dev-iOS/CalculadoraIMC/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMResults.h"
+- "/Users/ThiagoBevi/Dev-iOS/CalculadoraIMC/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMConstants.h"
+- "/Users/ThiagoBevi/Dev-iOS/CalculadoraIMC/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObject.h"
+- "/Users/ThiagoBevi/Dev-iOS/CalculadoraIMC/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+- "/Users/ThiagoBevi/Dev-iOS/CalculadoraIMC/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMArray.h"
+- "/Users/ThiagoBevi/Dev-iOS/CalculadoraIMC/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMProperty.h"
+- "/Users/ThiagoBevi/Dev-iOS/CalculadoraIMC/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Modules/module.modulemap"
+- "/Users/ThiagoBevi/Dev-iOS/CalculadoraIMC/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/module.modulemap"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f3e236e0f5c5dfe3c24fec4998e84707"

@@ -31,14 +31,16 @@ class FavoritesTableViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cellReuse")
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "cellReuse") else {
+            fatalError("Nao existe a cell")
+        }
        
         if let heroe = heroes?[indexPath.row] {
-            cell?.textLabel?.text = heroe.name
+            cell.textLabel?.text = heroe.name
         } else {
-            cell?.textLabel?.text = "No heroes add"
+            cell.textLabel?.text = "No heroes add"
         }
-        return cell!
+        return cell
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)  {

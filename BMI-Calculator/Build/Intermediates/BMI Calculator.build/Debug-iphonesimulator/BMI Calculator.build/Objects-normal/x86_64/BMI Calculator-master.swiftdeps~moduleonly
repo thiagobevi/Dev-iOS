@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "ec862518dbd7d36e6ddaad8323fa22c6"
+build_time: [1573148088, 596238000]
+inputs:
+  "/Users/ThiagoBevi/Dev-iOS/BMI-Calculator/BMI Calculator/Controllers/ViewController.swift": [1566793944, 0]
+  "/Users/ThiagoBevi/Dev-iOS/BMI-Calculator/BMI Calculator/AppDelegate.swift": !dirty [1566793944, 0]
+  "/Users/ThiagoBevi/Dev-iOS/BMI-Calculator/BMI Calculator/SceneDelegate.swift": !dirty [1566793944, 0]

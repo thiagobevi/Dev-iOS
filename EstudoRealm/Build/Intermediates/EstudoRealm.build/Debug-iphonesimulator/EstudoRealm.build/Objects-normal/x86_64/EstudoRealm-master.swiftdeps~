@@ -1,6 +1,0 @@
-version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
-options: "5b7b8bdda7de1c3081df6e1c38959ac3"
-build_time: [1571846880, 37266000]
-inputs:
-  "/Users/ThiagoBevi/Dev-iOS/EstudoRealm/EstudoRealm/ViewController.swift": [1571846873, 409582385]
-  "/Users/ThiagoBevi/Dev-iOS/EstudoRealm/EstudoRealm/AppDelegate.swift": [1571846873, 403823881]

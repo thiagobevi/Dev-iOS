@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "ebf36a73d512c24214b401c3e251e679"
+build_time: [1573577502, 433609000]
+inputs:
+  "/Users/ThiagoBevi/Dev-iOS/CalculadoraIMC/CalculadoraIMC/Controller/ResultViewController.swift": [1573577502, 354023447]
+  "/Users/ThiagoBevi/Dev-iOS/CalculadoraIMC/CalculadoraIMC/Controller/SecondViewController.swift": [1573577302, 869841338]
+  "/Users/ThiagoBevi/Dev-iOS/CalculadoraIMC/CalculadoraIMC/Controller/AppDelegate.swift": [1573149508, 828778618]
+  "/Users/ThiagoBevi/Dev-iOS/CalculadoraIMC/CalculadoraIMC/Controller/FirstViewController.swift": [1573565147, 145747857]
+  "/Users/ThiagoBevi/Dev-iOS/CalculadoraIMC/CalculadoraIMC/Model/IMCModel.swift": [1573577302, 879212041]

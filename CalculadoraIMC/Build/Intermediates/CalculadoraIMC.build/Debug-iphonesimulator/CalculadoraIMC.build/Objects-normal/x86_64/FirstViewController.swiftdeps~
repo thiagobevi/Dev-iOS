@@ -1,0 +1,533 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FirstViewController"
+provides-nominal:
+- "14CalculadoraIMC19FirstViewControllerC"
+provides-member:
+- ["14CalculadoraIMC19FirstViewControllerC", ""]
+provides-dynamic-lookup:
+- "alturaSlider"
+- "calcularButton"
+- "pesoSlider"
+- "prepare"
+- "valorAlturaLabel"
+- "valorPesoLabel"
+- "viewDidLoad"
+depends-top-level:
+- !private "*"
+- !private "/"
+- !private "=="
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "FirstViewController"
+- "Float"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- !private "ResultViewController"
+- !private "String"
+- !private "StringLiteralType"
+- "UILabel"
+- "UISlider"
+- "UIStoryboardSegue"
+- "UIViewController"
+- !private "print"
+depends-member:
+- !private ["SK", "init"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["So15CALayerDelegateP", "value"]
+- !private ["s7CVarArgP", "String"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "altura"]
+- !private ["s7CVarArgP", "calcularIMC"]
+- !private ["s7CVarArgP", "destination"]
+- !private ["s7CVarArgP", "identifier"]
+- !private ["s7CVarArgP", "imc"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "performSegue"]
+- !private ["s7CVarArgP", "peso"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "resultadoIMC"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "valorAlturaLabel"]
+- !private ["s7CVarArgP", "valorPesoLabel"]
+- !private ["s7CVarArgP", "value"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "altura"]
+- !private ["s28CustomDebugStringConvertibleP", "calcularIMC"]
+- !private ["s28CustomDebugStringConvertibleP", "destination"]
+- !private ["s28CustomDebugStringConvertibleP", "identifier"]
+- !private ["s28CustomDebugStringConvertibleP", "imc"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "performSegue"]
+- !private ["s28CustomDebugStringConvertibleP", "peso"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "resultadoIMC"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "valorAlturaLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "valorPesoLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "value"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "text"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "altura"]
+- !private ["s23CustomStringConvertibleP", "calcularIMC"]
+- !private ["s23CustomStringConvertibleP", "destination"]
+- !private ["s23CustomStringConvertibleP", "identifier"]
+- !private ["s23CustomStringConvertibleP", "imc"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "performSegue"]
+- !private ["s23CustomStringConvertibleP", "peso"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "resultadoIMC"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "valorAlturaLabel"]
+- !private ["s23CustomStringConvertibleP", "valorPesoLabel"]
+- !private ["s23CustomStringConvertibleP", "value"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["Se", "init"]
+- !private ["Se", "text"]
+- !private ["SE", "init"]
+- !private ["SE", "text"]
+- !private ["SQ", "String"]
+- ["SQ", ""]
+- !private ["SQ", "altura"]
+- !private ["SQ", "calcularIMC"]
+- !private ["SQ", "destination"]
+- !private ["SQ", "identifier"]
+- !private ["SQ", "imc"]
+- !private ["SQ", "init"]
+- !private ["SQ", "performSegue"]
+- !private ["SQ", "peso"]
+- !private ["SQ", "print"]
+- !private ["SQ", "resultadoIMC"]
+- !private ["SQ", "text"]
+- !private ["SQ", "valorAlturaLabel"]
+- !private ["SQ", "valorPesoLabel"]
+- !private ["SQ", "value"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "text"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["14CalculadoraIMC19FirstViewControllerC", "Float"]
+- !private ["14CalculadoraIMC19FirstViewControllerC", "ResultViewController"]
+- !private ["14CalculadoraIMC19FirstViewControllerC", "String"]
+- ["14CalculadoraIMC19FirstViewControllerC", "UILabel"]
+- ["14CalculadoraIMC19FirstViewControllerC", "UISlider"]
+- ["14CalculadoraIMC19FirstViewControllerC", "UIStoryboardSegue"]
+- ["14CalculadoraIMC19FirstViewControllerC", "altura"]
+- ["14CalculadoraIMC19FirstViewControllerC", "alturaSlider"]
+- ["14CalculadoraIMC19FirstViewControllerC", "calcularButton"]
+- ["14CalculadoraIMC19FirstViewControllerC", "calcularIMC"]
+- ["14CalculadoraIMC19FirstViewControllerC", "deinit"]
+- ["14CalculadoraIMC19FirstViewControllerC", "imc"]
+- ["14CalculadoraIMC19FirstViewControllerC", "init"]
+- !private ["14CalculadoraIMC19FirstViewControllerC", "performSegue"]
+- ["14CalculadoraIMC19FirstViewControllerC", "peso"]
+- ["14CalculadoraIMC19FirstViewControllerC", "pesoSlider"]
+- ["14CalculadoraIMC19FirstViewControllerC", "prepare"]
+- !private ["14CalculadoraIMC19FirstViewControllerC", "print"]
+- ["14CalculadoraIMC19FirstViewControllerC", "valorAlturaLabel"]
+- ["14CalculadoraIMC19FirstViewControllerC", "valorPesoLabel"]
+- ["14CalculadoraIMC19FirstViewControllerC", "viewDidLoad"]
+- !private ["SH", "String"]
+- ["SH", ""]
+- !private ["SH", "altura"]
+- !private ["SH", "calcularIMC"]
+- !private ["SH", "destination"]
+- !private ["SH", "identifier"]
+- !private ["SH", "imc"]
+- !private ["SH", "init"]
+- !private ["SH", "performSegue"]
+- !private ["SH", "peso"]
+- !private ["SH", "print"]
+- !private ["SH", "resultadoIMC"]
+- !private ["SH", "text"]
+- !private ["SH", "valorAlturaLabel"]
+- !private ["SH", "valorPesoLabel"]
+- !private ["SH", "value"]
+- !private ["SH", "viewDidLoad"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "String"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "altura"]
+- !private ["So8NSCodingP", "calcularIMC"]
+- !private ["So8NSCodingP", "imc"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "performSegue"]
+- !private ["So8NSCodingP", "peso"]
+- !private ["So8NSCodingP", "print"]
+- !private ["So8NSCodingP", "resultadoIMC"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "valorAlturaLabel"]
+- !private ["So8NSCodingP", "valorPesoLabel"]
+- !private ["So8NSCodingP", "value"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "String"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "altura"]
+- !private ["So26NSExtensionRequestHandlingP", "calcularIMC"]
+- !private ["So26NSExtensionRequestHandlingP", "imc"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "performSegue"]
+- !private ["So26NSExtensionRequestHandlingP", "peso"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
+- !private ["So26NSExtensionRequestHandlingP", "resultadoIMC"]
+- !private ["So26NSExtensionRequestHandlingP", "valorAlturaLabel"]
+- !private ["So26NSExtensionRequestHandlingP", "valorPesoLabel"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So8NSObjectC", "Float"]
+- !private ["So8NSObjectC", "ResultViewController"]
+- !private ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UILabel"]
+- ["So8NSObjectC", "UISlider"]
+- ["So8NSObjectC", "UIStoryboardSegue"]
+- ["So8NSObjectC", "altura"]
+- ["So8NSObjectC", "alturaSlider"]
+- ["So8NSObjectC", "calcularButton"]
+- ["So8NSObjectC", "calcularIMC"]
+- !private ["So8NSObjectC", "destination"]
+- !private ["So8NSObjectC", "identifier"]
+- ["So8NSObjectC", "imc"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "performSegue"]
+- ["So8NSObjectC", "peso"]
+- ["So8NSObjectC", "pesoSlider"]
+- ["So8NSObjectC", "prepare"]
+- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "resultadoIMC"]
+- !private ["So8NSObjectC", "text"]
+- ["So8NSObjectC", "valorAlturaLabel"]
+- ["So8NSObjectC", "valorPesoLabel"]
+- !private ["So8NSObjectC", "value"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So8NSObjectP", "String"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "altura"]
+- !private ["So8NSObjectP", "calcularIMC"]
+- !private ["So8NSObjectP", "destination"]
+- !private ["So8NSObjectP", "identifier"]
+- !private ["So8NSObjectP", "imc"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "performSegue"]
+- !private ["So8NSObjectP", "peso"]
+- !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "resultadoIMC"]
+- !private ["So8NSObjectP", "text"]
+- !private ["So8NSObjectP", "valorAlturaLabel"]
+- !private ["So8NSObjectP", "valorPesoLabel"]
+- !private ["So8NSObjectP", "value"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["Sq", "text"]
+- !private ["Sm", "init"]
+- !private ["14CalculadoraIMC20ResultViewControllerC", "resultadoIMC"]
+- !private ["ST", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So29UIAccessibilityIdentificationP", "value"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So12UIAppearanceP", "value"]
+- !private ["So21UIAppearanceContainerP", "String"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "altura"]
+- !private ["So21UIAppearanceContainerP", "calcularIMC"]
+- !private ["So21UIAppearanceContainerP", "imc"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "performSegue"]
+- !private ["So21UIAppearanceContainerP", "peso"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- !private ["So21UIAppearanceContainerP", "resultadoIMC"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "valorAlturaLabel"]
+- !private ["So21UIAppearanceContainerP", "valorPesoLabel"]
+- !private ["So21UIAppearanceContainerP", "value"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "String"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "altura"]
+- !private ["So18UIContentContainerP", "calcularIMC"]
+- !private ["So18UIContentContainerP", "imc"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "performSegue"]
+- !private ["So18UIContentContainerP", "peso"]
+- !private ["So18UIContentContainerP", "print"]
+- !private ["So18UIContentContainerP", "resultadoIMC"]
+- !private ["So18UIContentContainerP", "valorAlturaLabel"]
+- !private ["So18UIContentContainerP", "valorPesoLabel"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So9UIControlC", "value"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So17UICoordinateSpaceP", "value"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So13UIDynamicItemP", "value"]
+- !private ["So18UIFocusEnvironmentP", "String"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "altura"]
+- !private ["So18UIFocusEnvironmentP", "calcularIMC"]
+- !private ["So18UIFocusEnvironmentP", "imc"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "performSegue"]
+- !private ["So18UIFocusEnvironmentP", "peso"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- !private ["So18UIFocusEnvironmentP", "resultadoIMC"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "valorAlturaLabel"]
+- !private ["So18UIFocusEnvironmentP", "valorPesoLabel"]
+- !private ["So18UIFocusEnvironmentP", "value"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So11UIFocusItemP", "value"]
+- !private ["So20UIFocusItemContainerP", "text"]
+- !private ["So20UIFocusItemContainerP", "value"]
+- !private ["So7UILabelC", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "String"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "altura"]
+- !private ["So30UIPasteConfigurationSupportingP", "calcularIMC"]
+- !private ["So30UIPasteConfigurationSupportingP", "imc"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "performSegue"]
+- !private ["So30UIPasteConfigurationSupportingP", "peso"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "resultadoIMC"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "valorAlturaLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "valorPesoLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "value"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So11UIResponderC", "Float"]
+- !private ["So11UIResponderC", "ResultViewController"]
+- !private ["So11UIResponderC", "String"]
+- ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", "UISlider"]
+- ["So11UIResponderC", "UIStoryboardSegue"]
+- ["So11UIResponderC", "altura"]
+- ["So11UIResponderC", "alturaSlider"]
+- ["So11UIResponderC", "calcularButton"]
+- ["So11UIResponderC", "calcularIMC"]
+- ["So11UIResponderC", "imc"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "performSegue"]
+- ["So11UIResponderC", "peso"]
+- ["So11UIResponderC", "pesoSlider"]
+- ["So11UIResponderC", "prepare"]
+- !private ["So11UIResponderC", "print"]
+- !private ["So11UIResponderC", "resultadoIMC"]
+- !private ["So11UIResponderC", "text"]
+- ["So11UIResponderC", "valorAlturaLabel"]
+- ["So11UIResponderC", "valorPesoLabel"]
+- !private ["So11UIResponderC", "value"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "String"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "altura"]
+- !private ["So30UIResponderStandardEditActionsP", "calcularIMC"]
+- !private ["So30UIResponderStandardEditActionsP", "imc"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "performSegue"]
+- !private ["So30UIResponderStandardEditActionsP", "peso"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "resultadoIMC"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "valorAlturaLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "valorPesoLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "value"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So8UISliderC", "value"]
+- !private ["So16UIStateRestoringP", "String"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "altura"]
+- !private ["So16UIStateRestoringP", "calcularIMC"]
+- !private ["So16UIStateRestoringP", "imc"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "performSegue"]
+- !private ["So16UIStateRestoringP", "peso"]
+- !private ["So16UIStateRestoringP", "print"]
+- !private ["So16UIStateRestoringP", "resultadoIMC"]
+- !private ["So16UIStateRestoringP", "valorAlturaLabel"]
+- !private ["So16UIStateRestoringP", "valorPesoLabel"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So17UIStoryboardSegueC", "destination"]
+- !private ["So17UIStoryboardSegueC", "identifier"]
+- !private ["So18UITraitEnvironmentP", "String"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "altura"]
+- !private ["So18UITraitEnvironmentP", "calcularIMC"]
+- !private ["So18UITraitEnvironmentP", "imc"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "performSegue"]
+- !private ["So18UITraitEnvironmentP", "peso"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- !private ["So18UITraitEnvironmentP", "resultadoIMC"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "valorAlturaLabel"]
+- !private ["So18UITraitEnvironmentP", "valorPesoLabel"]
+- !private ["So18UITraitEnvironmentP", "value"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "String"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "altura"]
+- !private ["So23UIUserActivityRestoringP", "calcularIMC"]
+- !private ["So23UIUserActivityRestoringP", "imc"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "performSegue"]
+- !private ["So23UIUserActivityRestoringP", "peso"]
+- !private ["So23UIUserActivityRestoringP", "print"]
+- !private ["So23UIUserActivityRestoringP", "resultadoIMC"]
+- !private ["So23UIUserActivityRestoringP", "text"]
+- !private ["So23UIUserActivityRestoringP", "valorAlturaLabel"]
+- !private ["So23UIUserActivityRestoringP", "valorPesoLabel"]
+- !private ["So23UIUserActivityRestoringP", "value"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So6UIViewC", "text"]
+- !private ["So6UIViewC", "value"]
+- ["So16UIViewControllerC", "Float"]
+- !private ["So16UIViewControllerC", "ResultViewController"]
+- !private ["So16UIViewControllerC", "String"]
+- ["So16UIViewControllerC", "UILabel"]
+- ["So16UIViewControllerC", "UISlider"]
+- ["So16UIViewControllerC", "UIStoryboardSegue"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "altura"]
+- ["So16UIViewControllerC", "alturaSlider"]
+- ["So16UIViewControllerC", "calcularButton"]
+- ["So16UIViewControllerC", "calcularIMC"]
+- ["So16UIViewControllerC", "imc"]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "performSegue"]
+- ["So16UIViewControllerC", "peso"]
+- ["So16UIViewControllerC", "pesoSlider"]
+- ["So16UIViewControllerC", "prepare"]
+- !private ["So16UIViewControllerC", "print"]
+- !private ["So16UIViewControllerC", "resultadoIMC"]
+- ["So16UIViewControllerC", "valorAlturaLabel"]
+- ["So16UIViewControllerC", "valorPesoLabel"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "altura"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "calcularIMC"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "destination"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "identifier"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "imc"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "performSegue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "peso"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resultadoIMC"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "valorAlturaLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "valorPesoLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "value"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "text"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "value"]
+depends-nominal:
+- !private "SK"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "14CalculadoraIMC19FirstViewControllerC"
+- "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sq"
+- !private "Sm"
+- !private "14CalculadoraIMC20ResultViewControllerC"
+- !private "ST"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So9UIControlC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So7UILabelC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So8UISliderC"
+- "So16UIStateRestoringP"
+- !private "So17UIStoryboardSegueC"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "9134d45cafdd9116f76713f720eded6b"

@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "5cff41737ee3327092d8c71c311f8e34"
+build_time: [1572556244, 101950000]
+inputs:
+  "/Users/ThiagoBevi/Dev-iOS/EggTimer2/EggTimer2/ViewController.swift": [1572556244, 21839084]
+  "/Users/ThiagoBevi/Dev-iOS/EggTimer2/EggTimer2/AppDelegate.swift": [1572554020, 140344443]
