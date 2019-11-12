@@ -7,27 +7,47 @@
 //
 
 import XCTest
+@testable import iOSUnitTestIntro
 
 class PokemonTests: XCTestCase {
 
+    var squirtle: Pokemon!
+    var charmander: Pokemon!
+    var psyduck: Pokemon!
+    
     override func setUp() {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        super.setUp()
+        squirtle = Pokemon(type: .Water, atackType: .Water)
+        charmander = Pokemon(type: .Fire, atackType: .Fire)
+        psyduck = Pokemon(type: .Water, atackType: .Water)
     }
 
     override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        super.tearDown()
+        squirtle = nil
+        charmander = nil
+        psyduck = nil
     }
 
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testThatAWaterPokemonDoesMoreDamageToAFirePokemon() {
+        //1. Have a squirtle attack charmander
+        squirtle.attack(enemy: charmander)
+        
+        squirtle.attack(enemy: psyduck)
+        
+        //Test it
+    XCTAssertTrue(charmander.health < psyduck.health)
+    }
+    
+    func testThatAFirePokemonDoesLessDamageToAWaterPokemon() {
+        charmander.attack(enemy: squirtle)
+        charmander.attack(enemy: charmander)
+        XCTAssertTrue(squirtle.health < charmander.health)
     }
 
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    func testTypeAndAttackAreTheSameEllementDamageIsNull() {
+        charmander.attack(enemy: charmander)
+        XCTAssertTrue(charmander.health == 100)
     }
-
+    
 }

@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "76c71da037a7a25068906e81462475cc"
+build_time: [1573582264, 832875000]
+inputs:
+  "/Users/ThiagoBevi/Dev-iOS/iOSUnitTestIntro/iOSUnitTestIntroTests/iOSUnitTestIntroTests.swift": [9223372036, 854775807]
+  "/Users/ThiagoBevi/Dev-iOS/iOSUnitTestIntro/iOSUnitTestIntroTests/PokemonTests.swift": [9223372036, 854775807]

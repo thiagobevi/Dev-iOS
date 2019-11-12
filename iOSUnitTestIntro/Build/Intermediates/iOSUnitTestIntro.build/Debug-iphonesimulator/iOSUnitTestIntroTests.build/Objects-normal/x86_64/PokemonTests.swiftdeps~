@@ -1,0 +1,235 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PokemonTests"
+provides-nominal:
+- "21iOSUnitTestIntroTests07PokemonD0C"
+provides-member:
+- ["21iOSUnitTestIntroTests07PokemonD0C", ""]
+provides-dynamic-lookup:
+- "setUp"
+- "tearDown"
+- "testThatAFirePokemonDoesLessDamageToAWaterPokemon"
+- "testThatAWaterPokemonDoesMoreDamageToAFirePokemon"
+- "testTypeAndAttackAreTheSameEllementDamageIsNull"
+depends-top-level:
+- !private "<"
+- !private "=="
+- "AssignmentPrecedence"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "Pokemon"
+- "PokemonTests"
+- !private "StringLiteralType"
+- !private "XCTAssertTrue"
+- "XCTestCase"
+depends-member:
+- !private ["s7CVarArgP", "Pokemon"]
+- !private ["s7CVarArgP", "XCTAssertTrue"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "charmander"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "psyduck"]
+- !private ["s7CVarArgP", "setUp"]
+- !private ["s7CVarArgP", "squirtle"]
+- !private ["s7CVarArgP", "tearDown"]
+- !private ["s28CustomDebugStringConvertibleP", "Pokemon"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTAssertTrue"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "attack"]
+- !private ["s28CustomDebugStringConvertibleP", "charmander"]
+- !private ["s28CustomDebugStringConvertibleP", "health"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "psyduck"]
+- !private ["s28CustomDebugStringConvertibleP", "setUp"]
+- !private ["s28CustomDebugStringConvertibleP", "squirtle"]
+- !private ["s28CustomDebugStringConvertibleP", "tearDown"]
+- !private ["s17CustomReflectableP", "attack"]
+- !private ["s17CustomReflectableP", "health"]
+- !private ["s23CustomStringConvertibleP", "Pokemon"]
+- !private ["s23CustomStringConvertibleP", "XCTAssertTrue"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "charmander"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "psyduck"]
+- !private ["s23CustomStringConvertibleP", "setUp"]
+- !private ["s23CustomStringConvertibleP", "squirtle"]
+- !private ["s23CustomStringConvertibleP", "tearDown"]
+- !private ["Se", "attack"]
+- !private ["Se", "health"]
+- !private ["SE", "attack"]
+- !private ["SE", "health"]
+- !private ["SQ", "Fire"]
+- !private ["SQ", "Pokemon"]
+- !private ["SQ", "Water"]
+- !private ["SQ", "XCTAssertTrue"]
+- ["SQ", ""]
+- !private ["SQ", "attack"]
+- !private ["SQ", "charmander"]
+- !private ["SQ", "health"]
+- !private ["SQ", "init"]
+- !private ["SQ", "psyduck"]
+- !private ["SQ", "setUp"]
+- !private ["SQ", "squirtle"]
+- !private ["SQ", "tearDown"]
+- !private ["s23ExpressibleByNilLiteralP", "attack"]
+- !private ["s23ExpressibleByNilLiteralP", "health"]
+- !private ["SH", "Fire"]
+- !private ["SH", "Pokemon"]
+- !private ["SH", "Water"]
+- !private ["SH", "XCTAssertTrue"]
+- ["SH", ""]
+- !private ["SH", "attack"]
+- !private ["SH", "charmander"]
+- !private ["SH", "health"]
+- !private ["SH", "init"]
+- !private ["SH", "psyduck"]
+- !private ["SH", "setUp"]
+- !private ["SH", "squirtle"]
+- !private ["SH", "tearDown"]
+- ["So8NSObjectC", "Pokemon"]
+- !private ["So8NSObjectC", "XCTAssertTrue"]
+- ["So8NSObjectC", "charmander"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "psyduck"]
+- ["So8NSObjectC", "setUp"]
+- ["So8NSObjectC", "squirtle"]
+- ["So8NSObjectC", "tearDown"]
+- ["So8NSObjectC", "testThatAFirePokemonDoesLessDamageToAWaterPokemon"]
+- ["So8NSObjectC", "testThatAWaterPokemonDoesMoreDamageToAFirePokemon"]
+- ["So8NSObjectC", "testTypeAndAttackAreTheSameEllementDamageIsNull"]
+- !private ["So8NSObjectP", "Pokemon"]
+- !private ["So8NSObjectP", "XCTAssertTrue"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "charmander"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "psyduck"]
+- !private ["So8NSObjectP", "setUp"]
+- !private ["So8NSObjectP", "squirtle"]
+- !private ["So8NSObjectP", "tearDown"]
+- !private ["Sq", "attack"]
+- !private ["Sq", "health"]
+- !private ["16iOSUnitTestIntro7PokemonC", "attack"]
+- !private ["16iOSUnitTestIntro7PokemonC", "health"]
+- !private ["16iOSUnitTestIntro7PokemonC", "init"]
+- !private ["16iOSUnitTestIntro16PokemonAtackTypeO", "Fire"]
+- !private ["16iOSUnitTestIntro16PokemonAtackTypeO", "Water"]
+- ["21iOSUnitTestIntroTests07PokemonD0C", "Pokemon"]
+- !private ["21iOSUnitTestIntroTests07PokemonD0C", "XCTAssertTrue"]
+- ["21iOSUnitTestIntroTests07PokemonD0C", "charmander"]
+- ["21iOSUnitTestIntroTests07PokemonD0C", "deinit"]
+- ["21iOSUnitTestIntroTests07PokemonD0C", "init"]
+- ["21iOSUnitTestIntroTests07PokemonD0C", "psyduck"]
+- ["21iOSUnitTestIntroTests07PokemonD0C", "setUp"]
+- ["21iOSUnitTestIntroTests07PokemonD0C", "squirtle"]
+- ["21iOSUnitTestIntroTests07PokemonD0C", "tearDown"]
+- ["21iOSUnitTestIntroTests07PokemonD0C", "testThatAFirePokemonDoesLessDamageToAWaterPokemon"]
+- ["21iOSUnitTestIntroTests07PokemonD0C", "testThatAWaterPokemonDoesMoreDamageToAFirePokemon"]
+- ["21iOSUnitTestIntroTests07PokemonD0C", "testTypeAndAttackAreTheSameEllementDamageIsNull"]
+- !private ["16iOSUnitTestIntro11PokemonTypeO", "Fire"]
+- !private ["16iOSUnitTestIntro11PokemonTypeO", "Water"]
+- !private ["So11XCTActivityP", "Pokemon"]
+- !private ["So11XCTActivityP", "XCTAssertTrue"]
+- ["So11XCTActivityP", ""]
+- !private ["So11XCTActivityP", "charmander"]
+- !private ["So11XCTActivityP", "init"]
+- !private ["So11XCTActivityP", "psyduck"]
+- !private ["So11XCTActivityP", "setUp"]
+- !private ["So11XCTActivityP", "squirtle"]
+- !private ["So11XCTActivityP", "tearDown"]
+- !private ["So17XCTWaiterDelegateP", "Pokemon"]
+- !private ["So17XCTWaiterDelegateP", "XCTAssertTrue"]
+- ["So17XCTWaiterDelegateP", ""]
+- !private ["So17XCTWaiterDelegateP", "charmander"]
+- !private ["So17XCTWaiterDelegateP", "init"]
+- !private ["So17XCTWaiterDelegateP", "psyduck"]
+- !private ["So17XCTWaiterDelegateP", "setUp"]
+- !private ["So17XCTWaiterDelegateP", "squirtle"]
+- !private ["So17XCTWaiterDelegateP", "tearDown"]
+- ["So6XCTestC", "Pokemon"]
+- !private ["So6XCTestC", "XCTAssertTrue"]
+- ["So6XCTestC", "charmander"]
+- ["So6XCTestC", "init"]
+- ["So6XCTestC", "psyduck"]
+- ["So6XCTestC", "setUp"]
+- ["So6XCTestC", "squirtle"]
+- ["So6XCTestC", "tearDown"]
+- ["So6XCTestC", "testThatAFirePokemonDoesLessDamageToAWaterPokemon"]
+- ["So6XCTestC", "testThatAWaterPokemonDoesMoreDamageToAFirePokemon"]
+- ["So6XCTestC", "testTypeAndAttackAreTheSameEllementDamageIsNull"]
+- ["So10XCTestCaseC", "Pokemon"]
+- !private ["So10XCTestCaseC", "XCTAssertTrue"]
+- ["So10XCTestCaseC", ""]
+- ["So10XCTestCaseC", "charmander"]
+- ["So10XCTestCaseC", "init"]
+- ["So10XCTestCaseC", "psyduck"]
+- ["So10XCTestCaseC", "setUp"]
+- ["So10XCTestCaseC", "squirtle"]
+- ["So10XCTestCaseC", "tearDown"]
+- ["So10XCTestCaseC", "testThatAFirePokemonDoesLessDamageToAWaterPokemon"]
+- ["So10XCTestCaseC", "testThatAWaterPokemonDoesMoreDamageToAFirePokemon"]
+- ["So10XCTestCaseC", "testTypeAndAttackAreTheSameEllementDamageIsNull"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Pokemon"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTAssertTrue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "charmander"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "psyduck"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setUp"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "squirtle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tearDown"]
+- !private ["s21_ObjectiveCBridgeableP", "attack"]
+- !private ["s21_ObjectiveCBridgeableP", "health"]
+depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sq"
+- !private "16iOSUnitTestIntro7PokemonC"
+- !private "16iOSUnitTestIntro16PokemonAtackTypeO"
+- "21iOSUnitTestIntroTests07PokemonD0C"
+- !private "16iOSUnitTestIntro11PokemonTypeO"
+- "So11XCTActivityP"
+- "So17XCTWaiterDelegateP"
+- "So6XCTestC"
+- "So10XCTestCaseC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/ThiagoBevi/Dev-iOS/iOSUnitTestIntro/Build/Products/Debug-iphonesimulator/iOSUnitTestIntro.swiftmodule/x86_64.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/XCTest.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "cdeb4c5649a3f654684a9b5a5ad4f563"

@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "d7fc7ef0ba9648dfe4a6feefd5bcc112"
+build_time: [1573582260, 480000]
+inputs:
+  "/Users/ThiagoBevi/Dev-iOS/iOSUnitTestIntro/iOSUnitTestIntro/ViewController.swift": [9223372036, 854775807]
+  "/Users/ThiagoBevi/Dev-iOS/iOSUnitTestIntro/iOSUnitTestIntro/AppDelegate.swift": [9223372036, 854775807]
+  "/Users/ThiagoBevi/Dev-iOS/iOSUnitTestIntro/iOSUnitTestIntro/Pokemon.swift": [9223372036, 854775807]
