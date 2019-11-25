@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "e54ea152ca66da806ff072e306b39952"
+build_time: [1574446122, 439802000]
+inputs:
+  "/Users/ThiagoBevi/Dev-iOS/WeaponsAndTests/WeaponsAndTestsTests/WeaponsAndTestsTests.swift": [1573666805, 541320279]
+  "/Users/ThiagoBevi/Dev-iOS/WeaponsAndTests/WeaponsAndTestsTests/WeaponsTest.swift": [1574446122, 356604204]

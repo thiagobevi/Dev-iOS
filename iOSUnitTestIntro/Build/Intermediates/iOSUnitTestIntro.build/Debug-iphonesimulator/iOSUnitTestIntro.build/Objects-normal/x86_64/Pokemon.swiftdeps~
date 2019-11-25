@@ -25,6 +25,8 @@ depends-top-level:
 - "Pokemon"
 - "PokemonAtackType"
 - "PokemonType"
+- !private "StringLiteralType"
+- !private "print"
 depends-member:
 - ["SQ", "=="]
 - !private ["SQ", "Fire"]
@@ -49,6 +51,7 @@ depends-member:
 - ["16iOSUnitTestIntro7PokemonC", "attack"]
 - ["16iOSUnitTestIntro7PokemonC", "health"]
 - ["16iOSUnitTestIntro7PokemonC", "init"]
+- !private ["16iOSUnitTestIntro7PokemonC", "print"]
 - ["16iOSUnitTestIntro7PokemonC", "type"]
 - ["16iOSUnitTestIntro16PokemonAtackTypeO", "=="]
 - ["16iOSUnitTestIntro16PokemonAtackTypeO", "Fire"]

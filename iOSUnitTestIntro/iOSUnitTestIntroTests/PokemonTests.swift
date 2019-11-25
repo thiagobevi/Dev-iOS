@@ -47,7 +47,7 @@ class PokemonTests: XCTestCase {
 
     func testTypeAndAttackAreTheSameEllementDamageIsNull() {
         charmander.attack(enemy: charmander)
-        XCTAssertTrue(charmander.health == 100)
+        XCTAssertTrue(charmander.health == 100, "Tomou HOT")
     }
     
 }

@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB46781B2388546E00BACD96 /* WeaponsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB46781A2388546E00BACD96 /* WeaponsTest.swift */; };
+		DBDEE509237C7774006E94C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDEE508237C7774006E94C3 /* AppDelegate.swift */; };
+		DBDEE50B237C7774006E94C3 /* WeaponsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDEE50A237C7774006E94C3 /* WeaponsListViewController.swift */; };
+		DBDEE50E237C7774006E94C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBDEE50C237C7774006E94C3 /* Main.storyboard */; };
+		DBDEE510237C7775006E94C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBDEE50F237C7775006E94C3 /* Assets.xcassets */; };
+		DBDEE513237C7775006E94C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBDEE511237C7775006E94C3 /* LaunchScreen.storyboard */; };
+		DBDEE51E237C7775006E94C3 /* WeaponsAndTestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDEE51D237C7775006E94C3 /* WeaponsAndTestsTests.swift */; };
+		DBDEE529237C7857006E94C3 /* WeaponDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDEE528237C7857006E94C3 /* WeaponDetailViewController.swift */; };
+		DBDEE52D237C9E28006E94C3 /* WeaponsStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDEE52C237C9E28006E94C3 /* WeaponsStructs.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBDEE51A237C7775006E94C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBDEE4FD237C7774006E94C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBDEE504237C7774006E94C3;
+			remoteInfo = WeaponsAndTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB46781A2388546E00BACD96 /* WeaponsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponsTest.swift; sourceTree = "<group>"; };
+		DBDEE505237C7774006E94C3 /* WeaponsAndTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeaponsAndTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBDEE508237C7774006E94C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBDEE50A237C7774006E94C3 /* WeaponsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponsListViewController.swift; sourceTree = "<group>"; };
+		DBDEE50D237C7774006E94C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBDEE50F237C7775006E94C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBDEE512237C7775006E94C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBDEE514237C7775006E94C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBDEE519237C7775006E94C3 /* WeaponsAndTestsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeaponsAndTestsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBDEE51D237C7775006E94C3 /* WeaponsAndTestsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponsAndTestsTests.swift; sourceTree = "<group>"; };
+		DBDEE51F237C7775006E94C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBDEE528237C7857006E94C3 /* WeaponDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponDetailViewController.swift; sourceTree = "<group>"; };
+		DBDEE52C237C9E28006E94C3 /* WeaponsStructs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponsStructs.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBDEE502237C7774006E94C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBDEE516237C7775006E94C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBDEE4FC237C7774006E94C3 = {
+			isa = PBXGroup;
+			children = (
+				DBDEE52F237C9E96006E94C3 /* View */,
+				DBDEE52E237C9E72006E94C3 /* Model */,
+				DBDEE507237C7774006E94C3 /* WeaponsAndTests */,
+				DBDEE51C237C7775006E94C3 /* WeaponsAndTestsTests */,
+				DBDEE506237C7774006E94C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBDEE506237C7774006E94C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBDEE505237C7774006E94C3 /* WeaponsAndTests.app */,
+				DBDEE519237C7775006E94C3 /* WeaponsAndTestsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBDEE507237C7774006E94C3 /* WeaponsAndTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBDEE52C237C9E28006E94C3 /* WeaponsStructs.swift */,
+				DBDEE508237C7774006E94C3 /* AppDelegate.swift */,
+				DBDEE50A237C7774006E94C3 /* WeaponsListViewController.swift */,
+				DBDEE528237C7857006E94C3 /* WeaponDetailViewController.swift */,
+				DBDEE514237C7775006E94C3 /* Info.plist */,
+			);
+			path = WeaponsAndTests;
+			sourceTree = "<group>";
+		};
+		DBDEE51C237C7775006E94C3 /* WeaponsAndTestsTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBDEE51D237C7775006E94C3 /* WeaponsAndTestsTests.swift */,
+				DBDEE51F237C7775006E94C3 /* Info.plist */,
+				DB46781A2388546E00BACD96 /* WeaponsTest.swift */,
+			);
+			path = WeaponsAndTestsTests;
+			sourceTree = "<group>";
+		};
+		DBDEE52E237C9E72006E94C3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DBDEE52F237C9E96006E94C3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DBDEE50C237C7774006E94C3 /* Main.storyboard */,
+				DBDEE511237C7775006E94C3 /* LaunchScreen.storyboard */,
+				DBDEE50F237C7775006E94C3 /* Assets.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBDEE504237C7774006E94C3 /* WeaponsAndTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBDEE522237C7775006E94C3 /* Build configuration list for PBXNativeTarget "WeaponsAndTests" */;
+			buildPhases = (
+				DBDEE501237C7774006E94C3 /* Sources */,
+				DBDEE502237C7774006E94C3 /* Frameworks */,
+				DBDEE503237C7774006E94C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeaponsAndTests;
+			productName = WeaponsAndTests;
+			productReference = DBDEE505237C7774006E94C3 /* WeaponsAndTests.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBDEE518237C7775006E94C3 /* WeaponsAndTestsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBDEE525237C7775006E94C3 /* Build configuration list for PBXNativeTarget "WeaponsAndTestsTests" */;
+			buildPhases = (
+				DBDEE515237C7775006E94C3 /* Sources */,
+				DBDEE516237C7775006E94C3 /* Frameworks */,
+				DBDEE517237C7775006E94C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBDEE51B237C7775006E94C3 /* PBXTargetDependency */,
+			);
+			name = WeaponsAndTestsTests;
+			productName = WeaponsAndTestsTests;
+			productReference = DBDEE519237C7775006E94C3 /* WeaponsAndTestsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBDEE4FD237C7774006E94C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Thiago Bevilacqua";
+				TargetAttributes = {
+					DBDEE504237C7774006E94C3 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					DBDEE518237C7775006E94C3 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = DBDEE504237C7774006E94C3;
+					};
+				};
+			};
+			buildConfigurationList = DBDEE500237C7774006E94C3 /* Build configuration list for PBXProject "WeaponsAndTests" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBDEE4FC237C7774006E94C3;
+			productRefGroup = DBDEE506237C7774006E94C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBDEE504237C7774006E94C3 /* WeaponsAndTests */,
+				DBDEE518237C7775006E94C3 /* WeaponsAndTestsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBDEE503237C7774006E94C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBDEE513237C7775006E94C3 /* LaunchScreen.storyboard in Resources */,
+				DBDEE510237C7775006E94C3 /* Assets.xcassets in Resources */,
+				DBDEE50E237C7774006E94C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBDEE517237C7775006E94C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBDEE501237C7774006E94C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBDEE50B237C7774006E94C3 /* WeaponsListViewController.swift in Sources */,
+				DBDEE52D237C9E28006E94C3 /* WeaponsStructs.swift in Sources */,
+				DBDEE509237C7774006E94C3 /* AppDelegate.swift in Sources */,
+				DBDEE529237C7857006E94C3 /* WeaponDetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBDEE515237C7775006E94C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBDEE51E237C7775006E94C3 /* WeaponsAndTestsTests.swift in Sources */,
+				DB46781B2388546E00BACD96 /* WeaponsTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBDEE51B237C7775006E94C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBDEE504237C7774006E94C3 /* WeaponsAndTests */;
+			targetProxy = DBDEE51A237C7775006E94C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DBDEE50C237C7774006E94C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBDEE50D237C7774006E94C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBDEE511237C7775006E94C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBDEE512237C7775006E94C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBDEE520237C7775006E94C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DBDEE521237C7775006E94C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBDEE523237C7775006E94C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YCKSQEZ843;
+				INFOPLIST_FILE = WeaponsAndTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = thiagoApps.WeaponsAndTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBDEE524237C7775006E94C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YCKSQEZ843;
+				INFOPLIST_FILE = WeaponsAndTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = thiagoApps.WeaponsAndTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DBDEE526237C7775006E94C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WeaponsAndTestsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = thiagoApps.WeaponsAndTestsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeaponsAndTests.app/WeaponsAndTests";
+			};
+			name = Debug;
+		};
+		DBDEE527237C7775006E94C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WeaponsAndTestsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = thiagoApps.WeaponsAndTestsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeaponsAndTests.app/WeaponsAndTests";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBDEE500237C7774006E94C3 /* Build configuration list for PBXProject "WeaponsAndTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBDEE520237C7775006E94C3 /* Debug */,
+				DBDEE521237C7775006E94C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBDEE522237C7775006E94C3 /* Build configuration list for PBXNativeTarget "WeaponsAndTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBDEE523237C7775006E94C3 /* Debug */,
+				DBDEE524237C7775006E94C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBDEE525237C7775006E94C3 /* Build configuration list for PBXNativeTarget "WeaponsAndTestsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBDEE526237C7775006E94C3 /* Debug */,
+				DBDEE527237C7775006E94C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBDEE4FD237C7774006E94C3 /* Project object */;
+}

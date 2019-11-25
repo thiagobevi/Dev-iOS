@@ -1,0 +1,123 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Weapon"
+- "WeaponType"
+- "DamageType"
+- "DamageWeaponProtocol"
+- "AccuracyWeaponProtocol"
+provides-nominal:
+- "15WeaponsAndTests6WeaponV"
+- "15WeaponsAndTests10WeaponTypeO"
+- "15WeaponsAndTests10DamageTypeO"
+- "15WeaponsAndTests20DamageWeaponProtocolP"
+- "15WeaponsAndTests22AccuracyWeaponProtocolP"
+provides-member:
+- ["15WeaponsAndTests6WeaponV", ""]
+- ["15WeaponsAndTests10WeaponTypeO", ""]
+- ["15WeaponsAndTests10DamageTypeO", ""]
+- ["15WeaponsAndTests20DamageWeaponProtocolP", ""]
+- ["15WeaponsAndTests22AccuracyWeaponProtocolP", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "AccuracyWeaponProtocol"
+- "DamageType"
+- "DamageWeaponProtocol"
+- "Double"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "String"
+- "StringLiteralType"
+- "Weapon"
+- "WeaponType"
+depends-member:
+- ["15WeaponsAndTests22AccuracyWeaponProtocolP", "Double"]
+- ["15WeaponsAndTests22AccuracyWeaponProtocolP", ""]
+- ["15WeaponsAndTests22AccuracyWeaponProtocolP", "atackSpeed"]
+- ["15WeaponsAndTests22AccuracyWeaponProtocolP", "baseDamage"]
+- ["15WeaponsAndTests22AccuracyWeaponProtocolP", "damageType"]
+- ["15WeaponsAndTests22AccuracyWeaponProtocolP", "hitRate"]
+- ["15WeaponsAndTests10DamageTypeO", "=="]
+- ["15WeaponsAndTests10DamageTypeO", "__derived_enum_equals"]
+- ["15WeaponsAndTests10DamageTypeO", "_rawHashValue"]
+- ["15WeaponsAndTests10DamageTypeO", "blunt"]
+- ["15WeaponsAndTests10DamageTypeO", "deinit"]
+- ["15WeaponsAndTests10DamageTypeO", "hash"]
+- ["15WeaponsAndTests10DamageTypeO", "hashValue"]
+- ["15WeaponsAndTests10DamageTypeO", "pierce"]
+- ["15WeaponsAndTests10DamageTypeO", "slash"]
+- ["15WeaponsAndTests20DamageWeaponProtocolP", "DamageType"]
+- ["15WeaponsAndTests20DamageWeaponProtocolP", "Double"]
+- ["15WeaponsAndTests20DamageWeaponProtocolP", ""]
+- ["15WeaponsAndTests20DamageWeaponProtocolP", "atackSpeed"]
+- ["15WeaponsAndTests20DamageWeaponProtocolP", "baseDamage"]
+- ["15WeaponsAndTests20DamageWeaponProtocolP", "damageType"]
+- ["15WeaponsAndTests20DamageWeaponProtocolP", "hitRate"]
+- ["SQ", "=="]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SH", "=="]
+- ["SH", ""]
+- ["SH", "_rawHashValue"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["s6HasherV", "combine"]
+- ["15WeaponsAndTests6WeaponV", "DamageType"]
+- ["15WeaponsAndTests6WeaponV", "Double"]
+- ["15WeaponsAndTests6WeaponV", "String"]
+- ["15WeaponsAndTests6WeaponV", "WeaponType"]
+- ["15WeaponsAndTests6WeaponV", "atackSpeed"]
+- ["15WeaponsAndTests6WeaponV", "baseDamage"]
+- ["15WeaponsAndTests6WeaponV", "damageType"]
+- ["15WeaponsAndTests6WeaponV", "deinit"]
+- ["15WeaponsAndTests6WeaponV", "hitRate"]
+- ["15WeaponsAndTests6WeaponV", "init"]
+- ["15WeaponsAndTests6WeaponV", "name"]
+- ["15WeaponsAndTests6WeaponV", "weaponType"]
+- ["15WeaponsAndTests10WeaponTypeO", "=="]
+- ["15WeaponsAndTests10WeaponTypeO", "__derived_enum_equals"]
+- ["15WeaponsAndTests10WeaponTypeO", "_rawHashValue"]
+- ["15WeaponsAndTests10WeaponTypeO", "axe"]
+- ["15WeaponsAndTests10WeaponTypeO", "deinit"]
+- ["15WeaponsAndTests10WeaponTypeO", "hash"]
+- ["15WeaponsAndTests10WeaponTypeO", "hashValue"]
+- ["15WeaponsAndTests10WeaponTypeO", "spear"]
+- ["15WeaponsAndTests10WeaponTypeO", "sword"]
+depends-nominal:
+- "15WeaponsAndTests22AccuracyWeaponProtocolP"
+- "15WeaponsAndTests10DamageTypeO"
+- "15WeaponsAndTests20DamageWeaponProtocolP"
+- "SQ"
+- "SH"
+- !private "s6HasherV"
+- "15WeaponsAndTests6WeaponV"
+- "15WeaponsAndTests10WeaponTypeO"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "2a06b301c9a5b4e6730f13eb38dfc53b"
