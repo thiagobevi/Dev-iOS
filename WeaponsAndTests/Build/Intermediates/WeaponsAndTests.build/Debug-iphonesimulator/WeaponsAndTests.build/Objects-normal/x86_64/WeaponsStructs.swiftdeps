@@ -21,9 +21,11 @@ provides-dynamic-lookup:
 depends-top-level:
 - "=="
 - "AccuracyWeaponProtocol"
+- !private "BooleanLiteralType"
 - "DamageType"
 - "DamageWeaponProtocol"
 - !private "FloatLiteralType"
+- "Hashable"
 - "Int"
 - !private "IntegerLiteralType"
 - "String"
@@ -31,11 +33,15 @@ depends-top-level:
 - "Weapon"
 - "WeaponType"
 depends-member:
+- ["15WeaponsAndTests22AccuracyWeaponProtocolP", "=="]
 - ["15WeaponsAndTests22AccuracyWeaponProtocolP", "Int"]
 - ["15WeaponsAndTests22AccuracyWeaponProtocolP", ""]
+- ["15WeaponsAndTests22AccuracyWeaponProtocolP", "_rawHashValue"]
 - ["15WeaponsAndTests22AccuracyWeaponProtocolP", "atackSpeed"]
 - ["15WeaponsAndTests22AccuracyWeaponProtocolP", "baseDamage"]
 - ["15WeaponsAndTests22AccuracyWeaponProtocolP", "damageType"]
+- ["15WeaponsAndTests22AccuracyWeaponProtocolP", "hash"]
+- ["15WeaponsAndTests22AccuracyWeaponProtocolP", "hashValue"]
 - ["15WeaponsAndTests22AccuracyWeaponProtocolP", "hitRate"]
 - ["15WeaponsAndTests10DamageTypeO", "=="]
 - ["15WeaponsAndTests10DamageTypeO", "__derived_enum_equals"]
@@ -46,32 +52,49 @@ depends-member:
 - ["15WeaponsAndTests10DamageTypeO", "hashValue"]
 - ["15WeaponsAndTests10DamageTypeO", "pierce"]
 - ["15WeaponsAndTests10DamageTypeO", "slash"]
+- ["15WeaponsAndTests20DamageWeaponProtocolP", "=="]
 - ["15WeaponsAndTests20DamageWeaponProtocolP", "DamageType"]
 - ["15WeaponsAndTests20DamageWeaponProtocolP", "Int"]
 - ["15WeaponsAndTests20DamageWeaponProtocolP", ""]
+- ["15WeaponsAndTests20DamageWeaponProtocolP", "_rawHashValue"]
 - ["15WeaponsAndTests20DamageWeaponProtocolP", "atackSpeed"]
 - ["15WeaponsAndTests20DamageWeaponProtocolP", "baseDamage"]
 - ["15WeaponsAndTests20DamageWeaponProtocolP", "damageType"]
+- ["15WeaponsAndTests20DamageWeaponProtocolP", "hash"]
+- ["15WeaponsAndTests20DamageWeaponProtocolP", "hashValue"]
 - ["15WeaponsAndTests20DamageWeaponProtocolP", "hitRate"]
 - ["SQ", "=="]
 - ["SQ", ""]
 - ["SQ", "_rawHashValue"]
+- ["SQ", "atackSpeed"]
+- ["SQ", "baseDamage"]
+- ["SQ", "damageType"]
 - ["SQ", "hash"]
 - ["SQ", "hashValue"]
+- ["SQ", "hitRate"]
 - ["SH", "=="]
 - ["SH", ""]
 - ["SH", "_rawHashValue"]
+- ["SH", "atackSpeed"]
+- ["SH", "baseDamage"]
+- ["SH", "damageType"]
 - ["SH", "hash"]
 - ["SH", "hashValue"]
+- ["SH", "hitRate"]
 - !private ["s6HasherV", "combine"]
+- ["15WeaponsAndTests6WeaponV", "=="]
 - ["15WeaponsAndTests6WeaponV", "DamageType"]
 - ["15WeaponsAndTests6WeaponV", "Int"]
 - ["15WeaponsAndTests6WeaponV", "String"]
 - ["15WeaponsAndTests6WeaponV", "WeaponType"]
+- ["15WeaponsAndTests6WeaponV", "__derived_struct_equals"]
+- ["15WeaponsAndTests6WeaponV", "_rawHashValue"]
 - ["15WeaponsAndTests6WeaponV", "atackSpeed"]
 - ["15WeaponsAndTests6WeaponV", "baseDamage"]
 - ["15WeaponsAndTests6WeaponV", "damageType"]
 - ["15WeaponsAndTests6WeaponV", "deinit"]
+- ["15WeaponsAndTests6WeaponV", "hash"]
+- ["15WeaponsAndTests6WeaponV", "hashValue"]
 - ["15WeaponsAndTests6WeaponV", "hitRate"]
 - ["15WeaponsAndTests6WeaponV", "init"]
 - ["15WeaponsAndTests6WeaponV", "name"]
@@ -120,4 +143,4 @@ depends-external:
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "0d54e7ea58f4c94aa726ebb238668c34"
+interface-hash: "138ca94fab0c063916b2ff4f265c5310"

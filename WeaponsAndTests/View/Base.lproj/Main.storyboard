@@ -33,7 +33,13 @@
                             <outlet property="delegate" destination="asW-aD-sLj" id="AQc-Bb-1dC"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="rHl-71-Euw"/>
+                    <navigationItem key="navigationItem" id="rHl-71-Euw">
+                        <barButtonItem key="rightBarButtonItem" title="Comparar" id="Amx-am-aZd">
+                            <connections>
+                                <action selector="compararButton:" destination="asW-aD-sLj" id="UBw-j8-vgX"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <segue destination="hmJ-ZY-ddO" kind="show" identifier="detailSegue" id="eob-AV-OtJ"/>
                     </connections>
@@ -64,13 +70,29 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lTc-1O-QC2">
+                                <rect key="frame" x="20" y="288" width="374" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l2g-7y-i8D">
+                                <rect key="frame" x="20" y="362" width="374" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="lpY-PT-KBt"/>
                     </view>
                     <connections>
                         <outlet property="damageLabel" destination="Fw1-uP-Sa6" id="M9g-tb-P0I"/>
+                        <outlet property="damageLabel2" destination="l2g-7y-i8D" id="jo2-gn-pWK"/>
                         <outlet property="nameLabel" destination="Cjd-0g-9ev" id="9GW-Ot-aLf"/>
+                        <outlet property="nameLabel2" destination="lTc-1O-QC2" id="Tot-t8-rI5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4VX-D8-LPf" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -8,7 +8,7 @@
 
 import UIKit
 
-struct Weapon : DamageWeaponProtocol, AccuracyWeaponProtocol {
+struct Weapon : DamageWeaponProtocol, AccuracyWeaponProtocol, Hashable {
     
     var baseDamage: Int
     var damageType: DamageType
