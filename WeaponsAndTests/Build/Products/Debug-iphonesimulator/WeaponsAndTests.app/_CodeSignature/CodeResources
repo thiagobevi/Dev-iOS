@@ -18,23 +18,23 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
-		W7XSzWvIwiNz+CCqOXdUQgm7rUA=
+		gt0criU7akQFhNhXBQme6BzjC2g=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UINavigationController-0Y6-Js-WOp.nib</key>
 		<data>
-		BEBS7XLN35KhRulUnx86WeHwojg=
+		bqUQjVCOgVlLudeB7yl/tHi6AqU=
 		</data>
-		<key>Base.lproj/Main.storyboardc/UIViewController-hmJ-ZY-ddO.nib</key>
+		<key>Base.lproj/Main.storyboardc/WeaponDetailViewController.nib</key>
 		<data>
-		/y7k08WyZ8/J+I3NbDbnbnghcIs=
+		G5I/LwxB7zCoBF4zmF1izorU0Cc=
 		</data>
 		<key>Base.lproj/Main.storyboardc/asW-aD-sLj-view-aex-LG-JAP.nib</key>
 		<data>
-		ld4fakfCKI3uBM9+pfmMgeLnvds=
+		1BhpcmSTHO70Vnv7RNWiUG2lPaU=
 		</data>
 		<key>Base.lproj/Main.storyboardc/hmJ-ZY-ddO-view-wKp-OQ-D0c.nib</key>
 		<data>
-		SsxXW1cauKuFTLoBYgu3kJTvjXk=
+		KSPw3rESqh/lavlKfp+kuu3MF6U=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -76,35 +76,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LgYVTNbhMKcLNuMaswzAD1g94vPTSoeD4a+tx8Lh2iw=
+			l2zLkoSWlDjWQPo/Qi2497TRUHf2Yr/kBv8HUn1/wJo=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UINavigationController-0Y6-Js-WOp.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0G6dv+QgGF/pXsddKXDYltvoZVC91q3Vx656JEDKKjA=
+			3D7y4mVv7ygpJSsYCulfFRxmO9e92xkNg3WSTH6HfJ8=
 			</data>
 		</dict>
-		<key>Base.lproj/Main.storyboardc/UIViewController-hmJ-ZY-ddO.nib</key>
+		<key>Base.lproj/Main.storyboardc/WeaponDetailViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Jn6dxLXofS9T6zeiFMhr731MlZQth8H3prGfXM0qEfE=
+			qlh4N8UnMWLp403itAdKgmvL1XqHDEPJ18zM4O5yAm4=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/asW-aD-sLj-view-aex-LG-JAP.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5bnYEoU9D8gWUZl0B9XVw2NqAp5R2IflbydWc+K9o2Y=
+			rpXKn7uWUqHUGKw41jCe89j3V3tWKjtPBwz7F0dOZJY=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/hmJ-ZY-ddO-view-wKp-OQ-D0c.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8KfgZtkxEItBHUaXtfltS2/+XGKii4bIVTiOl4tvgNY=
+			iyner0eh2fnzuJeiRigJRRIbM+jBBAPi89Zzg597Kp4=
 			</data>
 		</dict>
 		<key>libswiftRemoteMirror.dylib</key>

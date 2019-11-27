@@ -166,6 +166,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import CoreGraphics;
 @import Foundation;
 @import UIKit;
 #endif
@@ -200,16 +201,21 @@ SWIFT_CLASS("_TtC15WeaponsAndTests11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UILabel;
-@class NSBundle;
 @class NSCoder;
 
+SWIFT_CLASS("_TtC15WeaponsAndTests18CollectionViewCell")
+@interface CollectionViewCell : UICollectionViewCell
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UICollectionView;
+@class NSBundle;
+
 SWIFT_CLASS("_TtC15WeaponsAndTests26WeaponDetailViewController")
-@interface WeaponDetailViewController : UIViewController
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified nameLabel;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified damageLabel;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified nameLabel2;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified damageLabel2;
+@interface WeaponDetailViewController : UIViewController <UICollectionViewDataSource, UICollectionViewDelegate>
+- (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 - (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
@@ -218,7 +224,6 @@ SWIFT_CLASS("_TtC15WeaponsAndTests26WeaponDetailViewController")
 @class UIBarButtonItem;
 @class UITableView;
 @class UITableViewCell;
-@class UIStoryboardSegue;
 
 SWIFT_CLASS("_TtC15WeaponsAndTests25WeaponsListViewController")
 @interface WeaponsListViewController : UITableViewController
@@ -230,7 +235,6 @@ SWIFT_CLASS("_TtC15WeaponsAndTests25WeaponsListViewController")
 - (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 - (void)tableView:(UITableView * _Nonnull)tableView didDeselectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 - (NSString * _Nullable)tableView:(UITableView * _Nonnull)tableView titleForHeaderInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
-- (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
 - (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;

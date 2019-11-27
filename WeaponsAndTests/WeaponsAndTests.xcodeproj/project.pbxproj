@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		DB46781B2388546E00BACD96 /* WeaponsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB46781A2388546E00BACD96 /* WeaponsTest.swift */; };
+		DB46781D238DAB0300BACD96 /* WeaponDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB46781C238DAB0300BACD96 /* WeaponDetailViewController.swift */; };
+		DB46781F238DB6A700BACD96 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB46781E238DB6A700BACD96 /* CollectionViewCell.swift */; };
 		DBDEE509237C7774006E94C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDEE508237C7774006E94C3 /* AppDelegate.swift */; };
 		DBDEE50B237C7774006E94C3 /* WeaponsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDEE50A237C7774006E94C3 /* WeaponsListViewController.swift */; };
 		DBDEE50E237C7774006E94C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBDEE50C237C7774006E94C3 /* Main.storyboard */; };
 		DBDEE510237C7775006E94C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBDEE50F237C7775006E94C3 /* Assets.xcassets */; };
 		DBDEE513237C7775006E94C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBDEE511237C7775006E94C3 /* LaunchScreen.storyboard */; };
 		DBDEE51E237C7775006E94C3 /* WeaponsAndTestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDEE51D237C7775006E94C3 /* WeaponsAndTestsTests.swift */; };
-		DBDEE529237C7857006E94C3 /* WeaponDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDEE528237C7857006E94C3 /* WeaponDetailViewController.swift */; };
 		DBDEE52D237C9E28006E94C3 /* WeaponsStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDEE52C237C9E28006E94C3 /* WeaponsStructs.swift */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,8 @@
 
 /* Begin PBXFileReference section */
 		DB46781A2388546E00BACD96 /* WeaponsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponsTest.swift; sourceTree = "<group>"; };
+		DB46781C238DAB0300BACD96 /* WeaponDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponDetailViewController.swift; sourceTree = "<group>"; };
+		DB46781E238DB6A700BACD96 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		DBDEE505237C7774006E94C3 /* WeaponsAndTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeaponsAndTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBDEE508237C7774006E94C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBDEE50A237C7774006E94C3 /* WeaponsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponsListViewController.swift; sourceTree = "<group>"; };
@@ -40,7 +43,6 @@
 		DBDEE519237C7775006E94C3 /* WeaponsAndTestsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeaponsAndTestsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBDEE51D237C7775006E94C3 /* WeaponsAndTestsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponsAndTestsTests.swift; sourceTree = "<group>"; };
 		DBDEE51F237C7775006E94C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DBDEE528237C7857006E94C3 /* WeaponDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponDetailViewController.swift; sourceTree = "<group>"; };
 		DBDEE52C237C9E28006E94C3 /* WeaponsStructs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponsStructs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -88,8 +90,9 @@
 				DBDEE52C237C9E28006E94C3 /* WeaponsStructs.swift */,
 				DBDEE508237C7774006E94C3 /* AppDelegate.swift */,
 				DBDEE50A237C7774006E94C3 /* WeaponsListViewController.swift */,
-				DBDEE528237C7857006E94C3 /* WeaponDetailViewController.swift */,
 				DBDEE514237C7775006E94C3 /* Info.plist */,
+				DB46781C238DAB0300BACD96 /* WeaponDetailViewController.swift */,
+				DB46781E238DB6A700BACD96 /* CollectionViewCell.swift */,
 			);
 			path = WeaponsAndTests;
 			sourceTree = "<group>";
@@ -222,10 +225,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB46781F238DB6A700BACD96 /* CollectionViewCell.swift in Sources */,
 				DBDEE50B237C7774006E94C3 /* WeaponsListViewController.swift in Sources */,
 				DBDEE52D237C9E28006E94C3 /* WeaponsStructs.swift in Sources */,
+				DB46781D238DAB0300BACD96 /* WeaponDetailViewController.swift in Sources */,
 				DBDEE509237C7774006E94C3 /* AppDelegate.swift in Sources */,
-				DBDEE529237C7857006E94C3 /* WeaponDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

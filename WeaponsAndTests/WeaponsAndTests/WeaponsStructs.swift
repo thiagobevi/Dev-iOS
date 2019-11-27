@@ -18,7 +18,6 @@ struct Weapon : DamageWeaponProtocol, AccuracyWeaponProtocol, Hashable {
     
     var name: String = ""
     let weaponType: WeaponType
-
 }
 
 enum WeaponType {
@@ -32,7 +31,6 @@ enum DamageType {
     case blunt
     case pierce
 }
-
 
 protocol DamageWeaponProtocol {
     var baseDamage: Int {get}

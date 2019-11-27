@@ -14,7 +14,6 @@ class WeaponsListViewController: UITableViewController {
     var getIndexPathSection = 0
     
     var weaponsSelected: [Weapon] = []
-    var sectionTitles = [String]()
     var weaponsDictionary: [String: [Weapon]] = [:]
     
     var longSword = Weapon(baseDamage: 70, damageType: .slash, hitRate: 90, atackSpeed: 80, name: "LongSword", weaponType: .sword)
@@ -26,7 +25,15 @@ class WeaponsListViewController: UITableViewController {
     
 
     @IBAction func compararButton(_ sender: UIBarButtonItem) {
-        performSegue(withIdentifier: "detailSegue", sender: nil)
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "WeaponDetailViewController") as! WeaponDetailViewController
+        
+        vc.weaponsSended.append(weaponsSelected[getIndexPathRow])
+        
+        self.navigationController?.pushViewController(vc, animated: true)
+        
+        
+      
     }
     
     override func viewDidLoad() {
@@ -38,13 +45,8 @@ class WeaponsListViewController: UITableViewController {
         weaponsDictionary["Axe"] = [bigAxe, ironAxe]
         weaponsDictionary["Spear"] = [ironSpear]
         
-        
-        let result  = weaponsDictionary.keys.sorted()
-        print(weaponsDictionary.keys.sorted())
-        print(result)
     }
 
-    
     override func numberOfSections(in tableView: UITableView) -> Int {
         return weaponsDictionary.keys.count
     }
@@ -70,23 +72,14 @@ class WeaponsListViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
         getIndexPathRow = indexPath.row
         getIndexPathSection = indexPath.section
         tableView.cellForRow(at: indexPath)?.accessoryType = .checkmark
         let weapon = currentWeapon(indexPath)
-        //var todosIndexPaths = tableView.indexPathsForSelectedRows
         weaponsSelected.append(weapon!)
-        print(weapon)
-        
-       // performSegue(withIdentifier: "detailSegue", sender: nil)
-        
     }
     
-    private func currentWeapon(_ indexPath: IndexPath) -> Weapon? {
-        let key = weaponsDictionary.keys.sorted()[getIndexPathSection]
-        let listOfWeapons = weaponsDictionary[key]
-        return listOfWeapons?[getIndexPathRow]
-    }
     
     override func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
         getIndexPathRow = indexPath.row
@@ -114,19 +107,10 @@ class WeaponsListViewController: UITableViewController {
         return name
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let secondVC = segue.destination as! WeaponDetailViewController
-//        var key = weaponsDictionary.keys.sorted()[getIndexPathSection]
-//        let listOfWeapons = weaponsDictionary[key]
-//        var weapon = listOfWeapons?[getIndexPathRow]
-        
-        secondVC.nameWeapon1 = weaponsSelected[0].name
-        secondVC.damageWeapon1 = weaponsSelected[0].baseDamage
-        
-        secondVC.nameWeapon2 = weaponsSelected[1].name
-        secondVC.damageWeapon2 = weaponsSelected[1].baseDamage
-
-    
+    private func currentWeapon(_ indexPath: IndexPath) -> Weapon? {
+        let key = weaponsDictionary.keys.sorted()[getIndexPathSection]
+        let listOfWeapons = weaponsDictionary[key]
+        return listOfWeapons?[getIndexPathRow]
     }
         
 

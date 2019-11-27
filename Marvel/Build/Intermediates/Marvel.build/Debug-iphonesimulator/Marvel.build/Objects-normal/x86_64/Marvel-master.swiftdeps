@@ -1,10 +1,10 @@
 version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
 options: "03f3c0280c3277e1d1cbc8184825be82"
-build_time: [1573567140, 639541000]
+build_time: [1574690433, 138071000]
 inputs:
   "/Users/ThiagoBevi/Dev-iOS/Marvel/Marvel/Models/Character.swift": [1572551333, 102796952]
   "/Users/ThiagoBevi/Dev-iOS/Marvel/Marvel/Models/Image.swift": [1572551333, 90774347]
   "/Users/ThiagoBevi/Dev-iOS/Marvel/Marvel/HeroesDetails2.swift": [1572455010, 981659260]
   "/Users/ThiagoBevi/Dev-iOS/Marvel/Marvel/ViewController.swift": [1572454275, 513253569]
-  "/Users/ThiagoBevi/Dev-iOS/Marvel/Marvel/FavoritesTableViewController.swift": [1572455010, 972048017]
+  "/Users/ThiagoBevi/Dev-iOS/Marvel/Marvel/FavoritesTableViewController.swift": [1573569789, 969568849]
   "/Users/ThiagoBevi/Dev-iOS/Marvel/Marvel/AppDelegate.swift": [1572311973, 345209739]
