@@ -222,20 +222,21 @@ SWIFT_CLASS("_TtC15WeaponsAndTests20DetailViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIBarButtonItem;
 
 SWIFT_CLASS("_TtC15WeaponsAndTests25WeaponsListViewController")
 @interface WeaponsListViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UIBarButtonItem * _Null_unspecified addWeaponButton;
+- (IBAction)CompararButton:(id _Nonnull)sender;
 - (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UIBarButtonItem;
 @class UITableView;
 @class UITableViewCell;
 
 @interface WeaponsListViewController (SWIFT_EXTENSION(WeaponsAndTests)) <UITableViewDataSource, UITableViewDelegate>
-- (IBAction)compararButton:(UIBarButtonItem * _Nonnull)sender;
 - (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;

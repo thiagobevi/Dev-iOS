@@ -12,6 +12,7 @@ depends-top-level:
 depends-member:
 - ["15WeaponsAndTests0A8ListViewP", "Weapon"]
 - ["15WeaponsAndTests0A8ListViewP", "addWeaponToList"]
+- ["15WeaponsAndTests0A8ListViewP", "loadWeaponsList"]
 depends-nominal:
 - "15WeaponsAndTests0A8ListViewP"
 depends-dynamic-lookup:
@@ -40,4 +41,4 @@ depends-external:
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "565bfeb9bb6fffa6ac591588b0e6cb28"
+interface-hash: "01b68f2c4b96f8a9c07cc04aecc80f1e"

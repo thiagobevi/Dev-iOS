@@ -6,7 +6,8 @@ provides-nominal:
 provides-member:
 - ["15WeaponsAndTests0A18ListViewControllerC", ""]
 provides-dynamic-lookup:
-- "compararButton"
+- "CompararButton"
+- "addWeaponButton"
 - "numberOfSections"
 - "tableView"
 - "viewDidLoad"
@@ -551,6 +552,7 @@ depends-member:
 - ["So26NSExtensionRequestHandlingP", "viewForZoomingInScrollView"]
 - !private ["So26NSExtensionRequestHandlingP", "weaponsDictionary"]
 - !private ["So26NSExtensionRequestHandlingP", "weaponsSelected"]
+- ["So8NSObjectC", "CompararButton"]
 - !private ["So8NSObjectC", "DetailViewController"]
 - ["So8NSObjectC", "IndexPath"]
 - ["So8NSObjectC", "Int"]
@@ -563,11 +565,11 @@ depends-member:
 - ["So8NSObjectC", "WeaponListPresenter"]
 - !private ["So8NSObjectC", "WeaponsCollection"]
 - !private ["So8NSObjectC", "accessoryType"]
+- ["So8NSObjectC", "addWeaponButton"]
 - !private ["So8NSObjectC", "allowsMultipleSelection"]
 - !private ["So8NSObjectC", "atkSpdWeapon1"]
 - !private ["So8NSObjectC", "atkSpdWeapon2"]
 - !private ["So8NSObjectC", "cellForRow"]
-- ["So8NSObjectC", "compararButton"]
 - ["So8NSObjectC", "currentWeapon"]
 - !private ["So8NSObjectC", "damageWeapon1"]
 - !private ["So8NSObjectC", "damageWeapon2"]
@@ -931,6 +933,7 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "viewForZoomingInScrollView"]
 - !private ["So30UIPasteConfigurationSupportingP", "weaponsDictionary"]
 - !private ["So30UIPasteConfigurationSupportingP", "weaponsSelected"]
+- ["So11UIResponderC", "CompararButton"]
 - !private ["So11UIResponderC", "DetailViewController"]
 - ["So11UIResponderC", "IndexPath"]
 - ["So11UIResponderC", "Int"]
@@ -943,11 +946,11 @@ depends-member:
 - ["So11UIResponderC", "WeaponListPresenter"]
 - !private ["So11UIResponderC", "WeaponsCollection"]
 - !private ["So11UIResponderC", "accessoryType"]
+- ["So11UIResponderC", "addWeaponButton"]
 - !private ["So11UIResponderC", "allowsMultipleSelection"]
 - !private ["So11UIResponderC", "atkSpdWeapon1"]
 - !private ["So11UIResponderC", "atkSpdWeapon2"]
 - !private ["So11UIResponderC", "cellForRow"]
-- ["So11UIResponderC", "compararButton"]
 - ["So11UIResponderC", "currentWeapon"]
 - !private ["So11UIResponderC", "damageWeapon1"]
 - !private ["So11UIResponderC", "damageWeapon2"]
@@ -1295,6 +1298,7 @@ depends-member:
 - !private ["So6UIViewC", "dequeueReusableCell"]
 - !private ["So6UIViewC", "text"]
 - !private ["So6UIViewC", "textLabel"]
+- ["So16UIViewControllerC", "CompararButton"]
 - !private ["So16UIViewControllerC", "DetailViewController"]
 - ["So16UIViewControllerC", "IndexPath"]
 - ["So16UIViewControllerC", "Int"]
@@ -1307,9 +1311,9 @@ depends-member:
 - ["So16UIViewControllerC", "WeaponListPresenter"]
 - !private ["So16UIViewControllerC", "WeaponsCollection"]
 - ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "addWeaponButton"]
 - !private ["So16UIViewControllerC", "atkSpdWeapon1"]
 - !private ["So16UIViewControllerC", "atkSpdWeapon2"]
-- ["So16UIViewControllerC", "compararButton"]
 - ["So16UIViewControllerC", "currentWeapon"]
 - !private ["So16UIViewControllerC", "damageWeapon1"]
 - !private ["So16UIViewControllerC", "damageWeapon2"]
@@ -1358,6 +1362,7 @@ depends-member:
 - !private ["15WeaponsAndTests0A10CollectionC", "init"]
 - !private ["15WeaponsAndTests0A10CollectionC", "spear"]
 - !private ["15WeaponsAndTests0A10CollectionC", "sword"]
+- ["15WeaponsAndTests0A18ListViewControllerC", "CompararButton"]
 - !private ["15WeaponsAndTests0A18ListViewControllerC", "DetailViewController"]
 - ["15WeaponsAndTests0A18ListViewControllerC", "IndexPath"]
 - ["15WeaponsAndTests0A18ListViewControllerC", "Int"]
@@ -1369,7 +1374,7 @@ depends-member:
 - ["15WeaponsAndTests0A18ListViewControllerC", "Weapon"]
 - ["15WeaponsAndTests0A18ListViewControllerC", "WeaponListPresenter"]
 - !private ["15WeaponsAndTests0A18ListViewControllerC", "WeaponsCollection"]
-- ["15WeaponsAndTests0A18ListViewControllerC", "compararButton"]
+- ["15WeaponsAndTests0A18ListViewControllerC", "addWeaponButton"]
 - !private ["15WeaponsAndTests0A18ListViewControllerC", "currentWeapon"]
 - ["15WeaponsAndTests0A18ListViewControllerC", "deinit"]
 - ["15WeaponsAndTests0A18ListViewControllerC", "indexPathForPreferredFocusedView"]
@@ -1596,4 +1601,4 @@ depends-external:
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "3f4432dc4dab655a361ade790a01e51a"
+interface-hash: "0a5d932efb856a3411ae7a59970ef3f3"

@@ -10,10 +10,11 @@ import UIKit
 import Foundation
 class WeaponsListViewController: UIViewController {
     
+   
     var weaponsSelected: [Weapon] = []
     var weaponsDictionary: [String: [Weapon]] = [:]
     var presenter = WeaponListPresenter()
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         let weapons = WeaponsCollection()
@@ -22,27 +23,30 @@ class WeaponsListViewController: UIViewController {
         weaponsDictionary["Axe"] = weapons.axe()
         weaponsDictionary["Spear"] = weapons.spear()
     }
+    
+    @IBOutlet weak var addWeaponButton: UIBarButtonItem!
+    @IBAction func CompararButton(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "DetailViewController") as! DetailViewController
+        print(weaponsSelected)
+        
+        vc.nameWeapon1 = weaponsSelected[0].name
+        vc.atkSpdWeapon1 = weaponsSelected[0].atackSpeed
+        vc.damageWeapon1 = weaponsSelected[0].baseDamage
+        vc.hitRateWeapon1 = weaponsSelected[0].hitRate
+        
+        vc.nameWeapon2 = weaponsSelected[1].name
+        vc.atkSpdWeapon2 = weaponsSelected[1].atackSpeed
+        vc.damageWeapon2 = weaponsSelected[1].baseDamage
+        vc.hitRateWeapon2 = weaponsSelected[1].hitRate
+        
+        self.navigationController?.pushViewController(vc, animated: true)
+        
+    }
 }
     extension WeaponsListViewController: UITableViewDelegate, UITableViewDataSource {
     
-        @IBAction func compararButton(_ sender: UIBarButtonItem) {
-            let storyboard = UIStoryboard(name: "Main", bundle: nil)
-            let vc = storyboard.instantiateViewController(withIdentifier: "DetailViewController") as! DetailViewController
-            print(weaponsSelected)
-            
-            vc.nameWeapon1 = weaponsSelected[0].name
-            vc.atkSpdWeapon1 = weaponsSelected[0].atackSpeed
-            vc.damageWeapon1 = weaponsSelected[0].baseDamage
-            vc.hitRateWeapon1 = weaponsSelected[0].hitRate
-            
-            vc.nameWeapon2 = weaponsSelected[1].name
-            vc.atkSpdWeapon2 = weaponsSelected[1].atackSpeed
-            vc.damageWeapon2 = weaponsSelected[1].baseDamage
-            vc.hitRateWeapon2 = weaponsSelected[1].hitRate
-            
-            self.navigationController?.pushViewController(vc, animated: true)
-        }
-        
+
         func numberOfSections(in tableView: UITableView) -> Int {
             return weaponsDictionary.keys.count
         }

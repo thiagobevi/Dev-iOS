@@ -12,9 +12,10 @@ depends-top-level:
 - "WeaponsListView"
 depends-member:
 - ["15WeaponsAndTests19WeaponListPresenterC", "WeaponsListView"]
+- ["15WeaponsAndTests19WeaponListPresenterC", "atachView"]
 - ["15WeaponsAndTests19WeaponListPresenterC", "detachView"]
 - ["15WeaponsAndTests19WeaponListPresenterC", "init"]
-- !private ["15WeaponsAndTests19WeaponListPresenterC", "weaponView"]
+- ["15WeaponsAndTests19WeaponListPresenterC", "weaponView"]
 depends-nominal:
 - "15WeaponsAndTests19WeaponListPresenterC"
 depends-dynamic-lookup:
