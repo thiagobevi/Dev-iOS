@@ -1,0 +1,289 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CalculadoraHorasTests"
+provides-nominal:
+- "21CalculadoraHorasTestsAAC"
+provides-member:
+- ["21CalculadoraHorasTestsAAC", ""]
+provides-dynamic-lookup:
+- "HorasBancoArraySemana"
+- "setUp"
+- "tearDown"
+- "testBancoHorasSemana"
+- "testCalcularHorasImputadas"
+- "testComparaHorasSaldo0"
+- "testCompararHorasSaldoNegativo"
+- "testCompararHorasSaldoPositivo"
+depends-top-level:
+- !private "<"
+- !private "=="
+- !private ">"
+- "AssignmentPrecedence"
+- "Calculadora"
+- "CalculadoraHorasTests"
+- "Double"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- !private "StringLiteralType"
+- !private "XCTAssert"
+- !private "XCTAssertEqual"
+- !private "XCTAssertTrue"
+- "XCTestCase"
+depends-member:
+- ["Sa", "init"]
+- ["SK", "init"]
+- ["s7CVarArgP", "Calculadora"]
+- ["s7CVarArgP", "Double"]
+- !private ["s7CVarArgP", "HorasBancoArraySemana"]
+- !private ["s7CVarArgP", "XCTAssert"]
+- !private ["s7CVarArgP", "XCTAssertEqual"]
+- !private ["s7CVarArgP", "XCTAssertTrue"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "horasImputadas"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "resultHora"]
+- !private ["s7CVarArgP", "vc"]
+- !private ["16CalculadoraHoras0A0C", "calcularHorasImputadas"]
+- !private ["16CalculadoraHoras0A0C", "compararHorasTrabalhadasDia"]
+- ["16CalculadoraHoras0A0C", "init"]
+- !private ["16CalculadoraHoras0A0C", "somarBancoSemanal"]
+- ["21CalculadoraHorasTestsAAC", "Calculadora"]
+- ["21CalculadoraHorasTestsAAC", "Double"]
+- ["21CalculadoraHorasTestsAAC", "HorasBancoArraySemana"]
+- !private ["21CalculadoraHorasTestsAAC", "XCTAssert"]
+- !private ["21CalculadoraHorasTestsAAC", "XCTAssertEqual"]
+- !private ["21CalculadoraHorasTestsAAC", "XCTAssertTrue"]
+- ["21CalculadoraHorasTestsAAC", "deinit"]
+- ["21CalculadoraHorasTestsAAC", "horasImputadas"]
+- ["21CalculadoraHorasTestsAAC", "init"]
+- ["21CalculadoraHorasTestsAAC", "resultHora"]
+- ["21CalculadoraHorasTestsAAC", "setUp"]
+- ["21CalculadoraHorasTestsAAC", "tearDown"]
+- ["21CalculadoraHorasTestsAAC", "testBancoHorasSemana"]
+- ["21CalculadoraHorasTestsAAC", "testCalcularHorasImputadas"]
+- ["21CalculadoraHorasTestsAAC", "testComparaHorasSaldo0"]
+- ["21CalculadoraHorasTestsAAC", "testCompararHorasSaldoNegativo"]
+- ["21CalculadoraHorasTestsAAC", "testCompararHorasSaldoPositivo"]
+- ["21CalculadoraHorasTestsAAC", "vc"]
+- ["Sl", "init"]
+- ["10Foundation15ContiguousBytesP", "init"]
+- ["s28CustomDebugStringConvertibleP", "Calculadora"]
+- ["s28CustomDebugStringConvertibleP", "Double"]
+- !private ["s28CustomDebugStringConvertibleP", "HorasBancoArraySemana"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTAssert"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTAssertEqual"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTAssertTrue"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "horasImputadas"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "resultHora"]
+- !private ["s28CustomDebugStringConvertibleP", "vc"]
+- ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "Calculadora"]
+- ["s23CustomStringConvertibleP", "Double"]
+- !private ["s23CustomStringConvertibleP", "HorasBancoArraySemana"]
+- !private ["s23CustomStringConvertibleP", "XCTAssert"]
+- !private ["s23CustomStringConvertibleP", "XCTAssertEqual"]
+- !private ["s23CustomStringConvertibleP", "XCTAssertTrue"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "horasImputadas"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "resultHora"]
+- !private ["s23CustomStringConvertibleP", "vc"]
+- ["10Foundation12DataProtocolP", "init"]
+- ["Se", "init"]
+- ["SE", "init"]
+- ["SQ", "Calculadora"]
+- ["SQ", "Double"]
+- !private ["SQ", "HorasBancoArraySemana"]
+- !private ["SQ", "XCTAssert"]
+- !private ["SQ", "XCTAssertEqual"]
+- !private ["SQ", "XCTAssertTrue"]
+- ["SQ", ""]
+- !private ["SQ", "horasImputadas"]
+- ["SQ", "init"]
+- !private ["SQ", "resultHora"]
+- !private ["SQ", "vc"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- ["SH", "Calculadora"]
+- ["SH", "Double"]
+- !private ["SH", "HorasBancoArraySemana"]
+- !private ["SH", "XCTAssert"]
+- !private ["SH", "XCTAssertEqual"]
+- !private ["SH", "XCTAssertTrue"]
+- ["SH", ""]
+- !private ["SH", "horasImputadas"]
+- ["SH", "init"]
+- !private ["SH", "resultHora"]
+- !private ["SH", "vc"]
+- ["SM", "init"]
+- ["10Foundation19MutableDataProtocolP", "init"]
+- ["So8NSObjectC", "Calculadora"]
+- ["So8NSObjectC", "Double"]
+- ["So8NSObjectC", "HorasBancoArraySemana"]
+- !private ["So8NSObjectC", "XCTAssert"]
+- !private ["So8NSObjectC", "XCTAssertEqual"]
+- !private ["So8NSObjectC", "XCTAssertTrue"]
+- ["So8NSObjectC", "horasImputadas"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "resultHora"]
+- ["So8NSObjectC", "setUp"]
+- ["So8NSObjectC", "tearDown"]
+- ["So8NSObjectC", "testBancoHorasSemana"]
+- ["So8NSObjectC", "testCalcularHorasImputadas"]
+- ["So8NSObjectC", "testComparaHorasSaldo0"]
+- ["So8NSObjectC", "testCompararHorasSaldoNegativo"]
+- ["So8NSObjectC", "testCompararHorasSaldoPositivo"]
+- ["So8NSObjectC", "vc"]
+- ["So8NSObjectP", "Calculadora"]
+- ["So8NSObjectP", "Double"]
+- !private ["So8NSObjectP", "HorasBancoArraySemana"]
+- !private ["So8NSObjectP", "XCTAssert"]
+- !private ["So8NSObjectP", "XCTAssertEqual"]
+- !private ["So8NSObjectP", "XCTAssertTrue"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "horasImputadas"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "resultHora"]
+- !private ["So8NSObjectP", "vc"]
+- ["Sk", "init"]
+- ["Sm", "init"]
+- ["ST", "init"]
+- ["So11XCTActivityP", "Calculadora"]
+- ["So11XCTActivityP", "Double"]
+- !private ["So11XCTActivityP", "HorasBancoArraySemana"]
+- !private ["So11XCTActivityP", "XCTAssert"]
+- !private ["So11XCTActivityP", "XCTAssertEqual"]
+- !private ["So11XCTActivityP", "XCTAssertTrue"]
+- ["So11XCTActivityP", ""]
+- !private ["So11XCTActivityP", "horasImputadas"]
+- !private ["So11XCTActivityP", "init"]
+- !private ["So11XCTActivityP", "resultHora"]
+- !private ["So11XCTActivityP", "vc"]
+- ["So17XCTWaiterDelegateP", "Calculadora"]
+- ["So17XCTWaiterDelegateP", "Double"]
+- !private ["So17XCTWaiterDelegateP", "HorasBancoArraySemana"]
+- !private ["So17XCTWaiterDelegateP", "XCTAssert"]
+- !private ["So17XCTWaiterDelegateP", "XCTAssertEqual"]
+- !private ["So17XCTWaiterDelegateP", "XCTAssertTrue"]
+- ["So17XCTWaiterDelegateP", ""]
+- !private ["So17XCTWaiterDelegateP", "horasImputadas"]
+- !private ["So17XCTWaiterDelegateP", "init"]
+- !private ["So17XCTWaiterDelegateP", "resultHora"]
+- !private ["So17XCTWaiterDelegateP", "vc"]
+- ["So6XCTestC", "Calculadora"]
+- ["So6XCTestC", "Double"]
+- ["So6XCTestC", "HorasBancoArraySemana"]
+- !private ["So6XCTestC", "XCTAssert"]
+- !private ["So6XCTestC", "XCTAssertEqual"]
+- !private ["So6XCTestC", "XCTAssertTrue"]
+- ["So6XCTestC", "horasImputadas"]
+- ["So6XCTestC", "init"]
+- ["So6XCTestC", "resultHora"]
+- ["So6XCTestC", "setUp"]
+- ["So6XCTestC", "tearDown"]
+- ["So6XCTestC", "testBancoHorasSemana"]
+- ["So6XCTestC", "testCalcularHorasImputadas"]
+- ["So6XCTestC", "testComparaHorasSaldo0"]
+- ["So6XCTestC", "testCompararHorasSaldoNegativo"]
+- ["So6XCTestC", "testCompararHorasSaldoPositivo"]
+- ["So6XCTestC", "vc"]
+- ["So10XCTestCaseC", "Calculadora"]
+- ["So10XCTestCaseC", "Double"]
+- ["So10XCTestCaseC", "HorasBancoArraySemana"]
+- !private ["So10XCTestCaseC", "XCTAssert"]
+- !private ["So10XCTestCaseC", "XCTAssertEqual"]
+- !private ["So10XCTestCaseC", "XCTAssertTrue"]
+- ["So10XCTestCaseC", ""]
+- ["So10XCTestCaseC", "horasImputadas"]
+- ["So10XCTestCaseC", "init"]
+- ["So10XCTestCaseC", "resultHora"]
+- ["So10XCTestCaseC", "setUp"]
+- ["So10XCTestCaseC", "tearDown"]
+- ["So10XCTestCaseC", "testBancoHorasSemana"]
+- ["So10XCTestCaseC", "testCalcularHorasImputadas"]
+- ["So10XCTestCaseC", "testComparaHorasSaldo0"]
+- ["So10XCTestCaseC", "testCompararHorasSaldoNegativo"]
+- ["So10XCTestCaseC", "testCompararHorasSaldoPositivo"]
+- ["So10XCTestCaseC", "vc"]
+- ["s14_ArrayProtocolP", "init"]
+- ["s24_DestructorSafeContainerP", "init"]
+- ["s19_HasContiguousBytesP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Calculadora"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Double"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "HorasBancoArraySemana"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTAssert"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTAssertEqual"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTAssertTrue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "horasImputadas"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resultHora"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "vc"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- "Sa"
+- "SK"
+- "s7CVarArgP"
+- "16CalculadoraHoras0A0C"
+- "21CalculadoraHorasTestsAAC"
+- "Sl"
+- "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation12DataProtocolP"
+- "Se"
+- "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- "SH"
+- "SM"
+- "10Foundation19MutableDataProtocolP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "Sk"
+- "Sm"
+- "ST"
+- "So11XCTActivityP"
+- "So17XCTWaiterDelegateP"
+- "So6XCTestC"
+- "So10XCTestCaseC"
+- "s14_ArrayProtocolP"
+- "s24_DestructorSafeContainerP"
+- "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/ThiagoBevi/Dev-iOS/CalculadoraHoras/Build/Products/Debug-iphonesimulator/CalculadoraHoras.swiftmodule/x86_64.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/XCTest.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "304b1ee3ffe6c0d91085befb57b8a89a"

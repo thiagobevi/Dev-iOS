@@ -1,0 +1,264 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DetailViewControllerTest"
+provides-nominal:
+- "015WeaponsAndTestsC024DetailViewControllerTestC"
+provides-member:
+- ["015WeaponsAndTestsC024DetailViewControllerTestC", ""]
+provides-dynamic-lookup:
+- "dvc"
+- "setUp"
+- "tearDown"
+- "testIfHitFirstWillBeWeapon1"
+depends-top-level:
+- "DetailViewController"
+- "DetailViewControllerTest"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "StringLiteralType"
+- "Weapon"
+- "XCTestCase"
+- !private "print"
+depends-member:
+- !private ["15WeaponsAndTests22AccuracyWeaponProtocolP", "atackSpeed"]
+- ["15WeaponsAndTests22AccuracyWeaponProtocolP", "init"]
+- ["s7CVarArgP", "DetailViewController"]
+- ["s7CVarArgP", "Weapon"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "dvc"]
+- !private ["s7CVarArgP", "firstAtack"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "wpn1"]
+- !private ["s7CVarArgP", "wpn2"]
+- ["s28CustomDebugStringConvertibleP", "DetailViewController"]
+- ["s28CustomDebugStringConvertibleP", "Weapon"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "dvc"]
+- !private ["s28CustomDebugStringConvertibleP", "firstAtack"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "wpn1"]
+- !private ["s28CustomDebugStringConvertibleP", "wpn2"]
+- ["s23CustomStringConvertibleP", "DetailViewController"]
+- ["s23CustomStringConvertibleP", "Weapon"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "dvc"]
+- !private ["s23CustomStringConvertibleP", "firstAtack"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "wpn1"]
+- !private ["s23CustomStringConvertibleP", "wpn2"]
+- ["15WeaponsAndTests10DamageTypeO", "blunt"]
+- ["15WeaponsAndTests10DamageTypeO", "slash"]
+- !private ["15WeaponsAndTests20DamageWeaponProtocolP", "atackSpeed"]
+- ["15WeaponsAndTests20DamageWeaponProtocolP", "init"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["15WeaponsAndTests20DetailViewControllerC", "firstAtack"]
+- ["15WeaponsAndTests20DetailViewControllerC", "init"]
+- ["015WeaponsAndTestsC024DetailViewControllerTestC", "DetailViewController"]
+- ["015WeaponsAndTestsC024DetailViewControllerTestC", "Weapon"]
+- ["015WeaponsAndTestsC024DetailViewControllerTestC", "deinit"]
+- ["015WeaponsAndTestsC024DetailViewControllerTestC", "dvc"]
+- ["015WeaponsAndTestsC024DetailViewControllerTestC", "init"]
+- !private ["015WeaponsAndTestsC024DetailViewControllerTestC", "print"]
+- ["015WeaponsAndTestsC024DetailViewControllerTestC", "setUp"]
+- ["015WeaponsAndTestsC024DetailViewControllerTestC", "tearDown"]
+- ["015WeaponsAndTestsC024DetailViewControllerTestC", "testIfHitFirstWillBeWeapon1"]
+- ["015WeaponsAndTestsC024DetailViewControllerTestC", "wpn1"]
+- ["015WeaponsAndTestsC024DetailViewControllerTestC", "wpn2"]
+- ["SQ", "DetailViewController"]
+- ["SQ", "Weapon"]
+- ["SQ", ""]
+- !private ["SQ", "atackSpeed"]
+- ["SQ", "axe"]
+- ["SQ", "blunt"]
+- !private ["SQ", "dvc"]
+- !private ["SQ", "firstAtack"]
+- ["SQ", "init"]
+- !private ["SQ", "print"]
+- ["SQ", "slash"]
+- ["SQ", "sword"]
+- !private ["SQ", "wpn1"]
+- !private ["SQ", "wpn2"]
+- ["SH", "DetailViewController"]
+- ["SH", "Weapon"]
+- ["SH", ""]
+- !private ["SH", "atackSpeed"]
+- ["SH", "axe"]
+- ["SH", "blunt"]
+- !private ["SH", "dvc"]
+- !private ["SH", "firstAtack"]
+- ["SH", "init"]
+- !private ["SH", "print"]
+- ["SH", "slash"]
+- ["SH", "sword"]
+- !private ["SH", "wpn1"]
+- !private ["SH", "wpn2"]
+- !private ["So8NSCodingP", "firstAtack"]
+- ["So8NSCodingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "firstAtack"]
+- ["So26NSExtensionRequestHandlingP", "init"]
+- ["So8NSObjectC", "DetailViewController"]
+- ["So8NSObjectC", "Weapon"]
+- ["So8NSObjectC", "dvc"]
+- !private ["So8NSObjectC", "firstAtack"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "setUp"]
+- ["So8NSObjectC", "tearDown"]
+- ["So8NSObjectC", "testIfHitFirstWillBeWeapon1"]
+- ["So8NSObjectC", "wpn1"]
+- ["So8NSObjectC", "wpn2"]
+- ["So8NSObjectP", "DetailViewController"]
+- ["So8NSObjectP", "Weapon"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "dvc"]
+- !private ["So8NSObjectP", "firstAtack"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "wpn1"]
+- !private ["So8NSObjectP", "wpn2"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["So21UIAppearanceContainerP", "firstAtack"]
+- ["So21UIAppearanceContainerP", "init"]
+- !private ["So18UIContentContainerP", "firstAtack"]
+- ["So18UIContentContainerP", "init"]
+- !private ["So18UIFocusEnvironmentP", "firstAtack"]
+- ["So18UIFocusEnvironmentP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "firstAtack"]
+- ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So11UIResponderC", "firstAtack"]
+- ["So11UIResponderC", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "firstAtack"]
+- ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So16UIStateRestoringP", "firstAtack"]
+- ["So16UIStateRestoringP", "init"]
+- !private ["So18UITraitEnvironmentP", "firstAtack"]
+- ["So18UITraitEnvironmentP", "init"]
+- !private ["So23UIUserActivityRestoringP", "firstAtack"]
+- ["So23UIUserActivityRestoringP", "init"]
+- !private ["So16UIViewControllerC", "firstAtack"]
+- ["So16UIViewControllerC", "init"]
+- !private ["15WeaponsAndTests6WeaponV", "atackSpeed"]
+- ["15WeaponsAndTests6WeaponV", "init"]
+- ["15WeaponsAndTests10WeaponTypeO", "axe"]
+- ["15WeaponsAndTests10WeaponTypeO", "sword"]
+- ["So11XCTActivityP", "DetailViewController"]
+- ["So11XCTActivityP", "Weapon"]
+- ["So11XCTActivityP", ""]
+- !private ["So11XCTActivityP", "dvc"]
+- !private ["So11XCTActivityP", "init"]
+- !private ["So11XCTActivityP", "print"]
+- !private ["So11XCTActivityP", "wpn1"]
+- !private ["So11XCTActivityP", "wpn2"]
+- ["So17XCTWaiterDelegateP", "DetailViewController"]
+- ["So17XCTWaiterDelegateP", "Weapon"]
+- ["So17XCTWaiterDelegateP", ""]
+- !private ["So17XCTWaiterDelegateP", "dvc"]
+- !private ["So17XCTWaiterDelegateP", "init"]
+- !private ["So17XCTWaiterDelegateP", "print"]
+- !private ["So17XCTWaiterDelegateP", "wpn1"]
+- !private ["So17XCTWaiterDelegateP", "wpn2"]
+- ["So6XCTestC", "DetailViewController"]
+- ["So6XCTestC", "Weapon"]
+- ["So6XCTestC", "dvc"]
+- ["So6XCTestC", "init"]
+- !private ["So6XCTestC", "print"]
+- ["So6XCTestC", "setUp"]
+- ["So6XCTestC", "tearDown"]
+- ["So6XCTestC", "testIfHitFirstWillBeWeapon1"]
+- ["So6XCTestC", "wpn1"]
+- ["So6XCTestC", "wpn2"]
+- ["So10XCTestCaseC", "DetailViewController"]
+- ["So10XCTestCaseC", "Weapon"]
+- ["So10XCTestCaseC", ""]
+- ["So10XCTestCaseC", "dvc"]
+- ["So10XCTestCaseC", "init"]
+- !private ["So10XCTestCaseC", "print"]
+- ["So10XCTestCaseC", "setUp"]
+- ["So10XCTestCaseC", "tearDown"]
+- ["So10XCTestCaseC", "testIfHitFirstWillBeWeapon1"]
+- ["So10XCTestCaseC", "wpn1"]
+- ["So10XCTestCaseC", "wpn2"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "DetailViewController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Weapon"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dvc"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "firstAtack"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "wpn1"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "wpn2"]
+depends-nominal:
+- "15WeaponsAndTests22AccuracyWeaponProtocolP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "15WeaponsAndTests10DamageTypeO"
+- "15WeaponsAndTests20DamageWeaponProtocolP"
+- !private "s26DefaultStringInterpolationV"
+- "15WeaponsAndTests20DetailViewControllerC"
+- "015WeaponsAndTestsC024DetailViewControllerTestC"
+- "SQ"
+- "SH"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- "So18UIFocusEnvironmentP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So16UIViewControllerC"
+- "15WeaponsAndTests6WeaponV"
+- "15WeaponsAndTests10WeaponTypeO"
+- "So11XCTActivityP"
+- "So17XCTWaiterDelegateP"
+- "So6XCTestC"
+- "So10XCTestCaseC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/ThiagoBevi/Dev-iOS/WeaponsAndTests/Build/Products/Debug-iphonesimulator/WeaponsAndTests.swiftmodule/x86_64.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/XCTest.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "93e69c66c2dd2ad1b2c7202098595d21"

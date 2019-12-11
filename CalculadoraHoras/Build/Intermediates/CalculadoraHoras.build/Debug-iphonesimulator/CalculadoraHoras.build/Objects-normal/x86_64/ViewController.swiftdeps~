@@ -1,0 +1,215 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+provides-nominal:
+- "16CalculadoraHoras14ViewControllerC"
+provides-member:
+- ["16CalculadoraHoras14ViewControllerC", ""]
+provides-dynamic-lookup:
+- "viewDidLoad"
+depends-top-level:
+- "Calculadora"
+- "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "UIViewController"
+- "ViewController"
+- !private "print"
+depends-member:
+- ["s7CVarArgP", "Calculadora"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "array"]
+- !private ["s7CVarArgP", "calculadora"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["16CalculadoraHoras0A0C", "compararHorasTrabalhadasDia"]
+- ["16CalculadoraHoras0A0C", "init"]
+- !private ["16CalculadoraHoras0A0C", "somarBancoSemanal"]
+- ["s28CustomDebugStringConvertibleP", "Calculadora"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "array"]
+- !private ["s28CustomDebugStringConvertibleP", "calculadora"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- ["s23CustomStringConvertibleP", "Calculadora"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "array"]
+- !private ["s23CustomStringConvertibleP", "calculadora"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- ["SQ", "Calculadora"]
+- ["SQ", ""]
+- !private ["SQ", "array"]
+- !private ["SQ", "calculadora"]
+- !private ["SQ", "init"]
+- !private ["SQ", "print"]
+- !private ["SQ", "viewDidLoad"]
+- ["SH", "Calculadora"]
+- ["SH", ""]
+- !private ["SH", "array"]
+- !private ["SH", "calculadora"]
+- !private ["SH", "init"]
+- !private ["SH", "print"]
+- !private ["SH", "viewDidLoad"]
+- ["So8NSCodingP", "Calculadora"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "array"]
+- !private ["So8NSCodingP", "calculadora"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "print"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", "Calculadora"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "array"]
+- !private ["So26NSExtensionRequestHandlingP", "calculadora"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So8NSObjectC", "Calculadora"]
+- ["So8NSObjectC", "array"]
+- ["So8NSObjectC", "calculadora"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectP", "Calculadora"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "array"]
+- !private ["So8NSObjectP", "calculadora"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- ["So21UIAppearanceContainerP", "Calculadora"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "array"]
+- !private ["So21UIAppearanceContainerP", "calculadora"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", "Calculadora"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "array"]
+- !private ["So18UIContentContainerP", "calculadora"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "print"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIFocusEnvironmentP", "Calculadora"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "array"]
+- !private ["So18UIFocusEnvironmentP", "calculadora"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- ["So30UIPasteConfigurationSupportingP", "Calculadora"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "array"]
+- !private ["So30UIPasteConfigurationSupportingP", "calculadora"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So11UIResponderC", "Calculadora"]
+- ["So11UIResponderC", "array"]
+- ["So11UIResponderC", "calculadora"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "print"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", "Calculadora"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "array"]
+- !private ["So30UIResponderStandardEditActionsP", "calculadora"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So16UIStateRestoringP", "Calculadora"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "array"]
+- !private ["So16UIStateRestoringP", "calculadora"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "print"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", "Calculadora"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "array"]
+- !private ["So18UITraitEnvironmentP", "calculadora"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So23UIUserActivityRestoringP", "Calculadora"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "array"]
+- !private ["So23UIUserActivityRestoringP", "calculadora"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "print"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- ["So16UIViewControllerC", "Calculadora"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "array"]
+- ["So16UIViewControllerC", "calculadora"]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "print"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["16CalculadoraHoras14ViewControllerC", "Calculadora"]
+- ["16CalculadoraHoras14ViewControllerC", "array"]
+- ["16CalculadoraHoras14ViewControllerC", "calculadora"]
+- ["16CalculadoraHoras14ViewControllerC", "deinit"]
+- ["16CalculadoraHoras14ViewControllerC", "init"]
+- !private ["16CalculadoraHoras14ViewControllerC", "print"]
+- ["16CalculadoraHoras14ViewControllerC", "viewDidLoad"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Calculadora"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "array"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "calculadora"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+depends-nominal:
+- "s7CVarArgP"
+- "16CalculadoraHoras0A0C"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "SH"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- "So18UIFocusEnvironmentP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So16UIViewControllerC"
+- "16CalculadoraHoras14ViewControllerC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "87f7d341aa2f870f31b200594f817ce2"

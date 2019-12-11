@@ -13,6 +13,7 @@
 		DB467834238EED9D00BACD96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB467833238EED9D00BACD96 /* Assets.xcassets */; };
 		DB467837238EED9E00BACD96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB467835238EED9E00BACD96 /* LaunchScreen.storyboard */; };
 		DB467842238EED9E00BACD96 /* CalculadoraHorasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB467841238EED9E00BACD96 /* CalculadoraHorasTests.swift */; };
+		DB46784D238F08F100BACD96 /* Calculadora.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB46784C238F08F100BACD96 /* Calculadora.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		DB46783D238EED9E00BACD96 /* CalculadoraHorasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculadoraHorasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB467841238EED9E00BACD96 /* CalculadoraHorasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculadoraHorasTests.swift; sourceTree = "<group>"; };
 		DB467843238EED9E00BACD96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB46784C238F08F100BACD96 /* Calculadora.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculadora.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				DB467833238EED9D00BACD96 /* Assets.xcassets */,
 				DB467835238EED9E00BACD96 /* LaunchScreen.storyboard */,
 				DB467838238EED9E00BACD96 /* Info.plist */,
+				DB46784C238F08F100BACD96 /* Calculadora.swift */,
 			);
 			path = CalculadoraHoras;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB46784D238F08F100BACD96 /* Calculadora.swift in Sources */,
 				DB46782F238EED9C00BACD96 /* ViewController.swift in Sources */,
 				DB46782D238EED9C00BACD96 /* AppDelegate.swift in Sources */,
 			);

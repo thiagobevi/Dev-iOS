@@ -1,9 +1,11 @@
 version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
 options: "7b7eb1d542f7fa26eeccdcf5afa392f1"
-build_time: [1574797868, 869839000]
+build_time: [1575641697, 324133000]
 inputs:
-  "/Users/ThiagoBevi/Dev-iOS/WeaponsAndTests/WeaponsAndTests/CollectionViewCell.swift": [1574797868, 756653312]
-  "/Users/ThiagoBevi/Dev-iOS/WeaponsAndTests/WeaponsAndTests/WeaponsListViewController.swift": [1574797868, 783909195]
-  "/Users/ThiagoBevi/Dev-iOS/WeaponsAndTests/WeaponsAndTests/WeaponsStructs.swift": [1574797868, 807077488]
-  "/Users/ThiagoBevi/Dev-iOS/WeaponsAndTests/WeaponsAndTests/WeaponDetailViewController.swift": [1574797868, 773570128]
+  "/Users/ThiagoBevi/Dev-iOS/WeaponsAndTests/Presenter/WeaponListPresenter.swift": [1575640703, 763576367]
+  "/Users/ThiagoBevi/Dev-iOS/WeaponsAndTests/ViewControllers/WeaponsListViewController.swift": !dirty [1575641697, 158306231]
+  "/Users/ThiagoBevi/Dev-iOS/WeaponsAndTests/WeaponsAndTests/WeaponsStructs.swift": [1575296487, 290619976]
   "/Users/ThiagoBevi/Dev-iOS/WeaponsAndTests/WeaponsAndTests/AppDelegate.swift": [1574792789, 19198401]
+  "/Users/ThiagoBevi/Dev-iOS/WeaponsAndTests/View/WeaponsListView.swift": [9223372036, 854775807]
+  "/Users/ThiagoBevi/Dev-iOS/WeaponsAndTests/Model/WeaponsCollection.swift": [1575297714, 793848722]
+  "/Users/ThiagoBevi/Dev-iOS/WeaponsAndTests/ViewControllers/DetailViewController.swift": [1575321927, 271330031]

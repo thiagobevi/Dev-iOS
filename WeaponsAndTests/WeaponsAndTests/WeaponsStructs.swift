@@ -10,11 +10,11 @@ import UIKit
 
 struct Weapon : DamageWeaponProtocol, AccuracyWeaponProtocol, Hashable {
     
-    var baseDamage: Int
+    var baseDamage: Double
     var damageType: DamageType
     
-    var hitRate: Int
-    var atackSpeed: Int
+    var hitRate: Double
+    var atackSpeed: Double
     
     var name: String = ""
     let weaponType: WeaponType
@@ -33,12 +33,12 @@ enum DamageType {
 }
 
 protocol DamageWeaponProtocol {
-    var baseDamage: Int {get}
+    var baseDamage: Double {get}
     var damageType: DamageType {get}
 }
 
 protocol AccuracyWeaponProtocol {
-    var hitRate: Int {get}
-    var atackSpeed: Int {get}
+    var hitRate: Double {get}
+    var atackSpeed: Double {get}
 }
 

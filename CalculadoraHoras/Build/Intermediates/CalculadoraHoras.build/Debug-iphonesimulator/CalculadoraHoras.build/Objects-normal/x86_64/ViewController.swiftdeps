@@ -6,94 +6,448 @@ provides-nominal:
 provides-member:
 - ["16CalculadoraHoras14ViewControllerC", ""]
 provides-dynamic-lookup:
+- "campoPonto"
+- "horasDiaLabel"
+- "incluirBotao"
+- "ponto1Label"
+- "ponto2Label"
+- "ponto3Label"
+- "ponto4Label"
 - "viewDidLoad"
 depends-top-level:
+- !private "??"
+- "Calculadora"
+- "Double"
+- !private "FloatLiteralType"
+- "UILabel"
+- "UITextField"
 - "UIViewController"
 - "ViewController"
+- !private "print"
 depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["Sa", "append"]
+- ["Sa", "init"]
+- !private ["SK", "append"]
+- ["SK", "init"]
+- !private ["SB", "init"]
+- !private ["So15CALayerDelegateP", "text"]
+- ["s7CVarArgP", "Calculadora"]
+- ["s7CVarArgP", "Double"]
 - ["s7CVarArgP", ""]
-- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "arrayHorasDia"]
+- !private ["s7CVarArgP", "bancoHorasSemana"]
+- !private ["s7CVarArgP", "calculadora"]
+- !private ["s7CVarArgP", "campoPonto"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "text"]
 - !private ["s7CVarArgP", "viewDidLoad"]
+- ["16CalculadoraHoras0A0C", "init"]
+- !private ["16CalculadoraHoras0A0C", "somarBancoSemanal"]
+- !private ["Sl", "append"]
+- ["Sl", "init"]
+- !private ["SL", "init"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- ["10Foundation15ContiguousBytesP", "init"]
+- ["s28CustomDebugStringConvertibleP", "Calculadora"]
+- ["s28CustomDebugStringConvertibleP", "Double"]
 - ["s28CustomDebugStringConvertibleP", ""]
-- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "arrayHorasDia"]
+- !private ["s28CustomDebugStringConvertibleP", "bancoHorasSemana"]
+- !private ["s28CustomDebugStringConvertibleP", "calculadora"]
+- !private ["s28CustomDebugStringConvertibleP", "campoPonto"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
 - !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s17CustomReflectableP", "append"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "text"]
+- ["s23CustomStringConvertibleP", "Calculadora"]
+- ["s23CustomStringConvertibleP", "Double"]
 - ["s23CustomStringConvertibleP", ""]
-- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "arrayHorasDia"]
+- !private ["s23CustomStringConvertibleP", "bancoHorasSemana"]
+- !private ["s23CustomStringConvertibleP", "calculadora"]
+- !private ["s23CustomStringConvertibleP", "campoPonto"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "text"]
 - !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- ["10Foundation12DataProtocolP", "init"]
+- !private ["Se", "append"]
+- ["Se", "init"]
+- !private ["Se", "text"]
+- !private ["Sd", "init"]
+- !private ["SE", "append"]
+- ["SE", "init"]
+- !private ["SE", "text"]
+- ["SQ", "Calculadora"]
+- ["SQ", "Double"]
 - ["SQ", ""]
-- !private ["SQ", "init"]
+- !private ["SQ", "append"]
+- !private ["SQ", "arrayHorasDia"]
+- !private ["SQ", "bancoHorasSemana"]
+- !private ["SQ", "calculadora"]
+- !private ["SQ", "campoPonto"]
+- ["SQ", "init"]
+- !private ["SQ", "print"]
+- !private ["SQ", "text"]
 - !private ["SQ", "viewDidLoad"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "text"]
+- !private ["SF", "init"]
+- ["SH", "Calculadora"]
+- ["SH", "Double"]
 - ["SH", ""]
-- !private ["SH", "init"]
+- !private ["SH", "append"]
+- !private ["SH", "arrayHorasDia"]
+- !private ["SH", "bancoHorasSemana"]
+- !private ["SH", "calculadora"]
+- !private ["SH", "campoPonto"]
+- ["SH", "init"]
+- !private ["SH", "print"]
+- !private ["SH", "text"]
 - !private ["SH", "viewDidLoad"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["SM", "append"]
+- ["SM", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- ["10Foundation19MutableDataProtocolP", "init"]
+- ["So8NSCodingP", "Calculadora"]
+- ["So8NSCodingP", "Double"]
 - ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "arrayHorasDia"]
+- !private ["So8NSCodingP", "bancoHorasSemana"]
+- !private ["So8NSCodingP", "calculadora"]
+- !private ["So8NSCodingP", "campoPonto"]
 - !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "print"]
+- !private ["So8NSCodingP", "text"]
 - !private ["So8NSCodingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", "Calculadora"]
+- ["So26NSExtensionRequestHandlingP", "Double"]
 - ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "arrayHorasDia"]
+- !private ["So26NSExtensionRequestHandlingP", "bancoHorasSemana"]
+- !private ["So26NSExtensionRequestHandlingP", "calculadora"]
+- !private ["So26NSExtensionRequestHandlingP", "campoPonto"]
 - !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
 - !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So8NSObjectC", "Calculadora"]
+- ["So8NSObjectC", "Double"]
+- ["So8NSObjectC", "UILabel"]
+- ["So8NSObjectC", "UITextField"]
+- ["So8NSObjectC", "arrayHorasDia"]
+- ["So8NSObjectC", "bancoHorasSemana"]
+- ["So8NSObjectC", "calculadora"]
+- ["So8NSObjectC", "campoPonto"]
+- ["So8NSObjectC", "horasDiaLabel"]
+- ["So8NSObjectC", "incluirBotao"]
 - ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "ponto1Label"]
+- ["So8NSObjectC", "ponto2Label"]
+- ["So8NSObjectC", "ponto3Label"]
+- ["So8NSObjectC", "ponto4Label"]
+- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "text"]
 - ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectP", "Calculadora"]
+- ["So8NSObjectP", "Double"]
 - ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "arrayHorasDia"]
+- !private ["So8NSObjectP", "bancoHorasSemana"]
+- !private ["So8NSObjectP", "calculadora"]
+- !private ["So8NSObjectP", "campoPonto"]
 - !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "text"]
 - !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["Sj", "init"]
+- !private ["Sq", "text"]
+- !private ["Sk", "append"]
+- ["Sk", "init"]
+- !private ["Sm", "append"]
+- ["Sm", "init"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "append"]
+- ["ST", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So12UIAppearanceP", "text"]
+- ["So21UIAppearanceContainerP", "Calculadora"]
+- ["So21UIAppearanceContainerP", "Double"]
 - ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "arrayHorasDia"]
+- !private ["So21UIAppearanceContainerP", "bancoHorasSemana"]
+- !private ["So21UIAppearanceContainerP", "calculadora"]
+- !private ["So21UIAppearanceContainerP", "campoPonto"]
 - !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- !private ["So21UIAppearanceContainerP", "text"]
 - !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", "Calculadora"]
+- ["So18UIContentContainerP", "Double"]
 - ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "arrayHorasDia"]
+- !private ["So18UIContentContainerP", "bancoHorasSemana"]
+- !private ["So18UIContentContainerP", "calculadora"]
+- !private ["So18UIContentContainerP", "campoPonto"]
 - !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "print"]
 - !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So9UIControlC", "text"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So13UIDynamicItemP", "text"]
+- ["So18UIFocusEnvironmentP", "Calculadora"]
+- ["So18UIFocusEnvironmentP", "Double"]
 - ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "arrayHorasDia"]
+- !private ["So18UIFocusEnvironmentP", "bancoHorasSemana"]
+- !private ["So18UIFocusEnvironmentP", "calculadora"]
+- !private ["So18UIFocusEnvironmentP", "campoPonto"]
 - !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- !private ["So18UIFocusEnvironmentP", "text"]
 - !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So20UIFocusItemContainerP", "text"]
+- !private ["So10UIKeyInputP", "text"]
+- ["So30UIPasteConfigurationSupportingP", "Calculadora"]
+- ["So30UIPasteConfigurationSupportingP", "Double"]
 - ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "arrayHorasDia"]
+- !private ["So30UIPasteConfigurationSupportingP", "bancoHorasSemana"]
+- !private ["So30UIPasteConfigurationSupportingP", "calculadora"]
+- !private ["So30UIPasteConfigurationSupportingP", "campoPonto"]
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
 - !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So11UIResponderC", "Calculadora"]
+- ["So11UIResponderC", "Double"]
+- ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", "UITextField"]
+- ["So11UIResponderC", "arrayHorasDia"]
+- ["So11UIResponderC", "bancoHorasSemana"]
+- ["So11UIResponderC", "calculadora"]
+- ["So11UIResponderC", "campoPonto"]
+- ["So11UIResponderC", "horasDiaLabel"]
+- ["So11UIResponderC", "incluirBotao"]
 - ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "ponto1Label"]
+- ["So11UIResponderC", "ponto2Label"]
+- ["So11UIResponderC", "ponto3Label"]
+- ["So11UIResponderC", "ponto4Label"]
+- !private ["So11UIResponderC", "print"]
+- !private ["So11UIResponderC", "text"]
 - ["So11UIResponderC", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", "Calculadora"]
+- ["So30UIResponderStandardEditActionsP", "Double"]
 - ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "arrayHorasDia"]
+- !private ["So30UIResponderStandardEditActionsP", "bancoHorasSemana"]
+- !private ["So30UIResponderStandardEditActionsP", "calculadora"]
+- !private ["So30UIResponderStandardEditActionsP", "campoPonto"]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
 - !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So16UIStateRestoringP", "Calculadora"]
+- ["So16UIStateRestoringP", "Double"]
 - ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "arrayHorasDia"]
+- !private ["So16UIStateRestoringP", "bancoHorasSemana"]
+- !private ["So16UIStateRestoringP", "calculadora"]
+- !private ["So16UIStateRestoringP", "campoPonto"]
 - !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "print"]
 - !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So15UITextDraggableP", "text"]
+- !private ["So15UITextDroppableP", "text"]
+- !private ["So11UITextFieldC", "text"]
+- !private ["So11UITextInputP", "text"]
+- !private ["So17UITextInputTraitsP", "text"]
+- !private ["So34UITextPasteConfigurationSupportingP", "text"]
+- ["So18UITraitEnvironmentP", "Calculadora"]
+- ["So18UITraitEnvironmentP", "Double"]
 - ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "arrayHorasDia"]
+- !private ["So18UITraitEnvironmentP", "bancoHorasSemana"]
+- !private ["So18UITraitEnvironmentP", "calculadora"]
+- !private ["So18UITraitEnvironmentP", "campoPonto"]
 - !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- !private ["So18UITraitEnvironmentP", "text"]
 - !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So23UIUserActivityRestoringP", "Calculadora"]
+- ["So23UIUserActivityRestoringP", "Double"]
 - ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "arrayHorasDia"]
+- !private ["So23UIUserActivityRestoringP", "bancoHorasSemana"]
+- !private ["So23UIUserActivityRestoringP", "calculadora"]
+- !private ["So23UIUserActivityRestoringP", "campoPonto"]
 - !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "print"]
+- !private ["So23UIUserActivityRestoringP", "text"]
 - !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So6UIViewC", "text"]
+- ["So16UIViewControllerC", "Calculadora"]
+- ["So16UIViewControllerC", "Double"]
+- ["So16UIViewControllerC", "UILabel"]
+- ["So16UIViewControllerC", "UITextField"]
 - ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "arrayHorasDia"]
+- ["So16UIViewControllerC", "bancoHorasSemana"]
+- ["So16UIViewControllerC", "calculadora"]
+- ["So16UIViewControllerC", "campoPonto"]
+- ["So16UIViewControllerC", "horasDiaLabel"]
+- ["So16UIViewControllerC", "incluirBotao"]
 - ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "ponto1Label"]
+- ["So16UIViewControllerC", "ponto2Label"]
+- ["So16UIViewControllerC", "ponto3Label"]
+- ["So16UIViewControllerC", "ponto4Label"]
+- !private ["So16UIViewControllerC", "print"]
 - ["So16UIViewControllerC", "viewDidLoad"]
+- ["16CalculadoraHoras14ViewControllerC", "Calculadora"]
+- ["16CalculadoraHoras14ViewControllerC", "Double"]
+- ["16CalculadoraHoras14ViewControllerC", "UILabel"]
+- ["16CalculadoraHoras14ViewControllerC", "UITextField"]
+- ["16CalculadoraHoras14ViewControllerC", "arrayHorasDia"]
+- ["16CalculadoraHoras14ViewControllerC", "bancoHorasSemana"]
+- ["16CalculadoraHoras14ViewControllerC", "calculadora"]
+- ["16CalculadoraHoras14ViewControllerC", "campoPonto"]
 - ["16CalculadoraHoras14ViewControllerC", "deinit"]
+- ["16CalculadoraHoras14ViewControllerC", "horasDiaLabel"]
+- ["16CalculadoraHoras14ViewControllerC", "incluirBotao"]
 - ["16CalculadoraHoras14ViewControllerC", "init"]
+- ["16CalculadoraHoras14ViewControllerC", "ponto1Label"]
+- ["16CalculadoraHoras14ViewControllerC", "ponto2Label"]
+- ["16CalculadoraHoras14ViewControllerC", "ponto3Label"]
+- ["16CalculadoraHoras14ViewControllerC", "ponto4Label"]
+- !private ["16CalculadoraHoras14ViewControllerC", "print"]
 - ["16CalculadoraHoras14ViewControllerC", "viewDidLoad"]
+- !private ["s14_ArrayProtocolP", "append"]
+- ["s14_ArrayProtocolP", "init"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- ["s24_DestructorSafeContainerP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- ["s19_HasContiguousBytesP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Calculadora"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Double"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "arrayHorasDia"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bancoHorasSemana"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "calculadora"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "campoPonto"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "text"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "text"]
 depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- "Sa"
+- "SK"
+- !private "SB"
+- !private "So15CALayerDelegateP"
 - "s7CVarArgP"
+- "16CalculadoraHoras0A0C"
+- "Sl"
+- !private "SL"
+- "10Foundation15ContiguousBytesP"
 - "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
+- "10Foundation12DataProtocolP"
+- "Se"
+- !private "Sd"
+- "SE"
 - "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "SF"
 - "SH"
+- !private "s25LosslessStringConvertibleP"
+- "SM"
+- "10Foundation19MutableDataProtocolP"
 - "So8NSCodingP"
 - "So26NSExtensionRequestHandlingP"
 - "So8NSObjectC"
 - "So8NSObjectP"
+- !private "Sj"
+- !private "Sq"
+- "Sk"
+- "Sm"
+- !private "s10SIMDScalarP"
+- "ST"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
 - "So21UIAppearanceContainerP"
 - "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So9UIControlC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
 - "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So10UIKeyInputP"
 - "So30UIPasteConfigurationSupportingP"
 - "So11UIResponderC"
 - "So30UIResponderStandardEditActionsP"
 - "So16UIStateRestoringP"
+- !private "So15UITextDraggableP"
+- !private "So15UITextDroppableP"
+- !private "So11UITextFieldC"
+- !private "So11UITextInputP"
+- !private "So17UITextInputTraitsP"
+- !private "So34UITextPasteConfigurationSupportingP"
 - "So18UITraitEnvironmentP"
 - "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
 - "So16UIViewControllerC"
 - "16CalculadoraHoras14ViewControllerC"
+- "s14_ArrayProtocolP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- "s24_DestructorSafeContainerP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
 - "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
 depends-dynamic-lookup:
 depends-external:
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
@@ -120,4 +474,4 @@ depends-external:
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "939bb7e8c3a7b4567ab8b8d960798a84"
+interface-hash: "966f930a29e916ba9a58b81eb336cb92"

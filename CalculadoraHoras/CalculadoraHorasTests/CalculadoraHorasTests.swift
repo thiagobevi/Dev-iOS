@@ -11,24 +11,73 @@ import XCTest
 
 class CalculadoraHorasTests: XCTestCase {
 
+    var horasImputadas: Double!
+    var vc = Calculadora()
+    var resultHora: Double!
+    var HorasBancoArraySemana = [Double]()
+    
     override func setUp() {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+       
+        
     }
 
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testCalcularHorasImputadas() {
+        //Given
+        let arrayPontosDia = [8.0, 12.0, 13.0, 17.0]
+       
+        //When
+        let resulHoraPontoDia = vc.calcularHorasImputadas(arrayHorasDia: arrayPontosDia)
+        
+        //Then
+        XCTAssert(resulHoraPontoDia == 8, "Deveria ser 8 horas exatas")
+    }
+    
+    func testCompararHorasSaldoPositivo() {
+        //given
+        horasImputadas = 9
+       
+        //when
+       resultHora = vc.compararHorasTrabalhadasDia(horaImputada: horasImputadas)
+        
+        //then
+        XCTAssertTrue(resultHora > 0, "horas deveriam ser positivas")
     }
 
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    func testCompararHorasSaldoNegativo() {
+        //given
+        horasImputadas = 7
+        
+        //when
+        resultHora = vc.compararHorasTrabalhadasDia(horaImputada: horasImputadas)
+        
+        //then
+        XCTAssertTrue(resultHora < 0, "Horas deveriam ser negativas")
+    }
+    
+    func testComparaHorasSaldo0() {
+        //given
+        horasImputadas = 8
+        
+        //when
+        resultHora = vc.compararHorasTrabalhadasDia(horaImputada: horasImputadas)
+        
+        //then
+        XCTAssertTrue(resultHora == 0, "Horas saldo deve ser exatamente 0")
+    }
+    
+    func testBancoHorasSemana() {
+        //given
+        HorasBancoArraySemana = [-1.0, 2.0, 1.0, 1.0, 0.5]
+        
+        //when
+        let reesultBanco = vc.somarBancoSemanal(arrayHorasDiff: HorasBancoArraySemana)
+        
+        //then
+        XCTAssertEqual(reesultBanco, 3.5)
     }
 
 }

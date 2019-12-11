@@ -24,9 +24,9 @@ depends-top-level:
 - !private "BooleanLiteralType"
 - "DamageType"
 - "DamageWeaponProtocol"
+- "Double"
 - !private "FloatLiteralType"
 - "Hashable"
-- "Int"
 - !private "IntegerLiteralType"
 - "String"
 - "StringLiteralType"
@@ -34,7 +34,7 @@ depends-top-level:
 - "WeaponType"
 depends-member:
 - ["15WeaponsAndTests22AccuracyWeaponProtocolP", "=="]
-- ["15WeaponsAndTests22AccuracyWeaponProtocolP", "Int"]
+- ["15WeaponsAndTests22AccuracyWeaponProtocolP", "Double"]
 - ["15WeaponsAndTests22AccuracyWeaponProtocolP", ""]
 - ["15WeaponsAndTests22AccuracyWeaponProtocolP", "_rawHashValue"]
 - ["15WeaponsAndTests22AccuracyWeaponProtocolP", "atackSpeed"]
@@ -54,7 +54,7 @@ depends-member:
 - ["15WeaponsAndTests10DamageTypeO", "slash"]
 - ["15WeaponsAndTests20DamageWeaponProtocolP", "=="]
 - ["15WeaponsAndTests20DamageWeaponProtocolP", "DamageType"]
-- ["15WeaponsAndTests20DamageWeaponProtocolP", "Int"]
+- ["15WeaponsAndTests20DamageWeaponProtocolP", "Double"]
 - ["15WeaponsAndTests20DamageWeaponProtocolP", ""]
 - ["15WeaponsAndTests20DamageWeaponProtocolP", "_rawHashValue"]
 - ["15WeaponsAndTests20DamageWeaponProtocolP", "atackSpeed"]
@@ -84,7 +84,7 @@ depends-member:
 - !private ["s6HasherV", "combine"]
 - ["15WeaponsAndTests6WeaponV", "=="]
 - ["15WeaponsAndTests6WeaponV", "DamageType"]
-- ["15WeaponsAndTests6WeaponV", "Int"]
+- ["15WeaponsAndTests6WeaponV", "Double"]
 - ["15WeaponsAndTests6WeaponV", "String"]
 - ["15WeaponsAndTests6WeaponV", "WeaponType"]
 - ["15WeaponsAndTests6WeaponV", "__derived_struct_equals"]
@@ -143,4 +143,4 @@ depends-external:
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "138ca94fab0c063916b2ff4f265c5310"
+interface-hash: "bb3db34d9fe9bd500c8b7c2693d4583f"
