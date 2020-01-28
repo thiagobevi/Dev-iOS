@@ -1,21 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Bucket
+   uuid = "9199B2B1-0777-4976-8F9D-FB368C32B655"
    type = "0"
    version = "2.0">
    <Breakpoints>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "71CAF012-51A7-4DAA-8025-CE26699ACC4F"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Marvel/Search/SearchHeroeViewController.swift"
-            timestampString = "597776343.7104371"
+            filePath = "Marvel/Search/SearchHeroPresenter.swift"
+            timestampString = "0"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
-            landmarkName = "showDetails(idChar:nameChar:descriptionChar:)"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "searchByHero(name:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E2BB7161-B5F3-4F4E-9661-FB0E56CC0229"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Marvel/Search/SearchHeroPresenter.swift"
+            timestampString = "0"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "searchByHero(name:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "02B852CA-4A69-4C67-A5FA-BE2012D11897"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Marvel/Search/SearchHeroPresenter.swift"
+            timestampString = "0"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "searchByHero(name:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -25,13 +61,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Marvel/Search/SearchHeroPresenter.swift"
-            timestampString = "597776343.710519"
+            filePath = "Marvel/Search/SearchHeroService.swift"
+            timestampString = "599070247.987085"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "64"
-            endingLineNumber = "64"
-            landmarkName = "updateMarvelData(json:)"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "getMarvelHeroesData(name:completion:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

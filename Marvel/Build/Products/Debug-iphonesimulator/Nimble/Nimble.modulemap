@@ -1,0 +1,12 @@
+module Nimble {
+  umbrella header "Nimble-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+
+module Nimble.Swift {
+  header "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Nimble/Swift Compatibility Header/Nimble-Swift.h"
+  requires objc
+}

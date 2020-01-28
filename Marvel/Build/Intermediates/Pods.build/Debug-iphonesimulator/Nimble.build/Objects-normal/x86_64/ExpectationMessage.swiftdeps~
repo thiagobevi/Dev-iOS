@@ -1,0 +1,336 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ExpectationMessage"
+- "NMBExpectationMessage"
+provides-nominal:
+- "6Nimble18ExpectationMessageO"
+- "6Nimble21NMBExpectationMessageC"
+provides-member:
+- ["6Nimble18ExpectationMessageO", ""]
+- ["6Nimble14FailureMessageC", ""]
+- ["6Nimble21NMBExpectationMessageC", ""]
+- ["6Nimble14FailureMessageC", "toExpectationMessage"]
+- ["6Nimble18ExpectationMessageO", "toObjectiveC"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&&"
+- !private "+"
+- !private "=="
+- !private "??"
+- "AssignmentPrecedence"
+- "ExpectationMessage"
+- "FailureMessage"
+- "NMBExpectationMessage"
+- "NSObject"
+- "String"
+- !private "||"
+depends-member:
+- !private ["SK", "isEmpty"]
+- !private ["s7CVarArgP", "FailureMessage"]
+- !private ["s7CVarArgP", "NMBExpectationMessage"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_stringValueOverride"]
+- !private ["s7CVarArgP", "actualValue"]
+- !private ["s7CVarArgP", "appendDetails"]
+- !private ["s7CVarArgP", "appendMessage"]
+- !private ["s7CVarArgP", "expected"]
+- !private ["s7CVarArgP", "extendedMessage"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "msg"]
+- !private ["s7CVarArgP", "postfixActual"]
+- !private ["s7CVarArgP", "postfixMessage"]
+- !private ["s7CVarArgP", "stringValue"]
+- !private ["s7CVarArgP", "userDescription"]
+- !private ["Sl", "isEmpty"]
+- !private ["SL", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "FailureMessage"]
+- !private ["s28CustomDebugStringConvertibleP", "NMBExpectationMessage"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "_stringValueOverride"]
+- !private ["s28CustomDebugStringConvertibleP", "actualValue"]
+- !private ["s28CustomDebugStringConvertibleP", "appendDetails"]
+- !private ["s28CustomDebugStringConvertibleP", "appendMessage"]
+- !private ["s28CustomDebugStringConvertibleP", "expected"]
+- !private ["s28CustomDebugStringConvertibleP", "extendedMessage"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "msg"]
+- !private ["s28CustomDebugStringConvertibleP", "postfixActual"]
+- !private ["s28CustomDebugStringConvertibleP", "postfixMessage"]
+- !private ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s28CustomDebugStringConvertibleP", "userDescription"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "FailureMessage"]
+- !private ["s23CustomStringConvertibleP", "NMBExpectationMessage"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_stringValueOverride"]
+- !private ["s23CustomStringConvertibleP", "actualValue"]
+- !private ["s23CustomStringConvertibleP", "appendDetails"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "appendMessage"]
+- !private ["s23CustomStringConvertibleP", "expected"]
+- !private ["s23CustomStringConvertibleP", "extendedMessage"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "msg"]
+- !private ["s23CustomStringConvertibleP", "postfixActual"]
+- !private ["s23CustomStringConvertibleP", "postfixMessage"]
+- !private ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["s23CustomStringConvertibleP", "userDescription"]
+- !private ["Se", "isEmpty"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "isEmpty"]
+- !private ["SQ", "FailureMessage"]
+- !private ["SQ", "NMBExpectationMessage"]
+- ["SQ", ""]
+- !private ["SQ", "_stringValueOverride"]
+- !private ["SQ", "actualValue"]
+- !private ["SQ", "appendDetails"]
+- !private ["SQ", "appendMessage"]
+- !private ["SQ", "expected"]
+- !private ["SQ", "extendedMessage"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "msg"]
+- !private ["SQ", "postfixActual"]
+- !private ["SQ", "postfixMessage"]
+- !private ["SQ", "stringValue"]
+- !private ["SQ", "userDescription"]
+- ["6Nimble18ExpectationMessageO", "ExpectationMessage"]
+- ["6Nimble18ExpectationMessageO", "FailureMessage"]
+- ["6Nimble18ExpectationMessageO", "NMBExpectationMessage"]
+- ["6Nimble18ExpectationMessageO", "String"]
+- ["6Nimble18ExpectationMessageO", "appended"]
+- ["6Nimble18ExpectationMessageO", "appendedBeNilHint"]
+- ["6Nimble18ExpectationMessageO", "appends"]
+- ["6Nimble18ExpectationMessageO", "details"]
+- ["6Nimble18ExpectationMessageO", "expectedActualValueTo"]
+- ["6Nimble18ExpectationMessageO", "expectedCustomValueTo"]
+- ["6Nimble18ExpectationMessageO", "expectedMessage"]
+- ["6Nimble18ExpectationMessageO", "expectedTo"]
+- ["6Nimble18ExpectationMessageO", "fail"]
+- ["6Nimble18ExpectationMessageO", "prepended"]
+- ["6Nimble18ExpectationMessageO", "prepends"]
+- ["6Nimble18ExpectationMessageO", "replacedExpectation"]
+- ["6Nimble18ExpectationMessageO", "sampleMessage"]
+- ["6Nimble18ExpectationMessageO", "toObjectiveC"]
+- ["6Nimble18ExpectationMessageO", "toString"]
+- ["6Nimble18ExpectationMessageO", "update"]
+- ["6Nimble18ExpectationMessageO", "visitLeafs"]
+- ["6Nimble18ExpectationMessageO", "wrappedExpectation"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s32ExpressibleByStringInterpolationP", "isEmpty"]
+- !private ["s26ExpressibleByStringLiteralP", "isEmpty"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isEmpty"]
+- ["6Nimble14FailureMessageC", "ExpectationMessage"]
+- !private ["6Nimble14FailureMessageC", "FailureMessage"]
+- !private ["6Nimble14FailureMessageC", "_stringValueOverride"]
+- !private ["6Nimble14FailureMessageC", "actualValue"]
+- !private ["6Nimble14FailureMessageC", "appendDetails"]
+- !private ["6Nimble14FailureMessageC", "appendMessage"]
+- !private ["6Nimble14FailureMessageC", "expected"]
+- !private ["6Nimble14FailureMessageC", "extendedMessage"]
+- !private ["6Nimble14FailureMessageC", "init"]
+- !private ["6Nimble14FailureMessageC", "postfixActual"]
+- !private ["6Nimble14FailureMessageC", "postfixMessage"]
+- !private ["6Nimble14FailureMessageC", "stringValue"]
+- ["6Nimble14FailureMessageC", "toExpectationMessage"]
+- !private ["6Nimble14FailureMessageC", "userDescription"]
+- !private ["SH", "FailureMessage"]
+- !private ["SH", "NMBExpectationMessage"]
+- ["SH", ""]
+- !private ["SH", "_stringValueOverride"]
+- !private ["SH", "actualValue"]
+- !private ["SH", "appendDetails"]
+- !private ["SH", "appendMessage"]
+- !private ["SH", "expected"]
+- !private ["SH", "extendedMessage"]
+- !private ["SH", "init"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "msg"]
+- !private ["SH", "postfixActual"]
+- !private ["SH", "postfixMessage"]
+- !private ["SH", "stringValue"]
+- !private ["SH", "userDescription"]
+- !private ["s25LosslessStringConvertibleP", "isEmpty"]
+- !private ["s10MirrorPathP", "isEmpty"]
+- !private ["6Nimble13NMBComparableP", "isEmpty"]
+- ["6Nimble21NMBExpectationMessageC", "ExpectationMessage"]
+- ["6Nimble21NMBExpectationMessageC", "NMBExpectationMessage"]
+- ["6Nimble21NMBExpectationMessageC", "String"]
+- ["6Nimble21NMBExpectationMessageC", "appendedBeNilHint"]
+- ["6Nimble21NMBExpectationMessageC", "deinit"]
+- ["6Nimble21NMBExpectationMessageC", "init"]
+- !private ["6Nimble21NMBExpectationMessageC", "msg"]
+- ["6Nimble21NMBExpectationMessageC", "toSwift"]
+- !private ["So8NSCodingP", "isEmpty"]
+- !private ["So9NSCopyingP", "isEmpty"]
+- !private ["So21NSItemProviderReadingP", "isEmpty"]
+- !private ["So21NSItemProviderWritingP", "isEmpty"]
+- !private ["So16NSMutableCopyingP", "isEmpty"]
+- ["So8NSObjectC", "ExpectationMessage"]
+- !private ["So8NSObjectC", "FailureMessage"]
+- ["So8NSObjectC", "NMBExpectationMessage"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "_stringValueOverride"]
+- !private ["So8NSObjectC", "actualValue"]
+- !private ["So8NSObjectC", "appendDetails"]
+- !private ["So8NSObjectC", "appendMessage"]
+- ["So8NSObjectC", "appendedBeNilHint"]
+- !private ["So8NSObjectC", "expected"]
+- !private ["So8NSObjectC", "extendedMessage"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isEmpty"]
+- ["So8NSObjectC", "msg"]
+- !private ["So8NSObjectC", "postfixActual"]
+- !private ["So8NSObjectC", "postfixMessage"]
+- !private ["So8NSObjectC", "stringValue"]
+- ["So8NSObjectC", "toExpectationMessage"]
+- ["So8NSObjectC", "toSwift"]
+- !private ["So8NSObjectC", "userDescription"]
+- !private ["So8NSObjectP", "FailureMessage"]
+- !private ["So8NSObjectP", "NMBExpectationMessage"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "_stringValueOverride"]
+- !private ["So8NSObjectP", "actualValue"]
+- !private ["So8NSObjectP", "appendDetails"]
+- !private ["So8NSObjectP", "appendMessage"]
+- !private ["So8NSObjectP", "expected"]
+- !private ["So8NSObjectP", "extendedMessage"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isEmpty"]
+- !private ["So8NSObjectP", "msg"]
+- !private ["So8NSObjectP", "postfixActual"]
+- !private ["So8NSObjectP", "postfixMessage"]
+- !private ["So8NSObjectP", "stringValue"]
+- !private ["So8NSObjectP", "userDescription"]
+- !private ["So14NSSecureCodingP", "isEmpty"]
+- !private ["So8NSStringC", "isEmpty"]
+- !private ["Sm", "isEmpty"]
+- !private ["ST", "isEmpty"]
+- !private ["SS", "isEmpty"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["Sy", "isEmpty"]
+- !private ["6Nimble27TestOutputStringConvertibleP", "isEmpty"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "isEmpty"]
+- !private ["s20TextOutputStreamableP", "isEmpty"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "isEmpty"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "isEmpty"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isEmpty"]
+- !private ["s19_HasContiguousBytesP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "FailureMessage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NMBExpectationMessage"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_stringValueOverride"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "actualValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "appendDetails"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "appendMessage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "expected"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "extendedMessage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isEmpty"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "msg"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "postfixActual"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "postfixMessage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stringValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "userDescription"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+depends-nominal:
+- !private "SK"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SE"
+- "SQ"
+- "6Nimble18ExpectationMessageO"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "6Nimble14FailureMessageC"
+- "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "6Nimble13NMBComparableP"
+- "6Nimble21NMBExpectationMessageC"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sm"
+- !private "ST"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "6Nimble27TestOutputStringConvertibleP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/XCTest.swiftmodule"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Headers/Public/Nimble/DSL.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Headers/Public/Nimble/Nimble-umbrella.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Headers/Public/Nimble/Nimble.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Headers/Public/Nimble/NMBExceptionCapture.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Headers/Public/Nimble/CwlPreconditionTesting.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Headers/Public/Nimble/CwlCatchException.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Headers/Public/Nimble/CwlMachBadInstructionHandler.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Headers/Public/Nimble/mach_excServer.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Headers/Public/Nimble/NMBStringify.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Headers/Public/Nimble/Nimble.modulemap"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "dfadbb0a8db42a7f12f00bf4c6c27293"

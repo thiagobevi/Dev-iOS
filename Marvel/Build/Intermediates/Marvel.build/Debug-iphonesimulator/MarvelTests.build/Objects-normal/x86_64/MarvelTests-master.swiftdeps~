@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "77ed5a5963733d9175e14f941d847b49"
+build_time: [1576099036, 10814000]
+inputs:
+  "/Users/ThiagoBevi/Dev-iOS/Marvel/MarvelTests/MarvelTests.swift": [1576089359, 221866055]
+  "/Users/ThiagoBevi/Dev-iOS/Marvel/MarvelTests/SearchHeroPresenterTests.swift": [1576098928, 723216468]

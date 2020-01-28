@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "41e1ba3823f2ae6396b3fb2c75f7c2ba"
+build_time: [1575895527, 358235000]
+inputs:
+  "/Users/ThiagoBevi/Dev-iOS/TraficLight/TraficLight/Model/TrafficLightService.swift": [1575662951, 816284682]
+  "/Users/ThiagoBevi/Dev-iOS/TraficLight/TraficLight/View/ViewController.swift": [1575654621, 322640863]
+  "/Users/ThiagoBevi/Dev-iOS/TraficLight/TraficLight/AppDelegate.swift": [1575654621, 318482752]
+  "/Users/ThiagoBevi/Dev-iOS/TraficLight/TraficLight/Model/TrafficLight.swift": [1575654856, 522576288]

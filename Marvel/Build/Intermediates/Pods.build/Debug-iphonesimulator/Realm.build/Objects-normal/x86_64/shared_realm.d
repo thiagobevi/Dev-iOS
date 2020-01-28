@@ -15,9 +15,9 @@ dependencies: \
   /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/audit.hpp \
   /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/binding_context.hpp \
   /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/list.hpp \
+  /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/object.hpp \
   /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/property.hpp \
   /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/util/tagged_bool.hpp \
-  /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/object.hpp \
   /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/object_schema.hpp \
   /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/object_store.hpp \
   /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/results.hpp \

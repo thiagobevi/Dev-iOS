@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "2a189d7887ec4675252a54fc212e495d"
+build_time: [1576098973, 546899000]
+inputs:
+  "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/SwiftyJSON/Source/SwiftyJSON/SwiftyJSON.swift": [1571941156, 301896513]

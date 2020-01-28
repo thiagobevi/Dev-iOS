@@ -55,15 +55,17 @@ depends-top-level:
 - !private "NSNumber"
 - !private "NSRange"
 - !private "NSRegularExpression"
+- "Never"
 - "Object"
 - "Optional"
 - !private "RLMExceptionName"
 - "RLMObject"
+- !private "RealmEnum"
 - "String"
-- "StringLiteralType"
 - "UInt"
 - "cast"
 - "dynamicBridgeCast"
+- !private "fatalError"
 - "gsub"
 - "noWarnUnsafeBitCast"
 - "notFoundToNil"
@@ -454,7 +456,11 @@ depends-member:
 - !private ["10RealmSwift0A15CollectionValueP", "some"]
 - !private ["10RealmSwift0A15CollectionValueP", "unsafeBitCast"]
 - !private ["10RealmSwift0A15CollectionValueP", "utf16"]
+- !private ["10RealmSwift0A4EnumP", "_rlmFromRawValue"]
+- !private ["10RealmSwift0A4EnumP", "_rlmToRawValue"]
 - !private ["10RealmSwift0A12OptionalTypeP", "NSNumber"]
+- !private ["10RealmSwift0A12OptionalTypeP", "_rlmFromRawValue"]
+- !private ["10RealmSwift0A12OptionalTypeP", "_rlmToRawValue"]
 - ["10RealmSwift0A12OptionalTypeP", "bridging"]
 - !private ["10RealmSwift0A12OptionalTypeP", "init"]
 - ["10RealmSwift0A12OptionalTypeP", "objCValue"]
@@ -541,6 +547,18 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "stringByReplacingMatches"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "unsafeBitCast"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "utf16"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "NSNull"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "NSNumber"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "RLMObject"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "_rlmFromRawValue"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "_rlmToRawValue"]
+- ["10RealmSwift20_ManagedPropertyTypeP", "bridging"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "dynamicBridgeCast"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "init"]
+- ["10RealmSwift20_ManagedPropertyTypeP", "objCValue"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "some"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "unsafeBitCast"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "utf16"]
 - !private ["So8_NSRangeV", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "NSNull"]
 - !private ["s21_ObjectiveCBridgeableP", "NSNumber"]
@@ -625,6 +643,7 @@ depends-nominal:
 - !private "Sm"
 - !private "SY"
 - "10RealmSwift0A15CollectionValueP"
+- !private "10RealmSwift0A4EnumP"
 - "10RealmSwift0A12OptionalTypeP"
 - "s10SIMDScalarP"
 - !private "ST"
@@ -653,6 +672,7 @@ depends-nominal:
 - !private "s19_HasContiguousBytesP"
 - "s35_HasCustomAnyHashableRepresentationP"
 - !private "10Foundation27_KeyValueCodingAndObservingP"
+- "10RealmSwift20_ManagedPropertyTypeP"
 - !private "So8_NSRangeV"
 - "s21_ObjectiveCBridgeableP"
 - !private "s20_SwiftNewtypeWrapperP"
@@ -729,4 +749,4 @@ depends-external:
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "012bb2f8f9d4743525688922a8b39c74"
+interface-hash: "bbaf420c27899bc137288183e84e60cd"

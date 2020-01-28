@@ -1,16 +1,17 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
 provides-nominal:
-- "10RealmSwift0A0C13ConfigurationV"
+- "10RealmSwift0A0V13ConfigurationV"
 provides-member:
-- ["10RealmSwift0A0C", ""]
-- ["10RealmSwift0A0C13ConfigurationV", ""]
-- ["10RealmSwift0A0C", "Configuration"]
+- ["10RealmSwift0A0V", ""]
+- ["10RealmSwift0A0V13ConfigurationV", ""]
+- ["10RealmSwift0A0V", "Configuration"]
 provides-dynamic-lookup:
 depends-top-level:
 - !private "??"
 - "AssignmentPrecedence"
 - "Bool"
+- "BooleanLiteralType"
 - !private "CastingPrecedence"
 - "CustomStringConvertible"
 - "Data"
@@ -52,44 +53,44 @@ depends-member:
 - !private ["s7CVarArgP", "shouldCompactOnLaunch"]
 - !private ["s7CVarArgP", "syncConfiguration"]
 - !private ["Sl", "compactMap"]
-- ["10RealmSwift0A0C13ConfigurationV", "Bool"]
-- ["10RealmSwift0A0C13ConfigurationV", "Configuration"]
-- ["10RealmSwift0A0C13ConfigurationV", "Data"]
-- ["10RealmSwift0A0C13ConfigurationV", "Int"]
-- ["10RealmSwift0A0C13ConfigurationV", "MigrationBlock"]
-- ["10RealmSwift0A0C13ConfigurationV", "Object"]
-- !private ["10RealmSwift0A0C13ConfigurationV", "ObjectiveCSupport"]
-- ["10RealmSwift0A0C13ConfigurationV", "RLMRealmConfiguration"]
-- !private ["10RealmSwift0A0C13ConfigurationV", "RLMRealmPathForFile"]
-- ["10RealmSwift0A0C13ConfigurationV", "RLMSchema"]
-- ["10RealmSwift0A0C13ConfigurationV", "String"]
-- ["10RealmSwift0A0C13ConfigurationV", "SyncConfiguration"]
-- ["10RealmSwift0A0C13ConfigurationV", "UInt64"]
-- ["10RealmSwift0A0C13ConfigurationV", "URL"]
-- !private ["10RealmSwift0A0C13ConfigurationV", "_inMemoryIdentifier"]
-- !private ["10RealmSwift0A0C13ConfigurationV", "_path"]
-- !private ["10RealmSwift0A0C13ConfigurationV", "_syncConfiguration"]
-- !private ["10RealmSwift0A0C13ConfigurationV", "accessorMigrationBlock"]
-- !private ["10RealmSwift0A0C13ConfigurationV", "customSchema"]
-- ["10RealmSwift0A0C13ConfigurationV", "defaultConfiguration"]
-- ["10RealmSwift0A0C13ConfigurationV", "deinit"]
-- ["10RealmSwift0A0C13ConfigurationV", "deleteRealmIfMigrationNeeded"]
-- ["10RealmSwift0A0C13ConfigurationV", "description"]
-- ["10RealmSwift0A0C13ConfigurationV", "disableFormatUpgrade"]
-- ["10RealmSwift0A0C13ConfigurationV", "encryptionKey"]
-- !private ["10RealmSwift0A0C13ConfigurationV", "fatalError"]
-- ["10RealmSwift0A0C13ConfigurationV", "fileURL"]
-- ["10RealmSwift0A0C13ConfigurationV", "fromRLMRealmConfiguration"]
-- !private ["10RealmSwift0A0C13ConfigurationV", "gsub"]
-- ["10RealmSwift0A0C13ConfigurationV", "inMemoryIdentifier"]
-- ["10RealmSwift0A0C13ConfigurationV", "init"]
-- ["10RealmSwift0A0C13ConfigurationV", "migrationBlock"]
-- ["10RealmSwift0A0C13ConfigurationV", "objectTypes"]
-- ["10RealmSwift0A0C13ConfigurationV", "readOnly"]
-- ["10RealmSwift0A0C13ConfigurationV", "rlmConfiguration"]
-- ["10RealmSwift0A0C13ConfigurationV", "schemaVersion"]
-- ["10RealmSwift0A0C13ConfigurationV", "shouldCompactOnLaunch"]
-- ["10RealmSwift0A0C13ConfigurationV", "syncConfiguration"]
+- ["10RealmSwift0A0V13ConfigurationV", "Bool"]
+- ["10RealmSwift0A0V13ConfigurationV", "Configuration"]
+- ["10RealmSwift0A0V13ConfigurationV", "Data"]
+- ["10RealmSwift0A0V13ConfigurationV", "Int"]
+- ["10RealmSwift0A0V13ConfigurationV", "MigrationBlock"]
+- ["10RealmSwift0A0V13ConfigurationV", "Object"]
+- !private ["10RealmSwift0A0V13ConfigurationV", "ObjectiveCSupport"]
+- ["10RealmSwift0A0V13ConfigurationV", "RLMRealmConfiguration"]
+- !private ["10RealmSwift0A0V13ConfigurationV", "RLMRealmPathForFile"]
+- ["10RealmSwift0A0V13ConfigurationV", "RLMSchema"]
+- ["10RealmSwift0A0V13ConfigurationV", "String"]
+- ["10RealmSwift0A0V13ConfigurationV", "SyncConfiguration"]
+- ["10RealmSwift0A0V13ConfigurationV", "UInt64"]
+- ["10RealmSwift0A0V13ConfigurationV", "URL"]
+- !private ["10RealmSwift0A0V13ConfigurationV", "_inMemoryIdentifier"]
+- !private ["10RealmSwift0A0V13ConfigurationV", "_path"]
+- !private ["10RealmSwift0A0V13ConfigurationV", "_syncConfiguration"]
+- !private ["10RealmSwift0A0V13ConfigurationV", "accessorMigrationBlock"]
+- !private ["10RealmSwift0A0V13ConfigurationV", "customSchema"]
+- ["10RealmSwift0A0V13ConfigurationV", "defaultConfiguration"]
+- ["10RealmSwift0A0V13ConfigurationV", "deinit"]
+- ["10RealmSwift0A0V13ConfigurationV", "deleteRealmIfMigrationNeeded"]
+- ["10RealmSwift0A0V13ConfigurationV", "description"]
+- ["10RealmSwift0A0V13ConfigurationV", "disableFormatUpgrade"]
+- ["10RealmSwift0A0V13ConfigurationV", "encryptionKey"]
+- !private ["10RealmSwift0A0V13ConfigurationV", "fatalError"]
+- ["10RealmSwift0A0V13ConfigurationV", "fileURL"]
+- ["10RealmSwift0A0V13ConfigurationV", "fromRLMRealmConfiguration"]
+- !private ["10RealmSwift0A0V13ConfigurationV", "gsub"]
+- ["10RealmSwift0A0V13ConfigurationV", "inMemoryIdentifier"]
+- ["10RealmSwift0A0V13ConfigurationV", "init"]
+- ["10RealmSwift0A0V13ConfigurationV", "migrationBlock"]
+- ["10RealmSwift0A0V13ConfigurationV", "objectTypes"]
+- ["10RealmSwift0A0V13ConfigurationV", "readOnly"]
+- ["10RealmSwift0A0V13ConfigurationV", "rlmConfiguration"]
+- ["10RealmSwift0A0V13ConfigurationV", "schemaVersion"]
+- ["10RealmSwift0A0V13ConfigurationV", "shouldCompactOnLaunch"]
+- ["10RealmSwift0A0V13ConfigurationV", "syncConfiguration"]
 - !private ["10Foundation15ContiguousBytesP", "compactMap"]
 - !private ["s28CustomDebugStringConvertibleP", "compactMap"]
 - !private ["s28CustomDebugStringConvertibleP", "customSchema"]
@@ -271,7 +272,7 @@ depends-member:
 - !private ["So8NSObjectP", "setDefault"]
 - !private ["So8NSObjectP", "shouldCompactOnLaunch"]
 - !private ["So8NSObjectP", "syncConfiguration"]
-- !private ["10RealmSwift17ObjectiveCSupportC", "convert"]
+- !private ["10RealmSwift17ObjectiveCSupportV", "convert"]
 - !private ["Sq", "map"]
 - !private ["10RealmSwift16OptionalProtocolP", "map"]
 - !private ["So15RLMObjectSchemaC", "objectClass"]
@@ -295,22 +296,22 @@ depends-member:
 - !private ["So9RLMSchemaC", "objectSchema"]
 - !private ["Sk", "compactMap"]
 - !private ["Sm", "compactMap"]
-- ["10RealmSwift0A0C", "Bool"]
-- ["10RealmSwift0A0C", "Configuration"]
-- ["10RealmSwift0A0C", "Data"]
-- ["10RealmSwift0A0C", "Int"]
-- ["10RealmSwift0A0C", "MigrationBlock"]
-- ["10RealmSwift0A0C", "Object"]
-- !private ["10RealmSwift0A0C", "ObjectiveCSupport"]
-- ["10RealmSwift0A0C", "RLMRealmConfiguration"]
-- !private ["10RealmSwift0A0C", "RLMRealmPathForFile"]
-- ["10RealmSwift0A0C", "RLMSchema"]
-- ["10RealmSwift0A0C", "String"]
-- ["10RealmSwift0A0C", "SyncConfiguration"]
-- ["10RealmSwift0A0C", "UInt64"]
-- ["10RealmSwift0A0C", "URL"]
-- !private ["10RealmSwift0A0C", "accessorMigrationBlock"]
-- !private ["10RealmSwift0A0C", "fatalError"]
+- ["10RealmSwift0A0V", "Bool"]
+- ["10RealmSwift0A0V", "Configuration"]
+- ["10RealmSwift0A0V", "Data"]
+- ["10RealmSwift0A0V", "Int"]
+- ["10RealmSwift0A0V", "MigrationBlock"]
+- ["10RealmSwift0A0V", "Object"]
+- !private ["10RealmSwift0A0V", "ObjectiveCSupport"]
+- ["10RealmSwift0A0V", "RLMRealmConfiguration"]
+- !private ["10RealmSwift0A0V", "RLMRealmPathForFile"]
+- ["10RealmSwift0A0V", "RLMSchema"]
+- ["10RealmSwift0A0V", "String"]
+- ["10RealmSwift0A0V", "SyncConfiguration"]
+- ["10RealmSwift0A0V", "UInt64"]
+- ["10RealmSwift0A0V", "URL"]
+- !private ["10RealmSwift0A0V", "accessorMigrationBlock"]
+- !private ["10RealmSwift0A0V", "fatalError"]
 - !private ["10RealmSwift0A15CollectionValueP", "map"]
 - !private ["10Foundation20ReferenceConvertibleP", "init"]
 - !private ["10Foundation20ReferenceConvertibleP", "path"]
@@ -345,6 +346,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "setDefault"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "shouldCompactOnLaunch"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "syncConfiguration"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "map"]
 - !private ["s21_ObjectiveCBridgeableP", "compactMap"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "map"]
@@ -354,7 +356,7 @@ depends-nominal:
 - !private "SK"
 - !private "s7CVarArgP"
 - !private "Sl"
-- "10RealmSwift0A0C13ConfigurationV"
+- "10RealmSwift0A0V13ConfigurationV"
 - !private "10Foundation15ContiguousBytesP"
 - !private "s28CustomDebugStringConvertibleP"
 - !private "10RealmSwift26CustomObjectiveCBridgeableP"
@@ -373,7 +375,7 @@ depends-nominal:
 - !private "So9NSCopyingP"
 - !private "So8NSObjectC"
 - !private "So8NSObjectP"
-- !private "10RealmSwift17ObjectiveCSupportC"
+- !private "10RealmSwift17ObjectiveCSupportV"
 - !private "Sq"
 - !private "10RealmSwift16OptionalProtocolP"
 - !private "So15RLMObjectSchemaC"
@@ -381,7 +383,7 @@ depends-nominal:
 - !private "So9RLMSchemaC"
 - !private "Sk"
 - !private "Sm"
-- "10RealmSwift0A0C"
+- "10RealmSwift0A0V"
 - !private "10RealmSwift0A15CollectionValueP"
 - !private "10Foundation20ReferenceConvertibleP"
 - !private "ST"
@@ -394,6 +396,7 @@ depends-nominal:
 - !private "s19_HasContiguousBytesP"
 - !private "s35_HasCustomAnyHashableRepresentationP"
 - !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10RealmSwift20_ManagedPropertyTypeP"
 - !private "s21_ObjectiveCBridgeableP"
 depends-dynamic-lookup:
 depends-external:

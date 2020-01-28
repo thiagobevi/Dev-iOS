@@ -21,12 +21,10 @@ dependencies: \
   /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/RLMSyncSessionRefreshHandle.h \
   /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/RLMSyncUser_Private.hpp \
   /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/RLMSyncUser.h \
-  /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/RLMResults.h \
-  /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/RLMCollection.h \
-  /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/RLMThreadSafeReference.h \
   /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/RLMSyncPermission.h \
   /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/RLMObject.h \
   /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/RLMObjectBase.h \
+  /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/RLMThreadSafeReference.h \
   /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/sync/sync_config.hpp \
   /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/sync/sync_user.hpp \
   /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/util/atomic_shared_ptr.hpp \
@@ -42,9 +40,9 @@ dependencies: \
   /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/impl/collection_notifier.hpp \
   /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/impl/collection_change_builder.hpp \
   /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/list.hpp \
+  /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/object.hpp \
   /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/property.hpp \
   /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/util/tagged_bool.hpp \
-  /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/object.hpp \
   /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/object_schema.hpp \
   /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/RLMSyncUtil_Private.hpp \
   /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/RLMUtil.hpp \

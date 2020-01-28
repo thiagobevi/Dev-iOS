@@ -20,7 +20,6 @@ depends-nominal:
 - "6Marvel5ImageC"
 depends-dynamic-lookup:
 depends-external:
-- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
 - "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
 - "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/RealmSwift.swiftmodule/x86_64.swiftmodule"
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
@@ -35,7 +34,6 @@ depends-external:
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
 - "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
 - "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-umbrella.h"
 - "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSchema.h"
@@ -80,12 +78,10 @@ depends-external:
 - "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMResults.h"
 - "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMConstants.h"
 - "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObject.h"
-- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
 - "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
 - "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
 - "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMArray.h"
 - "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMProperty.h"
-- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
 - "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
 - "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Modules/module.modulemap"
 - "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/module.modulemap"

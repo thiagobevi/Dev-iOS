@@ -4,12 +4,12 @@ provides-top-level:
 - "ThreadSafeReference"
 provides-nominal:
 - "10RealmSwift14ThreadConfinedP"
-- "10RealmSwift19ThreadSafeReferenceC"
+- "10RealmSwift19ThreadSafeReferenceV"
 provides-member:
 - ["10RealmSwift14ThreadConfinedP", ""]
-- ["10RealmSwift19ThreadSafeReferenceC", ""]
-- ["10RealmSwift0A0C", ""]
-- ["10RealmSwift0A0C", "resolve"]
+- ["10RealmSwift19ThreadSafeReferenceV", ""]
+- ["10RealmSwift0A0V", ""]
+- ["10RealmSwift0A0V", "resolve"]
 provides-dynamic-lookup:
 depends-top-level:
 - "AssignmentPrecedence"
@@ -49,23 +49,23 @@ depends-member:
 - !private ["So8RLMRealmC", "__resolve"]
 - !private ["So22RLMThreadSafeReferenceC", "init"]
 - !private ["So22RLMThreadSafeReferenceC", "isInvalidated"]
-- ["10RealmSwift0A0C", "ThreadSafeReference"]
-- ["10RealmSwift0A0C", "resolve"]
-- !private ["10RealmSwift0A0C", "rlmRealm"]
+- ["10RealmSwift0A0V", "ThreadSafeReference"]
+- ["10RealmSwift0A0V", "resolve"]
+- !private ["10RealmSwift0A0V", "rlmRealm"]
 - ["10RealmSwift14ThreadConfinedP", "Bool"]
 - ["10RealmSwift14ThreadConfinedP", "Realm"]
 - ["10RealmSwift14ThreadConfinedP", "isInvalidated"]
 - ["10RealmSwift14ThreadConfinedP", "realm"]
-- !private ["10RealmSwift19ThreadSafeReferenceC", "AssistedObjectiveCBridgeable"]
-- ["10RealmSwift19ThreadSafeReferenceC", "Bool"]
-- ["10RealmSwift19ThreadSafeReferenceC", "RLMThreadConfined"]
-- ["10RealmSwift19ThreadSafeReferenceC", "RLMThreadSafeReference"]
-- ["10RealmSwift19ThreadSafeReferenceC", "Realm"]
-- ["10RealmSwift19ThreadSafeReferenceC", "init"]
-- ["10RealmSwift19ThreadSafeReferenceC", "isInvalidated"]
-- !private ["10RealmSwift19ThreadSafeReferenceC", "objectiveCReference"]
-- ["10RealmSwift19ThreadSafeReferenceC", "resolve"]
-- !private ["10RealmSwift19ThreadSafeReferenceC", "swiftMetadata"]
+- !private ["10RealmSwift19ThreadSafeReferenceV", "AssistedObjectiveCBridgeable"]
+- ["10RealmSwift19ThreadSafeReferenceV", "Bool"]
+- ["10RealmSwift19ThreadSafeReferenceV", "RLMThreadConfined"]
+- ["10RealmSwift19ThreadSafeReferenceV", "RLMThreadSafeReference"]
+- ["10RealmSwift19ThreadSafeReferenceV", "Realm"]
+- ["10RealmSwift19ThreadSafeReferenceV", "init"]
+- ["10RealmSwift19ThreadSafeReferenceV", "isInvalidated"]
+- !private ["10RealmSwift19ThreadSafeReferenceV", "objectiveCReference"]
+- ["10RealmSwift19ThreadSafeReferenceV", "resolve"]
+- !private ["10RealmSwift19ThreadSafeReferenceV", "swiftMetadata"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "__resolve"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "isInvalidated"]
@@ -80,9 +80,9 @@ depends-nominal:
 - !private "So8NSObjectP"
 - !private "So8RLMRealmC"
 - !private "So22RLMThreadSafeReferenceC"
-- "10RealmSwift0A0C"
+- "10RealmSwift0A0V"
 - "10RealmSwift14ThreadConfinedP"
-- "10RealmSwift19ThreadSafeReferenceC"
+- "10RealmSwift19ThreadSafeReferenceV"
 - !private "10Foundation27_KeyValueCodingAndObservingP"
 depends-dynamic-lookup:
 depends-external:
@@ -157,4 +157,4 @@ depends-external:
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "ac0eb0334f6d9c954c49025de7ef3796"
+interface-hash: "26db28160d1b68087fdf72142d0653b0"

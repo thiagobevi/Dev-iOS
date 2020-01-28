@@ -2,6 +2,7 @@
 provides-top-level:
 - "RealmOptionalType"
 - "RealmOptional"
+- "RealmOptionalProtocol"
 provides-nominal:
 - "10RealmSwift0A12OptionalTypeP"
 - "Si"
@@ -13,6 +14,7 @@ provides-nominal:
 - "Sd"
 - "Sb"
 - "10RealmSwift0A8OptionalC"
+- "10RealmSwift0A16OptionalProtocolP"
 provides-member:
 - ["10RealmSwift0A12OptionalTypeP", ""]
 - ["Si", ""]
@@ -24,6 +26,7 @@ provides-member:
 - ["Sd", ""]
 - ["Sb", ""]
 - ["10RealmSwift0A8OptionalC", ""]
+- ["10RealmSwift0A16OptionalProtocolP", ""]
 - ["10RealmSwift0A12OptionalTypeP", "className"]
 provides-dynamic-lookup:
 depends-top-level:
@@ -34,17 +37,16 @@ depends-top-level:
 - "Double"
 - "Encoder"
 - "Float"
-- !private "FloatLiteralType"
 - "Int"
 - "Int16"
 - "Int32"
 - "Int64"
 - "Int8"
-- !private "IntegerLiteralType"
 - !private "RLMGetOptional"
 - "RLMOptionalBase"
 - !private "RLMSetOptional"
 - "RealmOptional"
+- "RealmOptionalProtocol"
 - "RealmOptionalType"
 - "String"
 - !private "StringLiteralType"
@@ -130,11 +132,25 @@ depends-member:
 - ["10RealmSwift0A8OptionalC", "encode"]
 - ["10RealmSwift0A8OptionalC", "init"]
 - ["10RealmSwift0A8OptionalC", "value"]
+- !private ["10RealmSwift0A16OptionalProtocolP", "RLMGetOptional"]
+- !private ["10RealmSwift0A16OptionalProtocolP", "RLMSetOptional"]
+- ["10RealmSwift0A16OptionalProtocolP", ""]
+- !private ["10RealmSwift0A16OptionalProtocolP", "dynamicBridgeCast"]
+- ["10RealmSwift0A16OptionalProtocolP", "encode"]
+- ["10RealmSwift0A16OptionalProtocolP", "init"]
+- !private ["10RealmSwift0A16OptionalProtocolP", "value"]
 - ["10RealmSwift0A12OptionalTypeP", "String"]
 - ["10RealmSwift0A12OptionalTypeP", ""]
 - ["10RealmSwift0A12OptionalTypeP", "className"]
 - !private ["s28SingleValueDecodingContainerP", "decode"]
 - !private ["s28SingleValueDecodingContainerP", "decodeNil"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "RLMGetOptional"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "RLMSetOptional"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "dynamicBridgeCast"]
+- ["10RealmSwift20_ManagedPropertyTypeP", "encode"]
+- ["10RealmSwift20_ManagedPropertyTypeP", "init"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "map"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "value"]
 - !private ["s21_ObjectiveCBridgeableP", "encode"]
 - !private ["s21_ObjectiveCBridgeableP", "map"]
 depends-nominal:
@@ -162,8 +178,10 @@ depends-nominal:
 - "So15RLMOptionalBaseC"
 - !private "10RealmSwift0A15CollectionValueP"
 - "10RealmSwift0A8OptionalC"
+- "10RealmSwift0A16OptionalProtocolP"
 - "10RealmSwift0A12OptionalTypeP"
 - !private "s28SingleValueDecodingContainerP"
+- "10RealmSwift20_ManagedPropertyTypeP"
 - !private "s21_ObjectiveCBridgeableP"
 depends-dynamic-lookup:
 depends-external:
@@ -238,4 +256,4 @@ depends-external:
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "39a2bdb16faafb402344f11a074b38b8"
+interface-hash: "cba61a4f2e010470c68bcd534199e0fc"

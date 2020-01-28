@@ -167,7 +167,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import Foundation;
-@import ObjectiveC;
 @import Realm;
 @import Realm.Private;
 #endif
@@ -187,9 +186,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
-@class RLMRealm;
-@class RLMObjectSchema;
-@class RLMSchema;
+@class RLMProperty;
 
 /// <code>Object</code> is a class used to define Realm model objects.
 /// In Realm you define your model classes by subclassing <code>Object</code> and adding properties to be managed.
@@ -228,6 +225,9 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 ///     <code>Data</code>, <code>NSData</code>
 ///   </li>
 ///   <li>
+///     <code>@objc enum</code> which has been delcared as conforming to <code>RealmEnum</code>.
+///   </li>
+///   <li>
 ///     <code>RealmOptional<Value></code> for optional numeric properties
 ///   </li>
 ///   <li>
@@ -238,9 +238,9 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 ///   </li>
 /// </ul>
 /// <code>String</code>, <code>NSString</code>, <code>Date</code>, <code>NSDate</code>, <code>Data</code>, <code>NSData</code> and <code>Object</code> subclass properties can be declared as optional.
-/// <code>Int</code>, <code>Int8</code>, <code>Int16</code>, <code>Int32</code>, <code>Int64</code>, <code>Float</code>, <code>Double</code>, <code>Bool</code>, and <code>List</code> properties cannot. To store an optional
-/// number, use <code>RealmOptional<Int></code>, <code>RealmOptional<Float></code>, <code>RealmOptional<Double></code>, or <code>RealmOptional<Bool></code> instead,
-/// which wraps an optional numeric value.
+/// <code>Int</code>, <code>Int8</code>, <code>Int16</code>, <code>Int32</code>, <code>Int64</code>, <code>Float</code>, <code>Double</code>, <code>Bool</code>,  enum, and <code>List</code> properties cannot.
+/// To store an optional number, use <code>RealmOptional<Int></code>, <code>RealmOptional<Float></code>, <code>RealmOptional<Double></code>, or
+/// <code>RealmOptional<Bool></code> instead, which wraps an optional numeric value. Lists cannot be optional at all.
 /// All property types except for <code>List</code> and <code>RealmOptional</code> <em>must</em> be declared as <code>@objc dynamic var</code>. <code>List</code> and
 /// <code>RealmOptional</code> properties must be declared as non-dynamic <code>let</code> properties. Swift <code>lazy</code> properties are not allowed.
 /// Note that none of the restrictions listed above apply to properties that are configured to be ignored by Realm.
@@ -267,7 +267,7 @@ SWIFT_CLASS_NAMED("Object")
 /// WARNING: This is an internal helper method not intended for public use.
 /// It is not considered part of the public API.
 /// :nodoc:
-+ (Class _Nonnull)objectUtilClass:(BOOL)isSwift SWIFT_WARN_UNUSED_RESULT;
++ (NSArray<RLMProperty *> * _Nonnull)_getPropertiesWithInstance:(id _Nonnull)instance SWIFT_WARN_UNUSED_RESULT;
 /// Override this method to specify the name of a property to be used as the primary key.
 /// Only properties of types <code>String</code> and <code>Int</code> can be designated as the primary key. Primary key properties enforce
 /// uniqueness for each value whenever the property is set, which incurs minor overhead. Indexes are created
@@ -290,12 +290,6 @@ SWIFT_CLASS_NAMED("Object")
 + (NSArray<NSString *> * _Nonnull)indexedProperties SWIFT_WARN_UNUSED_RESULT;
 - (id _Nullable)objectForKeyedSubscript:(NSString * _Nonnull)key SWIFT_WARN_UNUSED_RESULT;
 - (void)setObject:(id _Nullable)value forKeyedSubscript:(NSString * _Nonnull)key;
-/// WARNING: This is an internal initializer not intended for public use.
-/// :nodoc:
-- (nonnull instancetype)initWithRealm:(RLMRealm * _Nonnull)realm schema:(RLMObjectSchema * _Nonnull)schema OBJC_DESIGNATED_INITIALIZER;
-/// WARNING: This is an internal initializer not intended for public use.
-/// :nodoc:
-- (nonnull instancetype)initWithValue:(id _Nonnull)value schema:(RLMSchema * _Nonnull)schema OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
@@ -311,8 +305,6 @@ SWIFT_CLASS_NAMED("ClassPermission")
 /// :nodoc:
 + (NSString * _Nonnull)primaryKey SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)initWithRealm:(RLMRealm * _Nonnull)realm schema:(RLMObjectSchema * _Nonnull)schema OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)initWithValue:(id _Nonnull)value schema:(RLMSchema * _Nonnull)schema OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
@@ -329,8 +321,6 @@ SWIFT_CLASS("_TtC10RealmSwift13DynamicObject")
 /// :nodoc:
 + (BOOL)shouldIncludeInDefaultSchema SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)initWithRealm:(RLMRealm * _Nonnull)realm schema:(RLMObjectSchema * _Nonnull)schema OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)initWithValue:(id _Nonnull)value schema:(RLMSchema * _Nonnull)schema OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
@@ -343,23 +333,13 @@ SWIFT_CLASS("_TtC10RealmSwift36KeyValueObservationNotificationToken")
 
 
 /// :nodoc:
-/// Internal class. Do not use directly. Used for reflection and initialization
-SWIFT_CLASS("_TtC10RealmSwift18LinkingObjectsBase")
-@interface LinkingObjectsBase : NSObject <NSFastEnumeration>
-- (NSInteger)countByEnumeratingWithState:(NSFastEnumerationState * _Nonnull)state objects:(id _Nullable * _Nonnull)buffer count:(NSInteger)len SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-/// :nodoc:
 /// Internal class. Do not use directly.
 SWIFT_CLASS("_TtC10RealmSwift8ListBase")
 @interface ListBase : RLMListBase
 /// Returns a human-readable description of the objects contained in the List.
 @property (nonatomic, readonly, copy) NSString * _Nonnull description;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithArray:(RLMArray<id> * _Nonnull)array OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
@@ -376,12 +356,10 @@ SWIFT_CLASS("_TtC10RealmSwift8ListBase")
 
 
 
-/// :nodoc:
-/// Internal class. Do not use directly.
-SWIFT_CLASS_NAMED("ObjectUtil")
-@interface RealmSwiftObjectUtil : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
+
+
+
+
 
 @class RealmSwiftPermissionRole;
 
@@ -427,8 +405,6 @@ SWIFT_CLASS_NAMED("Permission")
 /// :nodoc:
 + (NSString * _Nonnull)_realmObjectName SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)initWithRealm:(RLMRealm * _Nonnull)realm schema:(RLMObjectSchema * _Nonnull)schema OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)initWithValue:(id _Nonnull)value schema:(RLMSchema * _Nonnull)schema OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
@@ -450,8 +426,6 @@ SWIFT_CLASS_NAMED("PermissionRole")
 /// :nodoc:
 + (NSDictionary<NSString *, NSString *> * _Nonnull)_realmColumnNames SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)initWithRealm:(RLMRealm * _Nonnull)realm schema:(RLMObjectSchema * _Nonnull)schema OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)initWithValue:(id _Nonnull)value schema:(RLMSchema * _Nonnull)schema OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
@@ -475,11 +449,7 @@ SWIFT_CLASS_NAMED("PermissionUser")
 /// :nodoc:
 + (NSDictionary<NSString *, NSString *> * _Nonnull)_realmColumnNames SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)initWithRealm:(RLMRealm * _Nonnull)realm schema:(RLMObjectSchema * _Nonnull)schema OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)initWithValue:(id _Nonnull)value schema:(RLMSchema * _Nonnull)schema OBJC_DESIGNATED_INITIALIZER;
 @end
-
-
 
 
 
@@ -503,8 +473,6 @@ SWIFT_CLASS_NAMED("RealmPermission")
 /// :nodoc:
 + (NSString * _Nonnull)primaryKey SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)initWithRealm:(RLMRealm * _Nonnull)realm schema:(RLMObjectSchema * _Nonnull)schema OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)initWithValue:(id _Nonnull)value schema:(RLMSchema * _Nonnull)schema OBJC_DESIGNATED_INITIALIZER;
 @end
 
 #if __has_attribute(external_source_symbol)

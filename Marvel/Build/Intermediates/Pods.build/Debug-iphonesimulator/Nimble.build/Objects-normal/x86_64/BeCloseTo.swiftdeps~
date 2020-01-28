@@ -1,0 +1,379 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DefaultDelta"
+- "isCloseTo"
+- "beCloseTo"
+- "beCloseTo"
+- "NMBObjCBeCloseToMatcher"
+- "beCloseTo"
+- "\u2248"
+- "\u2248"
+- "\u2248"
+- "\u2248"
+- "=="
+- "PlusMinusOperatorPrecedence"
+- "\xB1"
+- "\xB1"
+provides-nominal:
+- "6Nimble23NMBObjCBeCloseToMatcherC"
+provides-member:
+- ["6Nimble23NMBObjCBeCloseToMatcherC", ""]
+- ["6Nimble14NMBObjCMatcherC", ""]
+- ["6Nimble14NMBObjCMatcherC", "beCloseToMatcher"]
+provides-dynamic-lookup:
+- "beCloseToMatcher"
+- "doesNotMatch"
+- "matches"
+- "within"
+depends-top-level:
+- !private "!="
+- !private "&&"
+- !private "-"
+- !private "<"
+- "=="
+- !private ">"
+- "AssignmentPrecedence"
+- "BitwiseShiftPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CDouble"
+- !private "CastingPrecedence"
+- "ComparisonPrecedence"
+- "DefaultDelta"
+- "Double"
+- "Expectation"
+- !private "Expression"
+- "FailureMessage"
+- "NMBDoubleConvertible"
+- "NMBMatcher"
+- "NMBObjCBeCloseToMatcher"
+- "NMBObjCMatcher"
+- "NSNumber"
+- "NSObject"
+- "Predicate"
+- "PredicateResult"
+- "SourceLocation"
+- !private "abs"
+- "beCloseTo"
+- !private "fabs"
+- "isCloseTo"
+- !private "stringify"
+- "\xB1"
+- "\u2248"
+depends-member:
+- !private ["Sa", "count"]
+- !private ["Sa", "enumerated"]
+- !private ["Sa", "subscript"]
+- !private ["SK", "count"]
+- !private ["SK", "enumerated"]
+- !private ["SK", "subscript"]
+- !private ["s7CVarArgP", "Expression"]
+- !private ["s7CVarArgP", "NMBObjCBeCloseToMatcher"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_delta"]
+- !private ["s7CVarArgP", "_expected"]
+- !private ["s7CVarArgP", "beCloseTo"]
+- !private ["s7CVarArgP", "count"]
+- ["s7CVarArgP", "doesNotMatch"]
+- !private ["s7CVarArgP", "enumerated"]
+- !private ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "matches"]
+- !private ["s7CVarArgP", "stringValue"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "count"]
+- !private ["Sl", "enumerated"]
+- !private ["Sl", "subscript"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "enumerated"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "Expression"]
+- !private ["s28CustomDebugStringConvertibleP", "NMBObjCBeCloseToMatcher"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "_delta"]
+- !private ["s28CustomDebugStringConvertibleP", "_expected"]
+- !private ["s28CustomDebugStringConvertibleP", "beCloseTo"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- ["s28CustomDebugStringConvertibleP", "doesNotMatch"]
+- !private ["s28CustomDebugStringConvertibleP", "enumerated"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "matches"]
+- !private ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "enumerated"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "Expression"]
+- !private ["s23CustomStringConvertibleP", "NMBObjCBeCloseToMatcher"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_delta"]
+- !private ["s23CustomStringConvertibleP", "_expected"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "beCloseTo"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- ["s23CustomStringConvertibleP", "doesNotMatch"]
+- !private ["s23CustomStringConvertibleP", "enumerated"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "matches"]
+- !private ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "enumerated"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["Se", "count"]
+- !private ["Se", "enumerated"]
+- !private ["Se", "subscript"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["Sd", "deinit"]
+- !private ["SE", "count"]
+- !private ["SE", "enumerated"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "Expression"]
+- !private ["SQ", "NMBObjCBeCloseToMatcher"]
+- ["SQ", ""]
+- !private ["SQ", "_delta"]
+- !private ["SQ", "_expected"]
+- !private ["SQ", "beCloseTo"]
+- !private ["SQ", "count"]
+- ["SQ", "doesNotMatch"]
+- !private ["SQ", "enumerated"]
+- !private ["SQ", "init"]
+- ["SQ", "matches"]
+- !private ["SQ", "stringValue"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "toMatch"]
+- !private ["SQ", "toNotMatch"]
+- !private ["6Nimble11ExpectationV", "to"]
+- !private ["6Nimble18ExpectationMessageO", "expectedCustomValueTo"]
+- !private ["6Nimble18ExpectationMessageO", "update"]
+- !private ["6Nimble16ExpectationStyleO", "toMatch"]
+- !private ["6Nimble16ExpectationStyleO", "toNotMatch"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "enumerated"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["6Nimble10ExpressionV", "evaluate"]
+- !private ["6Nimble10ExpressionV", "init"]
+- !private ["6Nimble14FailureMessageC", "stringValue"]
+- !private ["SH", "Expression"]
+- !private ["SH", "NMBObjCBeCloseToMatcher"]
+- ["SH", ""]
+- !private ["SH", "_delta"]
+- !private ["SH", "_expected"]
+- !private ["SH", "beCloseTo"]
+- !private ["SH", "count"]
+- ["SH", "doesNotMatch"]
+- !private ["SH", "enumerated"]
+- !private ["SH", "init"]
+- ["SH", "matches"]
+- !private ["SH", "stringValue"]
+- !private ["SH", "subscript"]
+- !private ["SH", "toMatch"]
+- !private ["SH", "toNotMatch"]
+- !private ["6Nimble7MatcherP", "define"]
+- !private ["6Nimble7MatcherP", "satisfies"]
+- !private ["6Nimble7MatcherP", "simple"]
+- !private ["SM", "count"]
+- !private ["SM", "enumerated"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "enumerated"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["6Nimble20NMBDoubleConvertibleP", "doubleValue"]
+- !private ["6Nimble10NMBMatcherP", "Expression"]
+- !private ["6Nimble10NMBMatcherP", "NMBObjCBeCloseToMatcher"]
+- ["6Nimble10NMBMatcherP", ""]
+- !private ["6Nimble10NMBMatcherP", "_delta"]
+- !private ["6Nimble10NMBMatcherP", "_expected"]
+- !private ["6Nimble10NMBMatcherP", "beCloseTo"]
+- ["6Nimble10NMBMatcherP", "doesNotMatch"]
+- !private ["6Nimble10NMBMatcherP", "init"]
+- ["6Nimble10NMBMatcherP", "matches"]
+- ["6Nimble23NMBObjCBeCloseToMatcherC", "Bool"]
+- ["6Nimble23NMBObjCBeCloseToMatcherC", "CDouble"]
+- !private ["6Nimble23NMBObjCBeCloseToMatcherC", "Expression"]
+- ["6Nimble23NMBObjCBeCloseToMatcherC", "FailureMessage"]
+- !private ["6Nimble23NMBObjCBeCloseToMatcherC", "NMBDoubleConvertible"]
+- ["6Nimble23NMBObjCBeCloseToMatcherC", "NMBObjCBeCloseToMatcher"]
+- ["6Nimble23NMBObjCBeCloseToMatcherC", "NSNumber"]
+- ["6Nimble23NMBObjCBeCloseToMatcherC", "NSObject"]
+- ["6Nimble23NMBObjCBeCloseToMatcherC", "SourceLocation"]
+- ["6Nimble23NMBObjCBeCloseToMatcherC", "_delta"]
+- ["6Nimble23NMBObjCBeCloseToMatcherC", "_expected"]
+- !private ["6Nimble23NMBObjCBeCloseToMatcherC", "beCloseTo"]
+- ["6Nimble23NMBObjCBeCloseToMatcherC", "deinit"]
+- ["6Nimble23NMBObjCBeCloseToMatcherC", "doesNotMatch"]
+- ["6Nimble23NMBObjCBeCloseToMatcherC", "init"]
+- ["6Nimble23NMBObjCBeCloseToMatcherC", "matches"]
+- ["6Nimble23NMBObjCBeCloseToMatcherC", "within"]
+- ["6Nimble14NMBObjCMatcherC", "CDouble"]
+- ["6Nimble14NMBObjCMatcherC", "NMBObjCBeCloseToMatcher"]
+- ["6Nimble14NMBObjCMatcherC", "NSNumber"]
+- ["6Nimble14NMBObjCMatcherC", "beCloseToMatcher"]
+- !private ["So8NSNumberC", "deinit"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "CDouble"]
+- !private ["So8NSObjectC", "Expression"]
+- ["So8NSObjectC", "FailureMessage"]
+- !private ["So8NSObjectC", "NMBDoubleConvertible"]
+- ["So8NSObjectC", "NMBObjCBeCloseToMatcher"]
+- ["So8NSObjectC", "NSNumber"]
+- ["So8NSObjectC", "NSObject"]
+- ["So8NSObjectC", "SourceLocation"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "_delta"]
+- ["So8NSObjectC", "_expected"]
+- !private ["So8NSObjectC", "beCloseTo"]
+- ["So8NSObjectC", "beCloseToMatcher"]
+- ["So8NSObjectC", "doesNotMatch"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "matches"]
+- !private ["So8NSObjectC", "stringValue"]
+- ["So8NSObjectC", "within"]
+- !private ["So8NSObjectP", "Expression"]
+- !private ["So8NSObjectP", "NMBObjCBeCloseToMatcher"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "_delta"]
+- !private ["So8NSObjectP", "_expected"]
+- !private ["So8NSObjectP", "beCloseTo"]
+- ["So8NSObjectP", "doesNotMatch"]
+- !private ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "matches"]
+- !private ["So8NSObjectP", "stringValue"]
+- !private ["6Nimble9PredicateV", "define"]
+- !private ["6Nimble9PredicateV", "deinit"]
+- !private ["6Nimble9PredicateV", "satisfies"]
+- !private ["6Nimble9PredicateV", "simple"]
+- !private ["6Nimble15PredicateResultV", "init"]
+- !private ["6Nimble15PredicateResultV", "message"]
+- !private ["6Nimble15PredicateResultV", "toBoolean"]
+- !private ["6Nimble15PredicateStatusO", "doesNotMatch"]
+- !private ["6Nimble15PredicateStatusO", "matches"]
+- !private ["Sk", "count"]
+- !private ["Sk", "enumerated"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "count"]
+- !private ["Sm", "enumerated"]
+- !private ["Sm", "subscript"]
+- !private ["ST", "count"]
+- !private ["ST", "enumerated"]
+- !private ["ST", "subscript"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["6Nimble27TestOutputStringConvertibleP", "count"]
+- !private ["6Nimble27TestOutputStringConvertibleP", "enumerated"]
+- !private ["6Nimble27TestOutputStringConvertibleP", "subscript"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "enumerated"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "enumerated"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "enumerated"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "enumerated"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Expression"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NMBObjCBeCloseToMatcher"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_delta"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_expected"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "beCloseTo"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "doesNotMatch"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "matches"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stringValue"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "enumerated"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "Sd"
+- !private "SE"
+- "SQ"
+- !private "6Nimble11ExpectationV"
+- !private "6Nimble18ExpectationMessageO"
+- !private "6Nimble16ExpectationStyleO"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "6Nimble10ExpressionV"
+- !private "6Nimble14FailureMessageC"
+- "SH"
+- !private "6Nimble7MatcherP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "6Nimble20NMBDoubleConvertibleP"
+- "6Nimble10NMBMatcherP"
+- "6Nimble23NMBObjCBeCloseToMatcherC"
+- "6Nimble14NMBObjCMatcherC"
+- !private "So8NSNumberC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "6Nimble9PredicateV"
+- !private "6Nimble15PredicateResultV"
+- !private "6Nimble15PredicateStatusO"
+- !private "Sk"
+- !private "Sm"
+- !private "ST"
+- !private "s27StringInterpolationProtocolP"
+- !private "6Nimble27TestOutputStringConvertibleP"
+- !private "s16TextOutputStreamP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/XCTest.swiftmodule"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Headers/Public/Nimble/DSL.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Headers/Public/Nimble/Nimble-umbrella.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Headers/Public/Nimble/Nimble.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Headers/Public/Nimble/NMBExceptionCapture.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Headers/Public/Nimble/CwlPreconditionTesting.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Headers/Public/Nimble/CwlCatchException.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Headers/Public/Nimble/CwlMachBadInstructionHandler.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Headers/Public/Nimble/mach_excServer.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Headers/Public/Nimble/NMBStringify.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Headers/Public/Nimble/Nimble.modulemap"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "a722a4c4b36f661190c8fab13c4efa56"

@@ -6,8 +6,6 @@ provides-nominal:
 - "10RealmSwift14SortDescriptorV"
 provides-member:
 - ["10RealmSwift14SortDescriptorV", ""]
-- ["10RealmSwift14SortDescriptorV", "init"]
-- ["10RealmSwift14SortDescriptorV", "property"]
 provides-dynamic-lookup:
 depends-top-level:
 - !private "!"
@@ -19,13 +17,14 @@ depends-top-level:
 - "CustomStringConvertible"
 - "Equatable"
 - "ExpressibleByStringLiteral"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
 - "RLMSortDescriptor"
 - "SortDescriptor"
 - "String"
 - "StringLiteralType"
 - "TernaryPrecedence"
 - !private "UnicodeScalarType"
-- !private "fatalError"
 depends-member:
 - !private ["s7CVarArgP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
@@ -41,7 +40,6 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "appendLiteral"]
 - !private ["s23CustomStringConvertibleP", "ascending"]
 - ["s23CustomStringConvertibleP", "description"]
-- !private ["s23CustomStringConvertibleP", "fatalError"]
 - ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "keyPath"]
 - !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
@@ -56,7 +54,6 @@ depends-member:
 - ["SQ", "_Default_StringLiteralType"]
 - !private ["SQ", "ascending"]
 - ["SQ", "description"]
-- !private ["SQ", "fatalError"]
 - ["SQ", "init"]
 - !private ["SQ", "keyPath"]
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "=="]
@@ -69,7 +66,6 @@ depends-member:
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_Default_StringLiteralType"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "ascending"]
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "description"]
-- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "fatalError"]
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "keyPath"]
 - ["s26ExpressibleByStringLiteralP", "=="]
@@ -82,7 +78,6 @@ depends-member:
 - ["s26ExpressibleByStringLiteralP", "_Default_StringLiteralType"]
 - !private ["s26ExpressibleByStringLiteralP", "ascending"]
 - ["s26ExpressibleByStringLiteralP", "description"]
-- !private ["s26ExpressibleByStringLiteralP", "fatalError"]
 - ["s26ExpressibleByStringLiteralP", "init"]
 - !private ["s26ExpressibleByStringLiteralP", "keyPath"]
 - ["s33ExpressibleByUnicodeScalarLiteralP", "=="]
@@ -95,7 +90,6 @@ depends-member:
 - ["s33ExpressibleByUnicodeScalarLiteralP", "_Default_StringLiteralType"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "ascending"]
 - ["s33ExpressibleByUnicodeScalarLiteralP", "description"]
-- !private ["s33ExpressibleByUnicodeScalarLiteralP", "fatalError"]
 - ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "keyPath"]
 - !private ["SH", "init"]
@@ -114,10 +108,8 @@ depends-member:
 - ["10RealmSwift14SortDescriptorV", "ascending"]
 - ["10RealmSwift14SortDescriptorV", "deinit"]
 - ["10RealmSwift14SortDescriptorV", "description"]
-- !private ["10RealmSwift14SortDescriptorV", "fatalError"]
 - ["10RealmSwift14SortDescriptorV", "init"]
 - ["10RealmSwift14SortDescriptorV", "keyPath"]
-- ["10RealmSwift14SortDescriptorV", "property"]
 - ["10RealmSwift14SortDescriptorV", "reversed"]
 - ["10RealmSwift14SortDescriptorV", "rlmSortDescriptorValue"]
 - !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
@@ -215,4 +207,4 @@ depends-external:
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "b175fd5a567ea3cbbe2907630cee5ef4"
+interface-hash: "7bf71f268b16dbe482aefc8f322da72e"

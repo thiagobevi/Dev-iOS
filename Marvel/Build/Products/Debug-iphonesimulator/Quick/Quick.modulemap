@@ -1,0 +1,12 @@
+module Quick {
+  umbrella header "Quick-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+
+module Quick.Swift {
+  header "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Quick/Swift Compatibility Header/Quick-Swift.h"
+  requires objc
+}

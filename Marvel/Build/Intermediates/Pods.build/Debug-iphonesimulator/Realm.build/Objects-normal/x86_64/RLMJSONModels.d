@@ -11,9 +11,7 @@ dependencies: \
   /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/RLMRealm.h \
   /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/RLMSyncCredentials.h \
   /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/RLMSyncUser.h \
-  /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/RLMResults.h \
-  /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/RLMCollection.h \
-  /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/RLMThreadSafeReference.h \
   /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/RLMSyncPermission.h \
   /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/RLMObject.h \
-  /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/RLMObjectBase.h
+  /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/RLMObjectBase.h \
+  /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/RLMThreadSafeReference.h

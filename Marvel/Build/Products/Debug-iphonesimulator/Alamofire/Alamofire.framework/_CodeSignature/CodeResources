@@ -14,7 +14,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		XrZuaQusZUFtr9+DBdg2TaXDFQU=
+		CVuoMMBMlw7bsl0JTj0iv6C1+Rc=
+		</data>
+		<key>Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		AKps9fPF+Nl7dRugHQQIQvikXck=
+		</data>
+		<key>Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<data>
+		S2Jk43FRAj82+nHuk/D++0CgwE4=
 		</data>
 		<key>Modules/Alamofire.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -51,6 +59,28 @@
 			<key>hash2</key>
 			<data>
 			xjVegAu7WgIX6x6hDM6tQd3ZedQH8S5veIqpM/WycHg=
+			</data>
+		</dict>
+		<key>Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			AKps9fPF+Nl7dRugHQQIQvikXck=
+			</data>
+			<key>hash2</key>
+			<data>
+			EO2g5/C2uut9kKfUORhRF+p6daNdgVQEch8ExFP3xk4=
+			</data>
+		</dict>
+		<key>Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			S2Jk43FRAj82+nHuk/D++0CgwE4=
+			</data>
+			<key>hash2</key>
+			<data>
+			+FR609j6F48DkYD7MxkiOh5tlm+oQDUauoFS04BOzx4=
 			</data>
 		</dict>
 		<key>Modules/Alamofire.swiftmodule/x86_64.swiftdoc</key>

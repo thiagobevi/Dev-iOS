@@ -13,8 +13,8 @@ dependencies: \
   /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/util/atomic_shared_ptr.hpp \
   /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/impl/collection_notifier.hpp \
   /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/impl/collection_change_builder.hpp \
+  /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/object.hpp \
   /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/property.hpp \
   /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/util/tagged_bool.hpp \
-  /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/object.hpp \
   /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/object_schema.hpp \
   /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/results.hpp

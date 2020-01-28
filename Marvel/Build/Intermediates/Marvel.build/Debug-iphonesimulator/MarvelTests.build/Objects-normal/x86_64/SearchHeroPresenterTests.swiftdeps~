@@ -1,0 +1,441 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SearchHeroPresenterTests"
+provides-nominal:
+- "11MarvelTests019SearchHeroPresenterB0C"
+provides-member:
+- ["11MarvelTests019SearchHeroPresenterB0C", ""]
+provides-dynamic-lookup:
+- "spec"
+depends-top-level:
+- !private "=="
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Character"
+- "CharacterData"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "MarvelError"
+- "QuickSpec"
+- !private "SearchHeroPresenter"
+- "SearchHeroPresenterTests"
+- "SearchHeroServiceProtocol"
+- !private "SearchHeroServiceSpy"
+- "SearchHeroView"
+- !private "SearchHeroViewSpy"
+- "String"
+- !private "StringLiteralType"
+- !private "beTrue"
+- !private "beforeEach"
+- !private "context"
+- !private "describe"
+- !private "expect"
+- !private "it"
+depends-member:
+- !private ["s7CVarArgP", "SearchHeroPresenter"]
+- !private ["s7CVarArgP", "SearchHeroServiceSpy"]
+- !private ["s7CVarArgP", "SearchHeroViewSpy"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "beTrue"]
+- !private ["s7CVarArgP", "beforeEach"]
+- !private ["s7CVarArgP", "context"]
+- !private ["s7CVarArgP", "describe"]
+- !private ["s7CVarArgP", "expect"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "it"]
+- !private ["6Marvel9CharacterV", "init"]
+- !private ["6Marvel9CharacterV", "name"]
+- !private ["6Marvel13CharacterDataV", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "SearchHeroPresenter"]
+- !private ["s28CustomDebugStringConvertibleP", "SearchHeroServiceSpy"]
+- !private ["s28CustomDebugStringConvertibleP", "SearchHeroViewSpy"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "attachView"]
+- !private ["s28CustomDebugStringConvertibleP", "beTrue"]
+- !private ["s28CustomDebugStringConvertibleP", "beforeEach"]
+- !private ["s28CustomDebugStringConvertibleP", "context"]
+- !private ["s28CustomDebugStringConvertibleP", "describe"]
+- !private ["s28CustomDebugStringConvertibleP", "errorPassed"]
+- !private ["s28CustomDebugStringConvertibleP", "expect"]
+- !private ["s28CustomDebugStringConvertibleP", "heroPassed"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "it"]
+- !private ["s28CustomDebugStringConvertibleP", "searchByHero"]
+- !private ["s28CustomDebugStringConvertibleP", "showDetailsCalled"]
+- !private ["s28CustomDebugStringConvertibleP", "showErrorCalled"]
+- !private ["10RealmSwift26CustomObjectiveCBridgeableP", "attachView"]
+- !private ["10RealmSwift26CustomObjectiveCBridgeableP", "errorPassed"]
+- !private ["10RealmSwift26CustomObjectiveCBridgeableP", "heroPassed"]
+- !private ["10RealmSwift26CustomObjectiveCBridgeableP", "searchByHero"]
+- !private ["10RealmSwift26CustomObjectiveCBridgeableP", "showDetailsCalled"]
+- !private ["10RealmSwift26CustomObjectiveCBridgeableP", "showErrorCalled"]
+- !private ["s17CustomReflectableP", "attachView"]
+- !private ["s17CustomReflectableP", "errorPassed"]
+- !private ["s17CustomReflectableP", "heroPassed"]
+- !private ["s17CustomReflectableP", "searchByHero"]
+- !private ["s17CustomReflectableP", "showDetailsCalled"]
+- !private ["s17CustomReflectableP", "showErrorCalled"]
+- !private ["s23CustomStringConvertibleP", "SearchHeroPresenter"]
+- !private ["s23CustomStringConvertibleP", "SearchHeroServiceSpy"]
+- !private ["s23CustomStringConvertibleP", "SearchHeroViewSpy"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "beTrue"]
+- !private ["s23CustomStringConvertibleP", "beforeEach"]
+- !private ["s23CustomStringConvertibleP", "context"]
+- !private ["s23CustomStringConvertibleP", "describe"]
+- !private ["s23CustomStringConvertibleP", "expect"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "it"]
+- !private ["Se", "attachView"]
+- !private ["Se", "errorPassed"]
+- !private ["Se", "heroPassed"]
+- !private ["Se", "init"]
+- !private ["Se", "name"]
+- !private ["Se", "searchByHero"]
+- !private ["Se", "showDetailsCalled"]
+- !private ["Se", "showErrorCalled"]
+- !private ["SE", "attachView"]
+- !private ["SE", "errorPassed"]
+- !private ["SE", "heroPassed"]
+- !private ["SE", "init"]
+- !private ["SE", "name"]
+- !private ["SE", "searchByHero"]
+- !private ["SE", "showDetailsCalled"]
+- !private ["SE", "showErrorCalled"]
+- !private ["SQ", "SearchHeroPresenter"]
+- !private ["SQ", "SearchHeroServiceSpy"]
+- !private ["SQ", "SearchHeroViewSpy"]
+- ["SQ", ""]
+- !private ["SQ", "attachView"]
+- !private ["SQ", "beTrue"]
+- !private ["SQ", "beforeEach"]
+- !private ["SQ", "context"]
+- !private ["SQ", "describe"]
+- !private ["SQ", "errorPassed"]
+- !private ["SQ", "expect"]
+- !private ["SQ", "heroPassed"]
+- !private ["SQ", "init"]
+- !private ["SQ", "it"]
+- !private ["SQ", "searchByHero"]
+- !private ["SQ", "showDetailsCalled"]
+- !private ["SQ", "showErrorCalled"]
+- !private ["s5ErrorP", "init"]
+- !private ["6Nimble11ExpectationV", "to"]
+- !private ["s23ExpressibleByNilLiteralP", "attachView"]
+- !private ["s23ExpressibleByNilLiteralP", "errorPassed"]
+- !private ["s23ExpressibleByNilLiteralP", "heroPassed"]
+- !private ["s23ExpressibleByNilLiteralP", "searchByHero"]
+- !private ["s23ExpressibleByNilLiteralP", "showDetailsCalled"]
+- !private ["s23ExpressibleByNilLiteralP", "showErrorCalled"]
+- !private ["SH", "SearchHeroPresenter"]
+- !private ["SH", "SearchHeroServiceSpy"]
+- !private ["SH", "SearchHeroViewSpy"]
+- ["SH", ""]
+- !private ["SH", "attachView"]
+- !private ["SH", "beTrue"]
+- !private ["SH", "beforeEach"]
+- !private ["SH", "context"]
+- !private ["SH", "describe"]
+- !private ["SH", "errorPassed"]
+- !private ["SH", "expect"]
+- !private ["SH", "heroPassed"]
+- !private ["SH", "init"]
+- !private ["SH", "it"]
+- !private ["SH", "searchByHero"]
+- !private ["SH", "showDetailsCalled"]
+- !private ["SH", "showErrorCalled"]
+- !private ["6Marvel0A5ErrorC", "init"]
+- !private ["So8NSObjectC", "SearchHeroPresenter"]
+- !private ["So8NSObjectC", "SearchHeroServiceSpy"]
+- !private ["So8NSObjectC", "SearchHeroViewSpy"]
+- !private ["So8NSObjectC", "beTrue"]
+- !private ["So8NSObjectC", "beforeEach"]
+- !private ["So8NSObjectC", "context"]
+- !private ["So8NSObjectC", "describe"]
+- !private ["So8NSObjectC", "expect"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "it"]
+- ["So8NSObjectC", "spec"]
+- !private ["So8NSObjectP", "SearchHeroPresenter"]
+- !private ["So8NSObjectP", "SearchHeroServiceSpy"]
+- !private ["So8NSObjectP", "SearchHeroViewSpy"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "beTrue"]
+- !private ["So8NSObjectP", "beforeEach"]
+- !private ["So8NSObjectP", "context"]
+- !private ["So8NSObjectP", "describe"]
+- !private ["So8NSObjectP", "expect"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "it"]
+- !private ["Sq", "attachView"]
+- !private ["Sq", "errorPassed"]
+- !private ["Sq", "heroPassed"]
+- !private ["Sq", "searchByHero"]
+- !private ["Sq", "showDetailsCalled"]
+- !private ["Sq", "showErrorCalled"]
+- !private ["10RealmSwift16OptionalProtocolP", "attachView"]
+- !private ["10RealmSwift16OptionalProtocolP", "errorPassed"]
+- !private ["10RealmSwift16OptionalProtocolP", "heroPassed"]
+- !private ["10RealmSwift16OptionalProtocolP", "searchByHero"]
+- !private ["10RealmSwift16OptionalProtocolP", "showDetailsCalled"]
+- !private ["10RealmSwift16OptionalProtocolP", "showErrorCalled"]
+- !private ["So9QuickSpecC", "SearchHeroPresenter"]
+- !private ["So9QuickSpecC", "SearchHeroServiceSpy"]
+- !private ["So9QuickSpecC", "SearchHeroViewSpy"]
+- ["So9QuickSpecC", ""]
+- !private ["So9QuickSpecC", "beTrue"]
+- !private ["So9QuickSpecC", "beforeEach"]
+- !private ["So9QuickSpecC", "context"]
+- !private ["So9QuickSpecC", "describe"]
+- !private ["So9QuickSpecC", "expect"]
+- ["So9QuickSpecC", "init"]
+- !private ["So9QuickSpecC", "it"]
+- ["So9QuickSpecC", "spec"]
+- !private ["10RealmSwift0A15CollectionValueP", "attachView"]
+- !private ["10RealmSwift0A15CollectionValueP", "errorPassed"]
+- !private ["10RealmSwift0A15CollectionValueP", "heroPassed"]
+- !private ["10RealmSwift0A15CollectionValueP", "searchByHero"]
+- !private ["10RealmSwift0A15CollectionValueP", "showDetailsCalled"]
+- !private ["10RealmSwift0A15CollectionValueP", "showErrorCalled"]
+- !private ["6Marvel21SearchHeroPresentableP", "attachView"]
+- !private ["6Marvel21SearchHeroPresentableP", "init"]
+- !private ["6Marvel21SearchHeroPresentableP", "searchByHero"]
+- !private ["6Marvel19SearchHeroPresenterC", "attachView"]
+- !private ["6Marvel19SearchHeroPresenterC", "init"]
+- !private ["6Marvel19SearchHeroPresenterC", "searchByHero"]
+- !private ["11MarvelTests019SearchHeroPresenterB0C", "SearchHeroPresenter"]
+- !private ["11MarvelTests019SearchHeroPresenterB0C", "SearchHeroServiceSpy"]
+- !private ["11MarvelTests019SearchHeroPresenterB0C", "SearchHeroViewSpy"]
+- !private ["11MarvelTests019SearchHeroPresenterB0C", "beTrue"]
+- !private ["11MarvelTests019SearchHeroPresenterB0C", "beforeEach"]
+- !private ["11MarvelTests019SearchHeroPresenterB0C", "context"]
+- ["11MarvelTests019SearchHeroPresenterB0C", "deinit"]
+- !private ["11MarvelTests019SearchHeroPresenterB0C", "describe"]
+- !private ["11MarvelTests019SearchHeroPresenterB0C", "expect"]
+- ["11MarvelTests019SearchHeroPresenterB0C", "init"]
+- !private ["11MarvelTests019SearchHeroPresenterB0C", "it"]
+- ["11MarvelTests019SearchHeroPresenterB0C", "spec"]
+- !private ["6Marvel25SearchHeroServiceProtocolP", "Character"]
+- !private ["6Marvel25SearchHeroServiceProtocolP", "CharacterData"]
+- !private ["6Marvel25SearchHeroServiceProtocolP", "MarvelError"]
+- !private ["6Marvel25SearchHeroServiceProtocolP", ""]
+- ["6Marvel25SearchHeroServiceProtocolP", "getMarvelHeroesData"]
+- !private ["6Marvel25SearchHeroServiceProtocolP", "init"]
+- !private ["6Marvel14SearchHeroViewP", ""]
+- !private ["6Marvel14SearchHeroViewP", "errorPassed"]
+- !private ["6Marvel14SearchHeroViewP", "heroPassed"]
+- !private ["6Marvel14SearchHeroViewP", "init"]
+- ["6Marvel14SearchHeroViewP", "showDetails"]
+- !private ["6Marvel14SearchHeroViewP", "showDetailsCalled"]
+- ["6Marvel14SearchHeroViewP", "showError"]
+- !private ["6Marvel14SearchHeroViewP", "showErrorCalled"]
+- !private ["So11XCTActivityP", "SearchHeroPresenter"]
+- !private ["So11XCTActivityP", "SearchHeroServiceSpy"]
+- !private ["So11XCTActivityP", "SearchHeroViewSpy"]
+- ["So11XCTActivityP", ""]
+- !private ["So11XCTActivityP", "beTrue"]
+- !private ["So11XCTActivityP", "beforeEach"]
+- !private ["So11XCTActivityP", "context"]
+- !private ["So11XCTActivityP", "describe"]
+- !private ["So11XCTActivityP", "expect"]
+- !private ["So11XCTActivityP", "init"]
+- !private ["So11XCTActivityP", "it"]
+- !private ["So17XCTWaiterDelegateP", "SearchHeroPresenter"]
+- !private ["So17XCTWaiterDelegateP", "SearchHeroServiceSpy"]
+- !private ["So17XCTWaiterDelegateP", "SearchHeroViewSpy"]
+- ["So17XCTWaiterDelegateP", ""]
+- !private ["So17XCTWaiterDelegateP", "beTrue"]
+- !private ["So17XCTWaiterDelegateP", "beforeEach"]
+- !private ["So17XCTWaiterDelegateP", "context"]
+- !private ["So17XCTWaiterDelegateP", "describe"]
+- !private ["So17XCTWaiterDelegateP", "expect"]
+- !private ["So17XCTWaiterDelegateP", "init"]
+- !private ["So17XCTWaiterDelegateP", "it"]
+- !private ["So6XCTestC", "SearchHeroPresenter"]
+- !private ["So6XCTestC", "SearchHeroServiceSpy"]
+- !private ["So6XCTestC", "SearchHeroViewSpy"]
+- !private ["So6XCTestC", "beTrue"]
+- !private ["So6XCTestC", "beforeEach"]
+- !private ["So6XCTestC", "context"]
+- !private ["So6XCTestC", "describe"]
+- !private ["So6XCTestC", "expect"]
+- ["So6XCTestC", "init"]
+- !private ["So6XCTestC", "it"]
+- ["So6XCTestC", "spec"]
+- !private ["So10XCTestCaseC", "SearchHeroPresenter"]
+- !private ["So10XCTestCaseC", "SearchHeroServiceSpy"]
+- !private ["So10XCTestCaseC", "SearchHeroViewSpy"]
+- !private ["So10XCTestCaseC", "beTrue"]
+- !private ["So10XCTestCaseC", "beforeEach"]
+- !private ["So10XCTestCaseC", "context"]
+- !private ["So10XCTestCaseC", "describe"]
+- !private ["So10XCTestCaseC", "expect"]
+- ["So10XCTestCaseC", "init"]
+- !private ["So10XCTestCaseC", "it"]
+- ["So10XCTestCaseC", "spec"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SearchHeroPresenter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SearchHeroServiceSpy"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SearchHeroViewSpy"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "beTrue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "beforeEach"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "context"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "describe"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "expect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "it"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "attachView"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "errorPassed"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "heroPassed"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "searchByHero"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "showDetailsCalled"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "showErrorCalled"]
+- !private ["s21_ObjectiveCBridgeableP", "attachView"]
+- !private ["s21_ObjectiveCBridgeableP", "errorPassed"]
+- !private ["s21_ObjectiveCBridgeableP", "heroPassed"]
+- !private ["s21_ObjectiveCBridgeableP", "searchByHero"]
+- !private ["s21_ObjectiveCBridgeableP", "showDetailsCalled"]
+- !private ["s21_ObjectiveCBridgeableP", "showErrorCalled"]
+depends-nominal:
+- "s7CVarArgP"
+- !private "6Marvel9CharacterV"
+- !private "6Marvel13CharacterDataV"
+- "s28CustomDebugStringConvertibleP"
+- !private "10RealmSwift26CustomObjectiveCBridgeableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s5ErrorP"
+- !private "6Nimble11ExpectationV"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- !private "6Marvel0A5ErrorC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sq"
+- !private "10RealmSwift16OptionalProtocolP"
+- "So9QuickSpecC"
+- !private "10RealmSwift0A15CollectionValueP"
+- !private "6Marvel21SearchHeroPresentableP"
+- !private "6Marvel19SearchHeroPresenterC"
+- "11MarvelTests019SearchHeroPresenterB0C"
+- "6Marvel25SearchHeroServiceProtocolP"
+- "6Marvel14SearchHeroViewP"
+- "So11XCTActivityP"
+- "So17XCTWaiterDelegateP"
+- "So6XCTestC"
+- "So10XCTestCaseC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10RealmSwift20_ManagedPropertyTypeP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/SwiftyJSON-library/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Nimble/Nimble.swiftmodule/x86_64.swiftmodule"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Quick/Quick.swiftmodule/x86_64.swiftmodule"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Marvel.swiftmodule/x86_64.swiftmodule"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/RealmSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/XCTest.swiftmodule"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Headers/Public/Nimble/DSL.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Headers/Public/Quick/QCKDSL.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Nimble/Nimble-umbrella.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Quick/Quick-umbrella.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-umbrella.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/SwiftyJSON-library/SwiftyJSON-library-umbrella.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSchema.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Headers/Public/Quick/QuickSpec.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm+Sync.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration+Sync.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/NSError+RLMSync.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMThreadSafeReference.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Headers/Public/Nimble/Nimble.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Headers/Public/Nimble/NMBExceptionCapture.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMOptionalBase.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMListBase.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectBase_Private.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncUtil_Private.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncConfiguration_Private.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMCollection_Private.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Headers/Public/Nimble/CwlPreconditionTesting.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Headers/Public/Quick/Quick.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUtil.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/Realm.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncSession.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermission.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMMigration.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncConfiguration.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Headers/Public/Quick/QuickConfiguration.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMCollection.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Headers/Public/Nimble/CwlCatchException.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncSubscription.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncManager.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Headers/Public/Nimble/CwlMachBadInstructionHandler.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUser.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Headers/Public/Nimble/mach_excServer.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncCredentials.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMResults.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMConstants.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObject.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/SwiftyJSON-library/Swift Compatibility Header/SwiftyJSON-Swift.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Nimble/Swift Compatibility Header/Nimble-Swift.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Quick/Swift Compatibility Header/Quick-Swift.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMArray.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Headers/Public/Nimble/NMBStringify.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMProperty.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/SwiftyJSON-library/SwiftyJSON.modulemap"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Nimble/Nimble.modulemap"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Modules/module.modulemap"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/module.modulemap"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Quick/Quick.modulemap"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "858fa78280adb91a53a6e41b3320a270"

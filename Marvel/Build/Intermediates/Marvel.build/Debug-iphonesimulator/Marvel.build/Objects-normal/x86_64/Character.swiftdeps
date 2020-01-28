@@ -1,91 +1,221 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
+- "CharacterResponse"
+- "CharacterData"
 - "Character"
 provides-nominal:
-- "6Marvel9CharacterC"
+- "6Marvel17CharacterResponseV"
+- "6Marvel13CharacterDataV"
+- "6Marvel13CharacterDataV10CodingKeysO"
+- "6Marvel9CharacterV"
 provides-member:
-- ["6Marvel9CharacterC", ""]
+- ["6Marvel17CharacterResponseV", ""]
+- ["6Marvel13CharacterDataV", ""]
+- ["6Marvel13CharacterDataV10CodingKeysO", ""]
+- ["6Marvel9CharacterV", ""]
 provides-dynamic-lookup:
-- "descriptions"
-- "favorite"
-- "id"
-- "name"
-- "primaryKey"
 depends-top-level:
-- "BooleanLiteralType"
+- "=="
 - "Character"
-- "Object"
+- "CharacterData"
+- "CharacterResponse"
+- "Codable"
+- "CodingKey"
+- "Int"
 - "String"
-- "StringLiteralType"
+- "URL"
+- !private "_findStringSwitchCase"
+- !private "~="
 depends-member:
-- ["10RealmSwift28AssistedObjectiveCBridgeableP", ""]
-- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "init"]
-- ["s7CVarArgP", ""]
-- !private ["s7CVarArgP", "init"]
-- ["6Marvel9CharacterC", "String"]
-- ["6Marvel9CharacterC", "deinit"]
-- ["6Marvel9CharacterC", "descriptions"]
-- ["6Marvel9CharacterC", "favorite"]
-- ["6Marvel9CharacterC", "id"]
-- ["6Marvel9CharacterC", "init"]
-- ["6Marvel9CharacterC", "name"]
-- ["6Marvel9CharacterC", "primaryKey"]
+- ["6Marvel9CharacterV", "Int"]
+- ["6Marvel9CharacterV", "String"]
+- ["6Marvel9CharacterV", "URL"]
+- ["6Marvel9CharacterV", "deinit"]
+- ["6Marvel9CharacterV", "description"]
+- ["6Marvel9CharacterV", "encode"]
+- ["6Marvel9CharacterV", "id"]
+- ["6Marvel9CharacterV", "imageExtension"]
+- ["6Marvel9CharacterV", "imageURLPath"]
+- ["6Marvel9CharacterV", "init"]
+- ["6Marvel9CharacterV", "name"]
+- ["6Marvel13CharacterDataV", "Character"]
+- ["6Marvel13CharacterDataV", "CodingKey"]
+- ["6Marvel13CharacterDataV", "CodingKeys"]
+- ["6Marvel13CharacterDataV", "String"]
+- !private ["6Marvel13CharacterDataV", "_findStringSwitchCase"]
+- ["6Marvel13CharacterDataV", "deinit"]
+- ["6Marvel13CharacterDataV", "encode"]
+- ["6Marvel13CharacterDataV", "init"]
+- ["6Marvel13CharacterDataV", "results"]
+- ["6Marvel17CharacterResponseV", "CharacterData"]
+- ["6Marvel17CharacterResponseV", "data"]
+- ["6Marvel17CharacterResponseV", "deinit"]
+- ["6Marvel17CharacterResponseV", "encode"]
+- ["6Marvel17CharacterResponseV", "init"]
+- ["s9CodingKeyP", "=="]
+- ["s9CodingKeyP", "RawValue"]
+- ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_Default_RawValue"]
+- !private ["s9CodingKeyP", "_findStringSwitchCase"]
+- ["s9CodingKeyP", "_rawHashValue"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "rawValue"]
+- ["s9CodingKeyP", "stringValue"]
+- ["6Marvel13CharacterDataV10CodingKeysO", "=="]
+- ["6Marvel13CharacterDataV10CodingKeysO", "RawValue"]
+- ["6Marvel13CharacterDataV10CodingKeysO", "_Default_RawValue"]
+- !private ["6Marvel13CharacterDataV10CodingKeysO", "_findStringSwitchCase"]
+- ["6Marvel13CharacterDataV10CodingKeysO", "_rawHashValue"]
+- ["6Marvel13CharacterDataV10CodingKeysO", "debugDescription"]
+- ["6Marvel13CharacterDataV10CodingKeysO", "deinit"]
+- ["6Marvel13CharacterDataV10CodingKeysO", "description"]
+- ["6Marvel13CharacterDataV10CodingKeysO", "hash"]
+- ["6Marvel13CharacterDataV10CodingKeysO", "hashValue"]
+- ["6Marvel13CharacterDataV10CodingKeysO", "init"]
+- ["6Marvel13CharacterDataV10CodingKeysO", "intValue"]
+- ["6Marvel13CharacterDataV10CodingKeysO", "rawValue"]
+- ["6Marvel13CharacterDataV10CodingKeysO", "results"]
+- ["6Marvel13CharacterDataV10CodingKeysO", "stringValue"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- ["s28CustomDebugStringConvertibleP", "RawValue"]
 - ["s28CustomDebugStringConvertibleP", ""]
-- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "_Default_RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "_findStringSwitchCase"]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- ["s28CustomDebugStringConvertibleP", "rawValue"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", "RawValue"]
 - ["s23CustomStringConvertibleP", ""]
-- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "_Default_RawValue"]
+- !private ["s23CustomStringConvertibleP", "_findStringSwitchCase"]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- ["s23CustomStringConvertibleP", "rawValue"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- ["Se", ""]
+- !private ["Se", "_findStringSwitchCase"]
+- !private ["Se", "data"]
+- !private ["Se", "description"]
+- ["Se", "encode"]
+- !private ["Se", "id"]
+- !private ["Se", "imageExtension"]
+- !private ["Se", "imageURLPath"]
+- ["Se", "init"]
+- !private ["Se", "name"]
+- !private ["Se", "results"]
+- !private ["s7DecoderP", "container"]
+- ["SE", ""]
+- !private ["SE", "_findStringSwitchCase"]
+- !private ["SE", "data"]
+- !private ["SE", "description"]
+- ["SE", "encode"]
+- !private ["SE", "id"]
+- !private ["SE", "imageExtension"]
+- !private ["SE", "imageURLPath"]
+- ["SE", "init"]
+- !private ["SE", "name"]
+- !private ["SE", "results"]
+- !private ["s7EncoderP", "container"]
+- ["SQ", "=="]
+- ["SQ", "RawValue"]
 - ["SQ", ""]
-- !private ["SQ", "init"]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- ["SQ", "rawValue"]
+- ["SQ", "stringValue"]
+- ["SH", "=="]
+- ["SH", "RawValue"]
 - ["SH", ""]
-- !private ["SH", "init"]
-- ["So8NSObjectC", "String"]
-- ["So8NSObjectC", "descriptions"]
-- ["So8NSObjectC", "favorite"]
-- ["So8NSObjectC", "id"]
-- ["So8NSObjectC", "init"]
-- ["So8NSObjectC", "name"]
-- ["So8NSObjectC", "primaryKey"]
-- ["So8NSObjectP", ""]
-- !private ["So8NSObjectP", "init"]
-- ["10RealmSwift6ObjectC", "String"]
-- ["10RealmSwift6ObjectC", ""]
-- ["10RealmSwift6ObjectC", "descriptions"]
-- ["10RealmSwift6ObjectC", "favorite"]
-- ["10RealmSwift6ObjectC", "id"]
-- ["10RealmSwift6ObjectC", "init"]
-- ["10RealmSwift6ObjectC", "name"]
-- ["10RealmSwift6ObjectC", "primaryKey"]
-- ["So13RLMObjectBaseC", "String"]
-- ["So13RLMObjectBaseC", "descriptions"]
-- ["So13RLMObjectBaseC", "favorite"]
-- ["So13RLMObjectBaseC", "id"]
-- ["So13RLMObjectBaseC", "init"]
-- ["So13RLMObjectBaseC", "name"]
-- ["So13RLMObjectBaseC", "primaryKey"]
-- ["10RealmSwift0A15CollectionValueP", ""]
-- !private ["10RealmSwift0A15CollectionValueP", "init"]
-- ["10RealmSwift14ThreadConfinedP", ""]
-- !private ["10RealmSwift14ThreadConfinedP", "init"]
-- ["10Foundation27_KeyValueCodingAndObservingP", ""]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- ["SH", "rawValue"]
+- ["SH", "stringValue"]
+- !private ["s6HasherV", "combine"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s22KeyedDecodingContainerV", "decodeIfPresent"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decodeIfPresent"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s22KeyedEncodingContainerV", "encodeIfPresent"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encodeIfPresent"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- ["SY", "debugDescription"]
+- ["SY", "description"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "intValue"]
+- ["SY", "rawValue"]
+- ["SY", "stringValue"]
 depends-nominal:
-- "10RealmSwift28AssistedObjectiveCBridgeableP"
-- "s7CVarArgP"
-- "6Marvel9CharacterC"
+- "6Marvel9CharacterV"
+- "6Marvel13CharacterDataV"
+- "6Marvel17CharacterResponseV"
+- "s9CodingKeyP"
+- "6Marvel13CharacterDataV10CodingKeysO"
+- "6Marvel13CharacterDataV10CodingKeysO"
+- "6Marvel13CharacterDataV10CodingKeysO"
+- "6Marvel13CharacterDataV10CodingKeysO"
+- "6Marvel13CharacterDataV10CodingKeysO"
+- "6Marvel13CharacterDataV10CodingKeysO"
+- "6Marvel13CharacterDataV10CodingKeysO"
+- "6Marvel13CharacterDataV10CodingKeysO"
+- "6Marvel13CharacterDataV10CodingKeysO"
+- "6Marvel13CharacterDataV10CodingKeysO"
+- "6Marvel13CharacterDataV10CodingKeysO"
 - "s28CustomDebugStringConvertibleP"
 - "s23CustomStringConvertibleP"
+- "Se"
+- !private "s7DecoderP"
+- "SE"
+- !private "s7EncoderP"
 - "SQ"
 - "SH"
-- "So8NSObjectC"
-- "So8NSObjectP"
-- "10RealmSwift6ObjectC"
-- "So13RLMObjectBaseC"
-- "10RealmSwift0A15CollectionValueP"
-- "10RealmSwift14ThreadConfinedP"
-- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s6HasherV"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- "SY"
 depends-dynamic-lookup:
 depends-external:
-- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
 - "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
 - "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/RealmSwift.swiftmodule/x86_64.swiftmodule"
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
@@ -100,7 +230,6 @@ depends-external:
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
 - "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
 - "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-umbrella.h"
 - "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSchema.h"
@@ -145,12 +274,10 @@ depends-external:
 - "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMResults.h"
 - "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMConstants.h"
 - "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObject.h"
-- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
 - "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
 - "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
 - "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMArray.h"
 - "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMProperty.h"
-- "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
 - "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
 - "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Modules/module.modulemap"
 - "/Users/ThiagoBevi/Dev-iOS/Marvel/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/module.modulemap"
@@ -166,4 +293,4 @@ depends-external:
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "b8e50825ecb791c889880178df54d979"
+interface-hash: "9bd69393394ac16d6345e7ce9e75f608"

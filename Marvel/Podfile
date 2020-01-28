@@ -9,5 +9,10 @@ target 'Marvel' do
   pod 'SwiftyJSON'
   pod 'Alamofire'
   pod 'RealmSwift'
+end
 
+target 'MarvelTests' do
+  pod 'SwiftyJSON'
+  pod 'Quick'
+  pod 'Nimble'
 end

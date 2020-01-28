@@ -3,6 +3,7 @@ provides-top-level:
 - "RLMIterator"
 - "RealmCollectionChange"
 - "RealmCollectionValue"
+- "_RealmCollectionEnumerator"
 - "RealmCollectionBase"
 - "RealmCollection"
 - "OptionalProtocol"
@@ -23,10 +24,11 @@ provides-nominal:
 - "SS"
 - "10Foundation4DateV"
 - "10Foundation4DataV"
+- "10RealmSwift01_A20CollectionEnumeratorP"
 - "10RealmSwift0A14CollectionBaseP"
 - "10RealmSwift0A10CollectionP"
 - "10RealmSwift16OptionalProtocolP"
-- "10RealmSwift03AnyA10CollectionC"
+- "10RealmSwift03AnyA10CollectionV"
 provides-member:
 - ["10RealmSwift11RLMIteratorV", ""]
 - ["10RealmSwift0A16CollectionChangeO", ""]
@@ -43,10 +45,11 @@ provides-member:
 - ["SS", ""]
 - ["10Foundation4DateV", ""]
 - ["10Foundation4DataV", ""]
+- ["10RealmSwift01_A20CollectionEnumeratorP", ""]
 - ["10RealmSwift0A14CollectionBaseP", ""]
 - ["10RealmSwift0A10CollectionP", ""]
 - ["10RealmSwift16OptionalProtocolP", ""]
-- ["10RealmSwift03AnyA10CollectionC", ""]
+- ["10RealmSwift03AnyA10CollectionV", ""]
 - ["10RealmSwift0A15CollectionValueP", "_rlmArray"]
 - ["10RealmSwift0A15CollectionValueP", "_nilValue"]
 - ["10RealmSwift0A10CollectionP", "min"]
@@ -59,8 +62,6 @@ provides-member:
 - ["10RealmSwift0A10CollectionP", "average"]
 - ["10RealmSwift0A10CollectionP", "sorted"]
 - ["10RealmSwift0A10CollectionP", "sorted"]
-- ["10RealmSwift0A10CollectionP", "sorted"]
-- ["10RealmSwift0A10CollectionP", "addNotificationBlock"]
 provides-dynamic-lookup:
 depends-top-level:
 - !private "+"
@@ -73,7 +74,6 @@ depends-top-level:
 - "AssignmentPrecedence"
 - "AssistedObjectiveCBridgeable"
 - "Bool"
-- !private "BooleanLiteralType"
 - "CastingPrecedence"
 - "Comparable"
 - "CustomStringConvertible"
@@ -83,13 +83,11 @@ depends-top-level:
 - "Equatable"
 - "Error"
 - "Float"
-- !private "FloatLiteralType"
 - "Int"
 - "Int16"
 - "Int32"
 - "Int64"
 - "Int8"
-- !private "IntegerLiteralType"
 - "IteratorProtocol"
 - "LazyCollectionProtocol"
 - "MinMaxType"
@@ -114,12 +112,11 @@ depends-top-level:
 - "Sequence"
 - "SortDescriptor"
 - "String"
-- !private "StringLiteralType"
 - "ThreadConfined"
-- !private "UnicodeScalarType"
 - "Void"
 - "_AnyRealmCollection"
 - "_AnyRealmCollectionBase"
+- "_RealmCollectionEnumerator"
 - !private "arrayType"
 - !private "dynamicBridgeCast"
 - !private "fatalError"
@@ -137,79 +134,80 @@ depends-member:
 - !private ["s18AdditiveArithmeticP", "RLMArray"]
 - ["s18AdditiveArithmeticP", "_nilValue"]
 - ["s18AdditiveArithmeticP", "_rlmArray"]
-- ["10RealmSwift03AnyA10CollectionC", "AddableType"]
-- ["10RealmSwift03AnyA10CollectionC", "AnyRealmCollection"]
-- !private ["10RealmSwift03AnyA10CollectionC", "AnyRealmCollectionBridgingMetadata"]
-- ["10RealmSwift03AnyA10CollectionC", "Bool"]
-- ["10RealmSwift03AnyA10CollectionC", "Double"]
-- ["10RealmSwift03AnyA10CollectionC", "Element"]
-- ["10RealmSwift03AnyA10CollectionC", "ElementType"]
-- ["10RealmSwift03AnyA10CollectionC", "Elements"]
-- ["10RealmSwift03AnyA10CollectionC", "Index"]
-- ["10RealmSwift03AnyA10CollectionC", "Indices"]
-- ["10RealmSwift03AnyA10CollectionC", "Int"]
-- ["10RealmSwift03AnyA10CollectionC", "Iterator"]
-- ["10RealmSwift03AnyA10CollectionC", "MinMaxType"]
-- ["10RealmSwift03AnyA10CollectionC", "NSPredicate"]
-- ["10RealmSwift03AnyA10CollectionC", "NotificationToken"]
-- ["10RealmSwift03AnyA10CollectionC", "RLMIterator"]
-- ["10RealmSwift03AnyA10CollectionC", "Realm"]
-- ["10RealmSwift03AnyA10CollectionC", "RealmCollection"]
-- ["10RealmSwift03AnyA10CollectionC", "RealmCollectionChange"]
-- ["10RealmSwift03AnyA10CollectionC", "Results"]
-- ["10RealmSwift03AnyA10CollectionC", "Sequence"]
-- ["10RealmSwift03AnyA10CollectionC", "SortDescriptor"]
-- ["10RealmSwift03AnyA10CollectionC", "String"]
-- ["10RealmSwift03AnyA10CollectionC", "SubSequence"]
-- ["10RealmSwift03AnyA10CollectionC", "Void"]
-- !private ["10RealmSwift03AnyA10CollectionC", "_AnyRealmCollection"]
-- ["10RealmSwift03AnyA10CollectionC", "_AnyRealmCollectionBase"]
-- ["10RealmSwift03AnyA10CollectionC", "_Default_Element"]
-- ["10RealmSwift03AnyA10CollectionC", "_Default_Elements"]
-- ["10RealmSwift03AnyA10CollectionC", "_Default_Index"]
-- ["10RealmSwift03AnyA10CollectionC", "_Default_Indices"]
-- ["10RealmSwift03AnyA10CollectionC", "_Default_Iterator"]
-- ["10RealmSwift03AnyA10CollectionC", "_Default_SubSequence"]
-- ["10RealmSwift03AnyA10CollectionC", "_copyContents"]
-- ["10RealmSwift03AnyA10CollectionC", "_copyToContiguousArray"]
-- ["10RealmSwift03AnyA10CollectionC", "_customContainsEquatableElement"]
-- ["10RealmSwift03AnyA10CollectionC", "_customIndexOfEquatableElement"]
-- ["10RealmSwift03AnyA10CollectionC", "_customLastIndexOfEquatableElement"]
-- ["10RealmSwift03AnyA10CollectionC", "_failEarlyRangeCheck"]
-- ["10RealmSwift03AnyA10CollectionC", "_observe"]
-- ["10RealmSwift03AnyA10CollectionC", "average"]
-- !private ["10RealmSwift03AnyA10CollectionC", "base"]
-- ["10RealmSwift03AnyA10CollectionC", "bridged"]
-- ["10RealmSwift03AnyA10CollectionC", "bridging"]
-- ["10RealmSwift03AnyA10CollectionC", "count"]
-- ["10RealmSwift03AnyA10CollectionC", "deinit"]
-- ["10RealmSwift03AnyA10CollectionC", "description"]
-- ["10RealmSwift03AnyA10CollectionC", "distance"]
-- ["10RealmSwift03AnyA10CollectionC", "elements"]
-- ["10RealmSwift03AnyA10CollectionC", "endIndex"]
-- ["10RealmSwift03AnyA10CollectionC", "filter"]
-- ["10RealmSwift03AnyA10CollectionC", "formIndex"]
-- ["10RealmSwift03AnyA10CollectionC", "index"]
-- ["10RealmSwift03AnyA10CollectionC", "indices"]
-- ["10RealmSwift03AnyA10CollectionC", "init"]
-- ["10RealmSwift03AnyA10CollectionC", "isEmpty"]
-- ["10RealmSwift03AnyA10CollectionC", "isInvalidated"]
-- ["10RealmSwift03AnyA10CollectionC", "makeIterator"]
-- ["10RealmSwift03AnyA10CollectionC", "max"]
-- ["10RealmSwift03AnyA10CollectionC", "min"]
-- ["10RealmSwift03AnyA10CollectionC", "observe"]
-- !private ["10RealmSwift03AnyA10CollectionC", "preconditionFailure"]
-- ["10RealmSwift03AnyA10CollectionC", "realm"]
-- ["10RealmSwift03AnyA10CollectionC", "setValue"]
-- ["10RealmSwift03AnyA10CollectionC", "sorted"]
-- ["10RealmSwift03AnyA10CollectionC", "startIndex"]
-- ["10RealmSwift03AnyA10CollectionC", "subscript"]
-- ["10RealmSwift03AnyA10CollectionC", "sum"]
-- !private ["10RealmSwift03AnyA10CollectionC", "type"]
-- ["10RealmSwift03AnyA10CollectionC", "underestimatedCount"]
-- !private ["10RealmSwift03AnyA10CollectionC", "unwrapOptionals"]
-- ["10RealmSwift03AnyA10CollectionC", "value"]
-- ["10RealmSwift03AnyA10CollectionC", "withContiguousStorageIfAvailable"]
+- ["10RealmSwift03AnyA10CollectionV", "AddableType"]
+- ["10RealmSwift03AnyA10CollectionV", "AnyRealmCollection"]
+- !private ["10RealmSwift03AnyA10CollectionV", "AnyRealmCollectionBridgingMetadata"]
+- ["10RealmSwift03AnyA10CollectionV", "Bool"]
+- ["10RealmSwift03AnyA10CollectionV", "Double"]
+- ["10RealmSwift03AnyA10CollectionV", "Element"]
+- ["10RealmSwift03AnyA10CollectionV", "ElementType"]
+- ["10RealmSwift03AnyA10CollectionV", "Elements"]
+- ["10RealmSwift03AnyA10CollectionV", "Index"]
+- ["10RealmSwift03AnyA10CollectionV", "Indices"]
+- ["10RealmSwift03AnyA10CollectionV", "Int"]
+- ["10RealmSwift03AnyA10CollectionV", "Iterator"]
+- ["10RealmSwift03AnyA10CollectionV", "MinMaxType"]
+- ["10RealmSwift03AnyA10CollectionV", "NSPredicate"]
+- ["10RealmSwift03AnyA10CollectionV", "NotificationToken"]
+- ["10RealmSwift03AnyA10CollectionV", "RLMIterator"]
+- ["10RealmSwift03AnyA10CollectionV", "Realm"]
+- ["10RealmSwift03AnyA10CollectionV", "RealmCollection"]
+- ["10RealmSwift03AnyA10CollectionV", "RealmCollectionChange"]
+- ["10RealmSwift03AnyA10CollectionV", "Results"]
+- ["10RealmSwift03AnyA10CollectionV", "Sequence"]
+- ["10RealmSwift03AnyA10CollectionV", "SortDescriptor"]
+- ["10RealmSwift03AnyA10CollectionV", "String"]
+- ["10RealmSwift03AnyA10CollectionV", "SubSequence"]
+- ["10RealmSwift03AnyA10CollectionV", "Void"]
+- !private ["10RealmSwift03AnyA10CollectionV", "_AnyRealmCollection"]
+- ["10RealmSwift03AnyA10CollectionV", "_AnyRealmCollectionBase"]
+- ["10RealmSwift03AnyA10CollectionV", "_Default_Element"]
+- ["10RealmSwift03AnyA10CollectionV", "_Default_Elements"]
+- ["10RealmSwift03AnyA10CollectionV", "_Default_Index"]
+- ["10RealmSwift03AnyA10CollectionV", "_Default_Indices"]
+- ["10RealmSwift03AnyA10CollectionV", "_Default_Iterator"]
+- ["10RealmSwift03AnyA10CollectionV", "_Default_SubSequence"]
+- ["10RealmSwift03AnyA10CollectionV", "_asNSFastEnumerator"]
+- ["10RealmSwift03AnyA10CollectionV", "_copyContents"]
+- ["10RealmSwift03AnyA10CollectionV", "_copyToContiguousArray"]
+- ["10RealmSwift03AnyA10CollectionV", "_customContainsEquatableElement"]
+- ["10RealmSwift03AnyA10CollectionV", "_customIndexOfEquatableElement"]
+- ["10RealmSwift03AnyA10CollectionV", "_customLastIndexOfEquatableElement"]
+- ["10RealmSwift03AnyA10CollectionV", "_failEarlyRangeCheck"]
+- ["10RealmSwift03AnyA10CollectionV", "_observe"]
+- ["10RealmSwift03AnyA10CollectionV", "average"]
+- !private ["10RealmSwift03AnyA10CollectionV", "base"]
+- ["10RealmSwift03AnyA10CollectionV", "bridged"]
+- ["10RealmSwift03AnyA10CollectionV", "bridging"]
+- ["10RealmSwift03AnyA10CollectionV", "count"]
+- ["10RealmSwift03AnyA10CollectionV", "deinit"]
+- ["10RealmSwift03AnyA10CollectionV", "description"]
+- ["10RealmSwift03AnyA10CollectionV", "distance"]
+- ["10RealmSwift03AnyA10CollectionV", "elements"]
+- ["10RealmSwift03AnyA10CollectionV", "endIndex"]
+- ["10RealmSwift03AnyA10CollectionV", "filter"]
+- ["10RealmSwift03AnyA10CollectionV", "formIndex"]
+- ["10RealmSwift03AnyA10CollectionV", "index"]
+- ["10RealmSwift03AnyA10CollectionV", "indices"]
+- ["10RealmSwift03AnyA10CollectionV", "init"]
+- ["10RealmSwift03AnyA10CollectionV", "isEmpty"]
+- ["10RealmSwift03AnyA10CollectionV", "isInvalidated"]
+- ["10RealmSwift03AnyA10CollectionV", "makeIterator"]
+- ["10RealmSwift03AnyA10CollectionV", "max"]
+- ["10RealmSwift03AnyA10CollectionV", "min"]
+- ["10RealmSwift03AnyA10CollectionV", "observe"]
+- !private ["10RealmSwift03AnyA10CollectionV", "preconditionFailure"]
+- ["10RealmSwift03AnyA10CollectionV", "realm"]
+- ["10RealmSwift03AnyA10CollectionV", "setValue"]
+- ["10RealmSwift03AnyA10CollectionV", "sorted"]
+- ["10RealmSwift03AnyA10CollectionV", "startIndex"]
+- ["10RealmSwift03AnyA10CollectionV", "subscript"]
+- ["10RealmSwift03AnyA10CollectionV", "sum"]
+- !private ["10RealmSwift03AnyA10CollectionV", "type"]
+- ["10RealmSwift03AnyA10CollectionV", "underestimatedCount"]
+- !private ["10RealmSwift03AnyA10CollectionV", "unwrapOptionals"]
+- ["10RealmSwift03AnyA10CollectionV", "value"]
+- ["10RealmSwift03AnyA10CollectionV", "withContiguousStorageIfAvailable"]
 - !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "AnyRealmCollection"]
 - !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "AnyRealmCollectionBridgingMetadata"]
 - ["10RealmSwift28AssistedObjectiveCBridgeableP", "Element"]
@@ -227,6 +225,7 @@ depends-member:
 - ["10RealmSwift28AssistedObjectiveCBridgeableP", "_Default_Indices"]
 - ["10RealmSwift28AssistedObjectiveCBridgeableP", "_Default_Iterator"]
 - ["10RealmSwift28AssistedObjectiveCBridgeableP", "_Default_SubSequence"]
+- ["10RealmSwift28AssistedObjectiveCBridgeableP", "_asNSFastEnumerator"]
 - ["10RealmSwift28AssistedObjectiveCBridgeableP", "_copyContents"]
 - ["10RealmSwift28AssistedObjectiveCBridgeableP", "_copyToContiguousArray"]
 - ["10RealmSwift28AssistedObjectiveCBridgeableP", "_customContainsEquatableElement"]
@@ -301,6 +300,7 @@ depends-member:
 - ["SK", "_Default_Indices"]
 - ["SK", "_Default_Iterator"]
 - ["SK", "_Default_SubSequence"]
+- ["SK", "_asNSFastEnumerator"]
 - ["SK", "_copyContents"]
 - ["SK", "_copyToContiguousArray"]
 - ["SK", "_customContainsEquatableElement"]
@@ -319,7 +319,6 @@ depends-member:
 - ["SK", "distance"]
 - ["SK", "elements"]
 - ["SK", "endIndex"]
-- !private ["SK", "fatalError"]
 - ["SK", "filter"]
 - ["SK", "formIndex"]
 - ["SK", "index"]
@@ -394,6 +393,7 @@ depends-member:
 - ["Sl", "_Default_Indices"]
 - ["Sl", "_Default_Iterator"]
 - ["Sl", "_Default_SubSequence"]
+- ["Sl", "_asNSFastEnumerator"]
 - ["Sl", "_copyContents"]
 - ["Sl", "_copyToContiguousArray"]
 - ["Sl", "_customContainsEquatableElement"]
@@ -412,7 +412,6 @@ depends-member:
 - ["Sl", "distance"]
 - ["Sl", "elements"]
 - ["Sl", "endIndex"]
-- !private ["Sl", "fatalError"]
 - ["Sl", "filter"]
 - ["Sl", "formIndex"]
 - ["Sl", "index"]
@@ -501,6 +500,7 @@ depends-member:
 - ["s23CustomStringConvertibleP", "_Default_Indices"]
 - ["s23CustomStringConvertibleP", "_Default_Iterator"]
 - ["s23CustomStringConvertibleP", "_Default_SubSequence"]
+- ["s23CustomStringConvertibleP", "_asNSFastEnumerator"]
 - ["s23CustomStringConvertibleP", "_copyContents"]
 - ["s23CustomStringConvertibleP", "_copyToContiguousArray"]
 - ["s23CustomStringConvertibleP", "_customContainsEquatableElement"]
@@ -522,7 +522,6 @@ depends-member:
 - ["s23CustomStringConvertibleP", "distance"]
 - ["s23CustomStringConvertibleP", "elements"]
 - ["s23CustomStringConvertibleP", "endIndex"]
-- !private ["s23CustomStringConvertibleP", "fatalError"]
 - ["s23CustomStringConvertibleP", "filter"]
 - ["s23CustomStringConvertibleP", "formIndex"]
 - ["s23CustomStringConvertibleP", "index"]
@@ -716,6 +715,7 @@ depends-member:
 - ["s22LazyCollectionProtocolP", "_Default_Indices"]
 - ["s22LazyCollectionProtocolP", "_Default_Iterator"]
 - ["s22LazyCollectionProtocolP", "_Default_SubSequence"]
+- ["s22LazyCollectionProtocolP", "_asNSFastEnumerator"]
 - ["s22LazyCollectionProtocolP", "_copyContents"]
 - ["s22LazyCollectionProtocolP", "_copyToContiguousArray"]
 - ["s22LazyCollectionProtocolP", "_customContainsEquatableElement"]
@@ -732,7 +732,6 @@ depends-member:
 - ["s22LazyCollectionProtocolP", "distance"]
 - ["s22LazyCollectionProtocolP", "elements"]
 - ["s22LazyCollectionProtocolP", "endIndex"]
-- !private ["s22LazyCollectionProtocolP", "fatalError"]
 - ["s22LazyCollectionProtocolP", "filter"]
 - ["s22LazyCollectionProtocolP", "formIndex"]
 - ["s22LazyCollectionProtocolP", "index"]
@@ -789,6 +788,7 @@ depends-member:
 - ["s20LazySequenceProtocolP", "_Default_Indices"]
 - ["s20LazySequenceProtocolP", "_Default_Iterator"]
 - ["s20LazySequenceProtocolP", "_Default_SubSequence"]
+- ["s20LazySequenceProtocolP", "_asNSFastEnumerator"]
 - ["s20LazySequenceProtocolP", "_copyContents"]
 - ["s20LazySequenceProtocolP", "_copyToContiguousArray"]
 - ["s20LazySequenceProtocolP", "_customContainsEquatableElement"]
@@ -805,7 +805,6 @@ depends-member:
 - ["s20LazySequenceProtocolP", "distance"]
 - ["s20LazySequenceProtocolP", "elements"]
 - ["s20LazySequenceProtocolP", "endIndex"]
-- !private ["s20LazySequenceProtocolP", "fatalError"]
 - ["s20LazySequenceProtocolP", "filter"]
 - ["s20LazySequenceProtocolP", "formIndex"]
 - ["s20LazySequenceProtocolP", "index"]
@@ -941,6 +940,7 @@ depends-member:
 - ["Sk", "_Default_Indices"]
 - ["Sk", "_Default_Iterator"]
 - ["Sk", "_Default_SubSequence"]
+- ["Sk", "_asNSFastEnumerator"]
 - ["Sk", "_copyContents"]
 - ["Sk", "_copyToContiguousArray"]
 - ["Sk", "_customContainsEquatableElement"]
@@ -959,7 +959,6 @@ depends-member:
 - ["Sk", "distance"]
 - ["Sk", "elements"]
 - ["Sk", "endIndex"]
-- !private ["Sk", "fatalError"]
 - ["Sk", "filter"]
 - ["Sk", "formIndex"]
 - ["Sk", "index"]
@@ -1025,6 +1024,7 @@ depends-member:
 - ["10RealmSwift0A10CollectionP", "_Default_Indices"]
 - ["10RealmSwift0A10CollectionP", "_Default_Iterator"]
 - ["10RealmSwift0A10CollectionP", "_Default_SubSequence"]
+- ["10RealmSwift0A10CollectionP", "_asNSFastEnumerator"]
 - ["10RealmSwift0A10CollectionP", "_copyContents"]
 - ["10RealmSwift0A10CollectionP", "_copyToContiguousArray"]
 - ["10RealmSwift0A10CollectionP", "_customContainsEquatableElement"]
@@ -1032,7 +1032,6 @@ depends-member:
 - ["10RealmSwift0A10CollectionP", "_customLastIndexOfEquatableElement"]
 - ["10RealmSwift0A10CollectionP", "_failEarlyRangeCheck"]
 - ["10RealmSwift0A10CollectionP", "_observe"]
-- ["10RealmSwift0A10CollectionP", "addNotificationBlock"]
 - ["10RealmSwift0A10CollectionP", "average"]
 - !private ["10RealmSwift0A10CollectionP", "base"]
 - ["10RealmSwift0A10CollectionP", "bridged"]
@@ -1042,7 +1041,6 @@ depends-member:
 - ["10RealmSwift0A10CollectionP", "distance"]
 - ["10RealmSwift0A10CollectionP", "elements"]
 - ["10RealmSwift0A10CollectionP", "endIndex"]
-- !private ["10RealmSwift0A10CollectionP", "fatalError"]
 - ["10RealmSwift0A10CollectionP", "filter"]
 - ["10RealmSwift0A10CollectionP", "formIndex"]
 - ["10RealmSwift0A10CollectionP", "index"]
@@ -1100,6 +1098,7 @@ depends-member:
 - ["10RealmSwift0A14CollectionBaseP", "_Default_Indices"]
 - ["10RealmSwift0A14CollectionBaseP", "_Default_Iterator"]
 - ["10RealmSwift0A14CollectionBaseP", "_Default_SubSequence"]
+- ["10RealmSwift0A14CollectionBaseP", "_asNSFastEnumerator"]
 - ["10RealmSwift0A14CollectionBaseP", "_copyContents"]
 - ["10RealmSwift0A14CollectionBaseP", "_copyToContiguousArray"]
 - ["10RealmSwift0A14CollectionBaseP", "_customContainsEquatableElement"]
@@ -1116,7 +1115,6 @@ depends-member:
 - ["10RealmSwift0A14CollectionBaseP", "distance"]
 - ["10RealmSwift0A14CollectionBaseP", "elements"]
 - ["10RealmSwift0A14CollectionBaseP", "endIndex"]
-- !private ["10RealmSwift0A14CollectionBaseP", "fatalError"]
 - ["10RealmSwift0A14CollectionBaseP", "filter"]
 - ["10RealmSwift0A14CollectionBaseP", "formIndex"]
 - ["10RealmSwift0A14CollectionBaseP", "index"]
@@ -1202,6 +1200,7 @@ depends-member:
 - ["ST", "_Default_Indices"]
 - ["ST", "_Default_Iterator"]
 - ["ST", "_Default_SubSequence"]
+- ["ST", "_asNSFastEnumerator"]
 - ["ST", "_copyContents"]
 - ["ST", "_copyToContiguousArray"]
 - ["ST", "_customContainsEquatableElement"]
@@ -1220,7 +1219,6 @@ depends-member:
 - ["ST", "distance"]
 - ["ST", "elements"]
 - ["ST", "endIndex"]
-- !private ["ST", "fatalError"]
 - ["ST", "filter"]
 - ["ST", "formIndex"]
 - ["ST", "index"]
@@ -1303,6 +1301,7 @@ depends-member:
 - ["10RealmSwift14ThreadConfinedP", "_Default_Indices"]
 - ["10RealmSwift14ThreadConfinedP", "_Default_Iterator"]
 - ["10RealmSwift14ThreadConfinedP", "_Default_SubSequence"]
+- ["10RealmSwift14ThreadConfinedP", "_asNSFastEnumerator"]
 - ["10RealmSwift14ThreadConfinedP", "_copyContents"]
 - ["10RealmSwift14ThreadConfinedP", "_copyToContiguousArray"]
 - ["10RealmSwift14ThreadConfinedP", "_customContainsEquatableElement"]
@@ -1319,7 +1318,6 @@ depends-member:
 - ["10RealmSwift14ThreadConfinedP", "distance"]
 - ["10RealmSwift14ThreadConfinedP", "elements"]
 - ["10RealmSwift14ThreadConfinedP", "endIndex"]
-- !private ["10RealmSwift14ThreadConfinedP", "fatalError"]
 - ["10RealmSwift14ThreadConfinedP", "filter"]
 - ["10RealmSwift14ThreadConfinedP", "formIndex"]
 - ["10RealmSwift14ThreadConfinedP", "index"]
@@ -1380,6 +1378,13 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "insertions"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "modifications"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "RLMArray"]
+- ["10RealmSwift20_ManagedPropertyTypeP", "Wrapped"]
+- ["10RealmSwift20_ManagedPropertyTypeP", "_Default_Wrapped"]
+- ["10RealmSwift20_ManagedPropertyTypeP", "_nilValue"]
+- ["10RealmSwift20_ManagedPropertyTypeP", "_rlmArray"]
+- ["10RealmSwift20_ManagedPropertyTypeP", "_rlmInferWrappedType"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "arrayType"]
 - !private ["s21_ObjectiveCBridgeableP", "RLMArray"]
 - ["s21_ObjectiveCBridgeableP", "Wrapped"]
 - ["s21_ObjectiveCBridgeableP", "_Default_Wrapped"]
@@ -1387,10 +1392,82 @@ depends-member:
 - ["s21_ObjectiveCBridgeableP", "_rlmArray"]
 - ["s21_ObjectiveCBridgeableP", "_rlmInferWrappedType"]
 - !private ["s21_ObjectiveCBridgeableP", "arrayType"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "AddableType"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "AnyRealmCollection"]
+- !private ["10RealmSwift01_A20CollectionEnumeratorP", "AnyRealmCollectionBridgingMetadata"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "Bool"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "Comparable"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "Double"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "Element"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "Elements"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "Index"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "Indices"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "Int"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "Iterator"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "MinMaxType"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "NSPredicate"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "NotificationToken"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "OptionalProtocol"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "Realm"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "RealmCollectionChange"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "Results"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "Sequence"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "SortDescriptor"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "String"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "SubSequence"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "Void"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", ""]
+- !private ["10RealmSwift01_A20CollectionEnumeratorP", "_AnyRealmCollection"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "_Default_Element"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "_Default_Elements"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "_Default_Index"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "_Default_Indices"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "_Default_Iterator"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "_Default_SubSequence"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "_asNSFastEnumerator"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "_copyContents"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "_copyToContiguousArray"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "_customContainsEquatableElement"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "_customIndexOfEquatableElement"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "_customLastIndexOfEquatableElement"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "_failEarlyRangeCheck"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "_observe"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "average"]
+- !private ["10RealmSwift01_A20CollectionEnumeratorP", "base"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "bridged"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "bridging"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "count"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "description"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "distance"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "elements"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "endIndex"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "filter"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "formIndex"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "index"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "indices"]
+- !private ["10RealmSwift01_A20CollectionEnumeratorP", "init"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "isEmpty"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "isInvalidated"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "makeIterator"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "max"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "min"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "observe"]
+- !private ["10RealmSwift01_A20CollectionEnumeratorP", "preconditionFailure"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "realm"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "setValue"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "sorted"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "startIndex"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "subscript"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "sum"]
+- !private ["10RealmSwift01_A20CollectionEnumeratorP", "type"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "underestimatedCount"]
+- !private ["10RealmSwift01_A20CollectionEnumeratorP", "unwrapOptionals"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "value"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "withContiguousStorageIfAvailable"]
 depends-nominal:
 - "10RealmSwift11AddableTypeP"
 - "s18AdditiveArithmeticP"
-- "10RealmSwift03AnyA10CollectionC"
+- "10RealmSwift03AnyA10CollectionV"
 - "10RealmSwift28AssistedObjectiveCBridgeableP"
 - "SK"
 - "SB"
@@ -1487,7 +1564,9 @@ depends-nominal:
 - "s19_HasContiguousBytesP"
 - "s35_HasCustomAnyHashableRepresentationP"
 - !private "10Foundation27_KeyValueCodingAndObservingP"
+- "10RealmSwift20_ManagedPropertyTypeP"
 - "s21_ObjectiveCBridgeableP"
+- "10RealmSwift01_A20CollectionEnumeratorP"
 depends-dynamic-lookup:
 depends-external:
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
@@ -1561,4 +1640,4 @@ depends-external:
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "c9c8d1b2659ca712d9a9dc21a20d17dd"
+interface-hash: "0580c8197324cd13fbea258c6d76c810"

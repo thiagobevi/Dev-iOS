@@ -1,0 +1,12 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "7a1d116494b82f1d1c6365b612433967"
+build_time: [1580219412, 996887000]
+inputs:
+  "/Users/ThiagoBevi/Dev-iOS/TMBDViewCode/TMBDViewCode/VideoCell.swift": [1580148169, 494371825]
+  "/Users/ThiagoBevi/Dev-iOS/TMBDViewCode/TMBDViewCode/Model/Video.swift": [1580154098, 620793538]
+  "/Users/ThiagoBevi/Dev-iOS/TMBDViewCode/TMBDViewCode/UIView+Ext.swift": [1579867722, 881795249]
+  "/Users/ThiagoBevi/Dev-iOS/TMBDViewCode/TMBDViewCode/ViewController.swift": [1580156109, 125110227]
+  "/Users/ThiagoBevi/Dev-iOS/TMBDViewCode/TMBDViewCode/Constants.swift": [1580146649, 593983897]
+  "/Users/ThiagoBevi/Dev-iOS/TMBDViewCode/TMBDViewCode/AppDelegate.swift": [1580155383, 53674488]
+  "/Users/ThiagoBevi/Dev-iOS/TMBDViewCode/TMBDViewCode/SceneDelegate.swift": [1580156097, 175180864]
+  "/Users/ThiagoBevi/Dev-iOS/TMBDViewCode/TMBDViewCode/DetailViewController.swift": [1580219412, 927336111]

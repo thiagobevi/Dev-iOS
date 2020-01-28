@@ -13,6 +13,8 @@
 		DB467874239ACC5E00BACD96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB467873239ACC5E00BACD96 /* Assets.xcassets */; };
 		DB467877239ACC5E00BACD96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB467875239ACC5E00BACD96 /* LaunchScreen.storyboard */; };
 		DB467882239ACC5E00BACD96 /* TraficLightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB467881239ACC5E00BACD96 /* TraficLightTests.swift */; };
+		DB467890239ACCC600BACD96 /* TrafficLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB46788F239ACCC600BACD96 /* TrafficLight.swift */; };
+		DB467892239ACD4700BACD96 /* TrafficLightService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB467891239ACD4700BACD96 /* TrafficLightService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		DB46787D239ACC5E00BACD96 /* TraficLightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TraficLightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB467881239ACC5E00BACD96 /* TraficLightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraficLightTests.swift; sourceTree = "<group>"; };
 		DB467883239ACC5E00BACD96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB46788F239ACCC600BACD96 /* TrafficLight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLight.swift; sourceTree = "<group>"; };
+		DB467891239ACD4700BACD96 /* TrafficLightService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +81,10 @@
 		DB46786B239ACC5D00BACD96 /* TraficLight */ = {
 			isa = PBXGroup;
 			children = (
+				DB46788E239ACC9C00BACD96 /* Presenter */,
+				DB46788D239ACC8A00BACD96 /* View */,
+				DB46788C239ACC8000BACD96 /* Model */,
 				DB46786C239ACC5D00BACD96 /* AppDelegate.swift */,
-				DB46786E239ACC5D00BACD96 /* ViewController.swift */,
-				DB467870239ACC5D00BACD96 /* Main.storyboard */,
 				DB467873239ACC5E00BACD96 /* Assets.xcassets */,
 				DB467875239ACC5E00BACD96 /* LaunchScreen.storyboard */,
 				DB467878239ACC5E00BACD96 /* Info.plist */,
@@ -94,6 +99,31 @@
 				DB467883239ACC5E00BACD96 /* Info.plist */,
 			);
 			path = TraficLightTests;
+			sourceTree = "<group>";
+		};
+		DB46788C239ACC8000BACD96 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DB46788F239ACCC600BACD96 /* TrafficLight.swift */,
+				DB467891239ACD4700BACD96 /* TrafficLightService.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DB46788D239ACC8A00BACD96 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DB46786E239ACC5D00BACD96 /* ViewController.swift */,
+				DB467870239ACC5D00BACD96 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DB46788E239ACC9C00BACD96 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,8 +227,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB467892239ACD4700BACD96 /* TrafficLightService.swift in Sources */,
 				DB46786F239ACC5D00BACD96 /* ViewController.swift in Sources */,
 				DB46786D239ACC5D00BACD96 /* AppDelegate.swift in Sources */,
+				DB467890239ACCC600BACD96 /* TrafficLight.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,7 +9,6 @@
 import Foundation
 
 protocol SearchHeroView {
-   
-    func searchHero(_ hero: String)
-    func showDetails(idChar: String, nameChar: String, descriptionChar: String)
+    func showDetails(hero: Character)
+    func showError(error: String)
 }

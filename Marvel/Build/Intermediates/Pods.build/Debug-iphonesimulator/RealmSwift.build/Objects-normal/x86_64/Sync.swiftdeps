@@ -9,7 +9,6 @@ provides-top-level:
 - "UserCompletionBlock"
 - "SyncError"
 - "SyncAuthError"
-- "SyncPermissionError"
 - "SyncLogLevel"
 - "Provider"
 - "ServerValidationPolicy"
@@ -18,11 +17,9 @@ provides-top-level:
 - "SyncPermission"
 - "SyncAccessLevel"
 - "SyncPermissionResults"
-- "SyncPermissionSortProperty"
 - "SyncSubscriptionState"
 - "SyncSubscription"
 - "KeyValueObservationNotificationToken"
-- "SyncPermissionValue"
 - "Permission"
 - "PermissionRole"
 - "PermissionUser"
@@ -42,9 +39,8 @@ provides-nominal:
 - "So14RLMSyncSessionC10RealmSwiftE8ProgressV"
 - "So17RLMSyncPermissionC"
 - "10RealmSwift21SyncSubscriptionStateO"
-- "10RealmSwift16SyncSubscriptionC"
+- "10RealmSwift16SyncSubscriptionV"
 - "10RealmSwift36KeyValueObservationNotificationTokenC"
-- "10RealmSwift19SyncPermissionValueC"
 - "10RealmSwift10PermissionC"
 - "10RealmSwift14PermissionRoleC"
 - "10RealmSwift14PermissionUserC"
@@ -65,14 +61,12 @@ provides-member:
 - ["So14RLMSyncSessionC10RealmSwiftE17ProgressDirectionO", ""]
 - ["So14RLMSyncSessionC10RealmSwiftE12ProgressModeO", ""]
 - ["So14RLMSyncSessionC10RealmSwiftE8ProgressV", ""]
-- ["10RealmSwift0A0C", ""]
+- ["10RealmSwift0A0V", ""]
 - ["So17RLMSyncPermissionC", ""]
-- ["10RealmSwift14SortDescriptorV", ""]
-- ["10RealmSwift7ResultsC", ""]
 - ["10RealmSwift21SyncSubscriptionStateO", ""]
-- ["10RealmSwift16SyncSubscriptionC", ""]
+- ["10RealmSwift16SyncSubscriptionV", ""]
+- ["10RealmSwift7ResultsV", ""]
 - ["10RealmSwift36KeyValueObservationNotificationTokenC", ""]
-- ["10RealmSwift19SyncPermissionValueC", ""]
 - ["10RealmSwift10PermissionC", ""]
 - ["10RealmSwift14PermissionRoleC", ""]
 - ["10RealmSwift14PermissionUserC", ""]
@@ -91,7 +85,6 @@ provides-member:
 - ["So11RLMSyncUserC", "all"]
 - ["So11RLMSyncUserC", "current"]
 - ["So11RLMSyncUserC", "errorHandler"]
-- ["So11RLMSyncUserC", "retrievePermissions"]
 - ["So11RLMSyncUserC", "createOfferForRealm"]
 - ["So11RLMSyncUserC", "configuration"]
 - ["So11RLMSyncUserC", "configuration"]
@@ -102,20 +95,18 @@ provides-member:
 - ["So14RLMSyncSessionC", "ProgressNotificationToken"]
 - ["So14RLMSyncSessionC", "Progress"]
 - ["So14RLMSyncSessionC", "addProgressNotification"]
-- ["10RealmSwift0A0C", "subscribe"]
-- ["10RealmSwift0A0C", "syncSession"]
-- ["10RealmSwift14SortDescriptorV", "init"]
-- ["10RealmSwift7ResultsC", "sorted"]
-- ["10RealmSwift7ResultsC", "subscribe"]
-- ["10RealmSwift0A0C", "getPrivileges"]
-- ["10RealmSwift0A0C", "getPrivileges"]
-- ["10RealmSwift0A0C", "getPrivileges"]
-- ["10RealmSwift0A0C", "getPrivileges"]
-- ["10RealmSwift0A0C", "permissions"]
-- ["10RealmSwift0A0C", "permissions"]
-- ["10RealmSwift0A0C", "permissions"]
-- ["10RealmSwift0A0C", "subscriptions"]
-- ["10RealmSwift0A0C", "subscription"]
+- ["10RealmSwift0A0V", "subscribe"]
+- ["10RealmSwift0A0V", "syncSession"]
+- ["10RealmSwift7ResultsV", "subscribe"]
+- ["10RealmSwift0A0V", "getPrivileges"]
+- ["10RealmSwift0A0V", "getPrivileges"]
+- ["10RealmSwift0A0V", "getPrivileges"]
+- ["10RealmSwift0A0V", "getPrivileges"]
+- ["10RealmSwift0A0V", "permissions"]
+- ["10RealmSwift0A0V", "permissions"]
+- ["10RealmSwift0A0V", "permissions"]
+- ["10RealmSwift0A0V", "subscriptions"]
+- ["10RealmSwift0A0V", "subscription"]
 - ["10RealmSwift4ListC", "findOrCreate"]
 - ["10RealmSwift4ListC", "findOrCreate"]
 provides-dynamic-lookup:
@@ -158,9 +149,7 @@ depends-top-level:
 - "Equatable"
 - "Error"
 - "ErrorReportingBlock"
-- "FloatLiteralType"
 - "Int"
-- "IntegerLiteralType"
 - "KeyPath"
 - "KeyValueObservationNotificationToken"
 - "LinkingObjects"
@@ -193,8 +182,6 @@ depends-top-level:
 - "RLMSyncLogLevel"
 - "RLMSyncManager"
 - "RLMSyncPermission"
-- "RLMSyncPermissionError"
-- "RLMSyncPermissionSortProperty"
 - "RLMSyncSession"
 - "RLMSyncSessionState"
 - "RLMSyncStopPolicy"
@@ -211,7 +198,6 @@ depends-top-level:
 - "RealmPrivileges"
 - "Results"
 - "ServerValidationPolicy"
-- "SortDescriptor"
 - "String"
 - "Swift"
 - "SyncAccessLevel"
@@ -222,10 +208,7 @@ depends-top-level:
 - "SyncLogLevel"
 - "SyncManager"
 - "SyncPermission"
-- "SyncPermissionError"
 - "SyncPermissionResults"
-- "SyncPermissionSortProperty"
-- "SyncPermissionValue"
 - "SyncSession"
 - "SyncSubscription"
 - "SyncSubscriptionState"
@@ -237,9 +220,9 @@ depends-top-level:
 - "UInt"
 - "UInt8"
 - "URL"
-- !private "UnicodeScalarType"
 - "UserCompletionBlock"
 - "Void"
+- !private "fatalError"
 - !private "kRLMSyncPathOfRealmBackupCopyKey"
 - !private "optionSetDescription"
 - !private "precondition"
@@ -256,7 +239,6 @@ depends-member:
 - ["10RealmSwift28AssistedObjectiveCBridgeableP", "PermissionRole"]
 - !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "RLMPermissionForRole"]
 - !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "RLMSyncSubscriptionOptions"]
-- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "SortDescriptor"]
 - !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "SyncSubscription"]
 - !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "UInt"]
 - ["10RealmSwift28AssistedObjectiveCBridgeableP", ""]
@@ -268,11 +250,9 @@ depends-member:
 - !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "precondition"]
 - !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "realm"]
 - !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "rlmResults"]
-- !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "sorted"]
 - !private ["SK", "PermissionRole"]
 - !private ["SK", "RLMPermissionForRole"]
 - !private ["SK", "RLMSyncSubscriptionOptions"]
-- !private ["SK", "SortDescriptor"]
 - !private ["SK", "SyncSubscription"]
 - !private ["SK", "UInt"]
 - !private ["SK", "_rlmArray"]
@@ -283,11 +263,9 @@ depends-member:
 - !private ["SK", "precondition"]
 - !private ["SK", "realm"]
 - !private ["SK", "rlmResults"]
-- !private ["SK", "sorted"]
 - !private ["SB", "init"]
 - !private ["SB", "isNaN"]
 - !private ["Sz", "init"]
-- !private ["Sb", "modified"]
 - !private ["s7CVarArgP", "DispatchQueue"]
 - !private ["s7CVarArgP", "Double"]
 - !private ["s7CVarArgP", "Int"]
@@ -298,12 +276,7 @@ depends-member:
 - !private ["s7CVarArgP", "Progress"]
 - !private ["s7CVarArgP", "RLMPermissionForRole"]
 - !private ["s7CVarArgP", "RLMSyncCredentials"]
-- !private ["s7CVarArgP", "RLMSyncSubscriptionOptions"]
-- !private ["s7CVarArgP", "Results"]
-- !private ["s7CVarArgP", "SortDescriptor"]
-- !private ["s7CVarArgP", "SyncSubscription"]
 - !private ["s7CVarArgP", "SyncUser"]
-- !private ["s7CVarArgP", "UInt"]
 - ["s7CVarArgP", ""]
 - !private ["s7CVarArgP", "__addProgressNotification"]
 - !private ["s7CVarArgP", "__allUsers"]
@@ -312,14 +285,12 @@ depends-member:
 - !private ["s7CVarArgP", "__current"]
 - !private ["s7CVarArgP", "__errorHandler"]
 - !private ["s7CVarArgP", "__logIn"]
-- !private ["s7CVarArgP", "__retrievePermissions"]
 - !private ["s7CVarArgP", "__rlmSync_errorActionToken"]
 - !private ["s7CVarArgP", "__shared"]
 - ["s7CVarArgP", "_nilValue"]
 - !private ["s7CVarArgP", "_realmObjectName"]
 - ["s7CVarArgP", "_rlmArray"]
 - !private ["s7CVarArgP", "anonymous"]
-- !private ["s7CVarArgP", "automaticConfiguration"]
 - !private ["s7CVarArgP", "className"]
 - !private ["s7CVarArgP", "createdAt"]
 - !private ["s7CVarArgP", "enableSSLValidation"]
@@ -334,7 +305,6 @@ depends-member:
 - !private ["s7CVarArgP", "limit"]
 - !private ["s7CVarArgP", "main"]
 - !private ["s7CVarArgP", "map"]
-- !private ["s7CVarArgP", "modified"]
 - !private ["s7CVarArgP", "name"]
 - !private ["s7CVarArgP", "observation"]
 - !private ["s7CVarArgP", "observe"]
@@ -346,8 +316,6 @@ depends-member:
 - !private ["s7CVarArgP", "query"]
 - !private ["s7CVarArgP", "realm"]
 - !private ["s7CVarArgP", "realmURL"]
-- !private ["s7CVarArgP", "rlmResults"]
-- !private ["s7CVarArgP", "sorted"]
 - !private ["s7CVarArgP", "state"]
 - !private ["s7CVarArgP", "stopPolicy"]
 - !private ["s7CVarArgP", "subscribe"]
@@ -409,7 +377,6 @@ depends-member:
 - !private ["Sl", "PermissionRole"]
 - !private ["Sl", "RLMPermissionForRole"]
 - !private ["Sl", "RLMSyncSubscriptionOptions"]
-- !private ["Sl", "SortDescriptor"]
 - !private ["Sl", "SyncSubscription"]
 - !private ["Sl", "UInt"]
 - !private ["Sl", "_rlmArray"]
@@ -420,7 +387,6 @@ depends-member:
 - !private ["Sl", "precondition"]
 - !private ["Sl", "realm"]
 - !private ["Sl", "rlmResults"]
-- !private ["Sl", "sorted"]
 - !private ["Sl", "subscript"]
 - !private ["SL", "init"]
 - !private ["SL", "isNaN"]
@@ -442,14 +408,9 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "Progress"]
 - !private ["s28CustomDebugStringConvertibleP", "RLMPermissionForRole"]
 - !private ["s28CustomDebugStringConvertibleP", "RLMSyncCredentials"]
-- !private ["s28CustomDebugStringConvertibleP", "RLMSyncSubscriptionOptions"]
 - ["s28CustomDebugStringConvertibleP", "RawValue"]
 - ["s28CustomDebugStringConvertibleP", "RealmPrivileges"]
-- !private ["s28CustomDebugStringConvertibleP", "Results"]
-- !private ["s28CustomDebugStringConvertibleP", "SortDescriptor"]
-- !private ["s28CustomDebugStringConvertibleP", "SyncSubscription"]
 - !private ["s28CustomDebugStringConvertibleP", "SyncUser"]
-- !private ["s28CustomDebugStringConvertibleP", "UInt"]
 - ["s28CustomDebugStringConvertibleP", ""]
 - ["s28CustomDebugStringConvertibleP", "_Default_ArrayLiteralElement"]
 - ["s28CustomDebugStringConvertibleP", "_Default_Element"]
@@ -461,14 +422,12 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "__current"]
 - !private ["s28CustomDebugStringConvertibleP", "__errorHandler"]
 - !private ["s28CustomDebugStringConvertibleP", "__logIn"]
-- !private ["s28CustomDebugStringConvertibleP", "__retrievePermissions"]
 - !private ["s28CustomDebugStringConvertibleP", "__rlmSync_errorActionToken"]
 - !private ["s28CustomDebugStringConvertibleP", "__shared"]
 - ["s28CustomDebugStringConvertibleP", "_nilValue"]
 - !private ["s28CustomDebugStringConvertibleP", "_realmObjectName"]
 - ["s28CustomDebugStringConvertibleP", "_rlmArray"]
 - !private ["s28CustomDebugStringConvertibleP", "anonymous"]
-- !private ["s28CustomDebugStringConvertibleP", "automaticConfiguration"]
 - !private ["s28CustomDebugStringConvertibleP", "className"]
 - ["s28CustomDebugStringConvertibleP", "contains"]
 - !private ["s28CustomDebugStringConvertibleP", "create"]
@@ -512,9 +471,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "realm"]
 - !private ["s28CustomDebugStringConvertibleP", "realmURL"]
 - ["s28CustomDebugStringConvertibleP", "remove"]
-- !private ["s28CustomDebugStringConvertibleP", "rlmResults"]
 - !private ["s28CustomDebugStringConvertibleP", "setPermissions"]
-- !private ["s28CustomDebugStringConvertibleP", "sorted"]
 - !private ["s28CustomDebugStringConvertibleP", "state"]
 - !private ["s28CustomDebugStringConvertibleP", "stopPolicy"]
 - !private ["s28CustomDebugStringConvertibleP", "subscribe"]
@@ -559,7 +516,6 @@ depends-member:
 - !private ["s17CustomReflectableP", "isNaN"]
 - !private ["s17CustomReflectableP", "joined"]
 - !private ["s17CustomReflectableP", "map"]
-- !private ["s17CustomReflectableP", "modified"]
 - !private ["s17CustomReflectableP", "subscript"]
 - !private ["s23CustomStringConvertibleP", "DispatchQueue"]
 - !private ["s23CustomStringConvertibleP", "Double"]
@@ -572,8 +528,6 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "RLMPermissionForRole"]
 - !private ["s23CustomStringConvertibleP", "RLMSyncCredentials"]
 - !private ["s23CustomStringConvertibleP", "RLMSyncSubscriptionOptions"]
-- !private ["s23CustomStringConvertibleP", "Results"]
-- !private ["s23CustomStringConvertibleP", "SortDescriptor"]
 - !private ["s23CustomStringConvertibleP", "SyncSubscription"]
 - !private ["s23CustomStringConvertibleP", "SyncUser"]
 - !private ["s23CustomStringConvertibleP", "UInt"]
@@ -585,7 +539,6 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "__current"]
 - !private ["s23CustomStringConvertibleP", "__errorHandler"]
 - !private ["s23CustomStringConvertibleP", "__logIn"]
-- !private ["s23CustomStringConvertibleP", "__retrievePermissions"]
 - !private ["s23CustomStringConvertibleP", "__rlmSync_errorActionToken"]
 - !private ["s23CustomStringConvertibleP", "__shared"]
 - ["s23CustomStringConvertibleP", "_nilValue"]
@@ -594,7 +547,6 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "anonymous"]
 - !private ["s23CustomStringConvertibleP", "appendInterpolation"]
 - !private ["s23CustomStringConvertibleP", "appendLiteral"]
-- !private ["s23CustomStringConvertibleP", "automaticConfiguration"]
 - !private ["s23CustomStringConvertibleP", "className"]
 - !private ["s23CustomStringConvertibleP", "createdAt"]
 - !private ["s23CustomStringConvertibleP", "enableSSLValidation"]
@@ -609,7 +561,6 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "limit"]
 - !private ["s23CustomStringConvertibleP", "main"]
 - !private ["s23CustomStringConvertibleP", "map"]
-- !private ["s23CustomStringConvertibleP", "modified"]
 - !private ["s23CustomStringConvertibleP", "name"]
 - !private ["s23CustomStringConvertibleP", "observation"]
 - !private ["s23CustomStringConvertibleP", "observe"]
@@ -622,7 +573,6 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "realm"]
 - !private ["s23CustomStringConvertibleP", "realmURL"]
 - !private ["s23CustomStringConvertibleP", "rlmResults"]
-- !private ["s23CustomStringConvertibleP", "sorted"]
 - !private ["s23CustomStringConvertibleP", "state"]
 - !private ["s23CustomStringConvertibleP", "stopPolicy"]
 - !private ["s23CustomStringConvertibleP", "subscribe"]
@@ -648,7 +598,6 @@ depends-member:
 - !private ["Se", "isNaN"]
 - !private ["Se", "joined"]
 - !private ["Se", "map"]
-- !private ["Se", "modified"]
 - !private ["Se", "precondition"]
 - !private ["Se", "realm"]
 - !private ["Se", "subscript"]
@@ -663,7 +612,6 @@ depends-member:
 - !private ["SE", "PermissionRole"]
 - !private ["SE", "RLMPermissionForRole"]
 - !private ["SE", "RLMSyncSubscriptionOptions"]
-- !private ["SE", "SortDescriptor"]
 - !private ["SE", "SyncSubscription"]
 - !private ["SE", "UInt"]
 - !private ["SE", "_rlmArray"]
@@ -672,11 +620,9 @@ depends-member:
 - !private ["SE", "isNaN"]
 - !private ["SE", "joined"]
 - !private ["SE", "map"]
-- !private ["SE", "modified"]
 - !private ["SE", "precondition"]
 - !private ["SE", "realm"]
 - !private ["SE", "rlmResults"]
-- !private ["SE", "sorted"]
 - !private ["SE", "subscript"]
 - ["SQ", "=="]
 - ["SQ", "ActionToken"]
@@ -704,7 +650,6 @@ depends-member:
 - !private ["SQ", "RealmPermission"]
 - ["SQ", "RealmPrivileges"]
 - !private ["SQ", "Results"]
-- !private ["SQ", "SortDescriptor"]
 - !private ["SQ", "SyncError"]
 - !private ["SQ", "SyncSession"]
 - !private ["SQ", "SyncSubscription"]
@@ -722,7 +667,6 @@ depends-member:
 - !private ["SQ", "__current"]
 - !private ["SQ", "__errorHandler"]
 - !private ["SQ", "__logIn"]
-- !private ["SQ", "__retrievePermissions"]
 - !private ["SQ", "__rlmSync_errorActionToken"]
 - !private ["SQ", "__shared"]
 - ["SQ", "_nilValue"]
@@ -730,9 +674,7 @@ depends-member:
 - ["SQ", "_rawHashValue"]
 - !private ["SQ", "_realmObjectName"]
 - ["SQ", "_rlmArray"]
-- !private ["SQ", "afterChangesUploaded"]
 - !private ["SQ", "anonymous"]
-- !private ["SQ", "automaticConfiguration"]
 - ["SQ", "bridging"]
 - !private ["SQ", "className"]
 - !private ["SQ", "clientResetError"]
@@ -748,6 +690,7 @@ depends-member:
 - !private ["SQ", "enableSSLValidation"]
 - ["SQ", "error"]
 - !private ["SQ", "expiresAt"]
+- !private ["SQ", "fatalError"]
 - !private ["SQ", "filter"]
 - !private ["SQ", "forCurrentlyOutstandingWork"]
 - ["SQ", "formIntersection"]
@@ -796,7 +739,6 @@ depends-member:
 - !private ["SQ", "rlmResults"]
 - !private ["SQ", "rlmSubscription"]
 - !private ["SQ", "setPermissions"]
-- !private ["SQ", "sorted"]
 - !private ["SQ", "state"]
 - !private ["SQ", "stopPolicy"]
 - !private ["SQ", "subscribe"]
@@ -865,7 +807,6 @@ depends-member:
 - ["s25ExpressibleByArrayLiteralP", "symmetricDifference"]
 - ["s25ExpressibleByArrayLiteralP", "union"]
 - ["s25ExpressibleByArrayLiteralP", "update"]
-- !private ["s27ExpressibleByBooleanLiteralP", "modified"]
 - !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s25ExpressibleByFloatLiteralP", "init"]
@@ -891,13 +832,8 @@ depends-member:
 - !private ["SH", "Progress"]
 - !private ["SH", "RLMPermissionForRole"]
 - !private ["SH", "RLMSyncCredentials"]
-- !private ["SH", "RLMSyncSubscriptionOptions"]
-- !private ["SH", "Results"]
-- !private ["SH", "SortDescriptor"]
 - !private ["SH", "SyncError"]
-- !private ["SH", "SyncSubscription"]
 - !private ["SH", "SyncUser"]
-- !private ["SH", "UInt"]
 - ["SH", ""]
 - !private ["SH", "__addProgressNotification"]
 - !private ["SH", "__allUsers"]
@@ -906,7 +842,6 @@ depends-member:
 - !private ["SH", "__current"]
 - !private ["SH", "__errorHandler"]
 - !private ["SH", "__logIn"]
-- !private ["SH", "__retrievePermissions"]
 - !private ["SH", "__rlmSync_errorActionToken"]
 - !private ["SH", "__shared"]
 - ["SH", "_nilValue"]
@@ -914,9 +849,7 @@ depends-member:
 - ["SH", "_rawHashValue"]
 - !private ["SH", "_realmObjectName"]
 - ["SH", "_rlmArray"]
-- !private ["SH", "afterChangesUploaded"]
 - !private ["SH", "anonymous"]
-- !private ["SH", "automaticConfiguration"]
 - !private ["SH", "className"]
 - !private ["SH", "clientResetError"]
 - !private ["SH", "code"]
@@ -952,12 +885,9 @@ depends-member:
 - !private ["SH", "precondition"]
 - !private ["SH", "provider"]
 - !private ["SH", "query"]
-- !private ["SH", "rawValue"]
 - !private ["SH", "realm"]
 - !private ["SH", "realmURL"]
 - !private ["SH", "reportIndefinitely"]
-- !private ["SH", "rlmResults"]
-- !private ["SH", "sorted"]
 - !private ["SH", "state"]
 - !private ["SH", "stopPolicy"]
 - !private ["SH", "subscribe"]
@@ -984,7 +914,6 @@ depends-member:
 - !private ["s22LazyCollectionProtocolP", "PermissionRole"]
 - !private ["s22LazyCollectionProtocolP", "RLMPermissionForRole"]
 - !private ["s22LazyCollectionProtocolP", "RLMSyncSubscriptionOptions"]
-- !private ["s22LazyCollectionProtocolP", "SortDescriptor"]
 - !private ["s22LazyCollectionProtocolP", "SyncSubscription"]
 - !private ["s22LazyCollectionProtocolP", "UInt"]
 - !private ["s22LazyCollectionProtocolP", "_rlmArray"]
@@ -992,11 +921,9 @@ depends-member:
 - !private ["s22LazyCollectionProtocolP", "precondition"]
 - !private ["s22LazyCollectionProtocolP", "realm"]
 - !private ["s22LazyCollectionProtocolP", "rlmResults"]
-- !private ["s22LazyCollectionProtocolP", "sorted"]
 - !private ["s20LazySequenceProtocolP", "PermissionRole"]
 - !private ["s20LazySequenceProtocolP", "RLMPermissionForRole"]
 - !private ["s20LazySequenceProtocolP", "RLMSyncSubscriptionOptions"]
-- !private ["s20LazySequenceProtocolP", "SortDescriptor"]
 - !private ["s20LazySequenceProtocolP", "SyncSubscription"]
 - !private ["s20LazySequenceProtocolP", "UInt"]
 - !private ["s20LazySequenceProtocolP", "_rlmArray"]
@@ -1004,8 +931,7 @@ depends-member:
 - !private ["s20LazySequenceProtocolP", "precondition"]
 - !private ["s20LazySequenceProtocolP", "realm"]
 - !private ["s20LazySequenceProtocolP", "rlmResults"]
-- !private ["s20LazySequenceProtocolP", "sorted"]
-- ["10RealmSwift14LinkingObjectsC", "init"]
+- ["10RealmSwift14LinkingObjectsV", "init"]
 - ["10RealmSwift4ListC", "Permission"]
 - ["10RealmSwift4ListC", "PermissionRole"]
 - !private ["10RealmSwift4ListC", "RLMPermissionForRole"]
@@ -1026,7 +952,6 @@ depends-member:
 - !private ["10RealmSwift8ListBaseC", "realm"]
 - !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["s25LosslessStringConvertibleP", "isNaN"]
-- !private ["s25LosslessStringConvertibleP", "modified"]
 - !private ["10RealmSwift10MinMaxTypeP", "init"]
 - !private ["10RealmSwift10MinMaxTypeP", "isNaN"]
 - !private ["s10MirrorPathP", "init"]
@@ -1048,22 +973,16 @@ depends-member:
 - !private ["So7NSErrorC", "__rlmSync_errorActionToken"]
 - !private ["So17NSFastEnumerationP", "PermissionRole"]
 - !private ["So17NSFastEnumerationP", "RLMPermissionForRole"]
-- !private ["So17NSFastEnumerationP", "RLMSyncSubscriptionOptions"]
-- !private ["So17NSFastEnumerationP", "SortDescriptor"]
-- !private ["So17NSFastEnumerationP", "SyncSubscription"]
-- !private ["So17NSFastEnumerationP", "UInt"]
 - !private ["So17NSFastEnumerationP", "_rlmArray"]
 - ["So17NSFastEnumerationP", "init"]
 - !private ["So17NSFastEnumerationP", "precondition"]
 - !private ["So17NSFastEnumerationP", "realm"]
-- !private ["So17NSFastEnumerationP", "rlmResults"]
-- !private ["So17NSFastEnumerationP", "sorted"]
 - !private ["So17NSFastEnumerationP", "subscribe"]
-- !private ["So8NSObjectC", "AnyObject"]
 - ["So8NSObjectC", "Bool"]
 - ["So8NSObjectC", "Date"]
 - ["So8NSObjectC", "DispatchQueue"]
 - ["So8NSObjectC", "Double"]
+- ["So8NSObjectC", "Error"]
 - ["So8NSObjectC", "Int"]
 - ["So8NSObjectC", "LinkingObjects"]
 - ["So8NSObjectC", "List"]
@@ -1078,25 +997,16 @@ depends-member:
 - ["So8NSObjectC", "ProgressNotificationToken"]
 - !private ["So8NSObjectC", "RLMPermissionForRole"]
 - ["So8NSObjectC", "RLMProgressNotificationToken"]
-- !private ["So8NSObjectC", "RLMResults"]
 - ["So8NSObjectC", "RLMSyncConnectionState"]
 - !private ["So8NSObjectC", "RLMSyncCredentials"]
 - ["So8NSObjectC", "RLMSyncSessionState"]
-- !private ["So8NSObjectC", "RLMSyncSubscriptionOptions"]
 - ["So8NSObjectC", "Realm"]
-- ["So8NSObjectC", "Results"]
 - ["So8NSObjectC", "ServerValidationPolicy"]
-- !private ["So8NSObjectC", "SortDescriptor"]
 - ["So8NSObjectC", "String"]
 - ["So8NSObjectC", "SyncAccessLevel"]
 - ["So8NSObjectC", "SyncAuthError"]
 - ["So8NSObjectC", "SyncCredentials"]
 - ["So8NSObjectC", "SyncManager"]
-- ["So8NSObjectC", "SyncPermission"]
-- ["So8NSObjectC", "SyncPermissionError"]
-- ["So8NSObjectC", "SyncPermissionResults"]
-- ["So8NSObjectC", "SyncPermissionSortProperty"]
-- ["So8NSObjectC", "SyncSubscription"]
 - ["So8NSObjectC", "SyncUser"]
 - ["So8NSObjectC", "TimeInterval"]
 - ["So8NSObjectC", "UInt"]
@@ -1110,7 +1020,6 @@ depends-member:
 - !private ["So8NSObjectC", "__current"]
 - !private ["So8NSObjectC", "__errorHandler"]
 - !private ["So8NSObjectC", "__logIn"]
-- !private ["So8NSObjectC", "__retrievePermissions"]
 - !private ["So8NSObjectC", "__rlmSync_errorActionToken"]
 - !private ["So8NSObjectC", "__shared"]
 - ["So8NSObjectC", "_nilValue"]
@@ -1120,7 +1029,6 @@ depends-member:
 - ["So8NSObjectC", "addProgressNotification"]
 - ["So8NSObjectC", "all"]
 - !private ["So8NSObjectC", "anonymous"]
-- !private ["So8NSObjectC", "automaticConfiguration"]
 - ["So8NSObjectC", "canCreate"]
 - ["So8NSObjectC", "canDelete"]
 - ["So8NSObjectC", "canModifySchema"]
@@ -1159,15 +1067,12 @@ depends-member:
 - !private ["So8NSObjectC", "query"]
 - !private ["So8NSObjectC", "realm"]
 - !private ["So8NSObjectC", "realmURL"]
-- ["So8NSObjectC", "retrievePermissions"]
-- !private ["So8NSObjectC", "rlmResults"]
 - ["So8NSObjectC", "role"]
 - ["So8NSObjectC", "roles"]
 - ["So8NSObjectC", "shared"]
-- ["So8NSObjectC", "sorted"]
 - !private ["So8NSObjectC", "state"]
 - !private ["So8NSObjectC", "stopPolicy"]
-- ["So8NSObjectC", "subscribe"]
+- !private ["So8NSObjectC", "subscribe"]
 - !private ["So8NSObjectC", "subscription"]
 - !private ["So8NSObjectC", "subscriptions"]
 - !private ["So8NSObjectC", "syncConfiguration"]
@@ -1189,12 +1094,7 @@ depends-member:
 - !private ["So8NSObjectP", "Progress"]
 - !private ["So8NSObjectP", "RLMPermissionForRole"]
 - !private ["So8NSObjectP", "RLMSyncCredentials"]
-- !private ["So8NSObjectP", "RLMSyncSubscriptionOptions"]
-- !private ["So8NSObjectP", "Results"]
-- !private ["So8NSObjectP", "SortDescriptor"]
-- !private ["So8NSObjectP", "SyncSubscription"]
 - !private ["So8NSObjectP", "SyncUser"]
-- !private ["So8NSObjectP", "UInt"]
 - ["So8NSObjectP", ""]
 - !private ["So8NSObjectP", "__addProgressNotification"]
 - !private ["So8NSObjectP", "__allUsers"]
@@ -1203,14 +1103,12 @@ depends-member:
 - !private ["So8NSObjectP", "__current"]
 - !private ["So8NSObjectP", "__errorHandler"]
 - !private ["So8NSObjectP", "__logIn"]
-- !private ["So8NSObjectP", "__retrievePermissions"]
 - !private ["So8NSObjectP", "__rlmSync_errorActionToken"]
 - !private ["So8NSObjectP", "__shared"]
 - ["So8NSObjectP", "_nilValue"]
 - !private ["So8NSObjectP", "_realmObjectName"]
 - ["So8NSObjectP", "_rlmArray"]
 - !private ["So8NSObjectP", "anonymous"]
-- !private ["So8NSObjectP", "automaticConfiguration"]
 - !private ["So8NSObjectP", "className"]
 - !private ["So8NSObjectP", "createdAt"]
 - !private ["So8NSObjectP", "enableSSLValidation"]
@@ -1232,8 +1130,6 @@ depends-member:
 - !private ["So8NSObjectP", "query"]
 - !private ["So8NSObjectP", "realm"]
 - !private ["So8NSObjectP", "realmURL"]
-- !private ["So8NSObjectP", "rlmResults"]
-- !private ["So8NSObjectP", "sorted"]
 - !private ["So8NSObjectP", "state"]
 - !private ["So8NSObjectP", "stopPolicy"]
 - !private ["So8NSObjectP", "subscribe"]
@@ -1268,7 +1164,6 @@ depends-member:
 - ["10RealmSwift6ObjectC", "canSetPermissions"]
 - ["10RealmSwift6ObjectC", "canUpdate"]
 - !private ["10RealmSwift6ObjectC", "className"]
-- ["10RealmSwift6ObjectC", "deinit"]
 - ["10RealmSwift6ObjectC", "id"]
 - ["10RealmSwift6ObjectC", "identity"]
 - ["10RealmSwift6ObjectC", "init"]
@@ -1312,7 +1207,7 @@ depends-member:
 - ["10RealmSwift16ObjectPrivilegesV", "symmetricDifference"]
 - ["10RealmSwift16ObjectPrivilegesV", "union"]
 - ["10RealmSwift16ObjectPrivilegesV", "update"]
-- !private ["10RealmSwift17ObjectiveCSupportC", "convert"]
+- !private ["10RealmSwift17ObjectiveCSupportV", "convert"]
 - ["s9OptionSetP", "=="]
 - ["s9OptionSetP", "ArrayLiteralElement"]
 - ["s9OptionSetP", "ClassPrivileges"]
@@ -1450,12 +1345,10 @@ depends-member:
 - ["So13RLMObjectBaseC", "role"]
 - ["So13RLMObjectBaseC", "roles"]
 - ["So13RLMObjectBaseC", "users"]
-- !private ["So8RLMRealmC", "subscribe"]
 - !private ["So8RLMRealmC", "subscription"]
 - !private ["So8RLMRealmC", "subscriptions"]
 - !private ["So21RLMRealmConfigurationC", "syncConfiguration"]
 - !private ["So10RLMResultsC", "subscribe"]
-- !private ["So20RLMSyncConfigurationC", "automaticConfiguration"]
 - !private ["So20RLMSyncConfigurationC", "enableSSLValidation"]
 - !private ["So20RLMSyncConfigurationC", "fullSynchronization"]
 - !private ["So20RLMSyncConfigurationC", "init"]
@@ -1487,7 +1380,6 @@ depends-member:
 - ["So17RLMSyncPermissionC", "_nilValue"]
 - ["So17RLMSyncPermissionC", "_rlmArray"]
 - ["So17RLMSyncPermissionC", "deinit"]
-- !private ["So29RLMSyncPermissionSortPropertya", "rawValue"]
 - !private ["So24RLMSyncProgressDirectionV", "download"]
 - !private ["So24RLMSyncProgressDirectionV", "upload"]
 - !private ["So19RLMSyncProgressModeV", "forCurrentlyOutstandingWork"]
@@ -1509,7 +1401,6 @@ depends-member:
 - !private ["So14RLMSyncSessionC", "__addProgressNotification"]
 - ["So14RLMSyncSessionC", "addProgressNotification"]
 - !private ["So14RLMSyncSessionC", "init"]
-- !private ["So17RLMSyncStopPolicyV", "afterChangesUploaded"]
 - !private ["So19RLMSyncSubscriptionC", "createdAt"]
 - !private ["So19RLMSyncSubscriptionC", "error"]
 - !private ["So19RLMSyncSubscriptionC", "expiresAt"]
@@ -1531,23 +1422,18 @@ depends-member:
 - ["So24RLMSyncSubscriptionStateV", "error"]
 - ["So24RLMSyncSubscriptionStateV", "invalidated"]
 - ["So24RLMSyncSubscriptionStateV", "pending"]
-- !private ["So11RLMSyncUserC", "AnyObject"]
 - ["So11RLMSyncUserC", "Bool"]
 - ["So11RLMSyncUserC", "Date"]
 - ["So11RLMSyncUserC", "DispatchQueue"]
+- ["So11RLMSyncUserC", "Error"]
 - !private ["So11RLMSyncUserC", "ObjectiveCSupport"]
-- !private ["So11RLMSyncUserC", "RLMResults"]
 - !private ["So11RLMSyncUserC", "RLMSyncCredentials"]
 - ["So11RLMSyncUserC", "Realm"]
-- !private ["So11RLMSyncUserC", "Results"]
 - ["So11RLMSyncUserC", "ServerValidationPolicy"]
 - ["So11RLMSyncUserC", "String"]
 - ["So11RLMSyncUserC", "SyncAccessLevel"]
 - ["So11RLMSyncUserC", "SyncAuthError"]
 - ["So11RLMSyncUserC", "SyncCredentials"]
-- !private ["So11RLMSyncUserC", "SyncPermission"]
-- ["So11RLMSyncUserC", "SyncPermissionError"]
-- ["So11RLMSyncUserC", "SyncPermissionResults"]
 - ["So11RLMSyncUserC", "SyncUser"]
 - ["So11RLMSyncUserC", "TimeInterval"]
 - ["So11RLMSyncUserC", "URL"]
@@ -1559,19 +1445,16 @@ depends-member:
 - !private ["So11RLMSyncUserC", "__current"]
 - !private ["So11RLMSyncUserC", "__errorHandler"]
 - !private ["So11RLMSyncUserC", "__logIn"]
-- !private ["So11RLMSyncUserC", "__retrievePermissions"]
 - ["So11RLMSyncUserC", "all"]
 - ["So11RLMSyncUserC", "configuration"]
 - ["So11RLMSyncUserC", "createOfferForRealm"]
 - ["So11RLMSyncUserC", "current"]
 - ["So11RLMSyncUserC", "errorHandler"]
 - ["So11RLMSyncUserC", "logIn"]
-- ["So11RLMSyncUserC", "retrievePermissions"]
 - !private ["So17RLMThreadConfinedP", "subscribe"]
 - !private ["Sk", "PermissionRole"]
 - !private ["Sk", "RLMPermissionForRole"]
 - !private ["Sk", "RLMSyncSubscriptionOptions"]
-- !private ["Sk", "SortDescriptor"]
 - !private ["Sk", "SyncSubscription"]
 - !private ["Sk", "UInt"]
 - !private ["Sk", "_rlmArray"]
@@ -1582,7 +1465,6 @@ depends-member:
 - !private ["Sk", "precondition"]
 - !private ["Sk", "realm"]
 - !private ["Sk", "rlmResults"]
-- !private ["Sk", "sorted"]
 - !private ["Sm", "filter"]
 - !private ["Sm", "init"]
 - !private ["Sm", "joined"]
@@ -1598,7 +1480,6 @@ depends-member:
 - ["SY", "_Default_ArrayLiteralElement"]
 - ["SY", "_Default_Element"]
 - ["SY", "_Default_RawValue"]
-- !private ["SY", "afterChangesUploaded"]
 - ["SY", "complete"]
 - ["SY", "contains"]
 - !private ["SY", "create"]
@@ -1635,38 +1516,38 @@ depends-member:
 - ["SY", "union"]
 - ["SY", "update"]
 - !private ["SY", "upload"]
-- !private ["10RealmSwift0A0C", "AnyObject"]
-- !private ["10RealmSwift0A0C", "ClassPermission"]
-- ["10RealmSwift0A0C", "ClassPrivileges"]
-- ["10RealmSwift0A0C", "Configuration"]
-- ["10RealmSwift0A0C", "List"]
-- ["10RealmSwift0A0C", "Object"]
-- ["10RealmSwift0A0C", "ObjectPrivileges"]
-- ["10RealmSwift0A0C", "Permission"]
-- !private ["10RealmSwift0A0C", "RLMGetComputedPermissions"]
-- !private ["10RealmSwift0A0C", "RLMResults"]
-- !private ["10RealmSwift0A0C", "RealmPermission"]
-- ["10RealmSwift0A0C", "RealmPrivileges"]
-- ["10RealmSwift0A0C", "Results"]
-- ["10RealmSwift0A0C", "String"]
-- ["10RealmSwift0A0C", "Swift"]
-- ["10RealmSwift0A0C", "SyncSession"]
-- ["10RealmSwift0A0C", "SyncSubscription"]
-- ["10RealmSwift0A0C", "Void"]
-- !private ["10RealmSwift0A0C", "create"]
-- !private ["10RealmSwift0A0C", "deinit"]
-- ["10RealmSwift0A0C", "getPrivileges"]
-- !private ["10RealmSwift0A0C", "object"]
-- ["10RealmSwift0A0C", "permissions"]
-- !private ["10RealmSwift0A0C", "rlmRealm"]
-- ["10RealmSwift0A0C", "subscribe"]
-- ["10RealmSwift0A0C", "subscription"]
-- ["10RealmSwift0A0C", "subscriptions"]
-- ["10RealmSwift0A0C", "syncSession"]
+- !private ["10RealmSwift0A0V", "AnyObject"]
+- !private ["10RealmSwift0A0V", "ClassPermission"]
+- ["10RealmSwift0A0V", "ClassPrivileges"]
+- ["10RealmSwift0A0V", "Configuration"]
+- ["10RealmSwift0A0V", "List"]
+- ["10RealmSwift0A0V", "Object"]
+- ["10RealmSwift0A0V", "ObjectPrivileges"]
+- ["10RealmSwift0A0V", "Permission"]
+- !private ["10RealmSwift0A0V", "RLMGetComputedPermissions"]
+- !private ["10RealmSwift0A0V", "RLMResults"]
+- !private ["10RealmSwift0A0V", "RealmPermission"]
+- ["10RealmSwift0A0V", "RealmPrivileges"]
+- ["10RealmSwift0A0V", "Results"]
+- ["10RealmSwift0A0V", "String"]
+- ["10RealmSwift0A0V", "Swift"]
+- ["10RealmSwift0A0V", "SyncSession"]
+- ["10RealmSwift0A0V", "SyncSubscription"]
+- ["10RealmSwift0A0V", "Void"]
+- !private ["10RealmSwift0A0V", "create"]
+- !private ["10RealmSwift0A0V", "deinit"]
+- !private ["10RealmSwift0A0V", "fatalError"]
+- ["10RealmSwift0A0V", "getPrivileges"]
+- !private ["10RealmSwift0A0V", "object"]
+- ["10RealmSwift0A0V", "permissions"]
+- !private ["10RealmSwift0A0V", "rlmRealm"]
+- ["10RealmSwift0A0V", "subscribe"]
+- ["10RealmSwift0A0V", "subscription"]
+- ["10RealmSwift0A0V", "subscriptions"]
+- ["10RealmSwift0A0V", "syncSession"]
 - !private ["10RealmSwift0A10CollectionP", "PermissionRole"]
 - !private ["10RealmSwift0A10CollectionP", "RLMPermissionForRole"]
 - !private ["10RealmSwift0A10CollectionP", "RLMSyncSubscriptionOptions"]
-- !private ["10RealmSwift0A10CollectionP", "SortDescriptor"]
 - !private ["10RealmSwift0A10CollectionP", "SyncSubscription"]
 - !private ["10RealmSwift0A10CollectionP", "UInt"]
 - !private ["10RealmSwift0A10CollectionP", "_rlmArray"]
@@ -1674,11 +1555,9 @@ depends-member:
 - !private ["10RealmSwift0A10CollectionP", "precondition"]
 - !private ["10RealmSwift0A10CollectionP", "realm"]
 - !private ["10RealmSwift0A10CollectionP", "rlmResults"]
-- !private ["10RealmSwift0A10CollectionP", "sorted"]
 - !private ["10RealmSwift0A14CollectionBaseP", "PermissionRole"]
 - !private ["10RealmSwift0A14CollectionBaseP", "RLMPermissionForRole"]
 - !private ["10RealmSwift0A14CollectionBaseP", "RLMSyncSubscriptionOptions"]
-- !private ["10RealmSwift0A14CollectionBaseP", "SortDescriptor"]
 - !private ["10RealmSwift0A14CollectionBaseP", "SyncSubscription"]
 - !private ["10RealmSwift0A14CollectionBaseP", "UInt"]
 - !private ["10RealmSwift0A14CollectionBaseP", "_rlmArray"]
@@ -1686,7 +1565,6 @@ depends-member:
 - !private ["10RealmSwift0A14CollectionBaseP", "precondition"]
 - !private ["10RealmSwift0A14CollectionBaseP", "realm"]
 - !private ["10RealmSwift0A14CollectionBaseP", "rlmResults"]
-- !private ["10RealmSwift0A14CollectionBaseP", "sorted"]
 - ["10RealmSwift0A15CollectionValueP", "=="]
 - !private ["10RealmSwift0A15CollectionValueP", "KeyValueObservationNotificationToken"]
 - ["10RealmSwift0A15CollectionValueP", "LinkingObjects"]
@@ -1704,13 +1582,11 @@ depends-member:
 - !private ["10RealmSwift0A15CollectionValueP", "init"]
 - !private ["10RealmSwift0A15CollectionValueP", "isNaN"]
 - !private ["10RealmSwift0A15CollectionValueP", "map"]
-- !private ["10RealmSwift0A15CollectionValueP", "modified"]
 - ["10RealmSwift0A15CollectionValueP", "objCValue"]
 - !private ["10RealmSwift0A15CollectionValueP", "permissions"]
 - !private ["10RealmSwift0A15CollectionValueP", "rlmSubscription"]
 - !private ["10RealmSwift0A12OptionalTypeP", "init"]
 - !private ["10RealmSwift0A12OptionalTypeP", "isNaN"]
-- !private ["10RealmSwift0A12OptionalTypeP", "modified"]
 - ["10RealmSwift0A10PermissionC", "List"]
 - ["10RealmSwift0A10PermissionC", "Permission"]
 - ["10RealmSwift0A10PermissionC", "String"]
@@ -1754,28 +1630,21 @@ depends-member:
 - ["10RealmSwift0A10PrivilegesV", "symmetricDifference"]
 - ["10RealmSwift0A10PrivilegesV", "union"]
 - ["10RealmSwift0A10PrivilegesV", "update"]
-- ["10RealmSwift7ResultsC", "Bool"]
-- ["10RealmSwift7ResultsC", "Int"]
-- !private ["10RealmSwift7ResultsC", "RLMSyncSubscriptionOptions"]
-- ["10RealmSwift7ResultsC", "Results"]
-- !private ["10RealmSwift7ResultsC", "SortDescriptor"]
-- ["10RealmSwift7ResultsC", "String"]
-- ["10RealmSwift7ResultsC", "SyncPermission"]
-- ["10RealmSwift7ResultsC", "SyncPermissionSortProperty"]
-- ["10RealmSwift7ResultsC", "SyncSubscription"]
-- ["10RealmSwift7ResultsC", "TimeInterval"]
-- !private ["10RealmSwift7ResultsC", "UInt"]
-- !private ["10RealmSwift7ResultsC", "deinit"]
-- !private ["10RealmSwift7ResultsC", "init"]
-- !private ["10RealmSwift7ResultsC", "rlmResults"]
-- ["10RealmSwift7ResultsC", "sorted"]
-- ["10RealmSwift7ResultsC", "subscribe"]
+- ["10RealmSwift7ResultsV", "Bool"]
+- ["10RealmSwift7ResultsV", "Int"]
+- !private ["10RealmSwift7ResultsV", "RLMSyncSubscriptionOptions"]
+- ["10RealmSwift7ResultsV", "String"]
+- ["10RealmSwift7ResultsV", "SyncSubscription"]
+- ["10RealmSwift7ResultsV", "TimeInterval"]
+- !private ["10RealmSwift7ResultsV", "UInt"]
+- !private ["10RealmSwift7ResultsV", "init"]
+- !private ["10RealmSwift7ResultsV", "rlmResults"]
+- ["10RealmSwift7ResultsV", "subscribe"]
 - !private ["s10SIMDScalarP", "init"]
 - !private ["s10SIMDScalarP", "isNaN"]
 - !private ["ST", "PermissionRole"]
 - !private ["ST", "RLMPermissionForRole"]
 - !private ["ST", "RLMSyncSubscriptionOptions"]
-- !private ["ST", "SortDescriptor"]
 - !private ["ST", "SyncSubscription"]
 - !private ["ST", "UInt"]
 - !private ["ST", "_rlmArray"]
@@ -1786,7 +1655,6 @@ depends-member:
 - !private ["ST", "precondition"]
 - !private ["ST", "realm"]
 - !private ["ST", "rlmResults"]
-- !private ["ST", "sorted"]
 - !private ["ST", "subscript"]
 - ["10RealmSwift22ServerValidationPolicyO", "URL"]
 - ["10RealmSwift22ServerValidationPolicyO", "none"]
@@ -1832,10 +1700,6 @@ depends-member:
 - !private ["SZ", "init"]
 - !private ["s13SignedNumericP", "init"]
 - !private ["s13SignedNumericP", "isNaN"]
-- ["10RealmSwift14SortDescriptorV", "Bool"]
-- ["10RealmSwift14SortDescriptorV", "SyncPermissionSortProperty"]
-- !private ["10RealmSwift14SortDescriptorV", "deinit"]
-- ["10RealmSwift14SortDescriptorV", "init"]
 - !private ["Sx", "init"]
 - !private ["Sx", "isNaN"]
 - !private ["SS", "init"]
@@ -1843,7 +1707,6 @@ depends-member:
 - !private ["s27StringInterpolationProtocolP", "appendLiteral"]
 - !private ["Sy", "init"]
 - ["10RealmSwift17SyncConfigurationV", "Bool"]
-- !private ["10RealmSwift17SyncConfigurationV", "ObjectiveCSupport"]
 - ["10RealmSwift17SyncConfigurationV", "RLMSyncConfiguration"]
 - ["10RealmSwift17SyncConfigurationV", "RLMSyncStopPolicy"]
 - ["10RealmSwift17SyncConfigurationV", "Realm"]
@@ -1854,6 +1717,7 @@ depends-member:
 - ["10RealmSwift17SyncConfigurationV", "asConfig"]
 - ["10RealmSwift17SyncConfigurationV", "automatic"]
 - ["10RealmSwift17SyncConfigurationV", "enableSSLValidation"]
+- !private ["10RealmSwift17SyncConfigurationV", "fatalError"]
 - ["10RealmSwift17SyncConfigurationV", "fullSynchronization"]
 - ["10RealmSwift17SyncConfigurationV", "init"]
 - ["10RealmSwift17SyncConfigurationV", "isPartial"]
@@ -1871,6 +1735,7 @@ depends-member:
 - ["10RealmSwift15SyncCredentialsV", "accessToken"]
 - ["10RealmSwift15SyncCredentialsV", "anonymous"]
 - ["10RealmSwift15SyncCredentialsV", "cloudKit"]
+- ["10RealmSwift15SyncCredentialsV", "customRefreshToken"]
 - ["10RealmSwift15SyncCredentialsV", "facebook"]
 - ["10RealmSwift15SyncCredentialsV", "google"]
 - ["10RealmSwift15SyncCredentialsV", "init"]
@@ -1880,38 +1745,37 @@ depends-member:
 - ["10RealmSwift15SyncCredentialsV", "token"]
 - ["10RealmSwift15SyncCredentialsV", "userInfo"]
 - ["10RealmSwift15SyncCredentialsV", "usernamePassword"]
-- ["10RealmSwift19SyncPermissionValueC", "init"]
-- ["10RealmSwift16SyncSubscriptionC", "=="]
-- ["10RealmSwift16SyncSubscriptionC", "Bool"]
-- ["10RealmSwift16SyncSubscriptionC", "Date"]
-- ["10RealmSwift16SyncSubscriptionC", "KeyPath"]
-- !private ["10RealmSwift16SyncSubscriptionC", "KeyValueObservationNotificationToken"]
-- ["10RealmSwift16SyncSubscriptionC", "NSKeyValueObservingOptions"]
-- ["10RealmSwift16SyncSubscriptionC", "NotificationToken"]
-- !private ["10RealmSwift16SyncSubscriptionC", "ObjectiveCSupport"]
-- !private ["10RealmSwift16SyncSubscriptionC", "RLMCastToSyncSubscription"]
-- ["10RealmSwift16SyncSubscriptionC", "RLMSyncSubscription"]
-- ["10RealmSwift16SyncSubscriptionC", "String"]
-- ["10RealmSwift16SyncSubscriptionC", "SyncSubscription"]
-- ["10RealmSwift16SyncSubscriptionC", "SyncSubscriptionState"]
-- ["10RealmSwift16SyncSubscriptionC", "TimeInterval"]
-- ["10RealmSwift16SyncSubscriptionC", "Void"]
-- ["10RealmSwift16SyncSubscriptionC", "_nilValue"]
-- ["10RealmSwift16SyncSubscriptionC", "_rlmArray"]
-- ["10RealmSwift16SyncSubscriptionC", "bridging"]
-- ["10RealmSwift16SyncSubscriptionC", "createdAt"]
-- ["10RealmSwift16SyncSubscriptionC", "deinit"]
-- ["10RealmSwift16SyncSubscriptionC", "expiresAt"]
-- ["10RealmSwift16SyncSubscriptionC", "init"]
-- ["10RealmSwift16SyncSubscriptionC", "name"]
-- ["10RealmSwift16SyncSubscriptionC", "objCValue"]
-- ["10RealmSwift16SyncSubscriptionC", "observe"]
-- ["10RealmSwift16SyncSubscriptionC", "query"]
-- !private ["10RealmSwift16SyncSubscriptionC", "rlmSubscription"]
-- ["10RealmSwift16SyncSubscriptionC", "state"]
-- ["10RealmSwift16SyncSubscriptionC", "timeToLive"]
-- ["10RealmSwift16SyncSubscriptionC", "unsubscribe"]
-- ["10RealmSwift16SyncSubscriptionC", "updatedAt"]
+- ["10RealmSwift16SyncSubscriptionV", "=="]
+- ["10RealmSwift16SyncSubscriptionV", "Bool"]
+- ["10RealmSwift16SyncSubscriptionV", "Date"]
+- ["10RealmSwift16SyncSubscriptionV", "KeyPath"]
+- !private ["10RealmSwift16SyncSubscriptionV", "KeyValueObservationNotificationToken"]
+- ["10RealmSwift16SyncSubscriptionV", "NSKeyValueObservingOptions"]
+- ["10RealmSwift16SyncSubscriptionV", "NotificationToken"]
+- !private ["10RealmSwift16SyncSubscriptionV", "ObjectiveCSupport"]
+- !private ["10RealmSwift16SyncSubscriptionV", "RLMCastToSyncSubscription"]
+- ["10RealmSwift16SyncSubscriptionV", "RLMSyncSubscription"]
+- ["10RealmSwift16SyncSubscriptionV", "String"]
+- ["10RealmSwift16SyncSubscriptionV", "SyncSubscription"]
+- ["10RealmSwift16SyncSubscriptionV", "SyncSubscriptionState"]
+- ["10RealmSwift16SyncSubscriptionV", "TimeInterval"]
+- ["10RealmSwift16SyncSubscriptionV", "Void"]
+- ["10RealmSwift16SyncSubscriptionV", "_nilValue"]
+- ["10RealmSwift16SyncSubscriptionV", "_rlmArray"]
+- ["10RealmSwift16SyncSubscriptionV", "bridging"]
+- ["10RealmSwift16SyncSubscriptionV", "createdAt"]
+- ["10RealmSwift16SyncSubscriptionV", "deinit"]
+- ["10RealmSwift16SyncSubscriptionV", "expiresAt"]
+- ["10RealmSwift16SyncSubscriptionV", "init"]
+- ["10RealmSwift16SyncSubscriptionV", "name"]
+- ["10RealmSwift16SyncSubscriptionV", "objCValue"]
+- ["10RealmSwift16SyncSubscriptionV", "observe"]
+- ["10RealmSwift16SyncSubscriptionV", "query"]
+- !private ["10RealmSwift16SyncSubscriptionV", "rlmSubscription"]
+- ["10RealmSwift16SyncSubscriptionV", "state"]
+- ["10RealmSwift16SyncSubscriptionV", "timeToLive"]
+- ["10RealmSwift16SyncSubscriptionV", "unsubscribe"]
+- ["10RealmSwift16SyncSubscriptionV", "updatedAt"]
 - ["10RealmSwift21SyncSubscriptionStateO", "=="]
 - ["10RealmSwift21SyncSubscriptionStateO", "Bool"]
 - ["10RealmSwift21SyncSubscriptionStateO", "Error"]
@@ -1934,7 +1798,6 @@ depends-member:
 - ["10RealmSwift14ThreadConfinedP", "PermissionRole"]
 - !private ["10RealmSwift14ThreadConfinedP", "RLMPermissionForRole"]
 - !private ["10RealmSwift14ThreadConfinedP", "RLMSyncSubscriptionOptions"]
-- !private ["10RealmSwift14ThreadConfinedP", "SortDescriptor"]
 - !private ["10RealmSwift14ThreadConfinedP", "SyncSubscription"]
 - !private ["10RealmSwift14ThreadConfinedP", "UInt"]
 - ["10RealmSwift14ThreadConfinedP", ""]
@@ -1946,10 +1809,9 @@ depends-member:
 - !private ["10RealmSwift14ThreadConfinedP", "precondition"]
 - !private ["10RealmSwift14ThreadConfinedP", "realm"]
 - !private ["10RealmSwift14ThreadConfinedP", "rlmResults"]
-- !private ["10RealmSwift14ThreadConfinedP", "sorted"]
 - !private ["Su", "init"]
 - !private ["SU", "init"]
-- !private ["10RealmSwift0A0C12UpdatePolicyO", "modified"]
+- !private ["10RealmSwift0A0V12UpdatePolicyO", "modified"]
 - !private ["s14_ArrayProtocolP", "filter"]
 - !private ["s14_ArrayProtocolP", "joined"]
 - !private ["s14_ArrayProtocolP", "map"]
@@ -1966,11 +1828,9 @@ depends-member:
 - !private ["s22_CVarArgPassedAsDoubleP", "isNaN"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "init"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "isNaN"]
-- !private ["s30_CustomPlaygroundQuickLookableP", "modified"]
 - !private ["s24_DestructorSafeContainerP", "filter"]
 - !private ["s24_DestructorSafeContainerP", "joined"]
 - !private ["s24_DestructorSafeContainerP", "map"]
-- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "modified"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
 - !private ["s33_ExpressibleByBuiltinFloatLiteralP", "isNaN"]
@@ -1987,7 +1847,6 @@ depends-member:
 - !private ["s35_HasCustomAnyHashableRepresentationP", "isNaN"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "joined"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
-- !private ["s35_HasCustomAnyHashableRepresentationP", "rawValue"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "DispatchQueue"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "Double"]
@@ -1999,12 +1858,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "Progress"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "RLMPermissionForRole"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "RLMSyncCredentials"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "RLMSyncSubscriptionOptions"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "Results"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "SortDescriptor"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "SyncSubscription"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "SyncUser"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "UInt"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "__addProgressNotification"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "__allUsers"]
@@ -2013,14 +1867,12 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "__current"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "__errorHandler"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "__logIn"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "__retrievePermissions"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "__rlmSync_errorActionToken"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "__shared"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "_nilValue"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "_realmObjectName"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "_rlmArray"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "anonymous"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "automaticConfiguration"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "className"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "createdAt"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "enableSSLValidation"]
@@ -2042,8 +1894,6 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "query"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "realm"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "realmURL"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "rlmResults"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "sorted"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "state"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "stopPolicy"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "subscribe"]
@@ -2057,13 +1907,25 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "urlPrefix"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "user"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "userInfo"]
+- ["10RealmSwift20_ManagedPropertyTypeP", "LinkingObjects"]
+- ["10RealmSwift20_ManagedPropertyTypeP", "List"]
+- ["10RealmSwift20_ManagedPropertyTypeP", "PermissionRole"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "RLMPermissionForRole"]
+- ["10RealmSwift20_ManagedPropertyTypeP", ""]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "_realmObjectName"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "_rlmArray"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "className"]
+- ["10RealmSwift20_ManagedPropertyTypeP", "init"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "isNaN"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "map"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "permissions"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "precondition"]
+- !private ["10RealmSwift20_ManagedPropertyTypeP", "realm"]
 - !private ["s21_ObjectiveCBridgeableP", "filter"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "isNaN"]
 - !private ["s21_ObjectiveCBridgeableP", "joined"]
 - !private ["s21_ObjectiveCBridgeableP", "map"]
-- !private ["s21_ObjectiveCBridgeableP", "modified"]
-- !private ["s21_ObjectiveCBridgeableP", "rawValue"]
 - !private ["s21_ObjectiveCBridgeableP", "subscript"]
 - ["10Foundation26_ObjectiveCBridgeableErrorP", "ActionToken"]
 - !private ["10Foundation26_ObjectiveCBridgeableErrorP", "SyncError"]
@@ -2072,7 +1934,16 @@ depends-member:
 - !private ["10Foundation26_ObjectiveCBridgeableErrorP", "code"]
 - !private ["10Foundation26_ObjectiveCBridgeableErrorP", "kRLMSyncPathOfRealmBackupCopyKey"]
 - !private ["10Foundation26_ObjectiveCBridgeableErrorP", "userInfo"]
-- !private ["s20_SwiftNewtypeWrapperP", "rawValue"]
+- !private ["10RealmSwift01_A20CollectionEnumeratorP", "PermissionRole"]
+- !private ["10RealmSwift01_A20CollectionEnumeratorP", "RLMPermissionForRole"]
+- !private ["10RealmSwift01_A20CollectionEnumeratorP", "RLMSyncSubscriptionOptions"]
+- !private ["10RealmSwift01_A20CollectionEnumeratorP", "SyncSubscription"]
+- !private ["10RealmSwift01_A20CollectionEnumeratorP", "UInt"]
+- !private ["10RealmSwift01_A20CollectionEnumeratorP", "_rlmArray"]
+- ["10RealmSwift01_A20CollectionEnumeratorP", "init"]
+- !private ["10RealmSwift01_A20CollectionEnumeratorP", "precondition"]
+- !private ["10RealmSwift01_A20CollectionEnumeratorP", "realm"]
+- !private ["10RealmSwift01_A20CollectionEnumeratorP", "rlmResults"]
 depends-nominal:
 - !private "10RealmSwift11AddableTypeP"
 - !private "s18AdditiveArithmeticP"
@@ -2081,7 +1952,6 @@ depends-nominal:
 - "SK"
 - !private "SB"
 - !private "Sz"
-- !private "Sb"
 - "s7CVarArgP"
 - "10RealmSwift15ClassPermissionC"
 - "10RealmSwift15ClassPrivilegesV"
@@ -2104,7 +1974,6 @@ depends-nominal:
 - "SQ"
 - "s5ErrorP"
 - "s25ExpressibleByArrayLiteralP"
-- !private "s27ExpressibleByBooleanLiteralP"
 - !private "s30ExpressibleByDictionaryLiteralP"
 - !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s25ExpressibleByFloatLiteralP"
@@ -2121,7 +1990,7 @@ depends-nominal:
 - "10RealmSwift36KeyValueObservationNotificationTokenC"
 - "s22LazyCollectionProtocolP"
 - "s20LazySequenceProtocolP"
-- "10RealmSwift14LinkingObjectsC"
+- "10RealmSwift14LinkingObjectsV"
 - "10RealmSwift4ListC"
 - "10RealmSwift8ListBaseC"
 - !private "s25LosslessStringConvertibleP"
@@ -2140,7 +2009,7 @@ depends-nominal:
 - !private "So9OS_objectC"
 - "10RealmSwift6ObjectC"
 - "10RealmSwift16ObjectPrivilegesV"
-- !private "10RealmSwift17ObjectiveCSupportC"
+- !private "10RealmSwift17ObjectiveCSupportV"
 - "s9OptionSetP"
 - !private "Sq"
 - !private "10RealmSwift16OptionalProtocolP"
@@ -2162,11 +2031,9 @@ depends-nominal:
 - "SC12RLMSyncErrorLeV"
 - "So14RLMSyncManagerC"
 - "So17RLMSyncPermissionC"
-- !private "So29RLMSyncPermissionSortPropertya"
 - !private "So24RLMSyncProgressDirectionV"
 - !private "So19RLMSyncProgressModeV"
 - "So14RLMSyncSessionC"
-- !private "So17RLMSyncStopPolicyV"
 - !private "So19RLMSyncSubscriptionC"
 - !private "So26RLMSyncSubscriptionOptionsC"
 - "So24RLMSyncSubscriptionStateV"
@@ -2175,43 +2042,40 @@ depends-nominal:
 - "Sk"
 - !private "Sm"
 - "SY"
-- "10RealmSwift0A0C"
+- "10RealmSwift0A0V"
 - "10RealmSwift0A10CollectionP"
 - "10RealmSwift0A14CollectionBaseP"
 - "10RealmSwift0A15CollectionValueP"
 - !private "10RealmSwift0A12OptionalTypeP"
 - "10RealmSwift0A10PermissionC"
 - "10RealmSwift0A10PrivilegesV"
-- "10RealmSwift7ResultsC"
+- "10RealmSwift7ResultsV"
 - !private "s10SIMDScalarP"
 - "ST"
 - "10RealmSwift22ServerValidationPolicyO"
 - "s10SetAlgebraP"
 - !private "SZ"
 - !private "s13SignedNumericP"
-- "10RealmSwift14SortDescriptorV"
 - !private "Sx"
 - !private "SS"
 - !private "s27StringInterpolationProtocolP"
 - !private "Sy"
 - "10RealmSwift17SyncConfigurationV"
 - "10RealmSwift15SyncCredentialsV"
-- "10RealmSwift19SyncPermissionValueC"
-- "10RealmSwift16SyncSubscriptionC"
+- "10RealmSwift16SyncSubscriptionV"
 - "10RealmSwift21SyncSubscriptionStateO"
 - !private "s16TextOutputStreamP"
 - !private "s20TextOutputStreamableP"
 - "10RealmSwift14ThreadConfinedP"
 - !private "Su"
 - !private "SU"
-- !private "10RealmSwift0A0C12UpdatePolicyO"
+- !private "10RealmSwift0A0V12UpdatePolicyO"
 - !private "s14_ArrayProtocolP"
 - "10Foundation21_BridgedStoredNSErrorP"
 - !private "s15_CVarArgAlignedP"
 - !private "s22_CVarArgPassedAsDoubleP"
 - !private "s30_CustomPlaygroundQuickLookableP"
 - !private "s24_DestructorSafeContainerP"
-- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
 - !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - !private "s33_ExpressibleByBuiltinFloatLiteralP"
 - !private "s35_ExpressibleByBuiltinIntegerLiteralP"
@@ -2220,9 +2084,10 @@ depends-nominal:
 - !private "s19_HasContiguousBytesP"
 - !private "s35_HasCustomAnyHashableRepresentationP"
 - "10Foundation27_KeyValueCodingAndObservingP"
+- "10RealmSwift20_ManagedPropertyTypeP"
 - !private "s21_ObjectiveCBridgeableP"
 - "10Foundation26_ObjectiveCBridgeableErrorP"
-- !private "s20_SwiftNewtypeWrapperP"
+- "10RealmSwift01_A20CollectionEnumeratorP"
 depends-dynamic-lookup:
 depends-external:
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
@@ -2296,4 +2161,4 @@ depends-external:
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "51cef985acea3e18e8a21cd99d1e235f"
+interface-hash: "dd7378dbb2c296ae1fd562268afe2eee"

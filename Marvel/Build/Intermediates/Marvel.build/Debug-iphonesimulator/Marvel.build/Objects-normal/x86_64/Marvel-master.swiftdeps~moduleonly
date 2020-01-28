@@ -1,10 +1,18 @@
 version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
-options: "03f3c0280c3277e1d1cbc8184825be82"
-build_time: [1574690433, 138071000]
+options: "4d7a9a2509d0b109376ac907941f4790"
+build_time: [1579110375, 460933000]
 inputs:
-  "/Users/ThiagoBevi/Dev-iOS/Marvel/Marvel/Models/Character.swift": [1572551333, 102796952]
+  "/Users/ThiagoBevi/Dev-iOS/Marvel/Marvel/Search/SearchHeroPresenter.swift": [1576531814, 135597500]
+  "/Users/ThiagoBevi/Dev-iOS/Marvel/Marvel/Models/Character.swift": [1576530739, 328814941]
+  "/Users/ThiagoBevi/Dev-iOS/Marvel/Marvel/Details/HeroDetailService.swift": [1576181074, 413959629]
   "/Users/ThiagoBevi/Dev-iOS/Marvel/Marvel/Models/Image.swift": [1572551333, 90774347]
-  "/Users/ThiagoBevi/Dev-iOS/Marvel/Marvel/HeroesDetails2.swift": [1572455010, 981659260]
-  "/Users/ThiagoBevi/Dev-iOS/Marvel/Marvel/ViewController.swift": [1572454275, 513253569]
-  "/Users/ThiagoBevi/Dev-iOS/Marvel/Marvel/FavoritesTableViewController.swift": [1573569789, 969568849]
-  "/Users/ThiagoBevi/Dev-iOS/Marvel/Marvel/AppDelegate.swift": [1572311973, 345209739]
+  "/Users/ThiagoBevi/Dev-iOS/Marvel/Marvel/Details/HeroesDetails2.swift": [1576520290, 451256809]
+  "/Users/ThiagoBevi/Dev-iOS/Marvel/Marvel/Search/SearchHeroService.swift": [1576789239, 776410631]
+  "/Users/ThiagoBevi/Dev-iOS/Marvel/Marvel/Details/HeroDetailPresenter.swift": [1576181043, 693498293]
+  "/Users/ThiagoBevi/Dev-iOS/Marvel/Marvel/MarvelError.swift": [1576097333, 110515855]
+  "/Users/ThiagoBevi/Dev-iOS/Marvel/Marvel/Search/SearchHeroeViewController.swift": [1576524487, 390098277]
+  "/Users/ThiagoBevi/Dev-iOS/Marvel/Marvel/Favorites/FavoritesTableViewController.swift": [1576098619, 751199155]
+  "/Users/ThiagoBevi/Dev-iOS/Marvel/Marvel/Search/SearchHeroView.swift": [1576098841, 756744585]
+  "/Users/ThiagoBevi/Dev-iOS/Marvel/Marvel/Details/HeroDetailViewController.swift": [1576181013, 58703886]
+  "/Users/ThiagoBevi/Dev-iOS/Marvel/Marvel/Resources/AppDelegate.swift": [1572311973, 345209739]
+  "/Users/ThiagoBevi/Dev-iOS/Marvel/Marvel/Details/HeroDetailView.swift": [1576180994, 345638838]

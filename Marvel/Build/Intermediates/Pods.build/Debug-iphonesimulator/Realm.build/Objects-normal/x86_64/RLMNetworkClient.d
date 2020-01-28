@@ -24,5 +24,7 @@ dependencies: \
   /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/schema.hpp \
   /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/sync/sync_user.hpp \
   /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/util/atomic_shared_ptr.hpp \
+  /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/RLMSyncManager_Private.h \
+  /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/RLMSyncManager.h \
   /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/RLMUtil.hpp \
   /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/RLMOptionalBase.h

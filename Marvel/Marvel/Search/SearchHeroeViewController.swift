@@ -11,13 +11,13 @@ import UIKit
 class SearchHeroViewController: UIViewController {
 
     //Constants
-    var presenter = SearchHeroPresenter()
+    var presenter = SearchHeroPresenter(service: SearchHeroService())
     
     // MARK: Outlets
     @IBOutlet weak var searchTextField: UITextField!
     
     @IBAction func searchHeroesButton(_ sender: Any) {
-        searchHero(searchTextField.text ?? "Digite nome heroi")
+       presenter.searchByHero(name: searchTextField.text ?? "")
     }
 
     override func viewDidLoad() {
@@ -28,19 +28,17 @@ class SearchHeroViewController: UIViewController {
 
 extension SearchHeroViewController: SearchHeroView {
  
-    func searchHero(_ hero: String) {
-        presenter.getMarvelHeroesData(name: hero, parameters: [ : ])
-    }
-    
-    func showDetails(idChar: String, nameChar: String, descriptionChar: String) {
+    func showDetails(hero: Character) {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let vc = storyboard.instantiateViewController(withIdentifier: "HeroesDetails2") as! HeroesDetails2
-        
-        vc.idChar = idChar
-        vc.nameChar = nameChar
-        vc.descriptionChar = descriptionChar
-        
+        vc.hero = hero
+        print(hero)
+
         self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    func showError(error: String) {
+        print(error)
     }
 
 }

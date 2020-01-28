@@ -25,6 +25,7 @@ dependencies: \
   /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/RLMObjectSchema_Private.h \
   /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/RLMObjectSchema.h \
   /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/RLMObjectStore.h \
+  /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/RLMProperty_Private.h \
   /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/RLMProperty.h \
   /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/RLMQueryUtil.hpp \
   /Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Realm/include/RLMSchema_Private.h \

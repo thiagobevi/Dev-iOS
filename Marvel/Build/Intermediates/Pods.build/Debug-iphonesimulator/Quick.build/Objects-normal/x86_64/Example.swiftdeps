@@ -1,0 +1,398 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "_ExampleBase"
+- "Example"
+- "=="
+provides-nominal:
+- "5Quick12_ExampleBaseC"
+- "5Quick7ExampleC"
+provides-member:
+- ["5Quick12_ExampleBaseC", ""]
+- ["5Quick7ExampleC", ""]
+- ["5Quick7ExampleC", "=="]
+provides-dynamic-lookup:
+- "callsite"
+- "description"
+- "filterFlags"
+- "group"
+- "isSharedExample"
+- "name"
+- "run"
+depends-top-level:
+- !private "!"
+- !private "&&"
+- !private "+="
+- "=="
+- !private ">="
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "Callsite"
+- "Example"
+- "ExampleGroup"
+- !private "ExampleMetadata"
+- "FilterFlags"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "NSObject"
+- "String"
+- !private "StringLiteralType"
+- "Void"
+- !private "World"
+- "_ExampleBase"
+depends-member:
+- !private ["s7CVarArgP", "ExampleMetadata"]
+- !private ["s7CVarArgP", "World"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "afters"]
+- !private ["s7CVarArgP", "befores"]
+- !private ["s7CVarArgP", "cachedIncludedExampleCount"]
+- !private ["s7CVarArgP", "callsite"]
+- !private ["s7CVarArgP", "closure"]
+- !private ["s7CVarArgP", "currentExampleMetadata"]
+- !private ["s7CVarArgP", "description"]
+- !private ["s7CVarArgP", "exampleHooks"]
+- !private ["s7CVarArgP", "filterFlags"]
+- !private ["s7CVarArgP", "flags"]
+- !private ["s7CVarArgP", "group"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "internalDescription"]
+- !private ["s7CVarArgP", "isRunningAdditionalSuites"]
+- !private ["s7CVarArgP", "name"]
+- !private ["s7CVarArgP", "numberOfExamplesRun"]
+- !private ["s7CVarArgP", "phase"]
+- !private ["s7CVarArgP", "sharedWorld"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "suiteHooks"]
+- !private ["Sl", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "ExampleMetadata"]
+- !private ["s28CustomDebugStringConvertibleP", "World"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "afters"]
+- !private ["s28CustomDebugStringConvertibleP", "befores"]
+- !private ["s28CustomDebugStringConvertibleP", "cachedIncludedExampleCount"]
+- !private ["s28CustomDebugStringConvertibleP", "callsite"]
+- !private ["s28CustomDebugStringConvertibleP", "closure"]
+- !private ["s28CustomDebugStringConvertibleP", "currentExampleMetadata"]
+- !private ["s28CustomDebugStringConvertibleP", "description"]
+- !private ["s28CustomDebugStringConvertibleP", "exampleHooks"]
+- !private ["s28CustomDebugStringConvertibleP", "filterFlags"]
+- !private ["s28CustomDebugStringConvertibleP", "flags"]
+- !private ["s28CustomDebugStringConvertibleP", "group"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "internalDescription"]
+- !private ["s28CustomDebugStringConvertibleP", "isRunningAdditionalSuites"]
+- !private ["s28CustomDebugStringConvertibleP", "name"]
+- !private ["s28CustomDebugStringConvertibleP", "numberOfExamplesRun"]
+- !private ["s28CustomDebugStringConvertibleP", "phase"]
+- !private ["s28CustomDebugStringConvertibleP", "sharedWorld"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "suiteHooks"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "ExampleMetadata"]
+- !private ["s23CustomStringConvertibleP", "World"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "afters"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "befores"]
+- !private ["s23CustomStringConvertibleP", "cachedIncludedExampleCount"]
+- !private ["s23CustomStringConvertibleP", "callsite"]
+- !private ["s23CustomStringConvertibleP", "closure"]
+- !private ["s23CustomStringConvertibleP", "currentExampleMetadata"]
+- !private ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "exampleHooks"]
+- !private ["s23CustomStringConvertibleP", "filterFlags"]
+- !private ["s23CustomStringConvertibleP", "flags"]
+- !private ["s23CustomStringConvertibleP", "group"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "internalDescription"]
+- !private ["s23CustomStringConvertibleP", "isRunningAdditionalSuites"]
+- !private ["s23CustomStringConvertibleP", "name"]
+- !private ["s23CustomStringConvertibleP", "numberOfExamplesRun"]
+- !private ["s23CustomStringConvertibleP", "phase"]
+- !private ["s23CustomStringConvertibleP", "sharedWorld"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "suiteHooks"]
+- !private ["Se", "subscript"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SD", "subscript"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "ExampleMetadata"]
+- !private ["SQ", "World"]
+- ["SQ", ""]
+- !private ["SQ", "afters"]
+- !private ["SQ", "aftersExecuting"]
+- !private ["SQ", "aftersFinished"]
+- !private ["SQ", "befores"]
+- !private ["SQ", "beforesExecuting"]
+- !private ["SQ", "beforesFinished"]
+- !private ["SQ", "cachedIncludedExampleCount"]
+- !private ["SQ", "callsite"]
+- !private ["SQ", "closure"]
+- !private ["SQ", "currentExampleMetadata"]
+- !private ["SQ", "description"]
+- !private ["SQ", "exampleHooks"]
+- !private ["SQ", "filterFlags"]
+- !private ["SQ", "flags"]
+- !private ["SQ", "group"]
+- !private ["SQ", "init"]
+- !private ["SQ", "internalDescription"]
+- !private ["SQ", "isRunningAdditionalSuites"]
+- !private ["SQ", "name"]
+- !private ["SQ", "numberOfExamplesRun"]
+- !private ["SQ", "phase"]
+- !private ["SQ", "sharedWorld"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "suiteHooks"]
+- ["5Quick7ExampleC", "=="]
+- ["5Quick7ExampleC", "Bool"]
+- ["5Quick7ExampleC", "Callsite"]
+- ["5Quick7ExampleC", "Example"]
+- ["5Quick7ExampleC", "ExampleGroup"]
+- !private ["5Quick7ExampleC", "ExampleMetadata"]
+- ["5Quick7ExampleC", "FilterFlags"]
+- ["5Quick7ExampleC", "String"]
+- ["5Quick7ExampleC", "Void"]
+- !private ["5Quick7ExampleC", "World"]
+- ["5Quick7ExampleC", "callsite"]
+- !private ["5Quick7ExampleC", "closure"]
+- ["5Quick7ExampleC", "deinit"]
+- ["5Quick7ExampleC", "description"]
+- ["5Quick7ExampleC", "filterFlags"]
+- !private ["5Quick7ExampleC", "flags"]
+- ["5Quick7ExampleC", "group"]
+- ["5Quick7ExampleC", "init"]
+- !private ["5Quick7ExampleC", "internalDescription"]
+- ["5Quick7ExampleC", "isSharedExample"]
+- ["5Quick7ExampleC", "name"]
+- ["5Quick7ExampleC", "run"]
+- !private ["5Quick12ExampleGroupC", "afters"]
+- !private ["5Quick12ExampleGroupC", "befores"]
+- !private ["5Quick12ExampleGroupC", "filterFlags"]
+- !private ["5Quick12ExampleGroupC", "name"]
+- !private ["5Quick12ExampleGroupC", "phase"]
+- !private ["5Quick12ExampleHooksC", "executeAfters"]
+- !private ["5Quick12ExampleHooksC", "executeBefores"]
+- !private ["5Quick15ExampleMetadataC", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["SH", "ExampleMetadata"]
+- !private ["SH", "World"]
+- ["SH", ""]
+- !private ["SH", "afters"]
+- !private ["SH", "aftersExecuting"]
+- !private ["SH", "aftersFinished"]
+- !private ["SH", "befores"]
+- !private ["SH", "beforesExecuting"]
+- !private ["SH", "beforesFinished"]
+- !private ["SH", "cachedIncludedExampleCount"]
+- !private ["SH", "callsite"]
+- !private ["SH", "closure"]
+- !private ["SH", "currentExampleMetadata"]
+- !private ["SH", "description"]
+- !private ["SH", "exampleHooks"]
+- !private ["SH", "filterFlags"]
+- !private ["SH", "flags"]
+- !private ["SH", "group"]
+- !private ["SH", "init"]
+- !private ["SH", "internalDescription"]
+- !private ["SH", "isRunningAdditionalSuites"]
+- !private ["SH", "name"]
+- !private ["SH", "numberOfExamplesRun"]
+- !private ["SH", "phase"]
+- !private ["SH", "sharedWorld"]
+- !private ["SH", "subscript"]
+- !private ["SH", "suiteHooks"]
+- !private ["5Quick10HooksPhaseO", "aftersExecuting"]
+- !private ["5Quick10HooksPhaseO", "aftersFinished"]
+- !private ["5Quick10HooksPhaseO", "beforesExecuting"]
+- !private ["5Quick10HooksPhaseO", "beforesFinished"]
+- ["So8NSObjectC", "=="]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "Callsite"]
+- ["So8NSObjectC", "Example"]
+- ["So8NSObjectC", "ExampleGroup"]
+- !private ["So8NSObjectC", "ExampleMetadata"]
+- ["So8NSObjectC", "FilterFlags"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "Void"]
+- !private ["So8NSObjectC", "World"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "afters"]
+- !private ["So8NSObjectC", "befores"]
+- !private ["So8NSObjectC", "cachedIncludedExampleCount"]
+- ["So8NSObjectC", "callsite"]
+- ["So8NSObjectC", "closure"]
+- !private ["So8NSObjectC", "currentExampleMetadata"]
+- ["So8NSObjectC", "description"]
+- !private ["So8NSObjectC", "exampleHooks"]
+- ["So8NSObjectC", "filterFlags"]
+- ["So8NSObjectC", "flags"]
+- ["So8NSObjectC", "group"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "internalDescription"]
+- !private ["So8NSObjectC", "isRunningAdditionalSuites"]
+- ["So8NSObjectC", "isSharedExample"]
+- ["So8NSObjectC", "name"]
+- !private ["So8NSObjectC", "numberOfExamplesRun"]
+- !private ["So8NSObjectC", "phase"]
+- ["So8NSObjectC", "run"]
+- !private ["So8NSObjectC", "sharedWorld"]
+- !private ["So8NSObjectC", "suiteHooks"]
+- !private ["So8NSObjectP", "ExampleMetadata"]
+- !private ["So8NSObjectP", "World"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "afters"]
+- !private ["So8NSObjectP", "befores"]
+- !private ["So8NSObjectP", "cachedIncludedExampleCount"]
+- !private ["So8NSObjectP", "callsite"]
+- !private ["So8NSObjectP", "closure"]
+- !private ["So8NSObjectP", "currentExampleMetadata"]
+- !private ["So8NSObjectP", "description"]
+- !private ["So8NSObjectP", "exampleHooks"]
+- !private ["So8NSObjectP", "filterFlags"]
+- !private ["So8NSObjectP", "flags"]
+- !private ["So8NSObjectP", "group"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "internalDescription"]
+- !private ["So8NSObjectP", "isRunningAdditionalSuites"]
+- !private ["So8NSObjectP", "name"]
+- !private ["So8NSObjectP", "numberOfExamplesRun"]
+- !private ["So8NSObjectP", "phase"]
+- !private ["So8NSObjectP", "sharedWorld"]
+- !private ["So8NSObjectP", "suiteHooks"]
+- !private ["ST", "subscript"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["5Quick10SuiteHooksC", "executeAfters"]
+- !private ["5Quick10SuiteHooksC", "executeBefores"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["5Quick5WorldC", "cachedIncludedExampleCount"]
+- !private ["5Quick5WorldC", "currentExampleMetadata"]
+- !private ["5Quick5WorldC", "exampleHooks"]
+- !private ["5Quick5WorldC", "isRunningAdditionalSuites"]
+- !private ["5Quick5WorldC", "numberOfExamplesRun"]
+- !private ["5Quick5WorldC", "sharedWorld"]
+- !private ["5Quick5WorldC", "suiteHooks"]
+- ["5Quick12_ExampleBaseC", "=="]
+- ["5Quick12_ExampleBaseC", "Bool"]
+- ["5Quick12_ExampleBaseC", "Callsite"]
+- ["5Quick12_ExampleBaseC", "Example"]
+- ["5Quick12_ExampleBaseC", "ExampleGroup"]
+- !private ["5Quick12_ExampleBaseC", "ExampleMetadata"]
+- ["5Quick12_ExampleBaseC", "FilterFlags"]
+- ["5Quick12_ExampleBaseC", "String"]
+- ["5Quick12_ExampleBaseC", "Void"]
+- !private ["5Quick12_ExampleBaseC", "World"]
+- ["5Quick12_ExampleBaseC", ""]
+- ["5Quick12_ExampleBaseC", "callsite"]
+- ["5Quick12_ExampleBaseC", "closure"]
+- ["5Quick12_ExampleBaseC", "deinit"]
+- ["5Quick12_ExampleBaseC", "description"]
+- ["5Quick12_ExampleBaseC", "filterFlags"]
+- ["5Quick12_ExampleBaseC", "flags"]
+- ["5Quick12_ExampleBaseC", "group"]
+- ["5Quick12_ExampleBaseC", "init"]
+- ["5Quick12_ExampleBaseC", "internalDescription"]
+- ["5Quick12_ExampleBaseC", "isSharedExample"]
+- ["5Quick12_ExampleBaseC", "name"]
+- ["5Quick12_ExampleBaseC", "run"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ExampleMetadata"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "World"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "afters"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "befores"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cachedIncludedExampleCount"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "callsite"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "closure"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currentExampleMetadata"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "description"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "exampleHooks"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "filterFlags"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flags"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "group"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "internalDescription"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isRunningAdditionalSuites"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "numberOfExamplesRun"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "phase"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sharedWorld"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "suiteHooks"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["5Quick10_WorldBaseC", "cachedIncludedExampleCount"]
+- !private ["5Quick10_WorldBaseC", "currentExampleMetadata"]
+- !private ["5Quick10_WorldBaseC", "exampleHooks"]
+- !private ["5Quick10_WorldBaseC", "isRunningAdditionalSuites"]
+- !private ["5Quick10_WorldBaseC", "numberOfExamplesRun"]
+- !private ["5Quick10_WorldBaseC", "sharedWorld"]
+- !private ["5Quick10_WorldBaseC", "suiteHooks"]
+depends-nominal:
+- "s7CVarArgP"
+- !private "Sl"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SD"
+- !private "SE"
+- "SQ"
+- "5Quick7ExampleC"
+- !private "5Quick12ExampleGroupC"
+- !private "5Quick12ExampleHooksC"
+- !private "5Quick15ExampleMetadataC"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- "SH"
+- !private "5Quick10HooksPhaseO"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "ST"
+- !private "s27StringInterpolationProtocolP"
+- !private "5Quick10SuiteHooksC"
+- !private "s16TextOutputStreamP"
+- !private "5Quick5WorldC"
+- "5Quick12_ExampleBaseC"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "5Quick10_WorldBaseC"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/XCTest.swiftmodule"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Headers/Public/Quick/QCKDSL.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Headers/Public/Quick/Quick-umbrella.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Headers/Public/Quick/QuickSpec.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Headers/Public/Quick/Quick.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Headers/Public/Quick/QuickConfiguration.h"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Headers/Public/Quick/Quick.modulemap"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "9783182f5cf980e19ebc2512b67b9ca8"

@@ -1,0 +1,756 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "rename"
+- "beTrue"
+- "beFalse"
+- "beTruthy"
+- "beFalsy"
+provides-nominal:
+- "s4Int8V"
+- "s5UInt8V"
+- "s5Int16V"
+- "s6UInt16V"
+- "s5Int32V"
+- "s6UInt32V"
+- "s5Int64V"
+- "s6UInt64V"
+- "Sf"
+- "Sd"
+- "Si"
+- "Su"
+provides-member:
+- ["s4Int8V", ""]
+- ["s5UInt8V", ""]
+- ["s5Int16V", ""]
+- ["s6UInt16V", ""]
+- ["s5Int32V", ""]
+- ["s6UInt32V", ""]
+- ["s5Int64V", ""]
+- ["s6UInt64V", ""]
+- ["Sf", ""]
+- ["Sd", ""]
+- ["Si", ""]
+- ["Su", ""]
+- ["6Nimble14NMBObjCMatcherC", ""]
+- ["6Nimble14NMBObjCMatcherC", "beTruthyMatcher"]
+- ["6Nimble14NMBObjCMatcherC", "beFalsyMatcher"]
+- ["6Nimble14NMBObjCMatcherC", "beTrueMatcher"]
+- ["6Nimble14NMBObjCMatcherC", "beFalseMatcher"]
+provides-dynamic-lookup:
+- "beFalseMatcher"
+- "beFalsyMatcher"
+- "beTrueMatcher"
+- "beTruthyMatcher"
+depends-top-level:
+- !private "!="
+- !private "=="
+- !private "??"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "CastingPrecedence"
+- "Double"
+- "Equatable"
+- "ExpectationMessage"
+- "ExpressibleByBooleanLiteral"
+- "Float"
+- "Int"
+- "Int16"
+- "Int32"
+- "Int64"
+- "Int8"
+- "NMBMatcher"
+- "NMBObjCMatcher"
+- !private "NMBPredicate"
+- !private "NSNumber"
+- "Predicate"
+- !private "PredicateResult"
+- !private "PredicateStatus"
+- "UInt"
+- "UInt16"
+- "UInt32"
+- "UInt64"
+- "UInt8"
+- "beFalse"
+- "beFalsy"
+- "beTrue"
+- "beTruthy"
+- !private "equal"
+- "rename"
+depends-member:
+- ["s18AdditiveArithmeticP", "BooleanLiteralType"]
+- !private ["s18AdditiveArithmeticP", "NSNumber"]
+- ["s18AdditiveArithmeticP", "_Default_BooleanLiteralType"]
+- ["s18AdditiveArithmeticP", "init"]
+- ["SB", "BooleanLiteralType"]
+- !private ["SB", "NSNumber"]
+- ["SB", "_Default_BooleanLiteralType"]
+- ["SB", "init"]
+- ["Sz", "BooleanLiteralType"]
+- !private ["Sz", "NSNumber"]
+- ["Sz", "_Default_BooleanLiteralType"]
+- ["Sz", "init"]
+- ["s7CVarArgP", "BooleanLiteralType"]
+- !private ["s7CVarArgP", "NMBPredicate"]
+- !private ["s7CVarArgP", "NSNumber"]
+- ["s7CVarArgP", "_Default_BooleanLiteralType"]
+- !private ["s7CVarArgP", "beFalse"]
+- !private ["s7CVarArgP", "beFalsy"]
+- !private ["s7CVarArgP", "beTrue"]
+- !private ["s7CVarArgP", "beTruthy"]
+- !private ["s7CVarArgP", "boolValue"]
+- !private ["s7CVarArgP", "doubleValue"]
+- !private ["s7CVarArgP", "floatValue"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "int16Value"]
+- !private ["s7CVarArgP", "int32Value"]
+- !private ["s7CVarArgP", "int64Value"]
+- !private ["s7CVarArgP", "int8Value"]
+- !private ["s7CVarArgP", "intValue"]
+- !private ["s7CVarArgP", "uint16Value"]
+- !private ["s7CVarArgP", "uint32Value"]
+- !private ["s7CVarArgP", "uint64Value"]
+- !private ["s7CVarArgP", "uint8Value"]
+- !private ["s7CVarArgP", "uintValue"]
+- ["SL", "BooleanLiteralType"]
+- !private ["SL", "NSNumber"]
+- ["SL", "_Default_BooleanLiteralType"]
+- ["SL", "init"]
+- ["s28CustomDebugStringConvertibleP", "BooleanLiteralType"]
+- !private ["s28CustomDebugStringConvertibleP", "NMBPredicate"]
+- !private ["s28CustomDebugStringConvertibleP", "NSNumber"]
+- ["s28CustomDebugStringConvertibleP", "_Default_BooleanLiteralType"]
+- !private ["s28CustomDebugStringConvertibleP", "beFalse"]
+- !private ["s28CustomDebugStringConvertibleP", "beFalsy"]
+- !private ["s28CustomDebugStringConvertibleP", "beTrue"]
+- !private ["s28CustomDebugStringConvertibleP", "beTruthy"]
+- !private ["s28CustomDebugStringConvertibleP", "boolValue"]
+- !private ["s28CustomDebugStringConvertibleP", "doubleValue"]
+- !private ["s28CustomDebugStringConvertibleP", "floatValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "int16Value"]
+- !private ["s28CustomDebugStringConvertibleP", "int32Value"]
+- !private ["s28CustomDebugStringConvertibleP", "int64Value"]
+- !private ["s28CustomDebugStringConvertibleP", "int8Value"]
+- !private ["s28CustomDebugStringConvertibleP", "intValue"]
+- !private ["s28CustomDebugStringConvertibleP", "uint16Value"]
+- !private ["s28CustomDebugStringConvertibleP", "uint32Value"]
+- !private ["s28CustomDebugStringConvertibleP", "uint64Value"]
+- !private ["s28CustomDebugStringConvertibleP", "uint8Value"]
+- !private ["s28CustomDebugStringConvertibleP", "uintValue"]
+- ["s17CustomReflectableP", "BooleanLiteralType"]
+- !private ["s17CustomReflectableP", "NSNumber"]
+- ["s17CustomReflectableP", "_Default_BooleanLiteralType"]
+- ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "BooleanLiteralType"]
+- !private ["s23CustomStringConvertibleP", "NMBPredicate"]
+- !private ["s23CustomStringConvertibleP", "NSNumber"]
+- ["s23CustomStringConvertibleP", "_Default_BooleanLiteralType"]
+- !private ["s23CustomStringConvertibleP", "beFalse"]
+- !private ["s23CustomStringConvertibleP", "beFalsy"]
+- !private ["s23CustomStringConvertibleP", "beTrue"]
+- !private ["s23CustomStringConvertibleP", "beTruthy"]
+- !private ["s23CustomStringConvertibleP", "boolValue"]
+- !private ["s23CustomStringConvertibleP", "doubleValue"]
+- !private ["s23CustomStringConvertibleP", "floatValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "int16Value"]
+- !private ["s23CustomStringConvertibleP", "int32Value"]
+- !private ["s23CustomStringConvertibleP", "int64Value"]
+- !private ["s23CustomStringConvertibleP", "int8Value"]
+- !private ["s23CustomStringConvertibleP", "intValue"]
+- !private ["s23CustomStringConvertibleP", "uint16Value"]
+- !private ["s23CustomStringConvertibleP", "uint32Value"]
+- !private ["s23CustomStringConvertibleP", "uint64Value"]
+- !private ["s23CustomStringConvertibleP", "uint8Value"]
+- !private ["s23CustomStringConvertibleP", "uintValue"]
+- ["Se", "BooleanLiteralType"]
+- !private ["Se", "NSNumber"]
+- ["Se", "_Default_BooleanLiteralType"]
+- ["Se", "init"]
+- ["Sd", "Bool"]
+- ["Sd", "BooleanLiteralType"]
+- !private ["Sd", "NSNumber"]
+- ["Sd", "_Default_BooleanLiteralType"]
+- ["Sd", "deinit"]
+- ["Sd", "init"]
+- ["SE", "BooleanLiteralType"]
+- !private ["SE", "NSNumber"]
+- ["SE", "_Default_BooleanLiteralType"]
+- ["SE", "init"]
+- ["SQ", "BooleanLiteralType"]
+- !private ["SQ", "NMBPredicate"]
+- !private ["SQ", "NSNumber"]
+- ["SQ", "_Default_BooleanLiteralType"]
+- !private ["SQ", "beFalse"]
+- !private ["SQ", "beFalsy"]
+- !private ["SQ", "beTrue"]
+- !private ["SQ", "beTruthy"]
+- !private ["SQ", "boolValue"]
+- !private ["SQ", "doubleValue"]
+- !private ["SQ", "floatValue"]
+- ["SQ", "init"]
+- !private ["SQ", "int16Value"]
+- !private ["SQ", "int32Value"]
+- !private ["SQ", "int64Value"]
+- !private ["SQ", "int8Value"]
+- !private ["SQ", "intValue"]
+- !private ["SQ", "uint16Value"]
+- !private ["SQ", "uint32Value"]
+- !private ["SQ", "uint64Value"]
+- !private ["SQ", "uint8Value"]
+- !private ["SQ", "uintValue"]
+- !private ["6Nimble18ExpectationMessageO", "expectedActualValueTo"]
+- ["s27ExpressibleByBooleanLiteralP", "BooleanLiteralType"]
+- !private ["s27ExpressibleByBooleanLiteralP", "NSNumber"]
+- ["s27ExpressibleByBooleanLiteralP", ""]
+- ["s27ExpressibleByBooleanLiteralP", "_Default_BooleanLiteralType"]
+- !private ["s27ExpressibleByBooleanLiteralP", "boolValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "doubleValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "floatValue"]
+- ["s27ExpressibleByBooleanLiteralP", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "int16Value"]
+- !private ["s27ExpressibleByBooleanLiteralP", "int32Value"]
+- !private ["s27ExpressibleByBooleanLiteralP", "int64Value"]
+- !private ["s27ExpressibleByBooleanLiteralP", "int8Value"]
+- !private ["s27ExpressibleByBooleanLiteralP", "intValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "uint16Value"]
+- !private ["s27ExpressibleByBooleanLiteralP", "uint32Value"]
+- !private ["s27ExpressibleByBooleanLiteralP", "uint64Value"]
+- !private ["s27ExpressibleByBooleanLiteralP", "uint8Value"]
+- !private ["s27ExpressibleByBooleanLiteralP", "uintValue"]
+- ["s25ExpressibleByFloatLiteralP", "BooleanLiteralType"]
+- !private ["s25ExpressibleByFloatLiteralP", "NSNumber"]
+- ["s25ExpressibleByFloatLiteralP", "_Default_BooleanLiteralType"]
+- !private ["s25ExpressibleByFloatLiteralP", "boolValue"]
+- !private ["s25ExpressibleByFloatLiteralP", "doubleValue"]
+- !private ["s25ExpressibleByFloatLiteralP", "floatValue"]
+- ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "int16Value"]
+- !private ["s25ExpressibleByFloatLiteralP", "int32Value"]
+- !private ["s25ExpressibleByFloatLiteralP", "int64Value"]
+- !private ["s25ExpressibleByFloatLiteralP", "int8Value"]
+- !private ["s25ExpressibleByFloatLiteralP", "intValue"]
+- !private ["s25ExpressibleByFloatLiteralP", "uint16Value"]
+- !private ["s25ExpressibleByFloatLiteralP", "uint32Value"]
+- !private ["s25ExpressibleByFloatLiteralP", "uint64Value"]
+- !private ["s25ExpressibleByFloatLiteralP", "uint8Value"]
+- !private ["s25ExpressibleByFloatLiteralP", "uintValue"]
+- ["s27ExpressibleByIntegerLiteralP", "BooleanLiteralType"]
+- !private ["s27ExpressibleByIntegerLiteralP", "NSNumber"]
+- ["s27ExpressibleByIntegerLiteralP", "_Default_BooleanLiteralType"]
+- !private ["s27ExpressibleByIntegerLiteralP", "boolValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "doubleValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "floatValue"]
+- ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "int16Value"]
+- !private ["s27ExpressibleByIntegerLiteralP", "int32Value"]
+- !private ["s27ExpressibleByIntegerLiteralP", "int64Value"]
+- !private ["s27ExpressibleByIntegerLiteralP", "int8Value"]
+- !private ["s27ExpressibleByIntegerLiteralP", "intValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "uint16Value"]
+- !private ["s27ExpressibleByIntegerLiteralP", "uint32Value"]
+- !private ["s27ExpressibleByIntegerLiteralP", "uint64Value"]
+- !private ["s27ExpressibleByIntegerLiteralP", "uint8Value"]
+- !private ["s27ExpressibleByIntegerLiteralP", "uintValue"]
+- !private ["6Nimble10ExpressionV", "cast"]
+- !private ["6Nimble10ExpressionV", "evaluate"]
+- ["s17FixedWidthIntegerP", "BooleanLiteralType"]
+- !private ["s17FixedWidthIntegerP", "NSNumber"]
+- ["s17FixedWidthIntegerP", "_Default_BooleanLiteralType"]
+- ["s17FixedWidthIntegerP", "init"]
+- ["Sf", "Bool"]
+- ["Sf", "BooleanLiteralType"]
+- !private ["Sf", "NSNumber"]
+- ["Sf", "_Default_BooleanLiteralType"]
+- ["Sf", "deinit"]
+- ["Sf", "init"]
+- ["SF", "BooleanLiteralType"]
+- !private ["SF", "NSNumber"]
+- ["SF", "_Default_BooleanLiteralType"]
+- ["SF", "init"]
+- ["SH", "BooleanLiteralType"]
+- !private ["SH", "NMBPredicate"]
+- !private ["SH", "NSNumber"]
+- ["SH", "_Default_BooleanLiteralType"]
+- !private ["SH", "beFalse"]
+- !private ["SH", "beFalsy"]
+- !private ["SH", "beTrue"]
+- !private ["SH", "beTruthy"]
+- !private ["SH", "boolValue"]
+- !private ["SH", "doubleValue"]
+- !private ["SH", "floatValue"]
+- ["SH", "init"]
+- !private ["SH", "int16Value"]
+- !private ["SH", "int32Value"]
+- !private ["SH", "int64Value"]
+- !private ["SH", "int8Value"]
+- !private ["SH", "intValue"]
+- !private ["SH", "uint16Value"]
+- !private ["SH", "uint32Value"]
+- !private ["SH", "uint64Value"]
+- !private ["SH", "uint8Value"]
+- !private ["SH", "uintValue"]
+- ["Si", "Bool"]
+- ["Si", "BooleanLiteralType"]
+- !private ["Si", "NSNumber"]
+- ["Si", "_Default_BooleanLiteralType"]
+- ["Si", "deinit"]
+- ["Si", "init"]
+- ["s5Int16V", "Bool"]
+- ["s5Int16V", "BooleanLiteralType"]
+- !private ["s5Int16V", "NSNumber"]
+- ["s5Int16V", "_Default_BooleanLiteralType"]
+- ["s5Int16V", "deinit"]
+- ["s5Int16V", "init"]
+- ["s5Int32V", "Bool"]
+- ["s5Int32V", "BooleanLiteralType"]
+- !private ["s5Int32V", "NSNumber"]
+- ["s5Int32V", "_Default_BooleanLiteralType"]
+- ["s5Int32V", "deinit"]
+- ["s5Int32V", "init"]
+- ["s5Int64V", "Bool"]
+- ["s5Int64V", "BooleanLiteralType"]
+- !private ["s5Int64V", "NSNumber"]
+- ["s5Int64V", "_Default_BooleanLiteralType"]
+- ["s5Int64V", "deinit"]
+- ["s5Int64V", "init"]
+- ["s4Int8V", "Bool"]
+- ["s4Int8V", "BooleanLiteralType"]
+- !private ["s4Int8V", "NSNumber"]
+- ["s4Int8V", "_Default_BooleanLiteralType"]
+- ["s4Int8V", "deinit"]
+- ["s4Int8V", "init"]
+- ["s25LosslessStringConvertibleP", "BooleanLiteralType"]
+- !private ["s25LosslessStringConvertibleP", "NSNumber"]
+- ["s25LosslessStringConvertibleP", "_Default_BooleanLiteralType"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["6Nimble7MatcherP", "init"]
+- !private ["6Nimble7MatcherP", "requireNonNil"]
+- !private ["6Nimble7MatcherP", "satisfies"]
+- !private ["6Nimble7MatcherP", "simpleNilable"]
+- ["s10MirrorPathP", "BooleanLiteralType"]
+- !private ["s10MirrorPathP", "NSNumber"]
+- ["s10MirrorPathP", "_Default_BooleanLiteralType"]
+- ["s10MirrorPathP", "init"]
+- !private ["6Nimble13NMBComparableP", "boolValue"]
+- !private ["6Nimble13NMBComparableP", "doubleValue"]
+- !private ["6Nimble13NMBComparableP", "floatValue"]
+- !private ["6Nimble13NMBComparableP", "init"]
+- !private ["6Nimble13NMBComparableP", "int16Value"]
+- !private ["6Nimble13NMBComparableP", "int32Value"]
+- !private ["6Nimble13NMBComparableP", "int64Value"]
+- !private ["6Nimble13NMBComparableP", "int8Value"]
+- !private ["6Nimble13NMBComparableP", "intValue"]
+- !private ["6Nimble13NMBComparableP", "uint16Value"]
+- !private ["6Nimble13NMBComparableP", "uint32Value"]
+- !private ["6Nimble13NMBComparableP", "uint64Value"]
+- !private ["6Nimble13NMBComparableP", "uint8Value"]
+- !private ["6Nimble13NMBComparableP", "uintValue"]
+- ["6Nimble20NMBDoubleConvertibleP", "BooleanLiteralType"]
+- !private ["6Nimble20NMBDoubleConvertibleP", "NSNumber"]
+- ["6Nimble20NMBDoubleConvertibleP", "_Default_BooleanLiteralType"]
+- !private ["6Nimble20NMBDoubleConvertibleP", "boolValue"]
+- !private ["6Nimble20NMBDoubleConvertibleP", "doubleValue"]
+- !private ["6Nimble20NMBDoubleConvertibleP", "floatValue"]
+- ["6Nimble20NMBDoubleConvertibleP", "init"]
+- !private ["6Nimble20NMBDoubleConvertibleP", "int16Value"]
+- !private ["6Nimble20NMBDoubleConvertibleP", "int32Value"]
+- !private ["6Nimble20NMBDoubleConvertibleP", "int64Value"]
+- !private ["6Nimble20NMBDoubleConvertibleP", "int8Value"]
+- !private ["6Nimble20NMBDoubleConvertibleP", "intValue"]
+- !private ["6Nimble20NMBDoubleConvertibleP", "uint16Value"]
+- !private ["6Nimble20NMBDoubleConvertibleP", "uint32Value"]
+- !private ["6Nimble20NMBDoubleConvertibleP", "uint64Value"]
+- !private ["6Nimble20NMBDoubleConvertibleP", "uint8Value"]
+- !private ["6Nimble20NMBDoubleConvertibleP", "uintValue"]
+- !private ["6Nimble10NMBMatcherP", "NMBPredicate"]
+- !private ["6Nimble10NMBMatcherP", "beFalse"]
+- !private ["6Nimble10NMBMatcherP", "beFalsy"]
+- !private ["6Nimble10NMBMatcherP", "beTrue"]
+- !private ["6Nimble10NMBMatcherP", "beTruthy"]
+- !private ["6Nimble10NMBMatcherP", "init"]
+- !private ["6Nimble10NMBMatcherP", "satisfies"]
+- !private ["6Nimble14NMBObjCMatcherC", "Bool"]
+- ["6Nimble14NMBObjCMatcherC", "NMBMatcher"]
+- !private ["6Nimble14NMBObjCMatcherC", "NMBPredicate"]
+- !private ["6Nimble14NMBObjCMatcherC", "NSNumber"]
+- !private ["6Nimble14NMBObjCMatcherC", "beFalse"]
+- ["6Nimble14NMBObjCMatcherC", "beFalseMatcher"]
+- !private ["6Nimble14NMBObjCMatcherC", "beFalsy"]
+- ["6Nimble14NMBObjCMatcherC", "beFalsyMatcher"]
+- !private ["6Nimble14NMBObjCMatcherC", "beTrue"]
+- ["6Nimble14NMBObjCMatcherC", "beTrueMatcher"]
+- !private ["6Nimble14NMBObjCMatcherC", "beTruthy"]
+- ["6Nimble14NMBObjCMatcherC", "beTruthyMatcher"]
+- !private ["6Nimble12NMBPredicateC", "deinit"]
+- !private ["6Nimble12NMBPredicateC", "init"]
+- !private ["So8NSCodingP", "boolValue"]
+- !private ["So8NSCodingP", "doubleValue"]
+- !private ["So8NSCodingP", "floatValue"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "int16Value"]
+- !private ["So8NSCodingP", "int32Value"]
+- !private ["So8NSCodingP", "int64Value"]
+- !private ["So8NSCodingP", "int8Value"]
+- !private ["So8NSCodingP", "intValue"]
+- !private ["So8NSCodingP", "uint16Value"]
+- !private ["So8NSCodingP", "uint32Value"]
+- !private ["So8NSCodingP", "uint64Value"]
+- !private ["So8NSCodingP", "uint8Value"]
+- !private ["So8NSCodingP", "uintValue"]
+- !private ["So9NSCopyingP", "boolValue"]
+- !private ["So9NSCopyingP", "doubleValue"]
+- !private ["So9NSCopyingP", "floatValue"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "int16Value"]
+- !private ["So9NSCopyingP", "int32Value"]
+- !private ["So9NSCopyingP", "int64Value"]
+- !private ["So9NSCopyingP", "int8Value"]
+- !private ["So9NSCopyingP", "intValue"]
+- !private ["So9NSCopyingP", "uint16Value"]
+- !private ["So9NSCopyingP", "uint32Value"]
+- !private ["So9NSCopyingP", "uint64Value"]
+- !private ["So9NSCopyingP", "uint8Value"]
+- !private ["So9NSCopyingP", "uintValue"]
+- !private ["So8NSNumberC", "boolValue"]
+- !private ["So8NSNumberC", "deinit"]
+- !private ["So8NSNumberC", "doubleValue"]
+- !private ["So8NSNumberC", "floatValue"]
+- !private ["So8NSNumberC", "init"]
+- !private ["So8NSNumberC", "int16Value"]
+- !private ["So8NSNumberC", "int32Value"]
+- !private ["So8NSNumberC", "int64Value"]
+- !private ["So8NSNumberC", "int8Value"]
+- !private ["So8NSNumberC", "intValue"]
+- !private ["So8NSNumberC", "uint16Value"]
+- !private ["So8NSNumberC", "uint32Value"]
+- !private ["So8NSNumberC", "uint64Value"]
+- !private ["So8NSNumberC", "uint8Value"]
+- !private ["So8NSNumberC", "uintValue"]
+- !private ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "NMBMatcher"]
+- !private ["So8NSObjectC", "NMBPredicate"]
+- !private ["So8NSObjectC", "NSNumber"]
+- !private ["So8NSObjectC", "beFalse"]
+- ["So8NSObjectC", "beFalseMatcher"]
+- !private ["So8NSObjectC", "beFalsy"]
+- ["So8NSObjectC", "beFalsyMatcher"]
+- !private ["So8NSObjectC", "beTrue"]
+- ["So8NSObjectC", "beTrueMatcher"]
+- !private ["So8NSObjectC", "beTruthy"]
+- ["So8NSObjectC", "beTruthyMatcher"]
+- !private ["So8NSObjectC", "boolValue"]
+- !private ["So8NSObjectC", "doubleValue"]
+- !private ["So8NSObjectC", "floatValue"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "int16Value"]
+- !private ["So8NSObjectC", "int32Value"]
+- !private ["So8NSObjectC", "int64Value"]
+- !private ["So8NSObjectC", "int8Value"]
+- !private ["So8NSObjectC", "intValue"]
+- !private ["So8NSObjectC", "uint16Value"]
+- !private ["So8NSObjectC", "uint32Value"]
+- !private ["So8NSObjectC", "uint64Value"]
+- !private ["So8NSObjectC", "uint8Value"]
+- !private ["So8NSObjectC", "uintValue"]
+- !private ["So8NSObjectP", "NMBPredicate"]
+- !private ["So8NSObjectP", "beFalse"]
+- !private ["So8NSObjectP", "beFalsy"]
+- !private ["So8NSObjectP", "beTrue"]
+- !private ["So8NSObjectP", "beTruthy"]
+- !private ["So8NSObjectP", "boolValue"]
+- !private ["So8NSObjectP", "doubleValue"]
+- !private ["So8NSObjectP", "floatValue"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "int16Value"]
+- !private ["So8NSObjectP", "int32Value"]
+- !private ["So8NSObjectP", "int64Value"]
+- !private ["So8NSObjectP", "int8Value"]
+- !private ["So8NSObjectP", "intValue"]
+- !private ["So8NSObjectP", "uint16Value"]
+- !private ["So8NSObjectP", "uint32Value"]
+- !private ["So8NSObjectP", "uint64Value"]
+- !private ["So8NSObjectP", "uint8Value"]
+- !private ["So8NSObjectP", "uintValue"]
+- !private ["So14NSSecureCodingP", "boolValue"]
+- !private ["So14NSSecureCodingP", "doubleValue"]
+- !private ["So14NSSecureCodingP", "floatValue"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "int16Value"]
+- !private ["So14NSSecureCodingP", "int32Value"]
+- !private ["So14NSSecureCodingP", "int64Value"]
+- !private ["So14NSSecureCodingP", "int8Value"]
+- !private ["So14NSSecureCodingP", "intValue"]
+- !private ["So14NSSecureCodingP", "uint16Value"]
+- !private ["So14NSSecureCodingP", "uint32Value"]
+- !private ["So14NSSecureCodingP", "uint64Value"]
+- !private ["So14NSSecureCodingP", "uint8Value"]
+- !private ["So14NSSecureCodingP", "uintValue"]
+- !private ["So7NSValueC", "boolValue"]
+- !private ["So7NSValueC", "doubleValue"]
+- !private ["So7NSValueC", "floatValue"]
+- !private ["So7NSValueC", "init"]
+- !private ["So7NSValueC", "int16Value"]
+- !private ["So7NSValueC", "int32Value"]
+- !private ["So7NSValueC", "int64Value"]
+- !private ["So7NSValueC", "int8Value"]
+- !private ["So7NSValueC", "intValue"]
+- !private ["So7NSValueC", "uint16Value"]
+- !private ["So7NSValueC", "uint32Value"]
+- !private ["So7NSValueC", "uint64Value"]
+- !private ["So7NSValueC", "uint8Value"]
+- !private ["So7NSValueC", "uintValue"]
+- ["Sj", "BooleanLiteralType"]
+- !private ["Sj", "NSNumber"]
+- ["Sj", "_Default_BooleanLiteralType"]
+- ["Sj", "init"]
+- !private ["6Nimble9PredicateV", "init"]
+- !private ["6Nimble9PredicateV", "requireNonNil"]
+- !private ["6Nimble9PredicateV", "satisfies"]
+- !private ["6Nimble9PredicateV", "simpleNilable"]
+- !private ["6Nimble15PredicateResultV", "init"]
+- !private ["6Nimble15PredicateResultV", "status"]
+- !private ["6Nimble15PredicateResultV", "toObjectiveC"]
+- !private ["6Nimble15PredicateStatusO", "init"]
+- ["s10SIMDScalarP", "BooleanLiteralType"]
+- !private ["s10SIMDScalarP", "NSNumber"]
+- ["s10SIMDScalarP", "_Default_BooleanLiteralType"]
+- ["s10SIMDScalarP", "init"]
+- ["SZ", "BooleanLiteralType"]
+- !private ["SZ", "NSNumber"]
+- ["SZ", "_Default_BooleanLiteralType"]
+- ["SZ", "init"]
+- ["s13SignedNumericP", "BooleanLiteralType"]
+- !private ["s13SignedNumericP", "NSNumber"]
+- ["s13SignedNumericP", "_Default_BooleanLiteralType"]
+- ["s13SignedNumericP", "init"]
+- ["Sx", "BooleanLiteralType"]
+- !private ["Sx", "NSNumber"]
+- ["Sx", "_Default_BooleanLiteralType"]
+- ["Sx", "init"]
+- ["6Nimble27TestOutputStringConvertibleP", "BooleanLiteralType"]
+- !private ["6Nimble27TestOutputStringConvertibleP", "NSNumber"]
+- ["6Nimble27TestOutputStringConvertibleP", "_Default_BooleanLiteralType"]
+- !private ["6Nimble27TestOutputStringConvertibleP", "boolValue"]
+- !private ["6Nimble27TestOutputStringConvertibleP", "doubleValue"]
+- !private ["6Nimble27TestOutputStringConvertibleP", "floatValue"]
+- ["6Nimble27TestOutputStringConvertibleP", "init"]
+- !private ["6Nimble27TestOutputStringConvertibleP", "int16Value"]
+- !private ["6Nimble27TestOutputStringConvertibleP", "int32Value"]
+- !private ["6Nimble27TestOutputStringConvertibleP", "int64Value"]
+- !private ["6Nimble27TestOutputStringConvertibleP", "int8Value"]
+- !private ["6Nimble27TestOutputStringConvertibleP", "intValue"]
+- !private ["6Nimble27TestOutputStringConvertibleP", "uint16Value"]
+- !private ["6Nimble27TestOutputStringConvertibleP", "uint32Value"]
+- !private ["6Nimble27TestOutputStringConvertibleP", "uint64Value"]
+- !private ["6Nimble27TestOutputStringConvertibleP", "uint8Value"]
+- !private ["6Nimble27TestOutputStringConvertibleP", "uintValue"]
+- ["s20TextOutputStreamableP", "BooleanLiteralType"]
+- !private ["s20TextOutputStreamableP", "NSNumber"]
+- ["s20TextOutputStreamableP", "_Default_BooleanLiteralType"]
+- ["s20TextOutputStreamableP", "init"]
+- ["Su", "Bool"]
+- ["Su", "BooleanLiteralType"]
+- !private ["Su", "NSNumber"]
+- ["Su", "_Default_BooleanLiteralType"]
+- ["Su", "deinit"]
+- ["Su", "init"]
+- ["s6UInt16V", "Bool"]
+- ["s6UInt16V", "BooleanLiteralType"]
+- !private ["s6UInt16V", "NSNumber"]
+- ["s6UInt16V", "_Default_BooleanLiteralType"]
+- ["s6UInt16V", "deinit"]
+- ["s6UInt16V", "init"]
+- ["s6UInt32V", "Bool"]
+- ["s6UInt32V", "BooleanLiteralType"]
+- !private ["s6UInt32V", "NSNumber"]
+- ["s6UInt32V", "_Default_BooleanLiteralType"]
+- ["s6UInt32V", "deinit"]
+- ["s6UInt32V", "init"]
+- ["s6UInt64V", "Bool"]
+- ["s6UInt64V", "BooleanLiteralType"]
+- !private ["s6UInt64V", "NSNumber"]
+- ["s6UInt64V", "_Default_BooleanLiteralType"]
+- ["s6UInt64V", "deinit"]
+- ["s6UInt64V", "init"]
+- ["s5UInt8V", "Bool"]
+- ["s5UInt8V", "BooleanLiteralType"]
+- !private ["s5UInt8V", "NSNumber"]
+- ["s5UInt8V", "_Default_BooleanLiteralType"]
+- ["s5UInt8V", "deinit"]
+- ["s5UInt8V", "init"]
+- ["SU", "BooleanLiteralType"]
+- !private ["SU", "NSNumber"]
+- ["SU", "_Default_BooleanLiteralType"]
+- ["SU", "init"]
+- ["s15_CVarArgAlignedP", "BooleanLiteralType"]
+- !private ["s15_CVarArgAlignedP", "NSNumber"]
+- ["s15_CVarArgAlignedP", "_Default_BooleanLiteralType"]
+- ["s15_CVarArgAlignedP", "init"]
+- ["s22_CVarArgPassedAsDoubleP", "BooleanLiteralType"]
+- !private ["s22_CVarArgPassedAsDoubleP", "NSNumber"]
+- ["s22_CVarArgPassedAsDoubleP", "_Default_BooleanLiteralType"]
+- ["s22_CVarArgPassedAsDoubleP", "init"]
+- ["s30_CustomPlaygroundQuickLookableP", "BooleanLiteralType"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "NSNumber"]
+- ["s30_CustomPlaygroundQuickLookableP", "_Default_BooleanLiteralType"]
+- ["s30_CustomPlaygroundQuickLookableP", "init"]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "BooleanLiteralType"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "NSNumber"]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "_Default_BooleanLiteralType"]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "BooleanLiteralType"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "NSNumber"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "_Default_BooleanLiteralType"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "BooleanLiteralType"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "NSNumber"]
+- ["s35_HasCustomAnyHashableRepresentationP", "_Default_BooleanLiteralType"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "boolValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "doubleValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "floatValue"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "int16Value"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "int32Value"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "int64Value"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "int8Value"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "intValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "uint16Value"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "uint32Value"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "uint64Value"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "uint8Value"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "uintValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NMBPredicate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "beFalse"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "beFalsy"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "beTrue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "beTruthy"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "boolValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "doubleValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "floatValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "int16Value"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "int32Value"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "int64Value"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "int8Value"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "intValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "uint16Value"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "uint32Value"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "uint64Value"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "uint8Value"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "uintValue"]
+- ["s21_ObjectiveCBridgeableP", "BooleanLiteralType"]
+- !private ["s21_ObjectiveCBridgeableP", "NSNumber"]
+- ["s21_ObjectiveCBridgeableP", "_Default_BooleanLiteralType"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s14_StringElementP", "BooleanLiteralType"]
+- !private ["s14_StringElementP", "NSNumber"]
+- ["s14_StringElementP", "_Default_BooleanLiteralType"]
+- ["s14_StringElementP", "init"]
+depends-nominal:
+- "s18AdditiveArithmeticP"
+- "SB"
+- "Sz"
+- "s7CVarArgP"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "Sd"
+- "SE"
+- "SQ"
+- !private "6Nimble18ExpectationMessageO"
+- "s27ExpressibleByBooleanLiteralP"
+- "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- !private "6Nimble10ExpressionV"
+- "s17FixedWidthIntegerP"
+- "Sf"
+- "SF"
+- "SH"
+- "Si"
+- "s5Int16V"
+- "s5Int32V"
+- "s5Int64V"
+- "s4Int8V"
+- "s25LosslessStringConvertibleP"
+- !private "6Nimble7MatcherP"
+- "s10MirrorPathP"
+- !private "6Nimble13NMBComparableP"
+- "6Nimble20NMBDoubleConvertibleP"
+- !private "6Nimble10NMBMatcherP"
+- "6Nimble14NMBObjCMatcherC"
+- !private "6Nimble12NMBPredicateC"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So8NSNumberC"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So7NSValueC"
+- "Sj"
+- !private "6Nimble9PredicateV"
+- !private "6Nimble15PredicateResultV"
+- !private "6Nimble15PredicateStatusO"
+- "s10SIMDScalarP"
+- "SZ"
+- "s13SignedNumericP"
+- "Sx"
+- "6Nimble27TestOutputStringConvertibleP"
+- "s20TextOutputStreamableP"
+- "Su"
+- "s6UInt16V"
+- "s6UInt32V"
+- "s6UInt64V"
+- "s5UInt8V"
+- "SU"
+- "s15_CVarArgAlignedP"
+- "s22_CVarArgPassedAsDoubleP"
+- "s30_CustomPlaygroundQuickLookableP"
+- "s33_ExpressibleByBuiltinFloatLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s14_StringElementP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/XCTest.swiftmodule"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Headers/Public/Nimble/DSL.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Headers/Public/Nimble/Nimble-umbrella.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Headers/Public/Nimble/Nimble.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Headers/Public/Nimble/NMBExceptionCapture.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Headers/Public/Nimble/CwlPreconditionTesting.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Headers/Public/Nimble/CwlCatchException.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Headers/Public/Nimble/CwlMachBadInstructionHandler.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Headers/Public/Nimble/mach_excServer.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Headers/Public/Nimble/NMBStringify.h"
+- "/Users/ThiagoBevi/Dev-iOS/Marvel/Pods/Headers/Public/Nimble/Nimble.modulemap"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Users/ThiagoBevi/Downloads/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "010269ab92f2d36af2c6070582e8703b"
